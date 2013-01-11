@@ -1,0 +1,58 @@
+## -*- coding: utf-8 -*-
+
+<%inherit file="generic.mako"/>
+
+<%block name="headtitle">
+<title>Fait Main Magazine</title>
+</%block>
+
+<%block name="first_h1">
+<div class="page-header">
+    <h1 id="state">Recherche en cours...</h1>
+    <p id="numres"></p>
+</div>
+</%block>
+
+
+
+<div class="progress progress-striped active">
+  <div class="bar" style="width: 40%;"></div>
+</div>
+
+<ul id="results">
+</ul>
+
+
+<%block name="script">
+<script>
+function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for (var i = 0; i < hashes.length; i++) {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
+  $(document).ready(function(){
+
+   var query = getUrlVars()["query"];
+   $('#state').replaceWith('<h1>Recherche sur "' + query + '"</h1>');
+
+   $.get("/search/search?query=" + query, function(data) {
+     $('#numres').replaceWith(data.results.length + " resultat(s).");
+     var items = [];
+
+     $.each(data.results, function(i, item) {
+         items.push('<li><a href="' + item[1] + '">' + item[0] + '</a></li>');
+     });
+
+     $('#results').append(items.join(''));
+    }, "json");
+});
+
+</script>
+</%block>
+
