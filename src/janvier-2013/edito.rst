@@ -44,7 +44,7 @@ donner l'envie de se lancer dans son propre projet DIY.
 
 ----
 
-Le magazine qui se rapproche finalement le plus de ce que je souhaite
+Le magazine qui se rapproche finalement le plus de ce que nous souhaitons
 faire avec *Fait Main* est le magazine américain `Make <http://makezine.com>`_.
 
 *Fait Main* sera dans un premier temps trimestriel et à chaque numéro, nous
@@ -64,7 +64,7 @@ licence `CC-By-NC-SA 3.0 <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.
 et l'auteur(e) de chaque article conserve tous ses droits.
 
 L'objectif de cette licence est de protéger le contenu des auteur(e)s afin
-qu'il ne puisse pas être réutilisés sur le web à des fins commerciales.
+qu'il ne puisse pas être réutilisé sur le web à des fins commerciales.
 
 Bien évidemment, les auteurs peuvent choisir de publier leurs articles sous une
 autre licence (par exemple dans le cas ou la clause "non commerciale" ne serait
