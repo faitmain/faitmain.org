@@ -5,11 +5,16 @@ Tarek Ziadé
    :scale: 50
    :alt: Tarek
 
-Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Tarek est développeur Python chez `Mozilla <https://www.mozilla.org/>`_, la
+boîte derrière *Firefox*, et plus récemment `Firefox OS <https://www.mozilla.org/fr/firefoxos/>`_.
 
-vamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-eget lacinia odio sem nec elit. Donec sed odio dui
+Tarek habite dans la campagne bourguignone non loin de Dijon. Il a créé
+l'Association PYthon Francophone (`Afpy <http://www.afpy.org/>`_) et
+a été son président pendant 7 ans.
 
+Il a écrit `plusieurs ouvrages <http://blog.ziade.org/books.html>`_ sur Python
+des articles par-ci par-là et se lance maintenant sur son temps
+libre dans le projet **FaitMain**
+
+* Site: http://blog.ziade.org
+* Contact: tarek@ziade.org
