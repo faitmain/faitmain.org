@@ -7,11 +7,6 @@ Cindermedusae - Les Créatures Génératives
 :author: Marcin Ignac
 :translator: Tarek Ziadé
 
-
-.. note::
-
-   **ARTICLE EN COURS DE TRADUCTION**
-
 .. note::
 
    Cet article est une traduction adaptée de l'article de Marcin Ignac
