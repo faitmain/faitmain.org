@@ -115,7 +115,8 @@ est surtout possible grâce aux créateurs d'articles et aux relecteurs.
 
 Ont participé à ce numéro :
 
-- Yannick Jost, Xavier Fernandez, Mathieu Agopian, Alexis Métaireau - relectures
+- Yannick Jost, Xavier Fernandez, Mathieu Agopian, Alexis Métaireau,
+  Martine Cadot - relectures
 - `Tarek Ziadé </auteurs/tarek.html>`__ - Article "What The Feuille",
   Traduction "Cindermedusae"
 - `Marcin Ignac </auteurs/marcin_ignac.html>`_ - Article "Cindermedusae".

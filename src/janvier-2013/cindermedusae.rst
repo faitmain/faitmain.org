@@ -95,7 +95,7 @@ l'ensemble des points équidistants d'un point unique, le centre
 du cercle. Si ce cercle a pour coordonnées *(0, 0)*, et que
 le rayon du cercle est **r**, tous les points du cercles peuvent
 être décrits comme les fonction de l'angle **phi**, variant de
-0 à 2π
+0 à 2π.
 
 .. code-block:: c++
 
@@ -130,8 +130,6 @@ un cercle, puisqu'à la fin nous jouons avec des sphères.
 
 La différence avec le calcul précédent est que cette fois-ci, la
 variation de l'angle *theta* va de 0 (en haut) à 2π (en bas)
-
-(POURQUOI ON PASSE DE PHI A THETA ?)
 
 La tête est symétrique le long de l'axe Y, donc nous construirons 2 points
 à chaque étape - un à gauche et un à droite :
@@ -180,14 +178,15 @@ Pour chaque frame où je calcule les positions x et y, je calcule aussi
 `la droite normale à la surface <https://fr.wikipedia.org/wiki/Normale_%C3%A0_une_surface>`_.
 
 Ensuite, si l'animation est lancée, je déplace le point le long de la normale
-en utilisant la valeur de la fonction *sin()* à un instant *t*.
-Cette formule déplace les points mais sans rien faire de plus, la tête
-se mettrait à faire des pulsations comme un cœur, en grossissant et
-rétrécissant - car tous les points se déplacent.
+en utilisant la valeur de la fonction *sin()* à un instant *t* . Cette formule
+déplace les points mais sans rien faire de plus, la tête se mettrait à faire
+des pulsations comme un cœur, en grossissant et rétrécissant - car tous les
+points se déplacent en phase.
 
-C'est pourquoi j'ajoute *y \* 0.5* à *t* pour introduire un *phase shift*
-(TRADUIRE) le long de l'axe Y et la structure en fil de fer (*wireframe* ou
-*mesh* en anglais) commence à bouger d'une manière un peu plus naturelle.
+C'est pourquoi j'ajoute *y \* 0.5* à *t* pour introduire un décalage de phase
+le long de l'axe Y et la structure en fil de fer (*wireframe* ou *mesh*
+en anglais) commence à bouger d'une manière un peu plus naturelle.
+
 
 .. code-block:: c++
 
@@ -220,8 +219,9 @@ mesh en forme de tube autour de cette ligne.
 
 **Solution** On démarre avec trois vecteurs perpendiculaires :
 
-- **Forward** - le vecteur sur la droite normale à l'endroit où je veux accrocher
-  la tentacule - or if we have curve formula it would be the tangent vector
+- **Forward** - généralement le vecteur normal à l'endroit où je veux accrocher
+  la tentacule - ou si j'ai l'équation de la courbe, ce serait le vecteur
+  tangeant.
 
 - **Up**  - choisi arbitrairement : *(0,1,0)* et
 
