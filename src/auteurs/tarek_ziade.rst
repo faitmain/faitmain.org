@@ -8,7 +8,7 @@ Tarek Ziadé
 Tarek est développeur Python chez `Mozilla <https://www.mozilla.org/>`_, la
 boîte derrière *Firefox*, et plus récemment `Firefox OS <https://www.mozilla.org/fr/firefoxos/>`_.
 
-Tarek habite dans la campagne bourguignone non loin de Dijon. Il a créé
+Tarek habite dans la campagne bourguignonne non loin de Dijon. Il a créé
 l'Association PYthon Francophone (`Afpy <http://www.afpy.org/>`_) et
 a été son président pendant 7 ans.
 
