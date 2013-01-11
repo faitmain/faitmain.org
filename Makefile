@@ -6,7 +6,7 @@ endif
 
 build:
 	virtualenv $(VTENV_OPTS) .
-	bin/pip install magazine
+	bin/pip install kompost
 
 generate:
-	bin/faitmain
+	bin/kompost
