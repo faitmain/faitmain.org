@@ -13,7 +13,7 @@ Plus d'infos dans `l'édito du premier numéro </janvier-2013/edit.html>`_.
 **Fait Main** n'a pas de structure officielle, bien qu'il soit
 question de monter une association à but non lucratif.
 
-Les articles sont protégés par la licence `CC-By-NC-SA <https://creativecommons.org/licenses/by-nc-sa/2.0/>`_
+Les articles sont protégés par la licence `CC-By-NC-SA 3.0 <https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr>`_
 et le site web est en licence `Apache v2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>`_
 
 Le projet est fondé et maintenu par `Tarek Ziadé <http://ziade.org>`_ mais
