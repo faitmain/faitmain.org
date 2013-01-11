@@ -1,0 +1,33 @@
+{"pageSetup": {
+    "size": "A4",
+    "margin-top": "0cm",
+    "margin-bottom": "0cm",
+    "margin-left": "0cm",
+    "margin-right": "0cm",
+    "spacing-header": "5mm",
+    "spacing-footer": "5mm",
+    "firstTemplate": "coverPage"
+},
+"pageTemplates" : {
+		"coverPage": {
+				"frames": [
+								["0cm", "0cm", "100%", "100%"]
+									],
+						"showHeader" : false,
+							"showFooter" : false,
+							"background" : "cindermedusae.jpg"
+
+									},
+		"oneColumn": {
+					"frames": [
+								["0cm", "0cm", "100%", "100%"]
+										]
+										},
+			"twoColumn": {
+					"frames": [
+									["0cm", "0cm", "49%", "100%"],
+								["51%", "0cm", "49%", "100%"]
+										]
+											}
+}}
+
