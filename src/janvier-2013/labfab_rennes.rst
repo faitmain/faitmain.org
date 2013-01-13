@@ -33,25 +33,25 @@ activités de toute l'agglomération.
 
 Son lien avec le LabFab ? Il l'a mis en place, en contactant les bonnes
 personnes, et en réunissant des acteurs locaux qui se posaient déjà les mêmes
-questions sur les LabFab, les Hackerspaces, et tous ces lieux qui proposent des
+questions sur les FabLab, les Hackerspaces, et tous ces lieux qui proposent des
 espaces de fabrication au plus proche des gens.
 
 Parce que le LabFab ne s'est pas fait tout seul ! D'abord, il y a 
 `l'Ecole européenne supérieure d'Art de Bretagne <http://www.erba-rennes.fr/>`_,
 qui prête des locaux pour le LabFab. Et tout comme
 `Telecom Bretagne <http://www.telecom-bretagne.eu/>`_, l'intérêt pour eux
-est ce qu'un LabFab apporte aux étudiants.
+est ce qu'un FabLab apporte aux étudiants.
 
 Il y a la ville de Rennes, ainsi que
 `Rennes Métropole <http://metropole.rennes.fr/>`_, qui s'intéressent tout
-deux à ce qu'un LabFab peut apporter à ses habitants. Et n'oublions pas non plus
+deux à ce qu'un FabLab peut apporter à ses habitants. Et n'oublions pas non plus
 la région `Bretagne <http://www.bretagne.fr/>`_, qui participe pour des raisons
 similaires.
 
 Enfin il y a les associations `BUG <http://www.asso-bug.org/>`_ et la
 `Cantine Numérique Rennaise <http://www.lacantine-rennes.net/>`_, (CNR) centrés
 sur les communautés et les nouvelles technologies, ce que représente
-parfaitement un LabFab.
+parfaitement le LabFab.
 
 
 L'expérience du LabFab à Rennes
