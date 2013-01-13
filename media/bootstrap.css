@@ -1002,6 +1002,10 @@ input,textarea,.search-query,.uneditable-input,.input-append input,.input-append
 .wikipedia{background: url("http://cnd.faitmain.org/media/wikipedia.ico") top right no-repeat; padding-right: 3px;}
 .subst {vertical-align: middle}
 
+.rowfluid .span9.offset1 {
+    max-width: 800px;
+}
+
 img.centered{ 
 	/*display:block;margin-left: auto;margin-right: auto;margin-top:22px; 
 	 */
