@@ -11,7 +11,7 @@ Rencontre au LabFab de Rennes
    :alt: Hugue Aubin en train de montrer une carte Arduino à un atelier
          du LabFab
 
-Depuis que je fréquente Hugue Aubin aka 
+Depuis que je fréquente Hugue Aubin aka
 `@Hugobiwan <https://twitter.com/Hugobiwan>`_ sur Twitter, je suis chaque fois
 surpris non seulement par ses projets et par les nouvelles qu'il apporte, mais
 aussi (et surtout) par la ferveur et l'énergie qui l'anime.
@@ -36,7 +36,7 @@ personnes, et en réunissant des acteurs locaux qui se posaient déjà les même
 questions sur les LabFab, les Hackerspaces, et tous ces lieux qui proposent des
 espaces de fabrications au plus proche des gens.
 
-Parce que le LabFab ne s'est pas fait tout seul ! D'abords, il y a 
+Parce que le LabFab ne s'est pas fait tout seul ! D'abords, il y a
 `l'Ecole européenne supérieure d'Art de Bretagne <http://www.erba-rennes.fr/>`_,
 qui prête des locaux pour le LabFab. Et tout comme
 `Telecom Bretagne <http://www.telecom-bretagne.eu/>`_, l'intérêt pour eux
@@ -81,7 +81,7 @@ actuelle de la technologie, qui amène selon lui peu d'innovation, et qui bloque
     Aujourd'hui, Internet sort des PCs, mais il reste l'apanage des
     spécialistes et de ceux qui savent.
 
-L'école des Beaux Arts formant des étudiants au design, elle cherche à obtenir 
+L'école des Beaux Arts formant des étudiants au design, elle cherche à obtenir
 plus d'intégration dans la fabrique de nouveaux usages, avec les technologies
 de l'information (réseau, électronique, communication inter-objet, etc.), dans
 les savoirs dispensés.
@@ -174,7 +174,7 @@ un rapport d'activité à Rennes Métropole le 21 Décembre dernier, un bilan d'
 quarantaine de page qu'il m'invite à télécharger sur le site du LabFab une fois
 publié.
 
-Il est plein d'espoirt pour 2013, surtout qu'il a obtenu la création d'un poste
+Il est plein d'espoir pour 2013, surtout qu'il a obtenu la création d'un poste
 à temps plein pour l'année. Et puis il y a tellement de projets, et tellements
 d'expériences à tenter.
 
