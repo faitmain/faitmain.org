@@ -1,5 +1,5 @@
 Un Juke Box avec le Raspberry-Pi
-################################
+================================
 
 :date: 2012-12-12
 :category: electronique,informatique
@@ -50,7 +50,7 @@ start and build the system.
 
 
 La carte SD
-===========
+:::::::::::
 
 .. image:: http://ecx.images-amazon.com/images/I/41t75bYmx4L._SL500_AA300_.jpg
    :alt: Carte SD 4 Gigas.
@@ -114,7 +114,8 @@ and apply everything the author proposes.
 
 
 Mise à jour du système
-======================
+::::::::::::::::::::::
+
 
 Once your R-Pi happily runs, it's time to update your system so you have all the
 required packages.
@@ -136,7 +137,7 @@ Now for the update::
 This is the minimal setup to my knowledge to run the Jukebox app.
 
 Son
-===
+:::
 
 By default the sound is not activated, and once activated it plays
 via the HDMI port. If you want it on the jack, you need to change
@@ -160,7 +161,7 @@ I found these tips `here <http://www.raspberrypi-spy.co.uk/2012/06/raspberry-pi-
 Not sure why the author use sudo. It works with your *pi* user of course.
 
 Disque USB
-==========
+::::::::::
 
 I had to manually mount my disk::
 
@@ -175,7 +176,7 @@ Great success |thumbsup| -- and great mix from `ParisDjs <http://parisdjs.com>`_
 
 
 JukeBox
-=======
+:::::::
 
 The initial plan was to write a web app my self, on the top of
 `gst-python <http://gstreamer.freedesktop.org/modules/gst-python.html>`_, by
@@ -210,8 +211,8 @@ It sucks almost 100% of the CPU - Maybe I should profile the Python app, because
 it's the one sucking the CPU, not the mp3 player.
 
 
-What's next
-===========
+La suite
+::::::::
 
 I received the hardware and built a lego case: http://blog.ziade.org/2012/07/04/my-raspberry-pi-juke-box-follow-up
 I love this small computer.
