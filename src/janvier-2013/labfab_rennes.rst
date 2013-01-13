@@ -76,7 +76,8 @@ est mis en place, avec différents axes de recherches.
 Tout d'abord, que le lieu soit utile aux gens qui viennent. Qu'il serve à
 l'éducation populaire pour accéder au numérique, et aux objets qui touchent à
 ces technologies. Hugue insiste d'ailleurs sur l'approche de consommation
-actuelle de la technologie, qui amène selon lui peu d'innovation, et qui bloque l'émergence de nouveaux usages, notamment, démocratiques.
+actuelle de la technologie, qui amène selon lui peu d'innovation, et qui bloque
+l'émergence de nouveaux usages, notamment, démocratiques.
 
     Aujourd'hui, Internet sort des PCs, mais il reste l'apanage des
     spécialistes et de ceux qui savent.
@@ -112,7 +113,10 @@ tout un écosystème international qui se développe.
 Le public et le réseau des LabFab
 :::::::::::::::::::::::::::::::::
 
-Parce que le LabFab de Rennes, ce n'est qu'un tout petit élément finalement. Depuis début 2012, c'est un véritable réseau de lieu qui est en train de se développer : Hugue me parle du Vietnam, de Québec, de Dakar, ou encore du Burkina Faso, bref, tout un ensemble de pays avec des communautés francophones.
+Parce que le LabFab de Rennes, ce n'est qu'un tout petit élément finalement.
+Depuis début 2012, c'est un véritable réseau de lieu qui est en train de se
+développer : Hugue me parle du Vietnam, de Québec, de Dakar, ou encore du
+Burkina Faso, bref, tout un ensemble de pays avec des communautés francophones.
 
     Le problème rencontré aujourd'hui en Afrique, c'est qu'ils apprennent
     éventuellement leur langue maternelle et le français, mais rarement
@@ -121,7 +125,9 @@ Parce que le LabFab de Rennes, ce n'est qu'un tout petit élément finalement. D
 La traduction des documents, et le partage de ces traductions, est devenu l'un
 des objectifs du LabFab.
 
-Parce que le public aujourd'hui, est vraiment très hétérogènes. J'ai pu moi-même m'en rendre compte avec une petite séance photo lors d'un atelier sur Arduino.
+Parce que le public aujourd'hui, est vraiment très hétérogènes. J'ai pu
+moi-même m'en rendre compte avec une petite séance photo lors d'un atelier sur
+Arduino.
 
     Nous avons des artites, des vieux bricoleurs, etc. L'année dernière avec la
     CNR, c'est 26 ateliers que nous avons fait. Et ils ont tous été complet en
@@ -130,7 +136,8 @@ Parce que le public aujourd'hui, est vraiment très hétérogènes. J'ai pu moi-
 .. image:: labfab_public.jpg
    :alt: Un public hétérogène pour cet atelier du LabFab sur Arduino Connecté.
 
-Le succès est au rendez-vous, parce qu'outre les ateliers fréquents, il  y a les différents salons auxquels est invité Hugue pour parler du LabFab rennais :
+Le succès est au rendez-vous, parce qu'outre les ateliers fréquents, il  y a
+les différents salons auxquels est invité Hugue pour parler du LabFab rennais :
 
     Entre Laval Virtual, le forum des usages à Brest, Vivacité, nous avons
     aussi reçu des invitations pour aller à l'étranger. Ce n'était pas prévu
