@@ -17,7 +17,7 @@ surpris non seulement par ses projets et par les nouvelles qu'il apporte, mais
 aussi (et surtout) par la ferveur et l'énergie qui l'anime.
 
 Rencontre avec le porteur du projet de FabLab à Rennes, qui a ouvert ses portes
-l'années dernières, et qui va bientôt employer à temps plein une personne pour
+l'année dernière, et qui va bientôt employer à temps plein une personne pour
 accueillir le public.
 
 ----
@@ -58,7 +58,7 @@ L'expérience du LabFab à Rennes
 :::::::::::::::::::::::::::::::
 
 La question qui revient souvent me dit-il, c'est comment apprivoiser ces
-espaces ? Comment les inclures dans la société et dans ses projets ? Parce que
+espaces ? Comment les inclure dans la société et dans ses projets ? Parce que
 même s'il ne fait pas de doute que ces lieux ouverts sont très intéressants, il
 reste à savoir comment les mettre en place.
 
@@ -78,7 +78,7 @@ l'éducation populaire pour accéder au numérique, et aux objets qui touchent �
 ces technologies. Hugue insiste d'ailleurs sur l'approche de consommation
 actuelle de la technologie, qui amène selon lui peu d'innovation, et qui bloque l'émergence de nouveaux usages, notamment, démocratiques.
 
-    Aujourd'hui, Internet sort des PCs, mais il reste l'appanage des
+    Aujourd'hui, Internet sort des PCs, mais il reste l'apanage des
     spécialistes et de ceux qui savent.
 
 L'école des Beaux Arts formant des étudiants au design, elle cherche à obtenir 
@@ -96,7 +96,7 @@ amateurs, des néophytes, et tous les curieux ?
 
     Il y a une réelle volontée d'attirée tout le monde en même temps.
 
-Les axes de recherches ne manquent décidément pas, et Hugue est intarrissable
+Les axes de recherches ne manquent décidément pas, et Hugue est intarissable
 sur le sujet. Il me raconte pelle-mêle que ce projet apporte un tas de
 questions, que les gens se posent un tas de question : quel va être le regard
 des experts auprès des amateurs ? Quelles questions est-ce que cela pose, de
@@ -112,9 +112,9 @@ tout un écosystème international qui se développe.
 Le public et le réseau des LabFab
 :::::::::::::::::::::::::::::::::
 
-Parce que le LabFab de Rennes, ce n'est qu'un tout petit élément finalement. Depuis début 2012, c'est un véritable réseau de lieu qui est en train de se développer : Hugue me parle du Vietnam, de Quecbec, de Dakar, ou encore du Burkina Faso, bref, tout un ensemble de pays avec des communautés francophones.
+Parce que le LabFab de Rennes, ce n'est qu'un tout petit élément finalement. Depuis début 2012, c'est un véritable réseau de lieu qui est en train de se développer : Hugue me parle du Vietnam, de Québec, de Dakar, ou encore du Burkina Faso, bref, tout un ensemble de pays avec des communautés francophones.
 
-    Le problème rencontré aujourd'hui en Afrique, c'est qu'ils apprenent
+    Le problème rencontré aujourd'hui en Afrique, c'est qu'ils apprennent
     éventuellement leur langue maternelle et le français, mais rarement
     l'anglais. Et les documentations techniques, elles sont toutes en anglais.
 
