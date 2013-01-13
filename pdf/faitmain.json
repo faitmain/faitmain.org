@@ -1,0 +1,58 @@
+{
+"pageSetup": {
+  "size": "A4",
+  "width": null,
+  "height": null,
+  "margin-top": "0.2cm",
+  "margin-bottom": "0.2cm",
+  "margin-left": "1.5cm",
+  "margin-right": "1.5cm",
+  "spacing-header": "5mm",
+  "spacing-footer": "5mm",
+  "margin-gutter": "0cm",
+  "firstTemplate": "cover"
+},
+
+"fontsAlias" : {
+  "stdFont": "Tuffy-Regular",
+  "stdBold": "Tuffy-Bold",
+  "stdItalic": "Tuffy-Oblique",
+  "stdBoldItalic": "Tuffy-BoldOblique",
+  "stdMono": "Courier"
+},
+
+"styles" : [
+       ["heading1", { "fontName" : "Lobster" }],
+       ["heading2", { "fontName" : "Lobster" }],
+       ["heading3", { "fontName" : "Lobster" }],
+       ["wfont", {"fontname" : "Tuffy-Oblique",
+                  "fontSize": 14,
+                  "textColor": "white"}]
+],
+
+"pageTemplates" : {
+    "cover": {
+          "showHeader" : false,
+          "showFooter" : false,
+          "background": "cover.pdf",
+          "margin-left": "0cm",
+          "margin-right": "0cm",
+          "margin-top": "0cm",
+          "margin-bottom": "0cm",
+          "frames": [
+                     ["0cm", "0cm", "100%", "100%"]
+            ]},
+    "page": {
+          "showHeader" : true,
+          "showFooter" : true,
+          "background": "page.pdf",
+          "margin-left": "0cm",
+          "margin-right": "0cm",
+          "margin-top": "0cm",
+          "margin-bottom": "0cm",
+          "frames": [
+                     ["0cm", "0cm", "100%", "100%"]
+            ]
+   }
+}}
+
