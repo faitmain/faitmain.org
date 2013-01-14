@@ -31,8 +31,9 @@ l'usinage de 10 pièces moulées sur un service en ligne, voire imprimées avec
 l'imprimante 3d du coin. Mais cela ne s'arrête pas à l'électronique: à la
 maison, on peut bricoler du meuble, de la cuisine, des produits cosmétiques…
 
-.. image:: mamacar.jpg
-   :alt: Une voiture de récupe, pilotée avec un Arduino.
+.. figure:: mamacar.jpg
+
+   Une voiture de récupe, pilotée avec un Arduino.
 
 
 *Fait Main* a pour objectif de montrer à travers ses articles

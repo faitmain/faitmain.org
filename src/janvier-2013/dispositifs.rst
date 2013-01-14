@@ -37,14 +37,24 @@ ou `RCSwitch-pi pour la Raspberry Pi <https://github.com/r10r/rcswitch-pi>`_.
 
 Regardons de plus près ce que nous avons à disposition :
 
-- Un `Arduino <http://hackspark.fr/fr/plateformes-de-developpement/arduino.html>`_ (ici un `Leonardo <http://hackspark.fr/fr/arduino-leonardo.html>`_, mais un `Uno <http://hackspark.fr/fr/arduino-uno.html>`_ ou `un <http://hackspark.fr/fr/freeduino-usb-complete-kit.html>`_ `clone <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible-1.html>`_
-  `quelconque <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible.html>`_ fera l'affaire)
-- Une `breadboard <http://hackspark.fr/fr/breadboard-taille-standard-platine-de-prototypage-sans-soudure-blanc-mat-16-5-5-5-cm.html>`_
-- Un `433 MHz RF link kit (un émetteur, un récepteur) <http://hackspark.fr/fr/433mhz-rf-link-kit.html>`_
-- Des `fils à breadboard <http://hackspark.fr/fr/fils-a-breadboard-renforces-male-75-pieces.html>`_
+- Un `Arduino
+  <http://hackspark.fr/fr/plateformes-de-developpement/arduino.html>`_ (ici un
+  `Leonardo <http://hackspark.fr/fr/arduino-leonardo.html>`_, mais un `Uno
+  <http://hackspark.fr/fr/arduino-uno.html>`_ ou `un
+  <http://hackspark.fr/fr/freeduino-usb-complete-kit.html>`_ `clone
+  <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible-1.html>`_
+  `quelconque
+  <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible.html>`_
+  fera l'affaire) - Une `breadboard
+  <http://hackspark.fr/fr/breadboard-taille-standard-platine-de-prototypage-sans-soudure-blanc-mat-16-5-5-5-cm.html>`_
+- Un `433 MHz RF link kit (un émetteur, un récepteur)
+  <http://hackspark.fr/fr/433mhz-rf-link-kit.html>`_ - Des `fils à breadboard
+  <http://hackspark.fr/fr/fils-a-breadboard-renforces-male-75-pieces.html>`_
 
-.. image:: composants1.jpg
-   :alt: Montage détaillé
+
+.. figure:: composants1.jpg
+
+   Montage détaillé
 
 
 Niveau détecteurs :
@@ -52,20 +62,22 @@ Niveau détecteurs :
 - Un `détecteur d'ouverture de porte <http://hackspark.fr/fr/433mhz-wireless-door-sensor-door-switch.html>`_
 - Un détecteur PIR
 
-.. image:: pir.jpg
-   :alt: Détecteur PIR
+.. figure:: pir.jpg
+
+   Détecteur PIR
    :scale: 25
 
-.. image:: doorswitch.jpg
-   :alt: Détecteur d'ouverture de porte
+.. figure:: doorswitch.jpg
    :scale: 25
+
+   Détecteur d'ouverture de porte
 
 Regardons ce détecteur d'ouverture de porte de plus près :
 
-.. image:: doorswitch-grosplan.jpg
-   :alt: Gros plan sur le détecteur d'ouverture de porte
+.. figure:: doorswitch-grosplan.jpg
    :scale: 25
 
+   Gros plan sur le détecteur d'ouverture de porte
 
 On voit bien le PT2262 pour l'encodage et à gauche des jumper pour choisir le
 code (ainsi chaque émetteur aura un code différent). Pas besoin de déduire le
@@ -80,9 +92,9 @@ Télécharger `RCswitch_2.3.zip <https://code.google.com/p/rc-switch/downloads/d
 et extraire le contenu dans le sous-repertoire "libraries"
 (s'il n'existe pas, créez le) de votre répertoire "sketchbook", pour que cela donne :
 
-- sous Mac, ``/Users/VOTRE_UTILISATEUR/Documents/Arduino/libraries/RCswitch``
-- sous Linux, ``/home/VOTRE_UTILISATEUR/sketchbook/libraries/RCswitch``
-- sous Windows, ``C:\Users\VOTRE_UTILISATEUR\Documents\Arduino\libraries\RCswitch``
+- sous Mac, */Users/VOTRE_UTILISATEUR/Documents/Arduino/libraries/RCswitch*
+- sous Linux, */home/VOTRE_UTILISATEUR/sketchbook/libraries/RCswitch*
+- sous Windows, *C:\Users\VOTRE_UTILISATEUR\Documents\Arduino\libraries\RCswitch*
 
 
 Connexion du récepteur
@@ -91,9 +103,11 @@ Connexion du récepteur
 Le récepteur est simple, il suffit de le connecter au courant (+5v et GND) et à
 un pin de l'Arduino ayant une interruption.
 
-.. image:: recepteur.jpg
-   :alt: Recepteur
+.. figure:: recepteur.jpg
    :scale: 25
+
+   Récepteur
+
 
 Voici un petit tableau des interruptions :
 
@@ -110,8 +124,10 @@ Voici un petit tableau des interruptions :
 Sur notre Leonardo, si nous voulons connecter notre récepteur sur l'interrupt
 0, il nous faut le connecter sur le pin 3 :
 
-.. image:: leonardo_montage.jpg
-   :alt: Montage
+
+.. figure:: leonardo_montage.jpg
+
+   Montage
 
 
 
@@ -124,9 +140,10 @@ Pour cela, nous allons lancer l'IDE Arduino et charger l'exemple de RCSwitch,
 Pour le Leonardo, il faut ajouter "while (!Serial) ;" avant d'écrire sur le
 port série (lié à l'utilisation de l'USB après le lancement) :
 
-.. image:: sketch_demo.png
-   :alt: Le code dans Arduino IDE
+.. figure:: sketch_demo.png
    :scale: 50
+
+   Le code dans Arduino IDE
 
 Envoyons le croquis sur la carte, et lancons le moniteur série (Outils >
 Moniteur Série, après avoir vérifié que le port était le bon dans Outils > Port
@@ -135,13 +152,15 @@ série).
 Actionnez votre senseur (ici le détecteur d'ouverture de porte, en écartant les
 deux parties) :
 
-.. image:: montage.jpg
-   :alt: Montage
+.. figure:: montage.jpg
+
+   Montage
 
 Et magie, des codes s'affichent dans le moniteur série :
 
-.. image:: serial_print.png
-   :alt: Retours dans le port série
+.. figure:: serial_print.png
+
+   Retours dans le port série
 
 Ce code, 13464924 dans cette capture d'écran, est l'id unique de votre senseur,
 24bit est la taille de celui-ci et 1 le protocole utilisé (ici celui du
@@ -151,12 +170,16 @@ Si l'on active un autre senseur (le capteur de mouvement ici, il s'allume en
 rouge lorsqu'il détecte un mouvement) :
 
 
-.. image:: capteur_move.jpg
-   :alt: Détéction de moouvement
+.. figure:: capteur_move.jpg
    :scale: 25
 
-.. image:: deux_codes.jpg
-   :alt: Deux codes
+   Détection de mouvement
+
+
+.. figure:: deux_codes.jpg
+
+   Deux codes
+
 
 On voit que l'on reçoit un nouveau code : **12449942**.
 
@@ -224,9 +247,10 @@ couloir !" selon le cas.
 
 Voici ce que l'on reçoit sur le port série :
 
-.. image:: Capture-du-2012-12-17-140454.jpg
-   :alt: Capture du port série
+.. figure:: Capture-du-2012-12-17-140454.jpg
    :scale: 50
+
+   Capture du port série
 
 Comme vous pouvez le voir, on a l'information, mais elle se répète. C'est dû à
 la nature du protocole, qui ne permet pas de vérifier la réception de
@@ -295,9 +319,10 @@ Notre fonction debounce permet, pour un détecteur donné (de 0 à 1 ici), de di
 si c'est un nouvel événement ou pas. Voici ce que cela donne si j'ouvre la
 porte, marche jusqu'à une autre porte puis ouvre cette autre porte inconnue :
 
-.. image:: Capture-du-2012-12-17-142121.jpg
-   :alt: Capture du port série
+.. figure:: Capture-du-2012-12-17-142121.jpg
    :scale: 50
+
+   Capture du port série
 
 Comme vous pouvez le voir, nous n'avons pas de timer sur l'émetteur inconnu
 mais on en a un sur ceux qui sont connus.

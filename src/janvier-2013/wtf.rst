@@ -6,9 +6,10 @@ What The Feuille ?
 :level: vulgarisation
 :author: Tarek Ziadé
 
-.. image:: tarek-ronan.jpg
+.. figure:: tarek-ronan.jpg
    :target: https://secure.flickr.com/photos/kennethreitz/8239976465/in/set-72157632156365245/
-   :alt: Tarek & Ronan en train de tester What The Feuille (by Kenneth Reitz)
+
+   Tarek & Ronan en train de tester What The Feuille (by Kenneth Reitz)
 
 
 Le `Hackathon <https://fr.wikipedia.org/wiki/Hackathon>`_ est un mot-valise,
@@ -109,10 +110,10 @@ Mais mine de rien, ce genre d'application touche à pas mal de domaines de progr
 
 Pour résumer le fonctionnement dans un schéma simple :
 
-.. image:: wtf-schema.jpg
-   :alt: C'est pas compliqué...
+.. figure:: wtf-schema.jpg
    :scale: 50
 
+   C'est pas compliqué...
 
 L'utilisateur trouve une feuille — où l'arrache discrètement, puis
 dégaine son portable pour prendre un cliché, et demande à notre
@@ -140,8 +141,9 @@ de l'image de la feuille se font sur le serveur, car à moins d'écrire une
 application native à chaque périphérique, Javascript est assez limité
 sur ce genre de fonctionnalités.
 
-.. image:: wtf-edition.jpg
-   :alt: Edition de la feuille
+.. figure:: wtf-edition.jpg
+
+   Edition de la feuille
 
 
 D'autres fonctionalitées mineures que nous avons ajoutées au fil de la nuit
@@ -182,18 +184,20 @@ Un lien à déposer dans Firefox dans la barre des bookmarks et *hop !*, un
 menu déroulant permet d'essayer les thèmes fournis par le projet
 en live sur n'importe quel site fait avec Bootstrap !
 
-.. image:: bootswatch.jpg
+.. figure:: bootswatch.jpg
    :target: http://bootswatch.com
-   :alt: Le bookmarklet de bootswatch en plein action
+
+   Le bookmarklet de bootswatch en plein action
 
 ----
 
 L'autre outil indispensable pour un design propre en 24 heures, c'est
 `Google Web Fonts <https://www.google.com/webfonts>`_.
 
-.. image:: gwf.jpg
+.. figure:: gwf.jpg
    :target: https://www.google.com/webfonts
-   :alt: La police facile.
+
+   La police facile.
 
 En quelques minutes, on trouve forcément une police qui nous plait,
 et il suffit d'ajouter un lien vers la CSS fournie par Google.
@@ -220,9 +224,10 @@ haut et le bas, avec son doigt sur un écran tactile ou sa souris.
 Les coordonnées sur l'image sont envoyées au serveur, qui applique
 une rotation de l'image.
 
-.. image:: editeur.jpg
-   :alt: Tape ta feuille.
+.. figure:: editeur.jpg
    :scale: 50
+
+   Tape ta feuille.
 
 On est loin de la barre d'outils de Photoshop, mais l'idée est là :
 l'utilisateur peaufine son image avant de demander au serveur de faire
@@ -402,10 +407,12 @@ Enfin le requêtage d'Elastic Search est fait par la librairie `pyes <http://pac
 La partie intelligente
 ::::::::::::::::::::::
 
-.. image:: scikit-image.jpg
+.. figure:: scikit-image.jpg
   :target: http://scikit-image.org/
-  :alt: Scikit-image en action.
   :scale: 50
+
+  Scikit-image en action.
+
 
 La partie la plus intéressante est la reconnaissance des feuilles bien sûr,
 et pour la mettre en oeuvre, nous avons utilisé la librairie Python
@@ -496,9 +503,10 @@ et la démo a fonctionné pendant les 3 minutes sur scène. Les retours étaient
 assez positifs dans l'ensemble, et l'application va devenir un bon terrain
 de jeu pour Olivier, qui va pouvoir peaufiner son algorithme de pattern matching.
 
-.. image:: wtf-winners.jpg
+.. figure:: wtf-winners.jpg
    :target: https://secure.flickr.com/photos/kennethreitz/8239979675/sizes/c/in/set-72157632156365245/
-   :alt: Des heu-reux gagnants du AngelHack (by Kenneth Reitz)
+
+   Des heu-reux gagnants du AngelHack (by Kenneth Reitz)
 
 
 Ce hackathon m'a fait réaliser la différence majeure entre les moyens
@@ -508,13 +516,14 @@ Il n'y a plus besoin d'un budget conséquent et d'une équipe complète pour
 développer une idée d'application qui peut potentiellement s'adresser
 à des centaines de milliers d'utilisateurs.
 
+.. figure:: Platane.jpg
+   :scale: 50
+
+   Du platane. C'est du platane je vous dis.
+
 Pour un budget de moins de 50 euros et un petit week-end de travail,
 nous avons pu mettre en ligne, dans le *cloud* une application mobile qui
 ressemble à quelque chose.
 
 Le code source est ici : https://github.com/whatthefeuille/whatthefeuille
 et l'application `en ligne <http://whatthefeuille.com>`_.
-
-.. image:: Platane.jpg
-   :alt: Du platane. C'est du platane je vous dis.
-   :scale: 50
