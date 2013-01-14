@@ -30,18 +30,18 @@ RT1527, FP1527 ou encore HS1527 peuvent être trouvés et fonctionneront aussi).
 
 Plutôt que de nous lancer dans l'acquisition de ces chips, on va utiliser notre
 microcontrôleur, plus que capable de le faire, pour décoder et encoder les
-signaux, grâce à la librairie RC-Switch pour Arduino, ou RCSwitch-pi pour la
-Raspberry Pi.
+signaux, grâce à la librairie `RC-Switch pour Arduino <http://code.google.com/p/rc-switch/>`_, ou `RCSwitch-pi pour la
+Raspberry Pi <https://github.com/r10r/rcswitch-pi>`_.
 
 ----
 
 Regardons de plus près ce que nous avons à disposition :
 
-- Un Arduino (ici un Leonardo, mais un Uno ou un clone
-  quelconque fera l'affaire)
-- Une breadboard
-- Un 433 MHz RF link kit (un émetteur, un récepteur)
-- Des fils à breadboard
+- Un `Arduino <http://hackspark.fr/fr/plateformes-de-developpement/arduino.html>`_ (ici un `Leonardo <http://hackspark.fr/fr/arduino-leonardo.html>`_, mais un `Uno <http://hackspark.fr/fr/arduino-uno.html>`_ ou `un <http://hackspark.fr/fr/freeduino-usb-complete-kit.html>`_ `clone <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible-1.html>`_
+  `quelconque <http://hackspark.fr/fr/platine-seeeduino-v3-0-atmega-328p-carte-100-arduino-compatible.html>`_ fera l'affaire)
+- Une `breadboard <http://hackspark.fr/fr/breadboard-taille-standard-platine-de-prototypage-sans-soudure-blanc-mat-16-5-5-5-cm.html>`_
+- Un `433 MHz RF link kit (un émetteur, un récepteur) <http://hackspark.fr/fr/433mhz-rf-link-kit.html>`_
+- Des `fils à breadboard <http://hackspark.fr/fr/fils-a-breadboard-renforces-male-75-pieces.html>`_
 
 .. image:: composants1.jpg
    :alt: Montage détaillé
@@ -49,7 +49,7 @@ Regardons de plus près ce que nous avons à disposition :
 
 Niveau détecteurs :
 
-- Un détecteur d'ouverture de porte
+- Un `détecteur d'ouverture de porte <http://hackspark.fr/fr/433mhz-wireless-door-sensor-door-switch.html>`_
 - Un détecteur PIR
 
 .. image:: pir.jpg
