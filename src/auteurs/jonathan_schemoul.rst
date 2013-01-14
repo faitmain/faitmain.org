@@ -5,11 +5,19 @@ Jonathan Schemoul
    :scale:50
    :alt: Jonathan
 
-Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Jonathan aka `jon1012 <http://twitter.com/jon1012>`_ ou `jondesign <http://jondesign.net>` est tour à tour développeur python, chef de projet, consultant en développement informatique et ingénieur en électronique chez `JMSI <http://jmsinfor.com/>`_.
+Oui, tout cela à la fois. Il faut dire que c'est un Hacker, au sens bidouille du terme, un touche à tout quoi.
 
-vamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-eget lacinia odio sem nec elit. Donec sed odio dui
+Jonathan habite la proche banlieue parisienne. Il a participé à plusieurs projets open-source dont :
+* `PyF (python dataflow framework) <http://pyfproject.org/>`_
+* `Turbogears <http://turbogears.org/>`_
+* `SmoothGallery <http://smoothgallery.jondesign.net/>`_
+* Etc.
 
+Il a aussi lancé plusieurs sites internet dont dernièrement le site `HackSpark.fr <http://hackspark.fr/>`_, boutique en ligne créé pour promouvoir l'accès du grand public à l'électronique et particulièrement à l'Open Hardware, continuité logique de son penchant pour le DIY et de sa passion pour l'open-source.
+
+* Site perso: http://jondesign.net
+* Site pro conseil: http://jmsinfor.com
+* Site pro électronique diy: http://hackspark.fr/
+* Twitter: http://twitter.com/jon1012
+* Contact: jonathan.schemoul@jmsinfor.com
