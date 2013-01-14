@@ -30,8 +30,8 @@ RT1527, FP1527 ou encore HS1527 peuvent être trouvés et fonctionneront aussi).
 
 Plutôt que de nous lancer dans l'acquisition de ces chips, on va utiliser notre
 microcontrôleur, plus que capable de le faire, pour décoder et encoder les
-signaux, grâce à la librairie `RC-Switch pour Arduino <http://code.google.com/p/rc-switch/>`_, ou `RCSwitch-pi pour la
-Raspberry Pi <https://github.com/r10r/rcswitch-pi>`_.
+signaux, grâce à la librairie `RC-Switch pour Arduino <http://code.google.com/p/rc-switch/>`_,
+ou `RCSwitch-pi pour la Raspberry Pi <https://github.com/r10r/rcswitch-pi>`_.
 
 ----
 
