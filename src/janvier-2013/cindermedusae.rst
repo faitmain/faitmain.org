@@ -17,8 +17,9 @@ Cindermedusae - Les Créatures Génératives
    http://marcinignac.com/projects/category/featured/
 
 
-.. image:: cindermedusae.jpg
-   :alt: Les méduses en action
+.. figure:: cindermedusae.jpg
+
+   Les méduses en action
 
 
 *Cindermedusae* est un projet qui me tient beaucoup à cœur. Il a été
@@ -37,10 +38,10 @@ livres uniques.
 *Cindermedusae* a été selectionné avec 47 autres projets pour faire partie
 du livre.
 
-.. image:: book.jpg
-   :alt: Un des livres imprimés © d_effekt
+.. figure:: book.jpg
    :target: https://secure.flickr.com/photos/d_effekt/5793687813/sizes/l/in/set-72157623955416899/
 
+   Un des livres imprimés © d_effekt
 
 Je travaillais encore chez `shiftcontrol <http://shiftcontrol.dk>`_ à
 cette époque, pour un projet de jeu sous-marin pour la ZDF appelé
@@ -114,11 +115,11 @@ séléctionnés comme points de départ pour accrocher les tentacules
 de la méduse. Nous nous y intéresserons plus tard.
 
 
-.. image:: medusae_head.jpg
-   :alt: Vue des têtes du dessus - cliquez pour le code
+.. figure:: medusae_head.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh01.html
 
+   Vue des têtes du dessus - cliquez pour le code
 
 Si l'on regarde la tête de notre méduse en 2D sur le côté, c'est aussi
 un cercle, puisqu'à la fin nous jouons avec des sphères.
@@ -157,10 +158,11 @@ des artefacts d'ombre. Je ne vais pas décrire cette étape ici, car
 c'est juste un *if* et un *sin* supplémentaires. Vous pouvez lire le
 code source fourni.
 
-.. image:: medusae_head2.jpg
-   :alt: Vue des têtes de côté  - cliquez pour le code
+.. figure:: medusae_head2.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh02.html
+
+   Vue des têtes de côté  - cliquez pour le code
 
 ----
 
@@ -189,22 +191,22 @@ en anglais) commence à bouger d'une manière un peu plus naturelle.
     y += normal.y * sin(t + y * 0.5)
 
 
-.. image:: medusae_head3.jpg
-   :alt: Vue animée des têtes de côté - cliquez pour code & animation
+.. figure:: medusae_head3.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh03.html
 
+   Vue animée des têtes de côté - cliquez pour code & animation
 
 J'ai décidé de combiner toutes les étapes dans un script processing.js en 3D,
 et à ma surprise le code obtenu est quasiment un copier-coller de la version C++.
 J'ai essayé de garder le code le plus simple & clair possible pour cet article,
 donc il n'est pas optimal : les performances ne sont pas au rendez-vous.
 
-.. image:: medusae_head4.jpg
-   :alt: Vue animée en 3D - cliquez pour code & animation
+.. figure:: medusae_head4.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh04.html
 
+   Vue animée en 3D - cliquez pour code & animation
 
 Tentacules
 ::::::::::
@@ -245,9 +247,10 @@ on obtient une série de coordonnées pour chaque vecteur
 *Up*, *Front* et *Left*.
 
 
-.. image:: right_hand_rule.jpg
+.. figure:: right_hand_rule.jpg
    :scale: 50
-   :alt: Règle de la main droite
+
+   Règle de la main droite
 
 Tous ces calculs sont inspirés du `repère
 de Frenet <https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet>`_.
@@ -271,21 +274,22 @@ se rapproche de la pointe - la force de cette enroulement est
 représentée par des lignes rouges.
 
 
-.. image:: medusae_tentacle.jpg
-   :alt: Tentacules animées - cliquez sur l'image
+.. figure:: medusae_tentacle.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh05.html
+
+   Tentacules animées - cliquez sur l'image
 
 Nous sommes maintenant prêts à attacher les tentacules à la tête.
 Je regroupe tous les éléments car le travail des ombres masquera les
 discontinuités de la surface.
 
 
-.. image:: heads_tentacle.jpg
-   :alt: Tentacules & corps animés - cliquez sur l'image
+.. figure:: heads_tentacle.jpg
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh06.html
 
+   Tentacules & corps animés - cliquez sur l'image
 
 Rendu final
 :::::::::::
@@ -294,8 +298,9 @@ Rendu final
 J'ai utilisé une géométrie de triangles beaucoup plus dense pour le rendu ci-dessus,
 pour des plus belles courbes et pour éviter des artefacts d'antialiasing.
 
-.. image:: mesh.jpg
-   :alt: Rendu final
+.. figure:: mesh.jpg
+
+   Rendu final
 
 
 Ombres procédurales
@@ -317,8 +322,9 @@ vérifier que mon wireframe est suffisament lisse et n'a pas de normales
 au comportement étrange.
 
 
-.. image:: diffuse.jpg
-   :alt: Lumière diffuse appliqué au modèle 3D.
+.. figure:: diffuse.jpg
+
+   Lumière diffuse appliqué au modèle 3D.
 
 
 Hachurage
@@ -342,9 +348,10 @@ de 4080 sur 2720 pixels, et l'antialiasing aident beaucoup à choisir la
 bonne épaisseur.
 
 
-.. image:: hatching.jpg
-   :alt: Hachurage - cliquez pour la version hi-res
+.. figure:: hatching.jpg
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/hatching_hi.jpg
+
+   Hachurage - cliquez pour la version hi-res
 
 Malheureusement il n'y a aucun exemple basé sur processing.js, en partie car
 j'utilise des fonctionnalités qui dépendent des extensions *WebGL GLSL*, comme
@@ -367,13 +374,15 @@ Les reflets bleus et les coins de pages ont été bruités
 pour donner une impression de coloriage à la main.
 
 
-.. image:: color_layers.jpg
-   :alt: Colorisation - cliquez pour la version hi-res
+.. figure:: color_layers.jpg
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/color_layers_hi.jpg
 
+   Colorisation - cliquez pour la version hi-res
 
-.. image:: medusae_final.jpg
-   :alt: Résultat final combiné
+
+.. figure:: medusae_final.jpg
+
+   Résultat final combiné
 
 
 Paramétrage
@@ -385,8 +394,9 @@ et de regarder comment la créature évolue en temps réel. Pour les paramètres
 qui varient entre une valeur minimale et maximale, l'interface me permet
 de calibrer ces limites afin de garder un rendu de méduse réaliste.
 
-.. image:: gui.jpg
-   :alt: Interface de paramétrage
+.. figure:: gui.jpg
+
+   Interface de paramétrage
 
 
 La suite ?

@@ -63,9 +63,10 @@ Niveau détecteurs :
 - Un détecteur PIR
 
 .. figure:: pir.jpg
+   :scale: 25
 
    Détecteur PIR
-   :scale: 25
+
 
 .. figure:: doorswitch.jpg
    :scale: 25

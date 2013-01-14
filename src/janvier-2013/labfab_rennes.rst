@@ -6,12 +6,13 @@ Rencontre au LabFab de Rennes
 :level: vulgarisation
 :author: Florian Strzelecki
 
-.. image:: hugue_arduino.jpg
+.. figure:: hugue_arduino.jpg
    :target: http://labfab.fr
-   :alt: Hugues Aubin en train de montrer une carte Arduino à un atelier
-         du LabFab
 
-Depuis que je fréquente Hugues Aubin aka 
+   Hugues Aubin en train de montrer une carte Arduino à un atelier
+   du LabFab
+
+Depuis que je fréquente Hugues Aubin aka
 `@Hugobiwan <https://twitter.com/Hugobiwan>`_ sur Twitter, je suis chaque fois
 surpris non seulement par ses projets et par les nouvelles qu'il apporte, mais
 aussi (et surtout) par la ferveur et l'énergie qui l'anime.
@@ -36,7 +37,7 @@ personnes, et en réunissant des acteurs locaux qui se posaient déjà les même
 questions sur les FabLab, les Hackerspaces, et tous ces lieux qui proposent des
 espaces de fabrication au plus proche des gens.
 
-Parce que le LabFab ne s'est pas fait tout seul ! D'abord, il y a 
+Parce que le LabFab ne s'est pas fait tout seul ! D'abord, il y a
 `l'Ecole européenne supérieure d'Art de Bretagne <http://www.erba-rennes.fr/>`_,
 qui prête des locaux pour le LabFab. Et tout comme
 `Telecom Bretagne <http://www.telecom-bretagne.eu/>`_, l'intérêt pour eux
@@ -134,8 +135,9 @@ Arduino.
     CNR, c'est 26 ateliers que nous avons fait. Et ils ont tous été complet en
     moins de 48h ! Ça représente plus de 450 débutants qui ont été formés !
 
-.. image:: labfab_public.jpg
-   :alt: Un public hétérogène pour cet atelier du LabFab sur Arduino connecté.
+.. figure:: labfab_public.jpg
+
+   Un public hétérogène pour cet atelier du LabFab sur Arduino connecté.
 
 Le succès est au rendez-vous, parce qu'outre les ateliers fréquents, il
 y a les différents salons auxquels est invité Hugues pour parler du FabLab
@@ -147,9 +149,10 @@ Rennais :
 
 ----
 
-.. image:: starter_kit.jpg
-   :alt: Plusieurs "Starter Kit" sont disponibles pour former les gens sur
-         Arduino.
+.. figure:: starter_kit.jpg
+
+   Plusieurs "Starter Kit" sont disponibles pour former les gens sur
+   Arduino.
 
 Hugues ayant un emploi du temps de ministre, l'entretien touche bientôt à sa
 fin, et il y a encore une question ou deux que je me pose. La première, c'est
