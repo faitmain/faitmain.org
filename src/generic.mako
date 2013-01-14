@@ -75,6 +75,9 @@
          </form>
         </li>
         <li class="nav-header" style="color:black">Social</li>
+        <li><a target="_blank" title="Mailing List" href="/mailing.html"">
+          <img src="http://cnd.faitmain.org/media/email.png"/> Mailing List</a>
+        </li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
             <img src="http://cnd.faitmain.org/media/twitter.png"/> Twitter</a>
         </li>

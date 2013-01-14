@@ -23,8 +23,8 @@ les relectures ou la conception et la mise à jour du site (code ou design)-
 ou tout simplement pour proposer un sujet ou un auteur.
 
 Si vous avec envie de participer il suffit de vous inscrire sur la
-mailing list XXX et de vous présenter - ou bien de forker un de nos
-`repositories sur Github <http://github.com/faitmain>`_.
+`mailing list </mailing.html>`_ et de vous présenter - ou bien de forker
+un de nos `repositories sur Github <http://github.com/faitmain>`_.
 
 Vous pouvez aussi contacter Tarek : tarek@faitmain.org
 
