@@ -1003,7 +1003,7 @@ input,textarea,.search-query,.uneditable-input,.input-append input,.input-append
 .subst {vertical-align: middle}
 
 .row-fluid .span9.offset1 {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 img.centered{ 
