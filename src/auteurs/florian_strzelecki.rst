@@ -9,8 +9,8 @@ où il est actif dans plusieurs communautés :
 
 * Le `Collectif Open Data Rennes <http://cod-rennes.fr>`_ le connaît comme
   trésorier
-* Le `DevCamp <http://devcamp.fr>` comme orateur et organisateur très actif
-* Membre actif de la communauté Django, il a organisé la rencontre 
+* Le `DevCamp <http://devcamp.fr>`_ comme orateur et organisateur très actif
+* Membre actif de la communauté Django, il a organisé la rencontre
   `Django Breizh <http://rencontres.django-fr.org/2012/bzh/>`_
   (et même une fois, une Pycon en 2011 à Rennes).
 
