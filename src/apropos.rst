@@ -53,3 +53,11 @@ Le moteur de recherche est un `web service <https://github.com/faitmain/search.f
 écrit avec `Cornice <http://cornice.readthedocs.org>`_,
 basé sur `Xapian <http://xapian.org/>`_, appelé en Javascript depuis l'écran
 de recherche. La base Xapian est mise à jour à chaque modification de contenu.
+
+Le PDF
+::::::
+
+Le PDF est géneré grâce à `rst2pdf <http://rst2pdf.ralsina.com.ar>`_, qui lui même utilise
+`ReportLab <http://www.reportlab.com/software/opensource/rl-toolkit/>`_.
+
+La mise en page est spartiate mais suffisante pour une lecture sur écran.
