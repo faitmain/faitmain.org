@@ -34,11 +34,9 @@
 
 <div class="nav-collapse">
 <ul class="nav">
-<li><a href="/electronique.html" title="A propos">Electronique</a></li>
-<li><a href="/informatique.html" title="Informatique">Informatique</a></li>
-<li><a href="/art.html" title="Art">Art</a></li>
-<li><a href="/cuisine.html" title="Cuisine">Cuisine</a></li>
-<li><a href="/ecologie.html" title="Ecologie">Ecologie</a></li>
+ %for category in config['categories']:
+ <li><a href="/${category}.html" title="${category}">${category.capitalize()}</a></li>
+ %endfor
 </ul>
 </div><!--/.nav-collapse -->
 </div>
