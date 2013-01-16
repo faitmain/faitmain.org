@@ -10,75 +10,84 @@ Un Juke Box avec le Raspberry-Pi
 
    **Article en cours de traduction**
 
-After 3 months of desperate wait, I finally received my Raspberry Pi (R-Pi) box
-from Farnell, including a nice Element 14 T-Shirt.
+Après trois mois d'attente interminable , j'ai finalement reçu mon
+`Raspberry Pi <http://www.raspberrypi.org/>`_ (R-Pi), accompagné
+d'un joli T-shirt *Element 14*.
 
-I had a few projects in mind involving some hardware hacking, and ended up deciding
-I would do a simple project first, that would work with a bare R-PI.
+J'ai plusieurs projets en tête avec un peu d'électronique, mais
+pour me familiariser avec la bête, j'ai décidé de commencer par un projet
+simple qui marcherait avec un R-PI nu.
 
-.. image:: http://www.raspberrypi.org/wp-content/uploads/2011/07/raspi_blue_white.png
-   :alt: Le Raspberry-PI
+
+.. figure:: http://www.raspberrypi.org/wp-content/uploads/2011/07/raspi_blue_white.png
    :scale: 50
 
+   Le Raspberry-PI
 
-The project is a wireless Juke Box I can run anywhere on a local network, people
-can access to and add songs in a queue.
+Le projet est un Juke-Box sans fil que je peux trimballer chez moi, qui
+se connecte à mon réseau local en wifi - et qui fournit une application web
+où tout le monde peux se connecter pour ajouter des morceaux de musique
+dans une file d'attente.
 
-The final project will be a small box containing the R-Pi and a few peripherals:
+Le projet final est une petite boite qui contient le R-PI et:
 
-- a USB Stick to add more space for the music. I picked a PNY 16G that's very small.
-  See `the Amazon Page <http://www.amazon.fr/dp/B0052QT6BQ>`_
+- une clé USB pour stocker de la musique. J'ai choisi la
+  `PNY 16G <http://www.amazon.fr/dp/B0052QT6BQ>`_ qui est vraiment toute petit.
 
-- a USB Wifi extension. I ordered the `Airlink Nano <http://www.amazon.fr/gp/product/B003X26PMO>`_
-  but did not get it yet.
+- un dongle USB  wifi. J'ai choisi l'`Airlink Nano <http://www.amazon.fr/gp/product/B003X26PMO>`_
+  pour les mêmes raisons: il dépasse à peine du port USB.
 
-- a USB battery so I don't have to plug the R-PI to a laptop or any power source.
-  I ordered `this one <http://www.amazon.fr/gp/product/B006LR6N3O>`_ and it should
-  be enough to power the system for hours hopefully. The open question is: will the
-  R-Pi have enough power so the wifi usb stick works ? If not I'll have to add
-  a powered USB hub, and figure out how to plug it into the battery.
+- Une batterie USB pour ne pas avoir à brancher le R-PI sur le courant ou sur
+  mon ordinateur. J'ai choisi `celui-ci <http://www.amazon.fr/gp/product/B006LR6N3O>`_
+  qui s'avère être beaucoup plus volumineux que le R-PI, mais qui fourni jusqu'à
+  1 ampère de courant - ce qui couvre les besoins et devrait permettre d'éviter
+  à avoir recours à un Hub USB alimenté.
 
-- A mini speaker. I ordered `that one <http://www.amazon.fr/gp/product/B001UEBN42>`_
-  because it seems like a very good speaker according to the reviews. It
-  can be charged via USB as well, and you can chain several one of them.
-  I don't expect a rich sound with deep bass given the speaker width, but
-  as long as it's clear enough I am happy. And I can always plug a real set
-  of speakers if needed.
+- Un mini-speaker. J'ai commandé le `X-Mini II <http://www.amazon.fr/gp/product/B001UEBN42>`_
+  qui est tout simplement incroyable. Ce petit speaker sort un très bon son
+  vu sa taille, est auto-alimenté et on peut en brancher plusieurs à la suite.
+  J'en ai acheté un deuxième pour mon fils et je le recommande chaudement.
+  Dans tous les cas, le Juke-Box peut toujours être branché sur de vrais enceintes.
 
-So, until I receive the speaker, the battery and the Wifi stick, I can
-start and build the system.
 
 
 La carte SD
 :::::::::::
 
-.. image:: http://ecx.images-amazon.com/images/I/41t75bYmx4L._SL500_AA300_.jpg
-   :alt: Carte SD 4 Gigas.
+.. figure:: http://ecx.images-amazon.com/images/I/41t75bYmx4L._SL500_AA300_.jpg
    :scale: 25
+   :target: http://www.amazon.fr/dp/B000WQKOQM/
 
+   Carte SD 4 Gigas
 
-When I received the R-Pi and started it with a flash card, it did not work
-at all. I controlled that the board was powered, using a multimeter, then
-I tried with 3 different cards, suspecting something was wrong with that.
+A réception du R-PI, j'ai branché une carte SD qui traînait chez moi et elle
+ne marchait pas du tout. J'ai controllé que la carte était bien alimenté
+avec un multimètre et j'ai testé trois autres cartes SD glanées dans
+les appareils photos de la famille en me disant que quelque chose clochait
+à ce niveau là.
 
-The last one kind of worked, but the Pi was freezing with an ugly -101 error
-during the boot process.
+Avec la dernière carte que j'ai testé, le R-PI bootait mais freezait au
+bout d'un moment avec une **-101 error**.
 
-Turns out the Pi is simply not working with some cards. It's not a matter
-of how cheap or expensive your card is, or the brand. Some work, some don't.
+Il s'avère que le R-PI est très sensible au type de carte SD qu'il reçoit.
+Rien à voir avec la marque ou le prix de la carte, ou sa classe. Certaines
+marchent, certaines de marchent pas...
 
-So if you get a Pi make sure you have a SD card that's listed here:
+Le plus simple est de prendre une carte qui est listée ici:
 http://elinux.org/RPi_VerifiedPeripherals#SD_cards
 
-I went to a supermarket and bought a SanDisk SDHC 4G class 4 at 5 euros
-that was listed there, and it worked like a charm.
+Je suis allé au supermarché du coin et j'ai pris une
+`SanDisk SDHC 4G class 4 <http://www.amazon.fr/dp/B000WQKOQM/>`_ à
+7 euros - et tout a fonctionné.
 
-Setting up the SD Card in Mac OS X is quite easy. There's even a
-Python script called `RasPiWrite <http://exaviorn.com/raspiwrite>`_ for
-this, but it bugged for me so I did it by hand. You basically get an
-image and *dd* it on the card.
+Préparer la carte SD pour le R-PI sous Mac OS X est très simple.
+Il y a même un script Python : `RasPiWrite <http://exaviorn.com/raspiwrite>`_
+qui automatise la tâche.
 
-I used the default Debian the R-Pi project provides::
+J'ai eu quelques bugs avec pour ma part alors j'ai utilisé
+quelques commandes shell.
+
+J'ai d'abord téléchargé l'image officielle::
 
     cd /tmp
     wget http://files.velocix.com/c1410/images/debian/6/debian6-19-04-2012/debian6-19-04-2012.zip
