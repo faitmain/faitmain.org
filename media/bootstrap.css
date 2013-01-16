@@ -1099,14 +1099,16 @@ table.highlighttable td.linenos {
 }
 
 .navbar a.big-logo {
-  font-size: 80px;
+  font-size: 75px;
 }
 
 .navbar a.small-logo {
   font-size: 40px;
 }
 
-
+.navbar .nav {
+  font-size: 15px;
+}
 
 
 .well {
