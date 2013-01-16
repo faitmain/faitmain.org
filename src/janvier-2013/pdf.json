@@ -1,8 +1,9 @@
-{"articles": ["../apropos.rst", 
+{"articles": ["_pdfindex.rst",
               "edito.rst", 
               "wtf.rst", 
               "dispositifs.rst", 
               "cindermedusae.rst",
               "labfab_rennes.rst", 
-              "raspberry-jukebox.rst"]
+              "raspberry-jukebox.rst",
+              "../apropos.rst"]
 }

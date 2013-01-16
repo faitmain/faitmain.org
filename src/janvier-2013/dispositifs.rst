@@ -1,5 +1,5 @@
 Piloter des dispositifs sans fil
-::::::::::::::::::::::::::::::::
+================================
 
 :date: 2012-12-12
 :category: electronique,informatique
@@ -10,8 +10,7 @@ Piloter des dispositifs sans fil
    :alt: Montage avec la Leonardo
 
 
-Partie 1: Réception en 433 MHz
-==============================
+**Partie 1: Réception en 433 MHz**
 
 Vous avez sans doute entendu parler ou vu des détecteurs de fumée, d'ouverture
 de porte, des télécommandes, des prises murales, etc. sans fil ?
@@ -87,7 +86,7 @@ au fur et à mesure de leur activation.
 
 
 Installation de la librairie RC Switch
-======================================
+::::::::::::::::::::::::::::::::::::::
 
 Télécharger `RCswitch_2.3.zip <https://code.google.com/p/rc-switch/downloads/detail?name=RCswitch_2.3.zip&can=2&q=>`_
 et extraire le contenu dans le sous-repertoire "libraries"
@@ -99,7 +98,7 @@ et extraire le contenu dans le sous-repertoire "libraries"
 
 
 Connexion du récepteur
-======================
+::::::::::::::::::::::
 
 Le récepteur est simple, il suffit de le connecter au courant (+5v et GND) et à
 un pin de l'Arduino ayant une interruption.
@@ -131,9 +130,8 @@ Sur notre Leonardo, si nous voulons connecter notre récepteur sur l'interrupt
    Montage
 
 
-
-Recevoir des codes
-==================
+Reçevoir des codes
+::::::::::::::::::
 
 Pour cela, nous allons lancer l'IDE Arduino et charger l'exemple de RCSwitch,
 "ReceiveDemo_Simple".
@@ -193,7 +191,7 @@ d'ouvrir ttyACM2 en 9600 baud. (remplacer /dev/ttyACMx par COMx sous windows
 
 
 Interprétation
-==============
+::::::::::::::
 
 De là à garder ces codes et à donner une information humainement
 compréhensible, il n'y a qu'un pas.
@@ -329,7 +327,7 @@ Comme vous pouvez le voir, nous n'avons pas de timer sur l'émetteur inconnu
 mais on en a un sur ceux qui sont connus.
 
 La suite ?
-==========
+::::::::::
 
 Dans la deuxième partie nous verrons comment envoyer des signaux à une prise en
 433 MHz, et envoyer et recevoir des signaux entre Arduino selon le même

@@ -1,3 +1,5 @@
+.. _apropos:
+
 A propos
 ========
 
@@ -32,7 +34,7 @@ Le site web
 :::::::::::
 
 Le site web est un site statique généré avec le moteur `kompost <https://github.com/faitmain/kompost>`_,
-un script `Python <http://www.python.org/>`_ créé pour l'occasion, et des 
+un script `Python <http://www.python.org/>`_ créé pour l'occasion, et des
 templates `Mako <http://www.makotemplates.org/>`_.
 
 Le contenu est au format `reStructuredText <https://fr.wikipedia.org/wiki/ReStructuredText>`_.
