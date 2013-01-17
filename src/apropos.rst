@@ -52,10 +52,22 @@ Chaque lien sortant est transformé en short link avec https://github.com/faitma
 Cette redirection permet de corriger d'éventuels liens cassés de manière
 centralisée.
 
+.. warning::
+
+   Fait Main ajoute à tous les liens vers Amazon.fr un tag de référencement, qui rapporte
+   au magazine un petit pourcentage des ventes réalisées si vous achetez sur cette boutique
+   quelque chose. A terme, l'idée serait de voir si ce référencement permet de couvrir les
+   frais d'hébergement du site.
+
+   Conscients que c'est une option *opt-out* - nous envisageons aussi un modèle de dons,
+   et les liens sont pour l'instant expérimentaux.
+
+
 Le moteur de recherche est un `web service <https://github.com/faitmain/search.faitmain.org>`_
 écrit avec `Cornice <http://cornice.readthedocs.org>`_,
 basé sur `Xapian <http://xapian.org/>`_, appelé en Javascript depuis l'écran
 de recherche. La base Xapian est mise à jour à chaque modification de contenu.
+
 
 Le PDF
 ::::::
