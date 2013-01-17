@@ -60,6 +60,7 @@ La carte SD
 
    Carte SD 4 Gigas
 
+
 A réception du R-PI, j'ai branché une carte SD qui traînait chez moi et elle
 ne marchait pas du tout. J'ai controllé que la carte était bien alimenté
 avec un multimètre et j'ai testé trois autres cartes SD glanées dans
