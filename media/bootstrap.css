@@ -1110,7 +1110,20 @@ table.highlighttable td.linenos {
   font-size: 15px;
 }
 
-
 .well {
   background-color: #fbfbfb;
 }
+
+.margin-right {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.margin-left {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+

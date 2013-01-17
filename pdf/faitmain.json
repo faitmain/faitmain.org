@@ -27,7 +27,8 @@
        ["heading3", { "fontName" : "Lobster" }],
        ["wfont", {"fontname" : "Tuffy-Oblique",
                   "fontSize": 14,
-                  "textColor": "white"}]
+                  "textColor": "white"}],
+       ["pull-right", {"alignment": "right"}]
 ],
 
 "pageTemplates" : {

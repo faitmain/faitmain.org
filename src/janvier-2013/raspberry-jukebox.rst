@@ -20,7 +20,6 @@ simple qui marcherait avec un R-PI nu.
 
 
 .. figure:: http://www.raspberrypi.org/wp-content/uploads/2011/07/raspi_blue_white.png
-   :scale: 50
 
    Le Raspberry-PI
 
@@ -56,6 +55,7 @@ La carte SD
 
 .. figure:: http://ecx.images-amazon.com/images/I/41t75bYmx4L._SL500_AA300_.jpg
    :scale: 25
+   :figclass: pull-right margin-left
    :target: http://www.amazon.fr/dp/B000WQKOQM/
 
    Carte SD 4 Gigas
