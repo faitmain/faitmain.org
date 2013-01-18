@@ -1,7 +1,7 @@
 David Larlet
 ============
 
-.. figure:: https://larlet.fr/static/david/david-larlet-big.jpg
+.. figure:: david_larlet.jpg
    :scale: 50
 
    David Larlet
