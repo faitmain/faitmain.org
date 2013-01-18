@@ -54,11 +54,37 @@ de manière distribuée et l'agrégation en temps-réel mais ceux-ci ne pourront
 être validés qu'après une adoption à large échelle de tels services, permettant
 d'atteindre la masse sociale critique pour rendre ces services utiles.
 
+Étudions la liste des composants nécessaires pour garder son indépendance
+vis-à-vis de services web centralisés :
+
+- *un nom de domaine*, ce qui coûte entre 5 et 15 € selon le niveau de support
+  et de confiance que l'on souhaite avoir à ce niveau, en bonus non négligeable
+  vous pouvez associer à ce domaine un certificat SSL qui assurera la
+  confidentialité des échanges entre vos visiteurs et vos publications.
+  Même si vos écrits ne sont pas critiques, pensez au fait qu'une banalisation
+  de tels usages permet de rendre une telle pratique moins suspecte lorsqu'elle
+  est nécessaire (nous ne vivons pas tous en démocratie) ;
+- *un hébergement*, il en existe à tous les prix et si vous vous dirigez
+  vers un site au rendu statique grâce à des générateurs locaux vous
+  n'êtes soumis à aucune contrainte technique si ce n'est celle de l'espace
+  disque et de la bande passante qui ne devraient pas poser problème
+  dans un premier temps au moins ;
+- *un logiciel de téléversement*, permettant de déployer le contenu généré
+  sur le serveur d'hébergement. Il en existe de nombreux qui ne demandent
+  aucune connaissance technique particulière.
+
+Et voilà ! Il ne reste plus qu'à faire connaître votre URI au reste du monde.
+N'oubliez pas de `produire un flux
+<http://openweb.eu.org/articles/syndication-mon-amour>`_ permettant à vos
+visiteurs de s'abonner à vos publications (cela est normalement géré par le
+générateur) sans avoir à dépendre d'une plateforme non pérenne et
+centralisée.
+
 ----
 
-Vos publications, même à titre futile, constituent une partie de votre identité
+**Vos publications, même à titre futile, constituent une partie de votre identité
 numérique, vos interactions sur le web participent à votre propre définition et
-à vos relations sociales. Il serait dommage de laisser des services tiers
+à vos relations sociales.** Il serait dommage de laisser des services tiers
 monétiser votre identité et vos interactions avec vos amis, d'autant plus
 qu'ils ne garantissent aucun engagement dans la durée et conduisent à de
 véritables génocides de données — que j'appelle datacides — lors de la
