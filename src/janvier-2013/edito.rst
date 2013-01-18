@@ -127,5 +127,5 @@ Ont participé à ce numéro :
   Traduction "Cindermedusae"
 - `Marcin Ignac </auteurs/marcin_ignac.html>`_ - Article "Cindermedusae".
 - `Jonathan Schemoul </auteurs/jonathan_schemoul.html>`_ - Article "Dispositifs sans fils"
-- `David Larlet </auteurs/david_larlet.html>`_ - Tribune - "Semences stériles et données futiles"
+- `David Larlet </auteurs/david_larlet.html>`_ - Tribune - "Semences stériles et données futiles"
 
