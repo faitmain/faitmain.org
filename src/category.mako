@@ -2,6 +2,13 @@
 
 <%inherit file="generic.mako"/>
 
+<%block name="first_h1"> 
+</%block>
+
+<div class="span12">
+<img class="centered span12" src="media/${category}_banner.jpg"/></a>
+</div>
+
 %if paths:
  <p>Tous les articles sur ce sujet:</p>
   <ul>
