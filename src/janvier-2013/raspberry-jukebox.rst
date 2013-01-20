@@ -256,11 +256,12 @@ la librairie **libshout3** qui est utilisée par l'application::
     $ sudo apt-get install python-virtualenv libshout3 libshout3-dev pkg-config python-dev
 
 Une fois les paquets systèmes installées, il faut créer un virtualenv et y installer
-JukeBox::
+**ez_setup** puis JukeBox::
 
     $ virtualenv --no-site-packages jukebox
     $ cd jukebox
     $ bin/easy_install -U distribute
+    $ bin/pip install ez_setup
     $ bin/pip install jukebox
 
 
