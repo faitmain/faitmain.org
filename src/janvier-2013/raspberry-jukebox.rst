@@ -10,7 +10,6 @@ Un Juke Box avec le Raspberry-Pi
 
    **Article en cours de traduction**
 
-
 .. figure:: raspberry-jukebox.jpg
 
    Le Raspberry-PI Jukebox
@@ -93,169 +92,187 @@ qui automatise la tâche.
 J'ai eu quelques bugs avec pour ma part alors j'ai utilisé
 quelques commandes shell.
 
-J'ai d'abord téléchargé l'image officielle::
+J'ai d'abord téléchargé l'image **Raspbian** officielle. C'est une
+Debian optimisée pour le R-PI::
 
     cd /tmp
-    wget http://files.velocix.com/c1410/images/debian/6/debian6-19-04-2012/debian6-19-04-2012.zip
-    unzip debian6-19-04-2012.zip
+    wget http://ftp.snt.utwente.nl/pub/software/rpi/images/raspbian/2012-10-28-wheezy-raspbian/2012-10-28-wheezy-raspbian.zip
+    unzip 2012-10-28-wheezy-raspbian.zip
 
-Once you have the image on your disk, just plug the SD card to your computer,
-unmount any partition that gets mounted and create the disk::
+Vous pouvez regarder sur http://www.raspberrypi.org/downloads s'il
+n'y en a pas une plus récente.
 
-    diskutil umount /dev/disk2s1
-    sudo dd bs=1m if=debian6-19-04-2012.img of=/dev/disk2
-    diskutil eject /dev/disk2s1
+Une fois que l'image est téléchargée et dézippée, il convient de la transférer
+sur la carte SD avec la commande **dd**.
 
-My first attempt failed because I was calling *dd* on **/dev/disk2s1**, not
-on the root - **/dev/disk2**. It was copying the image but the R-Pi was not
-booting of course.
+Sous **Mac OS X**, la commande **diskutil list** m'a permis de trouver le
+disque correspondant à la carte : **/dev/disk3**
 
-Once you have it right, plug it and run your R-Pi. You should get a prompt
-to log in. The R-Pi user is **pi** and the password **raspberry**.
+Puis le transfert s'opère en démontant la carte et en utilisant **dd**:
+
+    $ diskutil umountDisk /dev/disk3
+    Unmount of all volumes on disk3 was successful
+
+    $ sudo dd bs=1m if=/tmp/2012-10-28-wheezy-raspbian.img of=/dev/rdisk3
+    [... 5-10 minutes ...]
+    1850+0 records in
+    1850+0 records out
+    1939865600 bytes transferred in 388.257496 secs (4996338 bytes/sec)
+
+    $ diskutil eject /dev/disk3
+    Disk /dev/disk3 ejected
+
+Notez que la commande **dd** prend beaucoup de temps à s'exécuter. La copie
+peut durer de 5 à 10 minutes.
 
 .. note::
 
-   My Pi restarted automatically several times. Looks like the normal
-   behavior the first time you run the Debian image
+   La notation **rdisk3** est spécifique à Mac OS X. Elle permet d'accélerer
+   la procédure. Sous Linux, il faut enlever le *"r"*.
 
-The next issue I had was about the partition sizes. Playing in the R-PI
-I ended up out of space really quickly and realized I had only 2G instead
-of the 4 gigs my card has. The Debian system is around 1.7G so it's not
-really usable if you don't resize the partition.
-
-To do so, you can just
-follow this *excellent* `blog post <https://projects.drogon.net/raspberry-pi/initial-setup1>`_,
-and apply everything the author proposes.
+Une fois que la carte est prête, il suffit de la plugguer dans R-PI et de
+le démarrer avec un écran & un clavier branchés.
 
 
-Mise à jour du système
-::::::::::::::::::::::
+Configuration de base et wifi
+:::::::::::::::::::::::::::::
 
+Vous devriez voir défiler la séquence de boot puis obtenir un écran
+de configuration.
 
-Once your R-Pi happily runs, it's time to update your system so you have all the
-required packages.
+- étendez la partition sur toute la carte SD grâce à **expand_rootds**,
+- overclockez votre R-PI dans le menu **overclock**. J'ai mis le mien
+  en **medium**
+- activez le serveur SSH dans **ssh**
+- désactivez le desktop dans **boot_behavior**
 
-If you applied all Gordons tips, you should be able to access to your R-Pi from
-your computer via SSH by plugging it to your local network. Booting the Pi with the
-network cable plugged will DHCP for you. The IP is displayed somewhere in the
-startup screen. Or just *nmap 192.168.1.** on your network.
+Je n'ai pas reconfiguré le clavier car j'utilise un QWERTY.
 
-I highly recommend working via SSH because the video output resolution is
-really bad by default and will burn your eyes. Maybe there's a simple way
-to change the resolution but I failed to do so.
+Une fois la configuration effectuée, branchez le dongle Wifi et
+relancez le R-PI via **Finish**, Raspbian va appliquer au redémarrage
+la configuration, et un prompt de login doit apparaître.
 
-Now for the update::
+Pour se logguer le user est **pi** et le mot de passe **raspberry**.
 
-    sudo apt-get update
-    sudo apt-get install alsa-utils ntpdate mpg123 python-virtualenv libshout3 libshout3-dev pkg-config python-dev
+Une fois loggué, éditez le fichier **/etc/network/interfaces**
+pour que le dongle s'autoconnecte au réseau. J'ai branché le dongle sur
+le port USB du bas, ce qui correspond selon **iwconfig** à l'interface
+**wlan0**.
 
-This is the minimal setup to my knowledge to run the Jukebox app.
-
-Son
-:::
-
-By default the sound is not activated, and once activated it plays
-via the HDMI port. If you want it on the jack, you need to change
-the settings with *amixer*.
-
-::
-
-    sudo modprobe snd_bcm2835
-    sudo amixer cset numid=3 1
-
-If you want to go back to the HDMI output, just do::
-
-    sudo amixer cset numid=3 2
-
-Then try a WAV file to check that it works::
-
-    wget http://www.freespecialeffects.co.uk/soundfx/sirens/police_s.wav
-    aplay police_s.wav
-
-I found these tips `here <http://www.raspberrypi-spy.co.uk/2012/06/raspberry-pi-speakers-analog-sound-test/>`_.
-Not sure why the author use sudo. It works with your *pi* user of course.
-
-Disque USB
-::::::::::
-
-I had to manually mount my disk::
-
-    sudo mkdir /media/usbstick
-    sudo mount -t vfat  -o uid=pi,gid=pi /dev/sda1 /media/usbstick/
-
-I then tried to play a MP3 file::
-
-    mpg123 "/media/usbstick/Renegades Of Jazz - Go Jazz Not Ape! Vol.2.mp3"
-
-Great success |thumbsup| -- and great mix from `ParisDjs <http://parisdjs.com>`_.
-
-
-JukeBox
-:::::::
-
-The initial plan was to write a web app my self, on the top of
-`gst-python <http://gstreamer.freedesktop.org/modules/gst-python.html>`_, by
-installing Gstreamer.
-
-But after 3 hours of trying to make it work, installing many packages, and
-trying to understand why this #%*! alsasink failed with gstreamer, I just
-wiped my image and went for a simpler solution on the top of *mpeg123*,
-which works really well and don't have all those dependencies like GTK.;
-
-And then I found `Jukebox <https://github.com/lociii/jukebox>`_ which is
-*exactly* what I wanted to write. And it works with *mpeg123* so why
-bother :)
-
-.. image:: http://a248.e.akamai.net/camo.github.com/bb66587466563ff4b89af700ba14d0f31caabff0/687474703a2f2f7374617469632e6a656e736e6973746c65722e64652f6a756b65626f782e706e67
-   :alt: L'application Django Jukebox
-
-
-
-To install Jukebox, simply create a new virtualenv with a fresh Distribute::
-
-    virtualenv --no-site-packages jukebox
-    cd jukebox
-    bin/easy_install -U distribute
-
-Then just follow the instructions on the `Jukebox github <https://github.com/lociii/jukebox>`_.
-everything should go smoothly with the libraries installed previously.
-
-Yay, I have a R-Pi Jukebox  |thumbsup|
-
-It sucks almost 100% of the CPU - Maybe I should profile the Python app, because
-it's the one sucking the CPU, not the mp3 player.
-
-The `AirLink 101 <http://www.amazon.fr/gp/product/B003X26PMO>`_ wifi dongle
-on the other hand was a bit tedious to install. It's a Realtek 8188CUS but
-a 8191SU driver seems to work well.
-
-Don't plug it, it will freeze your R-PI. Edit the **etc/modprobe.d/blacklist.conf**
-file and add::
-
-    blacklist rtl8192cu
-
-Then, before you plug it::
-
-    $ wget http://www.electrictea.co.uk/rpi/8192cu.tar.gz
-    $ tar -xzvf 8192cu.tar.gz
-    $ sudo install -p -m 644 8192cu.ko /lib/modules/3.1.9+/kernel/drivers/net/wireless/
-    $ sudo depmod -a
-    $ sudo apt-get install firmware-realtek dhcpcd wpasupplicant
-
-Now you can plug it and reboot your R-Pi. Things should work fine.
-
-Tweak your **/etc/network/interfaces** if you want the dongle to autoconnect
-to your wifi. Here's my relevant section for *wlan0*::
+Voici ma configuration pour  *wlan0*::
 
 
     auto wlan0
 
     iface wlan0 inet dhcp
         wpa-ssid Villa_Des_Mouches
-        wpa-psk MyPassWord
+        wpa-psk motdepasse
 
 
-That's all. Now when I reboot the R-Pi via the hardware, it gets an IP via the WIfi
-Dongle and I can happily ssh it or get into the Juke box app.
+**Villa_Des_Mouches** est le ESSID de mon réseau wifi. Une fois le fichier
+modifié, relancer le réseau::
 
-I am really happy I did not have to add a powered USB Hub.
+    $ sudo /etc/init.d/networking restart
+
+
+Votre R-PI va obtenir une addresse IP sur le réseau sur laquelle
+on pourra se connecter en SSH pour la suite.
+
+Eteignez le R-PI avec **sudo halt**, puis débranchez l'écran et le clavier.
+Branchez la clef USB à la place du clavier et relancer le R-PI.
+
+Au bout d'un moment il devrait réapparaitre dans le réseau et être
+accessible en SSH. Le seul défaut de cette technique est que l'addresse
+IP peut changer. Une addresse IP statique peut être préferée mais
+dans mon cas ce n'est pas très grave car je retrouve facilement le R-PI
+en scannant le réseau avec *nmap 192.168.1.**.
+
+    $ ssh pi@192.168.1.96
+    Linux raspberrypi 3.2.27+ #250 PREEMPT Thu Oct 18 19:03:02 BST 2012 armv6l
+    ...
+
+    Last login: Sun Oct 28 23:10:12 2012
+    pi@raspberrypi ~ $
+
+
+Pour la suite, il est plus simple de tout faire en SSH car à moins d'avoir
+un écran adapté, la résolution du mode console du R-PI sur un écran
+moderne va vous brûler les yeux en 5 minutes.
+
+Testez que le son fonctionne en branchant une enceinte amplifiée sur le R-PI et
+en téléchargeant un **WAV** et en le jouant avec **aplay**::
+
+    $ wget http://www.freespecialeffects.co.uk/soundfx/sirens/police_s.wav
+    $ aplay police_s.wav
+    Playing WAVE 'police_s.wav' : Unsigned 8 bit, Rate 22000 Hz, Mono
+    ^CAborted by signal Interrupt...
+
+Vous devriez entendre une sirène.
+
+Installez maintenant **mpg123** pour jouer des MP3 présents sur la clef
+USB. Il a fallu monter le disque manuellement par contre:;
+
+    $ sudo mkdir /media/usbstick
+    $ sudo mount -t vfat  -o uid=pi,gid=pi /dev/sda1 /media/usbstick
+
+    $ mpg123 "/media/usbstick/01 Hidden Orchestra - Flight Mixtape.mp3"
+    High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+        version 1.14.4; written and copyright by Michael Hipp and others
+        free software (LGPL/GPL) without any warranty but with best wishes
+
+    Directory: /media/usbstick/
+    Playing MPEG stream 1 of 1: 01 Hidden Orchestra - Flight Mixtape.mp3 ...
+
+    MPEG 1.0 layer III, 320 kbit/s, 44100 Hz joint-stereo
+    Title:   Hidden Orchestra - Flight Mixtape
+    Artist:  Hidden Orchestra (Joe Acheson)
+    Comment: Exclusive mix for http://www.parisdjs.com
+    Album:   Paris DJs Podcast
+    Year:    2012                            Genre:  Podcast
+
+
+Victoire ! Et un super mix de `ParisDjs <http://parisdjs.com>`_ avec un son
+propre.
+
+**mpg123** utilise environ 6% de CPU, ce qui est plus qu'acceptable.
+
+
+Application JukeBox
+:::::::::::::::::::
+
+Pour la partie JukeBox, je comptais écrire une petite application web
+au dessus de **mpg123** et je le ferais peut-être un jour, mais
+il en existe déja plusieurs.
+
+`Jukebox <https://github.com/lociii/jukebox>`_ est écrite en Python
+avec Django et fourni les fonctionnalitée de base d'un JukeBox,
+à savoir un affichage des morceaux présents et un moyen pour les
+utilisateurs du réseau d'ajouter des morceaux dans la playlist.
+
+.. image:: http://a248.e.akamai.net/camo.github.com/bb66587466563ff4b89af700ba14d0f31caabff0/687474703a2f2f7374617469632e6a656e736e6973746c65722e64652f6a756b65626f782e706e67
+   :alt: L'application Django Jukebox
+
+Pour installer JukeBox, il faut un environement Python/Virtualenv mais aussi
+la librairie **libshout3** qui est utilisée par l'application::
+
+    $ sudo apt-get install python-virtualenv libshout3 libshout3-dev pkg-config python-dev
+
+Une fois les paquets systèmes installées, il faut créer un virtualenv et y installer
+JukeBox::
+
+    $ virtualenv --no-site-packages jukebox
+    $ cd jukebox
+    $ bin/easy_install -U distribute
+    $ bin/pip install jukebox
+
+
+Pour la configuration de Jukebox, tout est expliqué ici: https://github.com/lociii/jukebox
+
+Le gros défaut de cette application est qu'elle force les utilisateurs
+à utiliser un compte social comme Twitter - et je n'ai pas eu le temps
+de plugger un système d'authentification plus simple.
+
+Quoi qu'il en soit je suis ravi du résultat - ce petit juke box peut se brancher
+sur de bonnes enceintes et rivaliser avec les systèmes sans fils hors de prix
+du marché, comme les *Sonos*.
+
