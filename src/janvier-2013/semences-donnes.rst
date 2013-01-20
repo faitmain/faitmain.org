@@ -7,6 +7,10 @@ Tribune - Semences stériles et données futiles
 :level: vulgarisation
 :author: David Larlet
 
+.. figure:: semences-donnees-champ.jpg
+
+   Champ de blé
+
 
 La problématique des `semences génétiquement modifiées
 <https://fr.wikipedia.org/wiki/Organisme_g%C3%A9n%C3%A9tiquement_modifi%C3%A9>`_
@@ -80,7 +84,11 @@ visiteurs de s'abonner à vos publications (cela est normalement géré par le
 générateur) sans avoir à dépendre d'une plateforme non pérenne et
 centralisée.
 
-----
+
+.. figure:: semences-donnees-barbeles.jpg
+
+   Barbelés
+
 
 **Vos publications, même à titre futile, constituent une partie de votre identité
 numérique, vos interactions sur le web participent à votre propre définition et
