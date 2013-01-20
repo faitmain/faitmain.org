@@ -70,9 +70,9 @@ Une image est placé à coté de l'article et mise dans une balise **figure**::
 
     .. figure:: nom_fichier.jpg
 
-   :target: http://un.lien.clickable(optionel)
+      :target: http://un.lien.clickable(optionel)
 
-   La légende de l'image (obligatoire)
+      La légende de l'image (obligatoire)
 
 
 Pour afficher une image plus petite mais conserver son redimensionnement automatique,
@@ -82,9 +82,9 @@ Exemple pour une image qui fera 50% de l'écran et sera centrée ::
 
     .. figure:: nom_fichier.jpg
 
-   :scale: 50
+      :scale: 50
 
-   La légende de l'image (obligatoire)
+      La légende de l'image (obligatoire)
 
 
 Pour les petites images, le png est toleré.
