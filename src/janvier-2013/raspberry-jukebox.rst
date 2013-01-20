@@ -6,9 +6,6 @@ Un Juke Box avec le Raspberry-Pi
 :level: découverte
 :author: Tarek Ziadé
 
-.. note::
-
-   **Article en cours de traduction**
 
 .. figure:: raspberry-jukebox.jpg
 
@@ -108,7 +105,7 @@ sur la carte SD avec la commande **dd**.
 Sous **Mac OS X**, la commande **diskutil list** m'a permis de trouver le
 disque correspondant à la carte : **/dev/disk3**
 
-Puis le transfert s'opère en démontant la carte et en utilisant **dd**:
+Puis le transfert s'opère en démontant la carte et en utilisant **dd**::
 
     $ diskutil umountDisk /dev/disk3
     Unmount of all volumes on disk3 was successful
@@ -161,7 +158,6 @@ le port USB du bas, ce qui correspond selon **iwconfig** à l'interface
 
 Voici ma configuration pour  *wlan0*::
 
-
     auto wlan0
 
     iface wlan0 inet dhcp
@@ -187,6 +183,8 @@ IP peut changer. Une addresse IP statique peut être préferée mais
 dans mon cas ce n'est pas très grave car je retrouve facilement le R-PI
 en scannant le réseau avec *nmap 192.168.1.**.
 
+::
+
     $ ssh pi@192.168.1.96
     Linux raspberrypi 3.2.27+ #250 PREEMPT Thu Oct 18 19:03:02 BST 2012 armv6l
     ...
@@ -210,7 +208,7 @@ en téléchargeant un **WAV** et en le jouant avec **aplay**::
 Vous devriez entendre une sirène.
 
 Installez maintenant **mpg123** pour jouer des MP3 présents sur la clef
-USB. Il a fallu monter le disque manuellement par contre:;
+USB. Il a fallu monter le disque manuellement par contre::
 
     $ sudo mkdir /media/usbstick
     $ sudo mount -t vfat  -o uid=pi,gid=pi /dev/sda1 /media/usbstick
