@@ -24,7 +24,7 @@ une communauté de contributeurs, que ce soit pour l'écriture d'articles,
 les relectures ou la conception et la mise à jour du site (code ou design)-
 ou tout simplement pour proposer un sujet ou un auteur.
 
-Si vous avec envie de participer il suffit de vous inscrire sur la
+Si vous avez envie de participer il suffit de vous inscrire sur la
 `mailing list </mailing.html>`_ et de vous présenter - ou bien de forker
 un de nos `repositories sur Github <http://github.com/faitmain>`_.
 
@@ -74,7 +74,7 @@ de recherche. La base Xapian est mise à jour à chaque modification de contenu.
 Le PDF
 ::::::
 
-Le PDF est géneré grâce à `rst2pdf <http://rst2pdf.ralsina.com.ar>`_, qui lui même utilise
+Le PDF est généré grâce à `rst2pdf <http://rst2pdf.ralsina.com.ar>`_, qui lui même utilise
 `ReportLab <http://www.reportlab.com/software/opensource/rl-toolkit/>`_.
 
 La mise en page est spartiate mais suffisante pour une lecture sur écran.

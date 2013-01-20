@@ -26,13 +26,13 @@ Cindermedusae - Les Créatures Génératives
 réalisé très vite (en une semaine) et a été intensif. Mais les résultats
 que j'ai obtenus sont très concluants. J'ai toujours aimé l'idée de
 *livre génératif* et la première fois que j'ai entendu parler du concours
-de `Written Images <http://writtenimages.net/>`_ ça m'a tout de suite
+de `Written Images <http://writtenimages.net/>`_ cela m'a tout de suite
 donné envie de participer.
 
 *Written Images* est un projet de livre génératif qui a été financé via
 la communauté `KickStarter <http://www.kickstarter.com/projects/deffekt/written-images>`_
 et qui présente des images générées par des programmes fournis par des artistes.
-Chaque impression de livre est calculée individuellement - afin de créer des
+Chaque impression de livre est calculée individuellement — afin de créer des
 livres uniques.
 
 *Cindermedusae* a été selectionné avec 47 autres projets pour faire partie
@@ -51,11 +51,11 @@ pouvez trouver plus d'information sur ce projet
 `ici <http://www.hosoyaschaefer.com/2010/10/universum-der-ozeane-2/>`_.
 
 Nous avions beaucoup de réunions pour discuter de l'ergonomie du jeu et
-du comportement des créatures sous-marines - et c'est probablement
+du comportement des créatures sous-marines — et c'est probablement
 ce qui m'a intéressé aux méduses géantes.
 
-Ces animaux sont extraordinaires - j'adore la façon dont elles se
-`déplacent lentement <http://vimeo.com/453319>`_.  Un choix parfait
+Ces animaux sont extraordinaires — j'adore la façon dont elles se
+`déplacent lentement <http://vimeo.com/453319>`_. Un choix parfait
 pour tordre des fils de fers avec du code.
 
 
@@ -78,10 +78,10 @@ de l'animation de méduses avec des exemples
 de code en `processing.js <http://processingjs.org/>`_, le portage de
 `Processing <http://processing.org/>`_ en Javascript.
 
-La plupart des exemples sont interactifs et en 2D - c'est plus facile à
+La plupart des exemples sont interactifs et en 2D — c'est plus facile à
 comprendre (et à dessiner !). Dans quelques cas je présente des exemples
 en 3D et il faut un navigateur compatible `WebGL <https://fr.wikipedia.org/wiki/WebGL>`_
-pour que ça fonctionne.
+pour que cela fonctionne.
 
 Tête de la méduse
 :::::::::::::::::
@@ -119,7 +119,7 @@ de la méduse. Nous nous y intéresserons plus tard.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh01.html
 
-   Vue des têtes du dessus - cliquez pour le code
+   Vue des têtes du dessus — cliquez pour le code
 
 Si l'on regarde la tête de notre méduse en 2D sur le côté, c'est aussi
 un cercle, puisqu'à la fin nous jouons avec des sphères.
@@ -128,7 +128,7 @@ La différence avec le calcul précédent est que cette fois-ci, la
 variation de l'angle *theta* va de 0 (en haut) à 2π (en bas)
 
 La tête est symétrique le long de l'axe Y, donc nous construirons 2 points
-à chaque étape - un à gauche et un à droite :
+à chaque étape — un à gauche et un à droite :
 
 ::
 
@@ -153,7 +153,7 @@ obtenu après π/2 vers le bas, afin que les deux arcs ne se confondent pas :
         y = -r * sin(theta) + r * 0.5
     }
 
-Enfin, on arrondi les angles pour un meilleur rendu, et aussi pour éviter
+Enfin, on arrondit les angles pour un meilleur rendu, et aussi pour éviter
 des artefacts d'ombre. Je ne vais pas décrire cette étape ici, car
 c'est juste un *if* et un *sin* supplémentaires. Vous pouvez lire le
 code source fourni.
@@ -162,7 +162,7 @@ code source fourni.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh02.html
 
-   Vue des têtes de côté  - cliquez pour le code
+   Vue des têtes de côté — cliquez pour le code
 
 ----
 
@@ -175,14 +175,14 @@ Pour chaque frame où je calcule les positions x et y, je calcule aussi
 `la droite normale à la surface <https://fr.wikipedia.org/wiki/Normale_%C3%A0_une_surface>`_.
 
 Ensuite, si l'animation est lancée, je déplace le point le long de la normale
-en utilisant la valeur de la fonction *sin()* à un instant *t* . Cette formule
-déplace les points mais sans rien faire de plus, la tête se mettrait à faire
-des pulsations comme un cœur, en grossissant et rétrécissant - car tous les
-points se déplacent en phase.
+en utilisant la valeur de la fonction *sin()* à un instant *t* . Cette formule
+déplace les points mais sans rien faire de plus, la tête se mettrait à faire
+des pulsations comme un cœur, en grossissant et rétrécissant — car tous les
+points se déplacent en phase.
 
-C'est pourquoi j'ajoute *y \* 0.5* à *t* pour introduire un décalage de phase
+C'est pourquoi j'ajoute *y \* 0.5* à *t* pour introduire un décalage de phase
 le long de l'axe Y et la structure en fil de fer (*wireframe* ou *mesh*
-en anglais) commence à bouger d'une manière un peu plus naturelle.
+en anglais) commence à bouger d'une manière un peu plus naturelle.
 
 
 .. code-block:: c++
@@ -195,7 +195,7 @@ en anglais) commence à bouger d'une manière un peu plus naturelle.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh03.html
 
-   Vue animée des têtes de côté - cliquez pour code & animation
+   Vue animée des têtes de côté — cliquez pour code & animation
 
 J'ai décidé de combiner toutes les étapes dans un script processing.js en 3D,
 et à ma surprise le code obtenu est quasiment un copier-coller de la version C++.
@@ -206,26 +206,26 @@ donc il n'est pas optimal : les performances ne sont pas au rendez-vous.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh04.html
 
-   Vue animée en 3D - cliquez pour code & animation
+   Vue animée en 3D — cliquez pour code & animation
 
 Tentacules
 ::::::::::
 
-**Problème** Etant donné une courbe - ou plutôt une ligne polygonale, fabriquez un
+**Problème** Etant donné une courbe — ou plutôt une ligne polygonale, fabriquez un
 mesh en forme de tube autour de cette ligne.
 
 **Solution** On démarre avec trois vecteurs perpendiculaires :
 
 - **Forward** - généralement le vecteur normal à l'endroit où je veux accrocher
-  la tentacule - ou si j'ai l'équation de la courbe, ce serait le vecteur
+  la tentacule — ou si j'ai l'équation de la courbe, ce serait le vecteur
   tangeant.
 
-- **Up**  - choisi arbitrairement : *(0,1,0)* et
+- **Up** - choisi arbitrairement : *(0,1,0)* et
 
 - **Left** qui peut être calculé avec `la règle de la main
   droite <https://fr.wikipedia.org/wiki/Regle_de_la_main_droite>`_.
 
-La formule de la la règle de la main droite s'applique ainsi :
+La formule de la règle de la main droite s'applique ainsi :
 
 ::
 
@@ -270,7 +270,7 @@ apparaisse plus fine.
 Le deuxième ajout est un enroulement de la
 tentacule en fonction de la position de la souris.
 La tentacule est de plus en plus enroulée au fur et à mesure que l'on
-se rapproche de la pointe - la force de cette enroulement est
+se rapproche de la pointe — la force de cette enroulement est
 représentée par des lignes rouges.
 
 
@@ -278,7 +278,7 @@ représentée par des lignes rouges.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh05.html
 
-   Tentacules animées - cliquez sur l'image
+   Tentacules animées — cliquez sur l'image
 
 Nous sommes maintenant prêts à attacher les tentacules à la tête.
 Je regroupe tous les éléments car le travail des ombres masquera les
@@ -289,7 +289,7 @@ discontinuités de la surface.
    :scale: 50
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/mesh06.html
 
-   Tentacules & corps animés - cliquez sur l'image
+   Tentacules & corps animés — cliquez sur l'image
 
 Rendu final
 :::::::::::
@@ -324,7 +324,7 @@ au comportement étrange.
 
 .. figure:: diffuse.jpg
 
-   Lumière diffuse appliqué au modèle 3D.
+   Lumière diffuse appliquée au modèle 3D.
 
 
 Hachurage
@@ -335,8 +335,8 @@ avoir un rendu *croquis*. J'ai basé mon implémentation sur du code
 issu du livre `OpenGL Shading Language Book <http://www.amazon.fr/OpenGL-Shading-Language-Randi-Rost/dp/0321637631>`_
 
 L'algorithme génère d'abord des traits verticaux avec les coordonnées
-de texture, puis choisi la densité des traits en fonction de la lumière
-diffuse. Moins il y a de lumière, plus la densité de traits augmente.
+de texture, puis choisit la densité des traits en fonction de la lumière
+diffuse. Moins il y a de lumière, plus la densité des traits augmente.
 
 Un paramètre important pour un beau rendu est de bien choisir l'épaisseur
 des traits : ni trop fin pour ne pas avoir d'effet de
@@ -351,7 +351,7 @@ bonne épaisseur.
 .. figure:: hatching.jpg
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/hatching_hi.jpg
 
-   Hachurage - cliquez pour la version hi-res
+   Hachurage — cliquez pour la version hi-res
 
 Malheureusement il n'y a aucun exemple basé sur processing.js, en partie car
 j'utilise des fonctionnalités qui dépendent des extensions *WebGL GLSL*, comme
@@ -377,7 +377,7 @@ pour donner une impression de coloriage à la main.
 .. figure:: color_layers.jpg
    :target: http://marcinignac.com/blog/cindermedusae-making-generative-creatures/color_layers_hi.jpg
 
-   Colorisation - cliquez pour la version hi-res
+   Colorisation — cliquez pour la version hi-res
 
 
 .. figure:: medusae_final.jpg

@@ -15,7 +15,7 @@ Rencontre au LabFab de Rennes
 Depuis que je fréquente Hugues Aubin aka
 `@Hugobiwan <https://twitter.com/Hugobiwan>`_ sur Twitter, je suis chaque fois
 surpris non seulement par ses projets et par les nouvelles qu'il apporte, mais
-aussi (et surtout) par la ferveur et l'énergie qui l'anime.
+aussi (et surtout) par la ferveur et l'énergie qui l'animent.
 
 Rencontre avec le porteur du projet "LabFab", un *FabLab* à Rennes, qui
 a ouvert ses portes l'année dernière, et qui va bientôt employer à temps plein
@@ -64,7 +64,7 @@ même s'il ne fait pas de doute que ces lieux ouverts sont très intéressants, 
 reste à savoir comment les mettre en place.
 
 À l'origine, le but de l'expérience est d'essayer quelque chose, et d'essayer
-vite, en investissant peu de moyen d'un part, mais surtout sans attendre
+vite, en investissant peu de moyen d'une part, mais surtout sans attendre
 quelque chose en retour : ni objectif, ni réussite, ni résultat particulier.
 Le but est justement de savoir comment ça va se passer, comment l'espace
 est pris en main, et qui s'y intéresse.
@@ -104,10 +104,10 @@ questions, que les gens se posent un tas de question : quel va être le regard
 des experts auprès des amateurs ? Quelles questions est-ce que cela pose, de
 fabriquer des choses sans brevet, sans règles sur la "propriété intellectuelle" ?
 
-Sans compter que si le LabFab s'inscrit dans un environnement local, il y à une
-volontée d'essemer, de faire qu'un écosystème international se développe.
+Sans compter que si le LabFab s'inscrit dans un environnement local, il y a une
+volonté d'essemer, de faire qu'un écosystème international se développe.
 
-    En 2012 à Monréal lors du MakerFair, ce qui se voyait le plus c'était
+    En 2012 à Montréal lors du MakerFair, ce qui se voyait le plus c'était
     "tout le monde monte son FabLab" !
 
 
@@ -172,7 +172,7 @@ imposer une licence ou proposer des licences libres - puisque c'est le but.
     de Creative Commons. Parfois ils ne savent même pas que ça existe. Alors
     on leur demande de partager quelque chose : leur produit, une compétence,
     un savoir ou une petite partie de leur projet. Certains arrivent et savent
-    tout de suite quelle licence utiliser, mais la majorité découvrent le
+    tout de suite quelle licence utiliser, mais la majorité découvre le
     concept en venant ici.
 
 Ça laisse songeur…
@@ -194,7 +194,7 @@ Le lendemain de notre entretien, je suis passé à un atelier sur "Arduino
 connecté", où j'en ai profité pour faire quelques photos. Il y avait quelque
 chose de magique à voir autour de cette table toutes ces personnes : plusieurs
 étudiants, un vieux pépé qui a fait de l'électronique, un couple qui vient en
-apprendre plus, et tous avec des connaissances et compétences très variés.
+apprendre plus, et tous avec des connaissances et compétences très variées.
 
 Si seulement j'avais un peu plus de temps… En tout cas, je vous invite à
 franchir les portes de ce FabLab, il y a plein de bonnes choses.

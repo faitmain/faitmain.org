@@ -22,20 +22,20 @@ simple qui marcherait avec un R-PI nu.
 
 Le projet est un Juke-Box sans fil que je peux trimballer chez moi, qui
 se connecte à mon réseau local en wifi - et qui fournit une application web
-où tout le monde peux se connecter pour ajouter des morceaux de musique
+où tout le monde peut se connecter pour ajouter des morceaux de musique
 dans une file d'attente.
 
 Le projet final est une petite boite qui contient le R-PI et:
 
 - une clé USB pour stocker de la musique. J'ai choisi la
-  `PNY 16G <http://www.amazon.fr/dp/B0052QT6BQ>`_ qui est vraiment toute petit.
+  `PNY 16G <http://www.amazon.fr/dp/B0052QT6BQ>`_ qui est vraiment toute petite.
 
 - un dongle USB  wifi. J'ai choisi l'`Airlink Nano <http://www.amazon.fr/gp/product/B003X26PMO>`_
   pour les mêmes raisons: il dépasse à peine du port USB.
 
 - Une batterie USB pour ne pas avoir à brancher le R-PI sur le courant ou sur
   mon ordinateur. J'ai choisi `celui-ci <http://www.amazon.fr/gp/product/B006LR6N3O>`_
-  qui s'avère être beaucoup plus volumineux que le R-PI, mais qui fourni jusqu'à
+  qui s'avère être beaucoup plus volumineux que le R-PI, mais qui fournit jusqu'à
   1 ampère de courant - ce qui couvre les besoins et devrait permettre d'éviter
   à avoir recours à un Hub USB alimenté.
 
@@ -43,7 +43,7 @@ Le projet final est une petite boite qui contient le R-PI et:
   qui est tout simplement incroyable. Ce petit speaker sort un très bon son
   vu sa taille, est auto-alimenté et on peut en brancher plusieurs à la suite.
   J'en ai acheté un deuxième pour mon fils et je le recommande chaudement.
-  Dans tous les cas, le Juke-Box peut toujours être branché sur de vrais enceintes.
+  Dans tous les cas, le Juke-Box peut toujours être branché sur de vraies enceintes.
 
 Petit détail agréable: Le speaker et la batterie USB ont été tous les deux livrés
 pré-chargés.
@@ -63,7 +63,7 @@ La carte SD
 
 
 A réception du R-PI, j'ai branché une carte SD qui traînait chez moi et elle
-ne marchait pas du tout. J'ai controllé que la carte était bien alimenté
+ne marchait pas du tout. J'ai contrôlé que la carte était bien alimentée
 avec un multimètre et j'ai testé trois autres cartes SD glanées dans
 les appareils photos de la famille en me disant que quelque chose clochait
 à ce niveau là.
@@ -243,7 +243,7 @@ au dessus de **mpg123** et je le ferais peut-être un jour, mais
 il en existe déja plusieurs.
 
 `Jukebox <https://github.com/lociii/jukebox>`_ est écrite en Python
-avec Django et fourni les fonctionnalitée de base d'un JukeBox,
+avec Django et fournit les fonctionnalitée de base d'un JukeBox,
 à savoir un affichage des morceaux présents et un moyen pour les
 utilisateurs du réseau d'ajouter des morceaux dans la playlist.
 
@@ -255,7 +255,7 @@ la librairie **libshout3** qui est utilisée par l'application::
 
     $ sudo apt-get install python-virtualenv libshout3 libshout3-dev pkg-config python-dev
 
-Une fois les paquets systèmes installées, il faut créer un virtualenv et y installer
+Une fois les paquets systèmes installés, il faut créer un virtualenv et y installer
 **ez_setup** puis JukeBox::
 
     $ virtualenv --no-site-packages jukebox
