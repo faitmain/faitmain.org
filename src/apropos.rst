@@ -28,6 +28,8 @@ Si vous avec envie de participer il suffit de vous inscrire sur la
 `mailing list </mailing.html>`_ et de vous présenter - ou bien de forker
 un de nos `repositories sur Github <http://github.com/faitmain>`_.
 
+N'oubliez pas de lire `le guide à l'usage des auteurs </ecrire.html>`_
+
 Vous pouvez aussi contacter Tarek : tarek@faitmain.org
 
 Le site web
