@@ -124,7 +124,7 @@ Ont participé à ce numéro :
 - Yannick Jost, Xavier Fernandez, Mathieu Agopian, Alexis Métaireau,
   Martine Cadot - relectures
 - `Tarek Ziadé </auteurs/tarek_ziade.html>`__ - Article "What The Feuille",
-  Traduction "Cindermedusae"
+  Traduction "Cindermedusae", Article "Un Juke Box avec le Raspberry-Pi".
 - `Marcin Ignac </auteurs/marcin_ignac.html>`_ - Article "Cindermedusae".
 - `Jonathan Schemoul </auteurs/jonathan_schemoul.html>`_ - Article "Dispositifs sans fils"
 - `David Larlet </auteurs/david_larlet.html>`_ - Tribune - "Semences stériles et données futiles"
