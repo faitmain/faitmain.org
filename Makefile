@@ -6,7 +6,7 @@ endif
 
 build:
 	virtualenv $(VTENV_OPTS) .
-	bin/pip install kompost
+	bin/pip install https://github.com/faitmain/kompost/archive/master.zip
 
 generate:
 	bin/kompost
