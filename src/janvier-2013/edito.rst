@@ -57,7 +57,7 @@ et nous chercherons sans cesse de nouveaux auteurs qui auront envie de
 participer à un numéro.
 
 L'objectif à terme est de faire de *Fait Main* un magazine participatif
-où chacun puisse venir proposer un article et être relu par d'autre
+où chacun puisse venir proposer un article et être relu par d'autres
 passionnés, puis édité.
 
 *Fait Main* est entièrement gratuit et son contenu est distribué sous
@@ -68,7 +68,7 @@ L'objectif de cette licence est de protéger le contenu des auteur(e)s afin
 qu'il ne puisse pas être réutilisé sur le web à des fins commerciales.
 
 Bien évidemment, les auteurs peuvent choisir de publier leurs articles sous une
-autre licence (par exemple dans le cas ou la clause "non commerciale" ne serait
+autre licence (par exemple dans le cas où la clause "non commerciale" ne serait
 pas souhaitée).
 
 Le magazine est conçu en ligne, à cette adresse : https://github.com/faitmain
@@ -98,7 +98,7 @@ On y parle d'**Arduino**, de **Raspberry-PI** et de signal en **433 mhz**.
 
 Le **troisième article** présente le travail de Marcin Ignac: des méduses
 animées en 3D. Des captures d'écran de ces méduses ont ensuite été utilisées
-faire partie d'un projet de livre génératif.
+pour faire partie d'un projet de livre génératif.
 On y parle d'**animation procédurale**, de **processing.js** & d'hachurage.
 `Lire l'article <http://faitmain.org/janvier-2013/cindermedusae.html>`__
 

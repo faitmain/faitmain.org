@@ -2,7 +2,7 @@ Florian Strzelecki
 ==================
 
 Florian aka `Exirel <http://exirel.me>`_ est un développeur Python chez Envivio,
-une boîte rennaise qui fait des serveurs d'encodages et de streaming vidéo.
+une boîte rennaise qui fait des serveurs d'encodage et de streaming vidéo.
 
 Ce qui tombe plutôt bien, parce qu'il habite Rennes, à l'Ouest de la Bretagne,
 où il est actif dans plusieurs communautés :
