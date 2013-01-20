@@ -10,6 +10,12 @@ Un Juke Box avec le Raspberry-Pi
 
    **Article en cours de traduction**
 
+
+.. figure:: raspberry-jukebox.jpg
+
+   Le Raspberry-PI Jukebox
+
+
 Après trois mois d'attente interminable , j'ai finalement reçu mon
 `Raspberry Pi <http://www.raspberrypi.org/>`_ (R-Pi), accompagné
 d'un joli T-shirt *Element 14*.
@@ -17,11 +23,6 @@ d'un joli T-shirt *Element 14*.
 J'ai plusieurs projets en tête avec un peu d'électronique, mais
 pour me familiariser avec la bête, j'ai décidé de commencer par un projet
 simple qui marcherait avec un R-PI nu.
-
-
-.. figure:: http://www.raspberrypi.org/wp-content/uploads/2011/07/raspi_blue_white.png
-
-   Le Raspberry-PI
 
 Le projet est un Juke-Box sans fil que je peux trimballer chez moi, qui
 se connecte à mon réseau local en wifi - et qui fournit une application web
@@ -48,6 +49,9 @@ Le projet final est une petite boite qui contient le R-PI et:
   J'en ai acheté un deuxième pour mon fils et je le recommande chaudement.
   Dans tous les cas, le Juke-Box peut toujours être branché sur de vrais enceintes.
 
+Petit détail agréable: Le speaker et la batterie USB ont été tous les deux livrés
+pré-chargés.
+
 
 
 La carte SD
@@ -57,6 +61,7 @@ La carte SD
    :scale: 25
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/dp/B000WQKOQM/
+   :align: right
 
    Carte SD 4 Gigas
 
@@ -219,46 +224,6 @@ Yay, I have a R-Pi Jukebox  |thumbsup|
 
 It sucks almost 100% of the CPU - Maybe I should profile the Python app, because
 it's the one sucking the CPU, not the mp3 player.
-
-
-La suite
-::::::::
-
-I received the hardware and built a lego case: http://blog.ziade.org/2012/07/04/my-raspberry-pi-juke-box-follow-up
-I love this small computer.
-
-
-.. |smile| image:: http://blog.ziade.org/smile.gif
-
-----
-
-.. image:: http://blog.ziade.org/rpi-jukebox-mini.jpg
-   :target: http://blog.ziade.org/rpi-jukebox.jpg
-   :alt: Le jukebox final.
-
-
-.. image:: http://blog.ziade.org/rpi-lego-mini.jpg
-   :target: http://blog.ziade.org/rpi-lego.jpg
-   :alt: Le jukebox dans le boitier Lego.
-
-
-Just a follow-up on my `Raspberry Pi Juke Box project <http://blog.ziade.org/2012/07/01/a-raspberry-pi-juke-box-how-to/>`_.
-
-I have received all the peripherals by mail today so I could finish the
-project.
-
-A few remarks:
-
-- The `XMI Speaker <http://www.amazon.fr/gp/product/B001UEBN42/>`_ is amazing.
-  You unfold it like an accordion and it has a really good sound.
-  It's hard to give you an idea, but if you have a MBP or a MBA, the
-  sound coming out of this tiny speaker is much better.
-
-- The `USB Battery <http://www.amazon.fr/gp/product/B006LR6N3O>`_ delivers
-  1A or 500ma, so is working perfectly well for the R-Pi.
-
-Both peripherals were fully charged when I got them, so I could go ahead
-and plug them.
 
 The `AirLink 101 <http://www.amazon.fr/gp/product/B003X26PMO>`_ wifi dongle
 on the other hand was a bit tedious to install. It's a Realtek 8188CUS but
