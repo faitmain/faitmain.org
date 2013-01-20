@@ -7,6 +7,7 @@
 
 <img class="row-fluid centered" src="media/${category}_banner.jpg"/>
 
+<br/><br/>
 
 %if paths:
  <p>Tous les articles sur ce sujet:</p>
