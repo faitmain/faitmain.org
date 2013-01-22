@@ -78,3 +78,26 @@ Le PDF est généré grâce à `rst2pdf <http://rst2pdf.ralsina.com.ar>`_, qui l
 `ReportLab <http://www.reportlab.com/software/opensource/rl-toolkit/>`_.
 
 La mise en page est spartiate mais suffisante pour une lecture sur écran.
+
+Informations légales
+::::::::::::::::::::
+
+Magazine publié en France. Numéro ISSN en cours d'obtention.
+
+Contact & addresse:
+
+    Tarek Ziadé - tarek@faitmain.org
+    6 rue de l'Eglise
+    21540 Turcey
+    France
+
+
+- **Editeur** - Tarek Ziadé
+- **Directeur de la publication** - Tarek Ziadé
+
+
+Donnée personnelles stockées: chaque accès au site est stocké dans un fichier de log
+à des fins de statistiques - mais **les addresses IP ne sont pas collectées** et
+le serveur ne contact aucun service tiers.
+
+
