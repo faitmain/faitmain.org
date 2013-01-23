@@ -116,6 +116,7 @@ En suivant le diagramme ci dessous:
 - La patte longue de la DEL verte au troisième trou du cote droit
 
 .. figure:: 2leds.jpg
+   :scale: 50
 
 ----
 
