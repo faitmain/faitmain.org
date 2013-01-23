@@ -1,9 +1,10 @@
 Jonathan Schemoul
 =================
 
-.. image:: http://media-cache-ec1.pinterest.com/avatars/jon1012_1330945709_600.jpg
+.. figure:: http://media-cache-ec1.pinterest.com/avatars/jon1012_1330945709_600.jpg
    :scale:50
-   :alt: Jonathan
+
+   Jonathan Schemoul
 
 Jonathan aka `jon1012 <http://twitter.com/jon1012>`_ ou `jondesign
 <http://jondesign.net>`_ est tour à tour développeur python, chef de projet,
@@ -11,7 +12,9 @@ consultant en développement informatique et ingénieur en électronique chez
 `JMSI <http://jmsinfor.com/>`_. Oui, tout cela à la fois. Il faut dire que
 c'est un Hacker, au sens bidouille du terme, un touche à tout quoi.
 
-Jonathan habite la proche banlieue parisienne. Il a participé à plusieurs projets open-source dont :
+Jonathan habite la proche banlieue parisienne. Il a participé à plusieurs
+projets open-source dont:
+
 * `PyF (python dataflow framework) <http://pyfproject.org/>`_
 * `Turbogears <http://turbogears.org/>`_
 * `SmoothGallery <http://smoothgallery.jondesign.net/>`_
