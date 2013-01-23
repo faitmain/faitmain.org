@@ -4,6 +4,7 @@
               "wtf.rst", 
               "dispositifs.rst", 
               "cindermedusae.rst",
+              "cable-gpio.rst",
               "labfab_rennes.rst", 
               "raspberry-jukebox.rst",
               "../apropos.rst"]
