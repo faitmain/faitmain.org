@@ -17,3 +17,7 @@ articles qu'ils ont écrit.</p>
  </li>
 %endfor
 </ul>
+
+<p>
+  <a href="/apropos.html"><strong>Devenez auteur!</strong></a>
+</p>
