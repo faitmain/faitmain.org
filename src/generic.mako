@@ -73,6 +73,10 @@
          </form>
         </li>
         <li class="nav-header" style="color:black">Social</li>
+        <li><a title=Auteurs" href="/auteurs/index.html"">
+          <img src="http://cnd.faitmain.org/media/pen.png"/> Les Auteurs</a>
+        </li>
+
         <li><a title="Mailing List" href="/mailing.html"">
           <img src="http://cnd.faitmain.org/media/email.png"/> Mailing List</a>
         </li>

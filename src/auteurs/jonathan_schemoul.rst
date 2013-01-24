@@ -1,10 +1,11 @@
 Jonathan Schemoul
 =================
 
-.. figure:: http://media-cache-ec1.pinterest.com/avatars/jon1012_1330945709_600.jpg
-   :scale:50
+.. figure:: jonathan_schemoul.jpg
+   :scale: 50
 
    Jonathan Schemoul
+
 
 Jonathan aka `jon1012 <http://twitter.com/jon1012>`_ ou `jondesign
 <http://jondesign.net>`_ est tour à tour développeur python, chef de projet,
