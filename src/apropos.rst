@@ -10,7 +10,7 @@ Le projet
 **Fait Main** est un magazine en ligne conçu par des bénévoles
 passionés par la bidouille en général.
 
-Plus d'infos dans `l'édito du premier numéro </janvier-2013/edito.html>`_.
+Plus d'infos dans `l'édito du premier numéro </volume-1/edito.html>`_.
 
 **Fait Main** n'a pas de structure officielle, bien qu'il soit
 question de monter une association à but non lucratif.

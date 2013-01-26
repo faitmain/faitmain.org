@@ -1,5 +1,5 @@
-Edito Janvier 2013
-==================
+Edito Volume 1
+==============
 
 Vous affichez sur votre écran (ou tenez entre vos mains, qui sait ?) le tout
 premier numéro de *Fait Main*, un magazine en ligne qui couvre plusieurs
@@ -77,37 +77,36 @@ Si vous souhaitez participer à ce projet, la page http://faitmain.org/apropos.h
 regroupe toutes les informations nécessaires.
 
 
-
-Contenu du Numéro de Janvier
-::::::::::::::::::::::::::::
+Contenu du volume 1
+::::::::::::::::::::
 
 La tribune de ce numéro est un parallèle entre web hébergé et OGM.
-`Lire la tribune <http://faitmain.org/janvier-2013/semences-donnes.html>`_.
+`Lire la tribune <http://faitmain.org/volume-1/semences-donnes.html>`_.
 
 Le **premier article** présente une application de reconnaissance de
 feuille écrite pendant un Hackathon. C'est l'application qui a été écrite
 en 24 heures par Olivier, Ronan & Tarek lors du dernier **AngelHack** à Paris.
 On y parle de machine-learning au service des plantes, des *hackathons*
 de programmation & de *responsive design*.
-`Lire l'article <http://faitmain.org/janvier-2013/wtf.html>`__
+`Lire l'article <http://faitmain.org/volume-1/wtf.html>`__
 
 Le **deuxième article** parle de **domotique** et vous explique comment
 piloter des dispositifs sans fils - portails, détecteurs de mouvements etc.
 On y parle d'**Arduino**, de **Raspberry-PI** et de signal en **433 mhz**.
-`Lire l'article <http://faitmain.org/janvier-2013/dispositifs.html>`__
+`Lire l'article <http://faitmain.org/volume-1/dispositifs.html>`__
 
 Le **troisième article** présente le travail de Marcin Ignac: des méduses
 animées en 3D. Des captures d'écran de ces méduses ont ensuite été utilisées
 pour faire partie d'un projet de livre génératif.
 On y parle d'**animation procédurale**, de **processing.js** & d'hachurage.
-`Lire l'article <http://faitmain.org/janvier-2013/cindermedusae.html>`__
+`Lire l'article <http://faitmain.org/volume-1/cindermedusae.html>`__
 
 Suit une **interview** de Hugues Aubin au LabFab de Rennes.
-`Lire l'article <http://faitmain.org/janvier-2013/labfab_rennes.html>`_.
+`Lire l'article <http://faitmain.org/volume-1/labfab_rennes.html>`_.
 
 Enfin un **quatrième article** sur la conception d'un Juke box avec un
 Raspberry-PI, sans aucune soudure requise :)
-`Lire l'article <http://faitmain.org/janvier-2013/raspberry-jukebox.html>`_.
+`Lire l'article <http://faitmain.org/volume-1/raspberry-jukebox.html>`_.
 
 Bonne Lecture!
 
