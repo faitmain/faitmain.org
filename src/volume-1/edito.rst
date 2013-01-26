@@ -138,5 +138,5 @@ Ont participé à ce numéro :
 - `David Larlet </auteurs/david_larlet.html>`_ - Tribune - "Semences stériles et données futiles"
 - `François Dion </auteurs/francois_dion.html>`_ - Article "Cable d'interface pour Raspberry Pi"
 - `Brin de Cuisine </auteurs/brin_de_cuisine.html>`_ - Article "5 petits trucs sur la photographie culinaire"
-- `Florian Strzelecki </auteurs/florian_strzelecki.html>` - Interview "Rencontre au LabFab de Rennes"
+- `Florian Strzelecki </auteurs/florian_strzelecki.html>`_ - Interview "Rencontre au LabFab de Rennes"
 
