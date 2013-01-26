@@ -101,12 +101,22 @@ pour faire partie d'un projet de livre génératif.
 On y parle d'**animation procédurale**, de **processing.js** & d'hachurage.
 `Lire l'article <http://faitmain.org/volume-1/cindermedusae.html>`__
 
+Le **quatrième article** vous donne 5 conseils de photos culinaires.
+`Lire l'article <http://faitmain.org/volume-1/5-trucs.html>`_, pour
+que vous puissiez prendre en photos vos soupes, gigots et autres
+desserts comme un(e) pro.
+
 Suit une **interview** de Hugues Aubin au LabFab de Rennes.
 `Lire l'article <http://faitmain.org/volume-1/labfab_rennes.html>`_.
 
-Enfin un **quatrième article** sur la conception d'un Juke box avec un
+Un **cinquième article** sur la conception d'un Juke box avec un
 Raspberry-PI, sans aucune soudure requise :)
 `Lire l'article <http://faitmain.org/volume-1/raspberry-jukebox.html>`_.
+
+Enfin, le **sixième article** vous explique comment recycler
+une vieille nappe de disque dur pour connecter le GPIO de votre
+Raspberry. `Lire l'article <http://faitmain.org/volume-1/cable-gpio.html>`.
+
 
 Bonne Lecture!
 
