@@ -1,0 +1,121 @@
+## -*- coding: utf-8 -*-
+
+<%inherit file="generic.mako"/>
+
+<%block name="headtitle"/>
+
+<%block name="first_h1"> 
+<h1>Ooops....</h1>
+</%block>
+
+<p>Cette page n'existe pas. Voici un petit haiku pour vous consoler.</p>
+
+<pre id='haiku'></pre>
+
+<%block name="script">
+<script>
+var haikus = new Array();
+
+haikus[0] = "\
+Le reste de ta chanson\n\
+Je l'écouterai dans l'autre monde\n\
+Coucou\n\
+	-+- anonyme -+-"
+
+haikus[1] = "\
+Premier amour\n\
+Près de la lanterne\n\
+Le tête-à-tête\n\
+	-+- Buson -+-"
+
+haikus[2] = "\
+Le foulard de la fillette\n\
+Trop bas sur ses yeux\n\
+Un charme fou\n\
+	-+- Buson -+-"
+
+haikus[3] = "\
+Accroupie elle guette\n\
+Les nuages\n\
+La grenouille\n\
+	-+- Chiyo-jo -+-"
+
+haikus[4] = "\
+Je sors dehors\n\
+Le vent du printemps s'est pris\n\
+Dans les saules\n\
+	-+- Chodô -+-"
+
+haikus[5] = "\
+Une carpe bondit\n\
+L'eau se calme\n\
+Cri du coucou\n\
+	-+- Gonzui -+-"
+
+haikus[6] = "\
+Pas de corde à l'arc\n\
+De la nouvelle lune\n\
+Cri des oies sauvages\n\
+	-+- Gonzui -+-"
+
+haikus[7] = "\
+J'ai emprunté ma chaumière\n\
+Aux puces et aux moustiques\n\
+Et j'ai dormi\n\
+	-+- Issa -+-"
+
+haikus[8] = "\
+La lune et moi\n\
+Restées seules\n\
+Prenons le frais sur le pont\n\
+	-+- Kikusha-ni -+-"
+
+haikus[9] = "\
+Beau temps\n\
+Papier blanc\n\
+Soleil du Nouvel An\n\
+	-+- Onitsura -+-"
+
+haikus[10] = "\
+Seul au monde\n\
+Tristesse ! seul avec\n\
+Ma bouillotte\n\
+	-+- Shikô -+-"
+
+haikus[11] = "\
+Les mains à plat sur le sol\n\
+Elle psalmodie avec respect son chant\n\
+La grenouille\n\
+	-+- Sôkan -+-"
+
+haikus[12] = "\
+Tel un serpent, le nuage\n\
+Avale la lune\n\
+Grenouille\n\
+	-+- Teitoku -+-"
+
+haikus[13] = "\
+J'éternue\n\
+Et perds de vue\n\
+L'alouette\n\
+	-+- Yayû -+-"
+
+haikus[14] = "\
+Contre le vent printanier\n\
+Elle mesure ses forces\n\
+L'alouette\n\
+	-+- Yasui -+-"
+
+haikus[15] = "\
+Dans les yeux du chat\n\
+La couleur de la mer\n\
+Un jour ensoleillé d'hiver\n\
+	-+- Yorie -+-"
+
+
+var haiku = haikus[Math.floor(Math.random()*haikus.length)];
+
+$('#haiku').html(haiku);
+
+</script>
+</%block>
