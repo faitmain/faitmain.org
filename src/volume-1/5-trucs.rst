@@ -13,6 +13,12 @@ réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois la
 toque de cuisinier, les gants des assistants lumière et la casquette de
 photographe, mieux vaut s'organiser. C'est bien plus facile à plusieurs ...
 
+
+.. note::
+
+   Derrière chaque photo se cache un lien vers une délicieuse recette.
+
+
 1. Scénariser
 :::::::::::::
 
