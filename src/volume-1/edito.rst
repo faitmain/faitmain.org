@@ -16,7 +16,7 @@ comme l'écologie de l'électronique — mais en y réfléchissant les
 projets les plus originaux et intéressants sont souvent à la croisée
 de plusieurs domaines.
 
-Un projet à base d'`Arduino <http://arduino.cc/>`_ pour contrôler un fumoir
+Un projet à base d'`Arduino <http://arduino.cc/>`__ pour contrôler un fumoir
 à saumon ou de la cuisine sous vide, un logiciel de `domotique
 <http://fr.wikipedia.org/wiki/Domotique>`_ pour diminuer
 les factures d'électricité, un script Python de génération de musique, sont
@@ -26,7 +26,7 @@ autant d'applications très concrètes de savoir-faire en informatique,
 Nous entrons dans l'époque reine du **Do It Yourself**, où, pour un budget
 raisonnable, n'importe lequel d'entre nous peut réaliser un
 projet avancé — que ce soit en soudant quelques composants sur
-un Arduino ou un `Raspberry Pi <http://raspberrypi.org>`_, ou en commandant
+un Arduino ou un `Raspberry Pi <http://raspberrypi.org>`__, ou en commandant
 l'usinage de 10 pièces moulées sur un service en ligne, voire imprimées avec
 l'imprimante 3d du coin. Mais cela ne s'arrête pas à l'électronique: à la
 maison, on peut bricoler du meuble, de la cuisine, des produits cosmétiques…
@@ -61,7 +61,7 @@ où chacun puisse venir proposer un article et être relu par d'autres
 passionnés, puis édité.
 
 *Fait Main* est entièrement gratuit et son contenu est distribué sous
-licence `CC-By-NC-SA 3.0 <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr>`_
+licence `CC-By-NC-SA 3.0 <http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr>`__
 et l'auteur(e) de chaque article conserve tous ses droits.
 
 L'objectif de cette licence est de protéger le contenu des auteur(e)s afin
