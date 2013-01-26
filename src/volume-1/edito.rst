@@ -101,26 +101,25 @@ pour faire partie d'un projet de livre génératif.
 On y parle d'**animation procédurale**, de **processing.js** & d'hachurage.
 `Lire l'article <http://faitmain.org/volume-1/cindermedusae.html>`__
 
-Le **quatrième article** vous donne 5 conseils de photos culinaires.
-`Lire l'article <http://faitmain.org/volume-1/5-trucs.html>`_, pour
+Le **quatrième article** vous donne 5 conseils de photos culinaires pour
 que vous puissiez prendre en photos vos soupes, gigots et autres
-desserts comme un(e) pro.
+desserts comme un(e) pro. `Lire l'article <http://faitmain.org/volume-1/5-trucs.html>`__,
 
 Suit une **interview** de Hugues Aubin au LabFab de Rennes.
-`Lire l'article <http://faitmain.org/volume-1/labfab_rennes.html>`_.
+`Lire l'article <http://faitmain.org/volume-1/labfab_rennes.html>`__.
 
 Un **cinquième article** sur la conception d'un Juke box avec un
 Raspberry-PI, sans aucune soudure requise :)
-`Lire l'article <http://faitmain.org/volume-1/raspberry-jukebox.html>`_.
+`Lire l'article <http://faitmain.org/volume-1/raspberry-jukebox.html>`__.
 
 Enfin, le **sixième article** vous explique comment recycler
 une vieille nappe de disque dur pour connecter le GPIO de votre
-Raspberry. `Lire l'article <http://faitmain.org/volume-1/cable-gpio.html>`.
+Raspberry. `Lire l'article <http://faitmain.org/volume-1/cable-gpio.html>`__.
 
 
 Bonne Lecture!
 
--- Tarek
+— Tarek
 
 Equipe
 ::::::
@@ -137,4 +136,7 @@ Ont participé à ce numéro :
 - `Marcin Ignac </auteurs/marcin_ignac.html>`_ - Article "Cindermedusae".
 - `Jonathan Schemoul </auteurs/jonathan_schemoul.html>`_ - Article "Dispositifs sans fils"
 - `David Larlet </auteurs/david_larlet.html>`_ - Tribune - "Semences stériles et données futiles"
+- `François Dion </auteurs/francois_dion.html>`_ - Article "Cable d'interface pour Raspberry Pi"
+- `Brin de Cuisine </auteurs/brin_de_cuisine.html>`_ - Article "5 petits trucs sur la photographie culinaire"
+- `Florian Strzelecki </auteurs/florian_strzelecki.html>` - Interview "Rencontre au LabFab de Rennes"
 
