@@ -8,9 +8,9 @@
 
 
 Contrairement à ce qu'on croit, réaliser une jolie photo culinaire nécessite de
-la préparation. D'abord, imaginer, et cette étape lieu avant même d'avoir
-réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois la
-toque de cuisinier, les gants des assistants lumière et la casquette de
+la préparation. D'abord, imaginer, et cette étape doit avoir lieu avant même
+d'avoir réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois
+la toque de cuisinier, les gants des assistants lumière et la casquette de
 photographe, mieux vaut s'organiser. C'est bien plus facile à plusieurs ...
 
 
@@ -49,7 +49,7 @@ décor, que vous pouvez choisir neutre ou signifiant.
    :target: http://www.brindecuisine.fr/travers-de-porc-a-lamericaine-spare-ribs/
    :scale: 50
 
-   Un décor signifiant donne aussi beauoup d'ambiance à une photo.
+   Un décor signifiant donne aussi beaucoup d'ambiance à une photo.
 
 
 2. Éclairer
