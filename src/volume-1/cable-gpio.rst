@@ -11,10 +11,10 @@ Cable d'interface pour Raspberry Pi
    Exemple de circuit fait main relié a un Raspberry Pi, avec un cable fait main.
 
 Une des fonctions qui ont contribuées au succès du Raspberry Pi, c'est la
-possibilité d'interface avec le monde extérieur. On parle ici des 
+possibilité d'interface avec le monde extérieur. On parle ici des
 `GPIO <http://fr.wikipedia.org/wiki/GPIO>`_ (en anglais les General Purpose
 Input and Output – entrées et sorties pour tout usage), qui se retrouvent au
-connecteur P1. En fabricant notre propre câble, on pourra se connecter à des 
+connecteur P1. En fabricant notre propre câble, on pourra se connecter à des
 `DELs <http://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente>`_ (diodes
 electroluminescente), des moteurs ou autres composantes physiques.
 
@@ -30,7 +30,7 @@ tiroir, dans une boite de vieux composantes d'ordinateur. Il suffit de fouiller
 un peu, il y en a des dizaines de millions qui ne demandent qu'à se rendre
 utile une autre fois.
 
-De quoi s'agit t'il? D'une nappe pour disque dur IDE (ou 
+De quoi s'agit t'il? D'une nappe pour disque dur IDE (ou
 `ATA <http://fr.wikipedia.org/wiki/Advanced_Technology_Attachment>`_) à 40
 conducteurs. Bien que l'on peut aussi utiliser un câble ATA66/133 à 80
 conducteurs, c'est beaucoup plus de boulot, et c'est possible que l'on se
@@ -123,7 +123,7 @@ En suivant le diagramme ci dessous:
 Le Python
 :::::::::
 
-Avant toute chose, on doit se procurer un module Python du nom de 
+Avant toute chose, on doit se procurer un module Python du nom de
 `RPi.GPIO <http://pypi.python.org/pypi/RPi.GPIO>`_. C'est un module qui
 permet de controler les GPIO sur un Raspberry Pi. Sur Raspbian, il est
 maintenant inclus, mais si on utilise une autre version de Linux, on peut
@@ -195,15 +195,12 @@ besoin d'accéder en écriture à /dev/mem:
 
 CTRL-C interrompt l'exécution.
 
-.. figure:: del-rouge.jpg
-   :scale: 50
++-----------------------------+----------------------------+
+| .. figure:: del-rouge.jpg   | .. figure:: del-vert.jpg   |
++-----------------------------+----------------------------+
+|   DEL Rouge                 |    DEL Vert                |
++-----------------------------+----------------------------+
 
-   DEL rouge
-
-.. figure:: del-vert.jpg
-   :scale: 50
-
-   DEL vert
 
 Ceci conclut notre petit article. Dans un prochain numéro, nous allons
 fabriquer un adaptateur pour plaque de prototypage.
