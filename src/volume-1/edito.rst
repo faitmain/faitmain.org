@@ -3,7 +3,7 @@ Edito Volume 1
 
 Vous affichez sur votre écran (ou tenez entre vos mains, qui sait ?) le tout
 premier numéro de *Fait Main*, un magazine en ligne qui couvre plusieurs
-sujets, à savoir :
+sujets, à savoir :
 
 - l'informatique,
 - l'électronique,
@@ -71,7 +71,7 @@ Bien évidemment, les auteurs peuvent choisir de publier leurs articles sous une
 autre licence (par exemple dans le cas où la clause "non commerciale" ne serait
 pas souhaitée).
 
-Le magazine est conçu en ligne, à cette adresse : https://github.com/faitmain
+Le magazine est conçu en ligne, à cette adresse : https://github.com/faitmain
 
 Si vous souhaitez participer à ce projet, la page http://faitmain.org/apropos.html
 regroupe toutes les informations nécessaires.
@@ -112,9 +112,12 @@ Un **cinquième article** sur la conception d'un Juke box avec un
 Raspberry-PI, sans aucune soudure requise :)
 `Lire l'article <http://faitmain.org/volume-1/raspberry-jukebox.html>`__.
 
-Enfin, le **sixième article** vous explique comment recycler
+Le **sixième article** vous explique comment recycler
 une vieille nappe de disque dur pour connecter le GPIO de votre
 Raspberry. `Lire l'article <http://faitmain.org/volume-1/cable-gpio.html>`__.
+
+Enfin, le **septième article** aborde les bases du fonctionnement d'une CNC.
+`Lire l'article <http://faitmain.org/volume-1/cnc1_lemondemerveilleuxdescncs.html>`__.
 
 
 Bonne Lecture!
@@ -127,7 +130,7 @@ Equipe
 Le projet *FaitMain* est monté par `Tarek Ziadé <http://ziade.org>`__ mais
 est surtout possible grâce aux créateurs d'articles et aux relecteurs.
 
-Ont participé à ce numéro :
+Ont participé à ce numéro :
 
 - Yannick Jost, Xavier Fernandez, Mathieu Agopian, Alexis Métaireau,
   Martine Cadot - relectures
@@ -139,4 +142,4 @@ Ont participé à ce numéro :
 - `François Dion </auteurs/francois_dion.html>`_ - Article "Cable d'interface pour Raspberry Pi"
 - `Brin de Cuisine </auteurs/brin_de_cuisine.html>`_ - Article "5 petits trucs sur la photographie culinaire"
 - `Florian Strzelecki </auteurs/florian_strzelecki.html>`_ - Interview "Rencontre au LabFab de Rennes"
-
+- `Alcor Walter </auteurs/alcor_walter.html>`_ - Article "Le monde merveilleux des CNCs"
