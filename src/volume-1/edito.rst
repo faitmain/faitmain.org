@@ -117,7 +117,7 @@ une vieille nappe de disque dur pour connecter le GPIO de votre
 Raspberry. `Lire l'article <http://faitmain.org/volume-1/cable-gpio.html>`__.
 
 Enfin, le **septième article** aborde les bases du fonctionnement d'une CNC.
-`Lire l'article <http://faitmain.org/volume-1/cnc1_lemondemerveilleuxdescncs.html>`__.
+`Lire l'article <http://faitmain.org/volume-1/cncs.html>`__.
 
 
 Bonne Lecture!
