@@ -82,7 +82,12 @@
          </form>
         </li>
         <li class="nav-header" style="color:black">Social</li>
-        <li><a title=Auteurs" href="/auteurs/index.html"">
+        <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
+          <img src="http://cnd.faitmain.org/media/forum.png"/> Les Forums</a>
+        </li>
+
+
+        <li><a title="Auteurs" href="/auteurs/index.html"">
           <img src="http://cnd.faitmain.org/media/pen.png"/> Les Auteurs</a>
         </li>
 

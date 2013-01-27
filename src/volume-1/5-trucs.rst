@@ -161,5 +161,4 @@ appareil sur pied, l'allumer, cadrer, et d'ensuite seulement disposer les
 
 .. figure:: brindecuisine-soupe-ortie.jpg
    :target: http://www.brindecuisine.fr/veloute-aux-orties/
-   :scale: 50
 
