@@ -8,9 +8,9 @@
 
 
 Contrairement à ce qu'on croit, réaliser une jolie photo culinaire nécessite de
-la préparation. D'abord, imaginer, et cette étape lieu avant même d'avoir
-réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois la
-toque de cuisinier, les gants des assistants lumière et la casquette de
+la préparation. D'abord, imaginer, et cette étape doit avoir lieu avant même
+d'avoir réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois
+la toque de cuisinier, les gants des assistants lumière et la casquette de
 photographe, mieux vaut s'organiser. C'est bien plus facile à plusieurs ...
 
 
