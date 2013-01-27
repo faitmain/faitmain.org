@@ -66,6 +66,15 @@
    <div class="span2">
      <div class="sidebar-nav">
       <ul class="nav nav-list">
+        <%block name="sections">
+          %if doc_sections:
+           <li class="nav-header" style="color:black">Contenu</li>
+            %for name, id_ in doc_sections:
+             <li><a title="Mailing List" href="#${id_}">${name}</a></li>
+            %endfor
+          %endif
+        </%block>
+
         <li class="nav-header" style="color:black">Recherche</li>
         <li>
           <form class="form-search" action="/recherche.html" method="get">
@@ -77,7 +86,7 @@
           <img src="http://cnd.faitmain.org/media/pen.png"/> Les Auteurs</a>
         </li>
 
-        <li><a title="Mailing List" href="/mailing.html"">
+        <li><a title="Mailing List" href="/mailing.html">
           <img src="http://cnd.faitmain.org/media/email.png"/> Mailing List</a>
         </li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
