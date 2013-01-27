@@ -462,10 +462,10 @@ optimisée pour LinuxCNC.
 Il existe de nombreux autres logiciels libres de CAO et des scripts et petits
 outils de FAO très pratiques (voir notamment le plugin de génération de G-Code
 pour Inkscape, F-Engrave, etc). Et dans la catégorie interpréteur
-G-Code/contrôleur de CNCs, l'arrivée de solutions embarquées (Grbl sur Arduino
-et son portage "SmoothieWare" sur Arm V3) sont à tester rapidement ! Elles
-permettront à terme de ne plus utiliser le port parallèle et d'obtenir
-théoriquement de meilleure performances.
+G-Code/contrôleur de CNCs, l'arrivée de solutions embarquées (`Grbl <https://github.com/grbl/grbl>`_
+sur Arduino et son portage `SmoothieWare <http://smoothieware.org/>`_ sur mbed,
+Smoothieboard et autres) sont à tester rapidement ! Elles permettront à terme
+de ne plus utiliser le port parallèle et d'obtenir de meilleures performances.
 
 .. sidebar:: Port parallèle et CNC
 
