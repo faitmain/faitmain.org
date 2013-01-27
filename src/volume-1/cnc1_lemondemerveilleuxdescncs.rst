@@ -158,14 +158,14 @@ La vitesse de rotation du moteur dépend au final de la fréquence des commandes
 
    En connaissant l'angle d'un pas du moteur pas à pas, ainsi que le pas de vis à billes et le rapport de couplage, on peut calculer la précision théorique de la CNC. Par exemple, pour l'axe X :
 
-    - notre moteur pas à pas peut effectuer un angle minimum de 1.8°, soient 200 pas par tour,
-    - la poulie crantée sur l'axe du moteur a 15 dents ,
-    - la poulie crantée sur la vis à billes a 20 dents,
-    - la vis à bille a un pas de 5mm (1 tour de vis déplace l'écrou de 5mm).
-    
-    La précision théorique de l'axe X de la CNC est donc de :
-    
-    :: (5 mm / 200 pas) * ( 15 / 20) = 0,025 * 0,75 = 0,01875 mm
+- notre moteur pas à pas peut effectuer un angle minimum de 1.8°, soient 200 pas par tour,
+- la poulie crantée sur l'axe du moteur a 15 dents ,
+- la poulie crantée sur la vis à billes a 20 dents,
+- la vis à bille a un pas de 5mm (1 tour de vis déplace l'écrou de 5mm).
+
+La précision théorique de l'axe X de la CNC est donc de :
+
+:: (5 mm / 200 pas) * ( 15 / 20) = 0,025 * 0,75 = 0,01875 mm
 
 
     La précision de cet axe est ici théorique puisqu'aucune mesure du jeu des différentes parties mécaniques n'a été faite. Bien qu'un soin important ait été apporté aux technologies utilisées, il existera toujours une marge d'erreur lors de l'usinage dans laquelle intervient également le type d'opération, sa vitesse d'exécution, la nature du matériau, l'usure de l'outil, etc. Une autre source éventuelle d'imprécision est à évaluer également, même si aujourd'hui les chances sont faibles d'avoir ce problème, c'est la capacité électronique et surtout informatique à traiter des informations avec une grande précision, tant pour le calcul que pour la commande.
