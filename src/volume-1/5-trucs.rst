@@ -49,7 +49,7 @@ décor, que vous pouvez choisir neutre ou signifiant.
    :target: http://www.brindecuisine.fr/travers-de-porc-a-lamericaine-spare-ribs/
    :scale: 50
 
-   Un décor signifiant donne aussi beauoup d'ambiance à une photo.
+   Un décor signifiant donne aussi beaucoup d'ambiance à une photo.
 
 
 2. Éclairer
