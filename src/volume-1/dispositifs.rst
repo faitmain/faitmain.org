@@ -61,16 +61,13 @@ Niveau détecteurs :
 - Un `détecteur d'ouverture de porte <http://hackspark.fr/fr/433mhz-wireless-door-sensor-door-switch.html>`_
 - Un détecteur PIR
 
-.. figure:: pir.jpg
-   :scale: 25
 
-   Détecteur PIR
++-----------------------+----------------------------------+
+| .. figure:: pir.jpg   | .. figure:: doorswitch.jpg       |
++-----------------------+----------------------------------+
+|  Détecteur PIR        |  Détecteur d'ouverture de porte  |
++-----------------------+----------------------------------+
 
-
-.. figure:: doorswitch.jpg
-   :scale: 25
-
-   Détecteur d'ouverture de porte
 
 Regardons ce détecteur d'ouverture de porte de plus près :
 
@@ -169,16 +166,12 @@ Si l'on active un autre senseur (le capteur de mouvement ici, il s'allume en
 rouge lorsqu'il détecte un mouvement) :
 
 
-.. figure:: capteur_move.jpg
-   :scale: 25
-
-   Détection de mouvement
-
-
-.. figure:: deux_codes.jpg
-
-   Deux codes
-
++--------------------------------+----------------------------------+
+| .. figure:: capteur_move.jpg   | .. figure:: deux_codes.jpg       |
+|                                |                                  |
++--------------------------------+----------------------------------+
+|  Détection de mouvement        | Deux codes                       |
++--------------------------------+----------------------------------+
 
 On voit que l'on reçoit un nouveau code : **12449942**.
 
