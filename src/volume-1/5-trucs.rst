@@ -9,7 +9,7 @@
 
 Contrairement à ce qu'on croit, réaliser une jolie photo culinaire nécessite de
 la préparation. D'abord, imaginer, et cette étape doit avoir lieu avant même
-d'avoir réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois
+d'avoir réalisé la recette ! Ensuite, si l'on est tout seul à revêtir à la fois
 la toque de cuisinier, les gants des assistants lumière et la casquette de
 photographe, mieux vaut s'organiser. C'est bien plus facile à plusieurs ...
 
@@ -89,7 +89,7 @@ Avant de réaliser votre photo, faites votre mise en scène avec la vaisselle et
 accessoires, sans le plat. Cela vous permettra de vérifier quelle prise de vues
 est la plus adaptée. Variez la focale, les angles et l'orientation de la
 lumière, la distance de prise de vues, et si votre appareil se débraye, la
-profondeur de champ : ces paramètres ne donnent pas du tout les mêmes effets.
+profondeur de champ : ces paramètres ne donnent pas du tout les mêmes effets.
 
 .. figure:: brindecuisine-fudge.jpg
    :target: http://www.brindecuisine.fr/comment-rater-ses-fudge-et-decouvrir-que-le-caramel-en-poudre-cest-delicieux/
@@ -105,7 +105,7 @@ profondeur de champ : ces paramètres ne donnent pas du tout les mêmes effets.
 La photo culinaire se prête à de nombreux styles photographiques. Clair ou
 sombre, en plan rapproché ou  plus éloigné, en nature morte ou avec présence
 humaine, de style studio ou lifestyle, à vous de trouver votre préféré. Ou bien
-de varier selon les recettes. Voici quelques exemples :
+de varier selon les recettes. Voici quelques exemples :
 
 
 .. figure:: brindecuisine-Gtovinblanc-1-2.jpg
@@ -116,6 +116,7 @@ de varier selon les recettes. Voici quelques exemples :
 
 
 .. figure:: brindecuisine-ketchup-vert.jpg
+   :target: http://www.brindecuisine.fr/ketchup-schrek-de-tomates-vertes/
    :scale: 50
 
    Style "nature", lumière du jour et ingrédients frais
