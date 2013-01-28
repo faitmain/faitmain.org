@@ -114,7 +114,7 @@ directement dans votre navigateur. Pour ceux qui ne connaissent pas Pure-Data
 je vous invite à lire la suite...
 
 
-.. figure:: helloWorld.png
+.. figure:: midst_hello_world.png
 
   Le hello world de Pure Data.
 
