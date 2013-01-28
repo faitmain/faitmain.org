@@ -198,3 +198,5 @@ apprendre plus, et tous avec des connaissances et compétences très variées.
 
 Si seulement j'avais un peu plus de temps… En tout cas, je vous invite à
 franchir les portes de ce FabLab, il y a plein de bonnes choses.
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=5>`_.

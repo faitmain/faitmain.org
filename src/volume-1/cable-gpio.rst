@@ -205,3 +205,4 @@ CTRL-C interrompt l'exécution.
 Ceci conclut notre petit article. Dans un prochain numéro, nous allons
 fabriquer un adaptateur pour plaque de prototypage.
 
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=10>`_.

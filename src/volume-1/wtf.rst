@@ -527,3 +527,5 @@ ressemble à quelque chose.
 
 Le code source est ici : https://github.com/whatthefeuille/whatthefeuille
 et l'application `en ligne <http://whatthefeuille.com>`_.
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=3>`_.

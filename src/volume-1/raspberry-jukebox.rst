@@ -275,3 +275,4 @@ Quoi qu'il en soit je suis ravi du résultat - ce petit juke box peut se branche
 sur de bonnes enceintes et rivaliser avec les systèmes sans fils hors de prix
 du marché, comme les *Sonos*.
 
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=9>`_.

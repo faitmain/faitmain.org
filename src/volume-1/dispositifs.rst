@@ -326,3 +326,5 @@ Dans la deuxième partie nous verrons comment envoyer des signaux à une prise e
 433 MHz, et envoyer et recevoir des signaux entre Arduino selon le même
 principe.
 
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=8>`_.

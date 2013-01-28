@@ -412,3 +412,5 @@ puissent s'amuser à créer leurs propres créatures en ligne.
 Enfin, j'aimerais étendre le système et jouer avec d'autres types d'organismes
 ou de plantes.
 
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=4>`_.

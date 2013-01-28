@@ -103,3 +103,6 @@ Si vous êtes un jardinier numérique, je vous encourage à reprendre le contrô
 de vos semences^W^données afin de pérenniser votre récolte^W^identité
 numérique. Il n'est pas trop tard pour nourrir d'idées ouvertes et gratuites
 vos concitoyens du web.
+
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=6>`_.

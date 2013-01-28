@@ -216,3 +216,6 @@ aussi de développer une case du jeu. J'espère qu'avec le temps le jeu
 s'étoffera que le labyrinthe s'étendra... alors si vous souhaitez contribuer
 n'hésitez pas à me contacter !
 
+
+`Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=11>`_.
+
