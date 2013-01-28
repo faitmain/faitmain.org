@@ -1128,3 +1128,6 @@ div.section {
   margin-top: 10px;
 }
 
+a.headerlink {
+  color: gray;
+}
