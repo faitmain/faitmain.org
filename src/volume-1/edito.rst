@@ -147,3 +147,5 @@ Ont participé à ce numéro :
 - `Brin de Cuisine </auteurs/brin_de_cuisine.html>`_ - Article "5 petits trucs sur la photographie culinaire"
 - `Florian Strzelecki </auteurs/florian_strzelecki.html>`_ - Interview "Rencontre au LabFab de Rennes"
 - `Alcor Walter </auteurs/alcor_walter.html>`_ - Article "Le monde merveilleux des CNCs"
+- `Bérenger Recoules </auteurs/berenger_recoules.html>`_ - Article "The Midst"
+
