@@ -1,7 +1,7 @@
 Bérenger Recoules
 =================
 
-.. figure:: berenger_recoules.png
+.. figure:: berenger_recoules.jpg
 
   Bérenger Recoules
 
