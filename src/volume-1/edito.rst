@@ -137,7 +137,7 @@ est surtout possible grâce aux créateurs d'articles et aux relecteurs.
 Ont participé à ce numéro :
 
 - Yannick Jost, Xavier Fernandez, Mathieu Agopian, Alexis Métaireau,
-  Martine Cadot - relectures
+  Martine Cadot, Lina Ziadé - relectures
 - `Tarek Ziadé </auteurs/tarek_ziade.html>`__ - Article "What The Feuille",
   Traduction "Cindermedusae", Article "Un Juke Box avec le Raspberry-Pi".
 - `Marcin Ignac </auteurs/marcin_ignac.html>`_ - Article "Cindermedusae".
