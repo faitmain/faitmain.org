@@ -138,7 +138,7 @@ commande d'une machine :
 
 Si on usine avec un outil en position verticale, 3 axes (X, Y et Z) suffisent
 pour le déplacer dans l'espace. Et pour se repérer dans cet espace orthonormé,
-on utilisera l'unité de mesure du système international ou ou l'unité du
+on utilisera l'unité de mesure du système international ou l'unité du
 système anglo-saxon.
 
 De nombreuses CNC ont pour base un châssis rigide sur lequel les différents
@@ -263,7 +263,7 @@ le courant fourni aux bobines afin de ne pas abîmer le moteur.
    intéressant d'utiliser une alimentation capable de fournir plusieurs fois la
    tension dont on à besoin : le hachage du courant empêchera de toute manière
    qu'on dépasse les valeurs désirées et on profitera d'une vitesse de montée
-   du courant bien meilleure ce qui permettra une réponse des moteurs optimale.
+   du courant bien meilleure ce qui permettra une réponse optimale des moteurs.
 
 
 Le contrôleur de moteur pas à pas possède également une interface de commande
@@ -271,7 +271,7 @@ composée de 3 fils prenant en charge une commande chacun, sous forme de niveau
 logique binaire (0 ou 5V) :
 
 - **[ENABLE]** moteur allumé ou éteint,
-- **[DIRECTION]** direction de rotation horaire ou antihoraire,
+- **[DIRECTION]** direction de rotation horaire ou anti-horaire,
 - **[STEP]** rotation de l'axe du moteur d'un pas.
 
 Le moteur peut donc être :
@@ -281,7 +281,7 @@ Le moteur peut donc être :
 
 - ou allumé (ENABLE à 5V) : en l'absence de commande de rotation, le moteur
   maintient une position (on ne peut pas le bouger manuellement) ; lorsqu'une
-  commande de de rotation arrive (passage de 0 à 5V sur le fil [STEP]), le
+  commande de rotation arrive (passage de 0 à 5V sur le fil [STEP]), le
   moteur effectue une unité de rotation dans le sens qui lui est commandé pas
   le fil de direction.
 
@@ -426,7 +426,7 @@ CAO
 ---
 
 FreeCAD gère de nombreux formats de fichiers en importation et en exportation.
-L'outil est assez facile à prendre en main : un certains nombre "d'ateliers"
+L'outil est assez facile à prendre en main : un certain nombre "d'ateliers"
 permettent de gérer la modélisation 3D à différentes étapes et en fonction des
 besoins. Un système de graphe permet de revenir sur les étapes de modélisation
 sans utiliser d'historique linéaire. L'approche globale est la modélisation
