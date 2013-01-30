@@ -8,14 +8,14 @@ Le monde merveilleux des CNCs
 
 
 2012 a vu l'impression 3D devenir un sujet qui n'intéresse plus uniquement les
-blogs spécialisés et certains geeks au fond de leur garage ; on entend dire que
+blogs spécialisés et certains geeks au fond de leur garage ; on entend dire que
 "monsieur tout le monde" aura bientôt une imprimante 3D à coté de son
 imprimante-jet-d'encre-A4-photo-wifi. L'effet "nouveauté" est réel même si on
 ne sait pas encore l'avenir d'un tel produit. C'est également l'image
 industrielle de ses semblables (découpe laser, découpe plasma, tours
-numériques, CNCs etc) qui s'estompe ; on s'imagine possible d'utiliser, voire
+numériques, CNCs etc) qui s'estompe ; on s'imagine possible d'utiliser, voire
 de construire ou d'acheter ces outils. D'ailleurs on vient de s'y mettre et
-voici ce qu'on peut vous dire pour vous accompagner lors de votre lancement :
+voici ce qu'on peut vous dire pour vous accompagner lors de votre lancement :
 
 .. figure:: cnc1_cnc.jpg
 
@@ -42,14 +42,14 @@ La technologie va continuer de se perfectionner mais aussi devenir plus
 abordable et va rejoindre les bureaux d'études et les chaînes de production de
 produits destinés au grand public. À tel point que depuis deux ou trois
 décennies cette technologie devient accessible aux petites entreprises et aux
-passionnés avertis ; demain elle arrivera peut-être dans le grand public sous
-la forme d'une imprimante 3D, qui sait ?
+passionnés avertis ; demain elle arrivera peut-être dans le grand public sous
+la forme d'une imprimante 3D, qui sait ?
 
 Définition
 ::::::::::
 
 Une CNC *(Computer Numerical Control)* ou MOCN *(Machine-Outil à Commande
-Numérique)* est donc tout d'abord une machine-outil : elle permet selon ses
+Numérique)* est donc tout d'abord une machine-outil : elle permet selon ses
 caractéristiques d'effectuer diverses opérations - percer, scier, rectifier,
 découper, fraiser, plier, graver, tarauder, souder, visser, déposer un
 matériau, etc - nécessitant des gestes précis et/ou répétitifs, sur des
@@ -63,7 +63,7 @@ par un ordinateur ou un dispositif numérique.
    présenterai ici le principe d'une CNC permettant d'usiner par retrait de
    matière à l'aide de fraises, forets, etc. Cette CNC a été imaginée et
    construite par un particulier à qui nous l'avons achetée récemment. Enfin,
-   ma connaissance du domaine est très récente et surtout autodidacte ; je n'ai
+   ma connaissance du domaine est très récente et surtout autodidacte ; je n'ai
    jamais suivi de formation et n'ai aucun diplôme de technicien d'usinage ou
    autre.
 
@@ -78,7 +78,7 @@ puissance nécessaires pour usiner le matériau. Cependant pour commencer à
 usiner sans forcément aller rapidement, c'est principalement l'outil et la
 vitesse de rotation de celui-ci qui vont influer.
 
-Voici une liste non exhaustive de matériaux que l'on peut usiner :
+Voici une liste non exhaustive de matériaux que l'on peut usiner :
 
 - acier
 - aluminium
@@ -87,7 +87,7 @@ Voici une liste non exhaustive de matériaux que l'on peut usiner :
 - bois massif
 - contreplaqué
 - résine
-- mdf
+- `mdf <https://fr.wikipedia.org/wiki/Panneau_de_fibres_%C3%A0_densit%C3%A9_moyenne>`_
 - mousse
 
 Dans certains cas, l'usinage requiert de l'huile de coupe, de l'air sous
@@ -102,7 +102,7 @@ est obligatoire si la CNC n'a pas d'équipement vous protégeant des nuisances
 (projections de copeaux, de fluide de coupe, fumées, casse, bruit, etc).
 
 En dehors de l'industrie, les domaines d'utilisation d'une CNC sont nombreux,
-voici quelques exemples : Le modélisme (ailes et panneaux d'avions, châssis de
+voici quelques exemples : Le modélisme (ailes et panneaux d'avions, châssis de
 voiture, éléments de bâtiments), l'électronique (circuits imprimés, boîtier
 pour montages), la réparation (poignées, butées, guides, engrenages), la
 décoration, l'ébénisterie, la lutherie, la mécanique, etc.
@@ -115,7 +115,7 @@ Structure
 
 Observons techniquement de quoi est composée une CNC, en partant de la table
 qui accueillera le matériau à usiner. La base est similaire à ce qu'on aurait
-dans le cas d'un usinage manuel : le matériau doit être solidement fixé à une
+dans le cas d'un usinage manuel : le matériau doit être solidement fixé à une
 table d'usinage à l'aide d'un étau, de butées, de pinces, ou collée, etc, selon
 les besoins. Parfois la table d'usinage peut-être une table aspirante ou un
 "martyr".
@@ -134,7 +134,7 @@ l'outil et le moteur permettant la rotation à l'origine de l'usinage.
 
 Tout cela est très proche de ce qui est mis en place lors d'une opération
 manuelle. Maintenant voyons comment l'action de l'homme a été remplacée par la
-commande d'une machine :
+commande d'une machine :
 
 Si on usine avec un outil en position verticale, 3 axes (X, Y et Z) suffisent
 pour le déplacer dans l'espace. Et pour se repérer dans cet espace orthonormé,
@@ -143,10 +143,10 @@ système anglo-saxon.
 
 De nombreuses CNC ont pour base un châssis rigide sur lequel les différents
 organes de la machine reposent pour opérer. Essentiellement deux catégories de
-structures existent : la *table mobile* et le *portique mobile*. Dans le
+structures existent : la *table mobile* et le *portique mobile*. Dans le
 premier cas, le portique est fixé sur le châssis en son centre et c'est la
 table d'usinage qui se déplace sur un axe (X). Dans le deuxième cas, plus
-courant, c'est l'inverse : la table est fixée au châssis et le portique se
+courant, c'est l'inverse : la table est fixée au châssis et le portique se
 déplace sur l'axe (X) pour parcourir la table d'usinage. Ce dispositif est
 moins coûteux en espace et se révèle plus versatile, c'est le cas de notre CNC.
 
@@ -165,7 +165,7 @@ Le porte broche enfin sert de base pour le déplacement sur l'axe Z de la broche
 
 
 Dans certaines situations, il est pratique d'avoir un quatrième, cinquième ou
-énième axe pour orienter l'outil et/ou orienter le matériau ; ainsi des
+énième axe pour orienter l'outil et/ou orienter le matériau ; ainsi des
 opérations peuvent s'appliquer sur des faces du matériau non accessibles sur
 une CNC 3 axes.
 
@@ -173,8 +173,8 @@ Mécanique
 :::::::::
 
 La liberté de mouvement est donc gérée par ces axes mais il faut encore assurer
-le déplacement avec force et précision ; ceci est possible grâce à de
-nombreuses solutions mais je vais expliquer ici la plus populaire : les moteurs
+le déplacement avec force et précision ; ceci est possible grâce à de
+nombreuses solutions mais je vais expliquer ici la plus populaire : les moteurs
 pas à pas, les vis à billes et les axes supportés.
 
 Le moteur pas à pas est un moteur dont le fonctionnement est relativement
@@ -191,10 +191,10 @@ axe.
     Le moteur pas à pas de l'axe Z, couplé indirectement à la vis à billes
 
 
-La vis à billes permettent de convertir la rotation du moteur en translation
-(comme lorsqu'on visse une vis !). Les billes remplacent les pas de l'écrou,
+La vis à billes permet de convertir la rotation du moteur en translation
+(comme lorsqu'on visse une vis !). Les billes remplacent les pas de l'écrou,
 limitant ainsi les frottements et augmentant considérablement la précision. Le
-couplage entre le moteur et la vis à billes peut être :
+couplage entre le moteur et la vis à billes peut être :
 
 - direct, au moyen d'un *coupleur d'axe* spécifique qui protégera de la casse le moteur et la vis,
 - ou indirect, au moyen de poulies et de courroies qui permettront une démultiplication de l'effort tout en gardant une certaine souplesse de mouvement.
@@ -212,7 +212,7 @@ stabilité lors du déplacement.
     Un peu de mécanique ...
 
 
-D'autres solutions existent :
+D'autres solutions existent :
 
 - les vis trapézoïdales (meilleures que le pas de vis classique) et les axes
   non supportés sont bon marché mais sont plus sensibles à l'usure et sont
@@ -232,7 +232,7 @@ Les moteurs pas à pas et les contrôleurs
 ::::::::::::::::::::::::::::::::::::::::
 
 Pour comprendre le pilotage d'une CNC, il faut d'abord connaître un peu le
-fonctionnement d'un moteur pas à pas :
+fonctionnement d'un moteur pas à pas :
 
 Un moteur pas à pas est conçu pour effectuer un tour complet en un certain
 nombre de pas. Cette caractéristique est indiquée sur le moteur sous la forme
@@ -242,7 +242,7 @@ d'une montre ou inversement.
 
 Le moteur pas à pas est généralement alimenté sur 4 fils, reliés deux à deux à
 des bobines. C'est en alimentant ces bobines et en tenant compte de la polarité
-d'alimentation, que le moteur tournera d'un pas dans un sens ou dans l'autre ;
+d'alimentation, que le moteur tournera d'un pas dans un sens ou dans l'autre ;
 en alternant cette alimentation dans un ordre précis, on fait faire plusieurs
 pas au moteur. Sans rentrer dans le détail du fonctionnement, cela signifie
 qu'il faut être capable d'alimenter le moteur avec un courant de forte
@@ -261,26 +261,26 @@ le courant fourni aux bobines afin de ne pas abîmer le moteur.
    disponible sur le contrôleur de moteur. Sachant que la vitesse de montée du
    courant à la valeur nominale décroit à l'approche de celle-ci, il est
    intéressant d'utiliser une alimentation capable de fournir plusieurs fois la
-   tension dont on à besoin : le hachage du courant empêchera de toute manière
+   tension dont on à besoin : le hachage du courant empêchera de toute manière
    qu'on dépasse les valeurs désirées et on profitera d'une vitesse de montée
    du courant bien meilleure ce qui permettra une réponse optimale des moteurs.
 
 
 Le contrôleur de moteur pas à pas possède également une interface de commande
 composée de 3 fils prenant en charge une commande chacun, sous forme de niveau
-logique binaire (0 ou 5V) :
+logique binaire (0 ou 5V) :
 
 - **[ENABLE]** moteur allumé ou éteint,
 - **[DIRECTION]** direction de rotation horaire ou anti-horaire,
 - **[STEP]** rotation de l'axe du moteur d'un pas.
 
-Le moteur peut donc être :
+Le moteur peut donc être :
 
-- éteint (ENABLE à 0V) : aucune autre commande n'est interprétée et l'axe du
+- éteint (ENABLE à 0V) : aucune autre commande n'est interprétée et l'axe du
   moteur est en rotation libre (on peut le positionner à la main),
 
-- ou allumé (ENABLE à 5V) : en l'absence de commande de rotation, le moteur
-  maintient une position (on ne peut pas le bouger manuellement) ; lorsqu'une
+- ou allumé (ENABLE à 5V) : en l'absence de commande de rotation, le moteur
+  maintient une position (on ne peut pas le bouger manuellement) ; lorsqu'une
   commande de rotation arrive (passage de 0 à 5V sur le fil [STEP]), le
   moteur effectue une unité de rotation dans le sens qui lui est commandé pas
   le fil de direction.
@@ -299,14 +299,14 @@ du moteur.
 
    En connaissant l'angle d'un pas du moteur pas à pas, ainsi que le pas de vis
    à billes et le rapport de couplage, on peut calculer la précision théorique
-   de la CNC. Par exemple, pour l'axe X :
+   de la CNC. Par exemple, pour l'axe X :
 
    - notre moteur pas à pas peut effectuer un angle minimum de 1.8°, soient 200 pas par tour,
    - la poulie crantée sur l'axe du moteur a 15 dents ,
    - la poulie crantée sur la vis à billes a 20 dents,
    - la vis à bille a un pas de 5mm (1 tour de vis déplace l'écrou de 5mm).
 
-   La précision théorique de l'axe X de la CNC est donc de :
+   La précision théorique de l'axe X de la CNC est donc de :
 
     ::
 
@@ -348,7 +348,7 @@ tâche. Une troisième solution intermédiaire consiste à utiliser un ordinateu
 pour les calculs et l'affichage, couplé à un contrôleur de CNC pour le
 pilotage. La principale contrainte est d'être capable de délivrer les commandes
 au contrôleur de moteur (enable/step/direction) de manière très rapide et
-synchrone. L'ordinateur seul ne présente pas une solution idéale ; seul le port
+synchrone. L'ordinateur seul ne présente pas une solution idéale ; seul le port
 parallèle permet de répondre en partie à ces impératifs mais l'architecture
 matérielle n'est pas optimisée pour ce type d'utilisation et un ralentissement
 de quelques microsecondes ne peut être toléré. Compléter ou remplacer
@@ -379,7 +379,7 @@ commande.
 
 Toutes ces possibilités peuvent être gérées par l'homme en utilisant un langage
 de programmation spécifique. Le langage le plus populaire aujourd'hui pour le
-contrôle des CNCs est le G-Code ; le dispositif numérique sera donc en mesure
+contrôle des CNCs est le G-Code ; le dispositif numérique sera donc en mesure
 d'interpréter ce langage pour commander, entre autres, les contrôleurs de
 moteurs pas à pas. Ce langage met à disposition des instructions de déplacement
 de l'outil de coupe, de vitesse de coupe, de gestion de chemins, etc.
@@ -390,29 +390,29 @@ techniques du projet, en effectuant un certain nombre de calculs - pas toujours
 passage d'outils, ainsi que la création des dessins techniques sont aujourd'hui
 assistés par ordinateur.
 
-Les outils informatiques qui interviennent dans le domaine des CNCs sont rangés dans les catégories suivantes :
+Les outils informatiques qui interviennent dans le domaine des CNCs sont rangés dans les catégories suivantes :
 
-- CAO (= CAD en anglais) : Conception assistée par ordinateur. Permet de
+- CAO (= CAD en anglais) : Conception Assistée par Ordinateur. Permet de
   concevoir et d'élaborer les dessins techniques des pièces à réaliser. Les
   fichiers sont souvent des formats propriétaires contenant des informations de
   plans 2D ou de volumes 3D.
 
-- FAO (= CAM en anglais) : Fabrication assistée par ordinateur. Permet de
+- FAO (= CAM en anglais) : Fabrication Assistée par Ordinateur. Permet de
   calculer les chemins des opérations d'usinages sous forme de parcours-outils.
   Les fichiers sont également propriétaires mais les outils permettent pour la
   plupart d'exporter ces parcours-outils en G-Code.
 
 - Interpréteurs G-Code et contrôleurs de CNCs (G-Code parser and CNCs
-  controller en anglais) : Permet d'interpréter le G-Code et de commander les
+  controller en anglais) : Permet d'interpréter le G-Code et de commander les
   contrôleurs de moteurs de la CNC.
 
 .. note::
 
     La norme décrivant le G-Code est cependant rarement implémentée en sa
-    totalité, ni toujours conformément, et ce pour plusieurs raisons :
+    totalité, ni toujours conformément, et ce pour plusieurs raisons :
 
     - d'une part, le langage a été standardisé en 1980 après 20 ans
-      d'utilisation, et cette norme n'a pas évoluée depuis 1980 ; depuis, de
+      d'utilisation, et cette norme n'a pas évoluée depuis 1980 ; depuis, de
       nombreux fabricants de machines ont donc adapté le langage à leurs
       besoins.
 
@@ -420,18 +420,18 @@ Les outils informatiques qui interviennent dans le domaine des CNCs sont rangés
       a rendu certaines instructions moins utiles, voir inutiles.
 
 
-Voici la chaîne de logiciels que j'utilise ; ces logiciels ont été choisi spécifiquement dans le domaine du libre :
+Voici la chaîne de logiciels que j'utilise ; ces logiciels ont été choisi spécifiquement dans le domaine du libre :
 
 CAO
 ---
 
 FreeCAD gère de nombreux formats de fichiers en importation et en exportation.
-L'outil est assez facile à prendre en main : un certain nombre "d'ateliers"
+L'outil est assez facile à prendre en main : un certain nombre "d'ateliers"
 permettent de gérer la modélisation 3D à différentes étapes et en fonction des
 besoins. Un système de graphe permet de revenir sur les étapes de modélisation
 sans utiliser d'historique linéaire. L'approche globale est la modélisation
 paramétrable basée sur des contraintes. Beaucoup plus facile à prendre en main
-qu'à expliquer !
+qu'à expliquer !
 
 LibreCAD gère la modélisation 2D avec une approche traditionnelle, un peu comme
 si vous êtiez sur une table à dessin, avec rapporteur, équerre, papier
@@ -464,7 +464,7 @@ outils de FAO très pratiques (voir notamment le plugin de génération de G-Cod
 pour Inkscape, F-Engrave, etc). Et dans la catégorie interpréteur
 G-Code/contrôleur de CNCs, l'arrivée de solutions embarquées (`Grbl <https://github.com/grbl/grbl>`_
 sur Arduino et son portage `SmoothieWare <http://smoothieware.org/>`_ sur mbed,
-Smoothieboard et autres) sont à tester rapidement ! Elles permettront à terme
+Smoothieboard et autres) sont à tester rapidement ! Elles permettront à terme
 de ne plus utiliser le port parallèle et d'obtenir de meilleures performances.
 
 .. sidebar:: Port parallèle et CNC
@@ -487,18 +487,18 @@ de ne plus utiliser le port parallèle et d'obtenir de meilleures performances.
     cependant toujours très actif et tente justement de se séparer de noyau
     temps réel RTAI.
 
-Et maintenant ?
+Et maintenant ?
 :::::::::::::::
 
-Cet article aborde les bases du fonctionnement d'une CNC 3 axes pour hobbyiste
-; il reste ensuite à apprendre les techniques d'usinage ainsi que la conception
-et la fabrication assistés par ordinateur. Ne pas oublier que c'est un métier
-avant tout, ce qui n'empèche pas, avec du sérieux et des précautions,
+Cet article aborde les bases du fonctionnement d'une CNC 3 axes pour
+hobbyiste ; il reste ensuite à apprendre les techniques d'usinage ainsi que la
+conception et la fabrication assistés par ordinateur. Ne pas oublier que c'est
+un métier avant tout, ce qui n'empèche pas, avec du sérieux et des précautions,
 d'attaquer le sujet sous divers angles. Sur internet on trouve assez facilement
-des informations et de l'aide :
+des informations et de l'aide :
 
 Plusieurs communautés existent, comme par exemple `usinages.com
-<http://www.usinages.com/>`_ ou pour les anglophones : `cnczone.com
+<http://www.usinages.com/>`_ ou pour les anglophones : `cnczone.com
 <http://www.cnczone.com/>`_.
 
 Les sites des fabricants d'outils et des logiciels de CAO/FAO (principalement
@@ -509,6 +509,6 @@ l'utilisation du logiciel et donne de nombreuses références, explications et
 exemples.
 
 Enfin, le détournement d'un tel outil est bien sûr possible, jetez un oeil sur
-`hackaday.com <http://hackaday.com/?s=cnc>`_ par exemple !
+`hackaday.com <http://hackaday.com/?s=cnc>`_ par exemple !
 
 `Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=2>`_.
