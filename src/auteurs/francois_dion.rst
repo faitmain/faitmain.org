@@ -11,7 +11,7 @@ solutions mobiles.
 
 Il a créé le PYthon Piedmont Triad User Group (`PYPTUG <http://www.pyptug.org/>`_), un
 groupe d'usager couvrant une région aux pieds des
-`montagnes Bleues <http://fr.wikipedia.org/wiki/Montagnes_Blue_Ridge>`_)
+`montagnes Bleues <http://fr.wikipedia.org/wiki/Montagnes_Blue_Ridge>`_
 à Winston-Salem (Caroline du Nord), ou il habite. Il s'implique aussi dans sa communauté
 pour aider les familles hispaniques.
 
