@@ -420,7 +420,7 @@ Les outils informatiques qui interviennent dans le domaine des CNCs sont rangés
       a rendu certaines instructions moins utiles, voir inutiles.
 
 
-Voici la chaîne de logiciels que j'utilise ; ces logiciels ont été choisi spécifiquement dans le domaine du libre :
+Voici la chaîne de logiciels que j'utilise ; ces logiciels ont été choisis spécifiquement dans le domaine du libre :
 
 CAO
 ---
