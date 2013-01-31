@@ -104,7 +104,7 @@ profondeur de champ : ces paramètres ne donnent pas du tout les mêmes effets.
 
 La photo culinaire se prête à de nombreux styles photographiques. Clair ou
 sombre, en plan rapproché ou  plus éloigné, en nature morte ou avec présence
-humaine, de style studio ou lifestyle, à vous de trouver votre préféré. Ou bien
+humaine, à vous de trouver votre préféré. Ou bien
 de varier selon les recettes. Voici quelques exemples :
 
 
@@ -112,7 +112,7 @@ de varier selon les recettes. Voici quelques exemples :
    :target: http://www.brindecuisine.fr/le-gateau-au-vin-blanc-de-patricia/
    :scale: 50
 
-   Lifestyle, avec présence humaine
+   Lifestyle, c'est-à-dire prise de vue intégrant la présence humaine
 
 
 .. figure:: brindecuisine-ketchup-vert.jpg
@@ -135,18 +135,20 @@ de varier selon les recettes. Voici quelques exemples :
    Clair-obscur.
 
 
-.. figure:: brindecuisine-painrustique-5.jpg
+.. figure:: brindecuisine-vue-plongeante.jpg
    :target: http://www.brindecuisine.fr/pain-rustique-aux-lentilles-cuisson-en-cocotte/
    :scale: 50
 
-   En vue plongeante.
+   La vue plongeante est adaptée aux recettes familiales, réalisées dans de grands plats.
 
 
 .. figure:: recette-avril-3.jpg
    :target: http://www.brindecuisine.fr/ceviche-de-truite/
    :scale: 50
 
-   High-key.
+   Le high key consiste à éclairer fortement le sujet, et à légèrement
+   surexposer afin qu'il n'y ait aucune zone de couleur noire, et le moins
+   possible d'ombre grise.
 
 
 
