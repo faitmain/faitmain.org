@@ -16,7 +16,7 @@ photographe, mieux vaut s'organiser. C'est bien plus facile à plusieurs ...
 
 .. note::
 
-   Derrière chaque photo se cache un lien vers une délicieuse recette.
+   Retrouvez toutes les recettes sur http://www.brindecuisine.fr
 
 
 1. Scénariser
@@ -38,18 +38,13 @@ l'œil.
 Penser aussi dès cette étape à l'harmonisation du plat avec la vaisselle et le
 décor, que vous pouvez choisir neutre ou signifiant.
 
-.. figure:: brindecuisine-caramel-de-fruits.jpg
-   :target: http://www.brindecuisine.fr/caramel-de-rhubarbe-ou-comment-optimiser-les-fruits-qui-rendent-trop-deau-lorsquon-fait-des-confitures/
-   :scale: 50
 
-   Un fond blanc et un voilage très simple sont un exemple de décor neutre.
-
-
-.. figure:: spareribs.jpg
-   :target: http://www.brindecuisine.fr/travers-de-porc-a-lamericaine-spare-ribs/
-   :scale: 50
-
-   Un décor signifiant donne aussi beaucoup d'ambiance à une photo.
++---------------------------------------------------+--------------------------------------------------+
+| .. figure:: brindecuisine-caramel-de-fruits.jpg   | .. figure:: spareribs.jpg                        |
++---------------------------------------------------+--------------------------------------------------+
+| Un fond blanc et un voilage très simple           | Un décor signifiant donne aussi                  |
+| sont un exemple de décor neutre.                  | beaucoup d'ambiance à une photo.                 |
++---------------------------------------------------+--------------------------------------------------+
 
 
 2. Éclairer
@@ -60,20 +55,14 @@ couleurs les plus appétissantes. Dehors ou derrière une fenêtre, le soleil
 permet de multiples éclairages. Un voilage servira de diffuseur. Attention à la
 lumière directe, qui donne des ombres dures.
 
-.. figure:: brindecuisine-rasante.jpg
-   :target: http://www.brindecuisine.fr/muffins-des-iles-banane-noix-de-pecan-lait-de-coco-cannelle/
-   :scale: 50
-
-   Une lumière du jour rasante donne de la profondeur à l'image
-
-
-.. figure:: chow-colat-cha-mallow.jpg
-   :target: http://www.brindecuisine.fr/chocolat-chaud-chamallows/
-   :scale: 50
-
-   La lumière artificielle est plus difficile à gérer. Mais parfois, on n'a pas
-   le choix, notamment en hiver, lorsque le jour est de courte durée
-
++---------------------------------------------------+--------------------------------------------------+
+| .. figure:: brindecuisine-rasante.jpg             | .. figure:: chow-colat-cha-mallow.jpg            |
++---------------------------------------------------+--------------------------------------------------+
+| Une lumière du jour rasante donne de la           | La lumière artificielle est plus difficile       |
+| profondeur à l'image                              | à gérer. Mais parfois, on n'a pas le choix,      |
+|                                                   | notamment en hiver, lorsque le jour est de       |
+|                                                   | courte durée.                                    |
++---------------------------------------------------+--------------------------------------------------+
 
 .. figure:: brindecuisine-mures.jpg
    :target: http://www.brindecuisine.fr/mures-du-jardin-un-parfum-de-fin-dete/
@@ -107,49 +96,27 @@ sombre, en plan rapproché ou  plus éloigné, en nature morte ou avec présence
 humaine, à vous de trouver votre préféré. Ou bien
 de varier selon les recettes. Voici quelques exemples :
 
++-------------------------------------------------+----------------------------------------------+
+| .. figure:: brindecuisine-Gtovinblanc-1-2.jpg   | .. figure:: brindecuisine-ketchup-vert.jpg   |
++-------------------------------------------------+----------------------------------------------+
+|   Lifestyle, c'est-à-dire prise de vue          |  Style "nature", lumière du jour et          |
+|   intégrant la présence humaine                 |  ingrédients frais                           |
++-------------------------------------------------+----------------------------------------------+
 
-.. figure:: brindecuisine-Gtovinblanc-1-2.jpg
-   :target: http://www.brindecuisine.fr/le-gateau-au-vin-blanc-de-patricia/
-   :scale: 50
++-------------------------------------------------+--------------------------------------------------+
+| .. figure:: brindecuisine-macaron-1-5.jpg       | .. figure:: brindecuisine-courge-sucrine-1.jpg   |
++-------------------------------------------------+--------------------------------------------------+
+| Plan rapproché en studio, double éclairage      |  Clair-obscur.                                   |
+| latéral de même puissance.                      |                                                  |
++-------------------------------------------------+--------------------------------------------------+
 
-   Lifestyle, c'est-à-dire prise de vue intégrant la présence humaine
-
-
-.. figure:: brindecuisine-ketchup-vert.jpg
-   :target: http://www.brindecuisine.fr/ketchup-schrek-de-tomates-vertes/
-   :scale: 50
-
-   Style "nature", lumière du jour et ingrédients frais
-
-.. figure:: brindecuisine-macaron-1-5.jpg
-   :target: http://www.brindecuisine.fr/macarons-au-baileys/
-   :scale: 50
-
-   Plan rapproché en studio, double éclairage latéral de même puissance.
-
-
-.. figure:: brindecuisine-courge-sucrine-1.jpg
-   :target: http://www.brindecuisine.fr/souffle-minute-a-la-courge-sucrine-du-berry/
-   :scale: 50
-
-   Clair-obscur.
-
-
-.. figure:: brindecuisine-vue-plongeante.jpg
-   :target: http://www.brindecuisine.fr/pain-rustique-aux-lentilles-cuisson-en-cocotte/
-   :scale: 50
-
-   La vue plongeante est adaptée aux recettes familiales, réalisées dans de grands plats.
-
-
-.. figure:: recette-avril-3.jpg
-   :target: http://www.brindecuisine.fr/ceviche-de-truite/
-   :scale: 50
-
-   Le high key consiste à éclairer fortement le sujet, et à légèrement
-   surexposer afin qu'il n'y ait aucune zone de couleur noire, et le moins
-   possible d'ombre grise.
-
++-------------------------------------------------+-----------------------------------------------------------+
+| .. figure:: brindecuisine-vue-plongeante.jpg    | .. figure:: recette-avril-3.jpg                           |
++-------------------------------------------------+-----------------------------------------------------------+
+|    La vue plongeante est adaptée aux recettes   | Le high key consiste à éclairer fortement le sujet,       |
+|    familiales, réalisées dans de grands plats.  | et à légèrement surexposer afin qu'il n'y ait aucune      |
+|                                                 | zone de couleur noire, et le moins possible d'ombre grise.|
++-------------------------------------------------+-----------------------------------------------------------+
 
 
 5. Planifier
