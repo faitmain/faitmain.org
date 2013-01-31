@@ -48,9 +48,6 @@
 <div class="container-fluid">
  <div class="row-fluid">
  <div class="span9 offset1">
-  <div class="alert alert-error">
-    Attention le magazine n'est pas encore officiellement lancé. Ceci est un prototype. Ne pas diffuser.
-  </div>
   <%block name="first_h1">
   <div class="page-header">
     <h1>${title}</h1>

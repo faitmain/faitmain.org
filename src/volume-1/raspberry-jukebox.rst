@@ -12,7 +12,7 @@ Un Juke Box avec le Raspberry-Pi
    Le Raspberry-PI Jukebox
 
 
-Après trois mois d'attente interminable , j'ai finalement reçu mon
+Après trois mois d'attente interminable, j'ai finalement reçu mon
 `Raspberry Pi <http://www.raspberrypi.org/>`_ (R-Pi), accompagné
 d'un joli T-shirt *Element 14*.
 
@@ -25,28 +25,32 @@ se connecte à mon réseau local en wifi - et qui fournit une application web
 où tout le monde peut se connecter pour ajouter des morceaux de musique
 dans une file d'attente.
 
-Le projet final est une petite boite qui contient le R-PI et:
+Le projet final est une petite boite qui contient le R-PI et :
 
 - une clé USB pour stocker de la musique. J'ai choisi la
-  `PNY 16G <http://www.amazon.fr/dp/B0052QT6BQ>`_ qui est vraiment toute petite.
+  `PNY 16G <http://www.amazon.fr/dp/B0052QT6BQ>`_ qui est vraiment toute
+  petite.
 
-- un dongle USB  wifi. J'ai choisi l'`Airlink Nano <http://www.amazon.fr/gp/product/B003X26PMO>`_
-  pour les mêmes raisons: il dépasse à peine du port USB.
+- un dongle USB wifi. J'ai choisi l'`Airlink Nano
+  <http://www.amazon.fr/gp/product/B003X26PMO>`_ pour les mêmes raisons : il
+  dépasse à peine du port USB.
 
 - Une batterie USB pour ne pas avoir à brancher le R-PI sur le courant ou sur
-  mon ordinateur. J'ai choisi `celui-ci <http://www.amazon.fr/gp/product/B006LR6N3O>`_
-  qui s'avère être beaucoup plus volumineux que le R-PI, mais qui fournit jusqu'à
-  1 ampère de courant - ce qui couvre les besoins et devrait permettre d'éviter
-  à avoir recours à un Hub USB alimenté.
+  mon ordinateur. J'ai choisi `celui-ci
+  <http://www.amazon.fr/gp/product/B006LR6N3O>`_ qui s'avère être beaucoup plus
+  volumineux que le R-PI, mais qui fournit jusqu'à 1 ampère de courant - ce qui
+  couvre les besoins et devrait permettre d'éviter à avoir recours à un Hub USB
+  alimenté.
 
-- Un mini-speaker. J'ai commandé le `X-Mini II <http://www.amazon.fr/gp/product/B001UEBN42>`_
-  qui est tout simplement incroyable. Ce petit speaker sort un très bon son
-  vu sa taille, est auto-alimenté et on peut en brancher plusieurs à la suite.
-  J'en ai acheté un deuxième pour mon fils et je le recommande chaudement.
-  Dans tous les cas, le Juke-Box peut toujours être branché sur de vraies enceintes.
+- Un mini-speaker. J'ai commandé le `X-Mini II
+  <http://www.amazon.fr/gp/product/B001UEBN42>`_ qui est tout simplement
+  incroyable. Ce petit speaker sort un très bon son vu sa taille, est
+  auto-alimenté et on peut en brancher plusieurs à la suite.  J'en ai acheté un
+  deuxième pour mon fils et je le recommande chaudement.  Dans tous les cas, le
+  Juke-Box peut toujours être branché sur de vraies enceintes.
 
-Petit détail agréable: Le speaker et la batterie USB ont été tous les deux livrés
-pré-chargés.
+Petit détail agréable : Le speaker et la batterie USB ont été tous les deux
+livrés pré-chargés.
 
 
 
@@ -75,7 +79,7 @@ Il s'avère que le R-PI est très sensible au type de carte SD qu'il reçoit.
 Rien à voir avec la marque ou le prix de la carte, ou sa classe. Certaines
 marchent, certaines de marchent pas...
 
-Le plus simple est de prendre une carte qui est listée ici:
+Le plus simple est de prendre une carte qui est listée ici :
 http://elinux.org/RPi_VerifiedPeripherals#SD_cards
 
 Je suis allé au supermarché du coin et j'ai pris une
@@ -83,29 +87,33 @@ Je suis allé au supermarché du coin et j'ai pris une
 7 euros - et tout a fonctionné.
 
 Préparer la carte SD pour le R-PI sous Mac OS X est très simple.
-Il y a même un script Python : `RasPiWrite <http://exaviorn.com/raspiwrite>`_
-qui automatise la tâche.
+Il y a même un script Python : `RasPiWrite
+<https://github.com/exaviorn/RasPiWrite>`_ qui automatise la tâche.
 
-J'ai eu quelques bugs avec pour ma part alors j'ai utilisé
-quelques commandes shell.
+J'ai eu quelques bugs avec ce script pour ma part, j'ai donc utilisé quelques
+commandes shell.
 
 J'ai d'abord téléchargé l'image **Raspbian** officielle. C'est une
-Debian optimisée pour le R-PI::
+Debian optimisée pour le R-PI :
+
+::
 
     cd /tmp
-    wget http://ftp.snt.utwente.nl/pub/software/rpi/images/raspbian/2012-10-28-wheezy-raspbian/2012-10-28-wheezy-raspbian.zip
-    unzip 2012-10-28-wheezy-raspbian.zip
+    wget http://files.velocix.com/c1410/images/raspbian/2012-12-16-wheezy-raspbian/2012-12-16-wheezy-raspbian.zip
+    unzip 2012-12-16-wheezy-raspbian.zip
 
-Vous pouvez regarder sur http://www.raspberrypi.org/downloads s'il
-n'y en a pas une plus récente.
+Vous pouvez regarder sur http://www.raspberrypi.org/downloads s'il y en a une
+plus récente.
 
 Une fois que l'image est téléchargée et dézippée, il convient de la transférer
 sur la carte SD avec la commande **dd**.
 
 Sous **Mac OS X**, la commande **diskutil list** m'a permis de trouver le
-disque correspondant à la carte : **/dev/disk3**
+disque correspondant à la carte : **/dev/disk3**
 
-Puis le transfert s'opère en démontant la carte et en utilisant **dd**::
+Puis le transfert s'opère en démontant la carte et en utilisant **dd**  :
+
+::
 
     $ diskutil umountDisk /dev/disk3
     Unmount of all volumes on disk3 was successful
@@ -127,8 +135,8 @@ peut durer de 5 à 10 minutes.
    La notation **rdisk3** est spécifique à Mac OS X. Elle permet d'accélerer
    la procédure. Sous Linux, il faut enlever le *"r"*.
 
-Une fois que la carte est prête, il suffit de la plugguer dans R-PI et de
-le démarrer avec un écran & un clavier branchés.
+Une fois que la carte est prête, il suffit de la plugguer dans le R-PI et de
+le démarrer avec un écran et un clavier branchés.
 
 
 Configuration de base et wifi
@@ -138,7 +146,7 @@ Vous devriez voir défiler la séquence de boot puis obtenir un écran
 de configuration.
 
 - étendez la partition sur toute la carte SD grâce à **expand_rootds**,
-- overclockez votre R-PI dans le menu **overclock**. J'ai mis le mien
+- overclockez votre R-PI dans le menu **overclock**  : J'ai mis le mien
   en **medium**
 - activez le serveur SSH dans **ssh**
 - désactivez le desktop dans **boot_behavior**
@@ -156,7 +164,9 @@ pour que le dongle s'autoconnecte au réseau. J'ai branché le dongle sur
 le port USB du bas, ce qui correspond selon **iwconfig** à l'interface
 **wlan0**.
 
-Voici ma configuration pour  *wlan0*::
+Voici ma configuration pour  *wlan0*  :
+
+::
 
     auto wlan0
 
@@ -166,20 +176,22 @@ Voici ma configuration pour  *wlan0*::
 
 
 **Villa_Des_Mouches** est le ESSID de mon réseau wifi. Une fois le fichier
-modifié, relancer le réseau::
+modifié, relancer le réseau :
+
+::
 
     $ sudo /etc/init.d/networking restart
 
 
-Votre R-PI va obtenir une addresse IP sur le réseau sur laquelle
+Votre R-PI va obtenir une adresse IP sur le réseau sur laquelle
 on pourra se connecter en SSH pour la suite.
 
-Eteignez le R-PI avec **sudo halt**, puis débranchez l'écran et le clavier.
+Éteignez le R-PI avec **sudo halt**, puis débranchez l'écran et le clavier.
 Branchez la clef USB à la place du clavier et relancer le R-PI.
 
 Au bout d'un moment il devrait réapparaitre dans le réseau et être
-accessible en SSH. Le seul défaut de cette technique est que l'addresse
-IP peut changer. Une addresse IP statique peut être préferée mais
+accessible en SSH. Le seul défaut de cette technique est que l'adresse
+IP peut changer. Une adresse IP statique peut être préférée mais
 dans mon cas ce n'est pas très grave car je retrouve facilement le R-PI
 en scannant le réseau avec *nmap 192.168.1.**.
 
@@ -198,7 +210,9 @@ un écran adapté, la résolution du mode console du R-PI sur un écran
 moderne va vous brûler les yeux en 5 minutes.
 
 Testez que le son fonctionne en branchant une enceinte amplifiée sur le R-PI et
-en téléchargeant un **WAV** et en le jouant avec **aplay**::
+en téléchargeant un **WAV** et en le jouant avec **aplay**  :
+
+::
 
     $ wget http://www.freespecialeffects.co.uk/soundfx/sirens/police_s.wav
     $ aplay police_s.wav
@@ -208,7 +222,9 @@ en téléchargeant un **WAV** et en le jouant avec **aplay**::
 Vous devriez entendre une sirène.
 
 Installez maintenant **mpg123** pour jouer des MP3 présents sur la clef
-USB. Il a fallu monter le disque manuellement par contre::
+USB. Il a fallu monter le disque manuellement par contre :
+
+::
 
     $ sudo mkdir /media/usbstick
     $ sudo mount -t vfat  -o uid=pi,gid=pi /dev/sda1 /media/usbstick
@@ -229,7 +245,7 @@ USB. Il a fallu monter le disque manuellement par contre::
     Year:    2012                            Genre:  Podcast
 
 
-Victoire ! Et un super mix de `ParisDjs <http://parisdjs.com>`_ avec un son
+Victoire ! Et un super mix de `ParisDjs <http://parisdjs.com>`_ avec un son
 propre.
 
 **mpg123** utilise environ 6% de CPU, ce qui est plus qu'acceptable.
@@ -240,23 +256,27 @@ Application JukeBox
 
 Pour la partie JukeBox, je comptais écrire une petite application web
 au dessus de **mpg123** et je le ferais peut-être un jour, mais
-il en existe déja plusieurs.
+il en existe déjà plusieurs.
 
 `Jukebox <https://github.com/lociii/jukebox>`_ est écrite en Python
-avec Django et fournit les fonctionnalitée de base d'un JukeBox,
+avec Django et fournit les fonctionnalités de base d'un JukeBox,
 à savoir un affichage des morceaux présents et un moyen pour les
 utilisateurs du réseau d'ajouter des morceaux dans la playlist.
 
 .. image:: http://a248.e.akamai.net/camo.github.com/bb66587466563ff4b89af700ba14d0f31caabff0/687474703a2f2f7374617469632e6a656e736e6973746c65722e64652f6a756b65626f782e706e67
    :alt: L'application Django Jukebox
 
-Pour installer JukeBox, il faut un environement Python/Virtualenv mais aussi
-la librairie **libshout3** qui est utilisée par l'application::
+Pour installer JukeBox, il faut un environnement Python/Virtualenv mais aussi
+la librairie **libshout3** qui est utilisée par l'application :
+
+::
 
     $ sudo apt-get install python-virtualenv libshout3 libshout3-dev pkg-config python-dev
 
-Une fois les paquets systèmes installés, il faut créer un virtualenv et y installer
-**ez_setup** puis JukeBox::
+Une fois les paquets systèmes installés, il faut créer un virtualenv et y
+installer **ez_setup** puis JukeBox :
+
+::
 
     $ virtualenv --no-site-packages jukebox
     $ cd jukebox
@@ -265,14 +285,15 @@ Une fois les paquets systèmes installés, il faut créer un virtualenv et y ins
     $ bin/pip install jukebox
 
 
-Pour la configuration de Jukebox, tout est expliqué ici: https://github.com/lociii/jukebox
+Pour la configuration de Jukebox, tout est expliqué ici :
+https://github.com/lociii/jukebox#readme
 
 Le gros défaut de cette application est qu'elle force les utilisateurs
 à utiliser un compte social comme Twitter - et je n'ai pas eu le temps
 de plugger un système d'authentification plus simple.
 
-Quoi qu'il en soit je suis ravi du résultat - ce petit juke box peut se brancher
-sur de bonnes enceintes et rivaliser avec les systèmes sans fils hors de prix
-du marché, comme les *Sonos*.
+Quoi qu'il en soit je suis ravi du résultat - ce petit juke box peut se
+brancher sur de bonnes enceintes et rivaliser avec les systèmes sans fils hors
+de prix du marché, comme les *Sonos*.
 
 `Réagissez sur cet article <http://forums.faitmain.org/viewtopic.php?id=9>`_.
