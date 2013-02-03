@@ -100,6 +100,10 @@
         <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">
           <img src="http://cnd.faitmain.org/media/github.png"/> Github
 </a></li>
+        <li><a target="_blank" title="Atom Feed" href="http://faitmain.org/feed.xml" id="atom">
+          <img src="http://cnd.faitmain.org/media/rss.png"/> Flux Atom
+</a></li>
+
 </ul>
 
      </div>
