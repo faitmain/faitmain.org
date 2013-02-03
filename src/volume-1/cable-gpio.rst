@@ -1,7 +1,7 @@
 Cable d'interface pour Raspberry Pi
 ===================================
 
-:date: 2013-01-19
+:date: 2013-02-01
 :category: informatique,electronique
 :level: vulgarisation
 :author: François Dion
@@ -129,7 +129,7 @@ Avant toute chose, on doit se procurer un module Python du nom de
 `RPi.GPIO <http://pypi.python.org/pypi/RPi.GPIO>`_. C'est un module qui
 permet de contrôler les GPIO sur un Raspberry Pi. Sur Raspbian, il est
 maintenant inclus, mais si on utilise une autre version de Linux, on peut
-l'installer grâce a 
+l'installer grâce a
 
 .. code-block:: sh
 

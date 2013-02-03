@@ -1,7 +1,7 @@
 The Midst ?
 ===========
 
-:date: 2013-01-23
+:date: 2013-02-01
 :category: art, informatique
 :level: vulgarisation
 :author: Bérenger Recoules

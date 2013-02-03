@@ -1,7 +1,7 @@
 Cindermedusae - Les Créatures Génératives
 =========================================
 
-:date: 2012-12-12
+:date: 2013-01-02
 :category: art,informatique
 :level: avancé
 :author: Marcin Ignac

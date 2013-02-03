@@ -1,7 +1,7 @@
 Piloter des dispositifs sans fil
 ================================
 
-:date: 2012-12-12
+:date: 2013-02-01
 :category: electronique,informatique
 :level: avancé
 :author: Jonathan Schemoul

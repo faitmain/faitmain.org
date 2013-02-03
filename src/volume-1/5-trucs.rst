@@ -1,7 +1,7 @@
 5 petits trucs sur la photographie culinaire
 ============================================
 
-:date: 2013-01-19
+:date: 2013-02-01
 :category: cuisine,art
 :level: vulgarisation
 :author: Brin de cuisine

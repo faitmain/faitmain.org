@@ -1,7 +1,7 @@
 Le monde merveilleux des CNCs
 =============================
 
-:date: 2013-01-20
+:date: 2013-02-01
 :category: electronique,informatique
 :level: moyen
 :author: Alcor Walter
