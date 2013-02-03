@@ -1,7 +1,7 @@
 Un Juke Box avec le Raspberry-Pi
 ================================
 
-:date: 2012-02-01
+:date: 2013-02-01
 :category: electronique,informatique
 :level: découverte
 :author: Tarek Ziadé
