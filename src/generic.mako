@@ -7,6 +7,7 @@
     <%block name="headtitle">
     <title>${title} - Fait Main Magazine</title>
     </%block>
+    <link href="http://faitmain.org/feed.xml" type="application/atom+xml" rel="alternate" title="Flux Atom" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vulgarisation pour Geeks">
     <!--[if lt IE 9]>
@@ -15,7 +16,7 @@
     <link href="http://cnd.faitmain.org/media/bootstrap.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootstrap-responsive.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootswatch.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="stylesheet">
+    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="styleosheet">
     <link rel="shortcut icon" href="http://cnd.faitmain.org/favicon.ico" />
 </head>
 
