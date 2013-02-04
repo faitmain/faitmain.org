@@ -84,7 +84,7 @@ Informations légales
 
 Magazine publié en France. Numéro ISSN en cours d'obtention.
 
-Contact & addresse:
+Contact & adresse:
 
     Tarek Ziadé - tarek@faitmain.org
     6 rue de l'Eglise
@@ -92,12 +92,12 @@ Contact & addresse:
     France
 
 
-- **Editeur** - Tarek Ziadé
+- **Éditeur** - Tarek Ziadé
 - **Directeur de la publication** - Tarek Ziadé
 
 
 Donnée personnelles stockées: chaque accès au site est stocké dans un fichier de log
-à des fins de statistiques - mais **les addresses IP ne sont pas collectées** et
+à des fins de statistiques - mais **les adresses IP ne sont pas collectées** et
 le serveur ne contact aucun service tiers.
 
 
