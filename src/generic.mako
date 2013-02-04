@@ -16,7 +16,7 @@
     <link href="http://cnd.faitmain.org/media/bootstrap.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootstrap-responsive.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootswatch.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="styleosheet">
+    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="stylesheet">
     <link rel="shortcut icon" href="http://cnd.faitmain.org/favicon.ico" />
 </head>
 
