@@ -121,6 +121,7 @@
     <div class="links">
       <ul>
         <li>© 2013 FaitMain</li>
+        <li>ISSN 2261-8376</li>
         <li><a href="/apropos.html">A propos</a></li>
         <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
       </ul>
