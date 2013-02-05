@@ -82,7 +82,7 @@ La mise en page est spartiate mais suffisante pour une lecture sur écran.
 Informations légales
 ::::::::::::::::::::
 
-Magazine publié en France. Numéro ISSN: 2261-8376 en cours d'obtention.
+Magazine publié en France. Numéro ISSN: **2261-8376**.
 
 Contact & adresse:
 
