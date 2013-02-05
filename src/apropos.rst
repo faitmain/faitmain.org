@@ -8,7 +8,7 @@ Le projet
 :::::::::
 
 **Fait Main** est un magazine en ligne conçu par des bénévoles
-passionés par la bidouille en général.
+passionnés par la bidouille en général.
 
 Plus d'infos dans `l'édito du premier numéro </volume-1/edito.html>`_.
 
@@ -82,9 +82,9 @@ La mise en page est spartiate mais suffisante pour une lecture sur écran.
 Informations légales
 ::::::::::::::::::::
 
-Magazine publié en France. Numéro ISSN en cours d'obtention.
+Magazine publié en France. Numéro ISSN: 2261-8376 en cours d'obtention.
 
-Contact & addresse:
+Contact & adresse:
 
     Tarek Ziadé - tarek@faitmain.org
     6 rue de l'Eglise
@@ -92,12 +92,12 @@ Contact & addresse:
     France
 
 
-- **Editeur** - Tarek Ziadé
+- **Éditeur** - Tarek Ziadé
 - **Directeur de la publication** - Tarek Ziadé
 
 
 Donnée personnelles stockées: chaque accès au site est stocké dans un fichier de log
-à des fins de statistiques - mais **les addresses IP ne sont pas collectées** et
+à des fins de statistiques - mais **les adresses IP ne sont pas collectées** et
 le serveur ne contact aucun service tiers.
 
 

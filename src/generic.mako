@@ -16,7 +16,7 @@
     <link href="http://cnd.faitmain.org/media/bootstrap.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootstrap-responsive.css" rel="stylesheet">
     <link href="http://cnd.faitmain.org/media/bootswatch.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="styleosheet">
+    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="stylesheet">
     <link rel="shortcut icon" href="http://cnd.faitmain.org/favicon.ico" />
 </head>
 
@@ -121,6 +121,7 @@
     <div class="links">
       <ul>
         <li>© 2013 FaitMain</li>
+        <li>ISSN 2261-8376</li>
         <li><a href="/apropos.html">A propos</a></li>
         <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
       </ul>

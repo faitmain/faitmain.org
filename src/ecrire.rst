@@ -63,7 +63,7 @@ Les photos doivent être au format JPEG, en mode progressif en qualité 85%, et 
 largeur de 800 pixels et 72 dpi.
 
 Chaque photo peut avoir une version *retina* avec 1600 pixels. Le nom du fichier
-dans ce cas doit être **nom_fichier@2x.jpg**, et le site séléctionnera automatiquement
+dans ce cas doit être **nom_fichier@2x.jpg**, et le site sélectionnera automatiquement
 la version haute résolution sur les écrans rétina.
 
 Une image est placé à coté de l'article et mise dans une balise **figure**::
@@ -87,7 +87,4 @@ Exemple pour une image qui fera 50% de l'écran et sera centrée ::
       La légende de l'image (obligatoire)
 
 
-Pour les petites images, le png est toleré.
-
-
-
+Pour les petites images, le png est toléré.
