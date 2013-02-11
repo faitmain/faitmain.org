@@ -75,10 +75,17 @@
 
         <li class="nav-header" style="color:black">Recherche</li>
         <li>
-          <form class="form-search" action="/recherche.html" method="get">
+          <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
            <input type="text" class="input-small search-query" name="query"/>
          </form>
         </li>
+        <li class="nav-header" style="color:black">Archives</li>
+        <li>
+          <a href="${config['siteurl']}/volume-1/index.html">
+           Volume 1
+         </a>
+        </li>
+
         <li class="nav-header" style="color:black">Social</li>
         <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
           <img src="${config['cnd']}/media/forum.png"/> Les Forums</a>
