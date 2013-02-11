@@ -30,8 +30,8 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </a>
-<a class="brand small-logo visible-phone" href="${config['siteurl']}">Fait Main</a>
-<a class="brand big-logo hidden-phone" href="${config['siteurl']}">Fait Main</a>
+<a class="brand small-logo visible-phone" href="${config['siteurl']}/index.html">Fait Main</a>
+<a class="brand big-logo hidden-phone" href="${config['siteurl']}/index.html">Fait Main</a>
 
 <div class="nav-collapse">
 <ul class="nav">
