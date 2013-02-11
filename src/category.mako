@@ -5,7 +5,7 @@
 <%block name="first_h1"> 
 </%block>
 
-<img class="row-fluid centered" src="media/${category}_banner.jpg"/>
+<img class="row-fluid centered" src="${config['cnd']}/media/${category}_banner.jpg"/>
 
 <br/><br/>
 
@@ -13,7 +13,7 @@
  <p>Tous les articles sur ce sujet:</p>
   <ul>
    %for path, title_ in paths:
-    <li><a href="${path}">${title_}</a></li>
+    <li><a href="${config['siteurl']}/${path}">${title_}</a></li>
    %endfor
   </ul>
 %else:

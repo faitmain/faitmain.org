@@ -85,11 +85,11 @@
         </li>
 
 
-        <li><a title="Auteurs" href="/auteurs/index.html"">
+        <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html"">
           <img src="${config['cnd']}/media/pen.png"/> Les Auteurs</a>
         </li>
 
-        <li><a title="Mailing List" href="/mailing.html">
+        <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">
           <img src="${config['cnd']}/media/email.png"/> Mailing List</a>
         </li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">

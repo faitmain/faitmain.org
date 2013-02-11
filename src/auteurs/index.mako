@@ -11,7 +11,7 @@ articles qu'ils ont écrit.</p>
  <li><a href="${info['link']}"><strong>${info['name']}</strong></a>
   <ul>
    %for title, path in info['articles']:
-   <li><a href="${path}">${title}</a></li>
+   <li><a href="${config['siteurl']}/${path}">${title}</a></li>
    %endfor
   </ul>
  </li>
