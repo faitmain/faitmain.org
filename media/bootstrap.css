@@ -145,7 +145,7 @@ a.text-error:hover{color:#953b39;}
 a.text-info:hover{color:#2d6987;}
 .text-success{color:#468847;}
 a.text-success:hover{color:#356635;}
-h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:'Roboto Condensed',cursive;font-weight:normal;line-height:20px;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#aaaaaa;}
+h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:'Roboto Condensed';font-weight:normal;line-height:20px;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#aaaaaa;}
 h1,h2,h3{line-height:40px;}
 h1{font-size:38.5px;}
 h2{font-size:31.5px;}
@@ -890,7 +890,7 @@ body{background: url('/media/subtlenet2.png') repeat scroll 0% 0% transparent}
 
 .page-header{margin:30px 0 15px;border-bottom:0px solid transparent;}
 .navbar .navbar-inner{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
-.navbar .brand{padding:15px 20px 14px;font-family:'Lobster',cursive;font-size:24px;font-weight:normal;}
+.navbar .brand{padding:15px 20px 14px;font-family:'Lobster';font-size:24px;font-weight:normal;}
 .navbar .nav>li>a{padding-top:17px;padding-bottom:14px;text-shadow:none;}
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .navbar .nav>.active>a:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
 .navbar .navbar-search{margin-top:10px;}
@@ -962,7 +962,7 @@ div.subnav-fixed{top:0px;opacity: 0.7}
 .table tbody tr.success td{background-color:#48ca3b;}
 .table tbody tr.error td{background-color:#ad1d28;}
 .table tbody tr.info td{background-color:#00bce1;}
-legend{font-family:'Roboto Condensed',cursive;}
+legend{font-family:'Roboto Condensed';}
 legend,label,.help-block,.input-file{color:rgba(255, 255, 255, 0.9);border:0px solid transparent;}
 input,textarea,.uneditable-input{border:0px solid transparent;padding:10px;}
 .uneditable-input{padding-bottom:30px;}

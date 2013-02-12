@@ -7,17 +7,17 @@
     <%block name="headtitle">
     <title>${title} - Fait Main Magazine</title>
     </%block>
-    <link href="http://faitmain.org/feed.xml" type="application/atom+xml" rel="alternate" title="Flux Atom" />
+    <link href="${config['siteurl']}/feed.xml" type="application/atom+xml" rel="alternate" title="Flux Atom" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vulgarisation pour Geeks">
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="http://cnd.faitmain.org/media/bootstrap.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/bootstrap-responsive.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/bootswatch.css" rel="stylesheet">
-    <link href="http://cnd.faitmain.org/media/pygments_style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="http://cnd.faitmain.org/favicon.ico" />
+    <link href="${config['cnd']}/media/bootstrap.css" rel="stylesheet">
+    <link href="${config['cnd']}/media/bootstrap-responsive.css" rel="stylesheet">
+    <link href="${config['cnd']}/media/bootswatch.css" rel="stylesheet">
+    <link href="${config['cnd']}/media/pygments_style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="${config['cnd']}/favicon.ico" />
 </head>
 
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
@@ -30,13 +30,13 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </a>
-<a class="brand small-logo visible-phone" href="/">Fait Main</a>
-<a class="brand big-logo hidden-phone" href="/">Fait Main</a>
+<a class="brand small-logo visible-phone" href="${config['siteurl']}/index.html">Fait Main</a>
+<a class="brand big-logo hidden-phone" href="${config['siteurl']}/index.html">Fait Main</a>
 
 <div class="nav-collapse">
 <ul class="nav">
  %for category in config['categories']:
- <li><a href="/${category}.html" title="${category}">${category.capitalize()}</a></li>
+ <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
  %endfor
 </ul>
 </div><!--/.nav-collapse -->
@@ -75,33 +75,40 @@
 
         <li class="nav-header" style="color:black">Recherche</li>
         <li>
-          <form class="form-search" action="/recherche.html" method="get">
+          <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
            <input type="text" class="input-small search-query" name="query"/>
          </form>
         </li>
+        <li class="nav-header" style="color:black">Archives</li>
+        <li>
+          <a href="${config['siteurl']}/volume-1/index.html">
+           Volume 1
+         </a>
+        </li>
+
         <li class="nav-header" style="color:black">Social</li>
         <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
-          <img src="http://cnd.faitmain.org/media/forum.png"/> Les Forums</a>
+          <img src="${config['cnd']}/media/forum.png"/> Les Forums</a>
         </li>
 
 
-        <li><a title="Auteurs" href="/auteurs/index.html"">
-          <img src="http://cnd.faitmain.org/media/pen.png"/> Les Auteurs</a>
+        <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html"">
+          <img src="${config['cnd']}/media/pen.png"/> Les Auteurs</a>
         </li>
 
-        <li><a title="Mailing List" href="/mailing.html">
-          <img src="http://cnd.faitmain.org/media/email.png"/> Mailing List</a>
+        <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">
+          <img src="${config['cnd']}/media/email.png"/> Mailing List</a>
         </li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
-            <img src="http://cnd.faitmain.org/media/twitter.png"/> Twitter</a>
+            <img src="${config['cnd']}/media/twitter.png"/> Twitter</a>
         </li>
         <li><a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">
-           <img src="http://cnd.faitmain.org/media/google_plus.png"/> Google+</a> </li>
+           <img src="${config['cnd']}/media/google_plus.png"/> Google+</a> </li>
         <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">
-          <img src="http://cnd.faitmain.org/media/github.png"/> Github
+          <img src="${config['cnd']}/media/github.png"/> Github
 </a></li>
-        <li><a target="_blank" title="Atom Feed" href="http://faitmain.org/feed.xml" id="atom">
-          <img src="http://cnd.faitmain.org/media/rss.png"/> Flux Atom
+        <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">
+          <img src="${config['cnd']}/media/rss.png"/> Flux Atom
 </a></li>
 
 </ul>
@@ -114,7 +121,7 @@
 <br/><br/>
 
   <footer id="footer">
-   <p class="pull-right"><a href="#"><img src="http://cnd.faitmain.org/media/up.png"></a></p>
+   <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
 
   <div class="inner">
     <%block name="footer">
@@ -122,7 +129,7 @@
       <ul>
         <li>© 2013 FaitMain</li>
         <li>ISSN 2261-8376</li>
-        <li><a href="/apropos.html">A propos</a></li>
+        <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
         <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
       </ul>
       <div style="clear:both"/>
@@ -133,9 +140,9 @@
 
 </div> <!-- end container -->
 
-    <script src="http://cnd.faitmain.org/media/jquery.js"></script>
-    <script async src="http://cnd.faitmain.org/media/bootstrap.js"></script>
-    <script src="http://cnd.faitmain.org/media/retina.js"></script>
+    <script src="${config['cnd']}/media/jquery.js"></script>
+    <script async src="${config['cnd']}/media/bootstrap.js"></script>
+    <script src="${config['cnd']}/media/retina.js"></script>
    <%block name="script"></%block>
 </body></html>
 
