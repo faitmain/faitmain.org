@@ -5,7 +5,7 @@
 <%block name="first_h1"> 
 </%block>
 
-<img class="row-fluid centered" src="${config['cnd']}/media/${category}_banner.jpg"/>
+<img class="row-fluid centered" src="${config['cdn']}/media/${category}_banner.jpg"/>
 
 <br/><br/>
 

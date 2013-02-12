@@ -13,11 +13,11 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="${config['cnd']}/media/bootstrap.css" rel="stylesheet">
-    <link href="${config['cnd']}/media/bootstrap-responsive.css" rel="stylesheet">
-    <link href="${config['cnd']}/media/bootswatch.css" rel="stylesheet">
-    <link href="${config['cnd']}/media/pygments_style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="${config['cnd']}/favicon.ico" />
+    <link href="${config['cdn']}/media/bootstrap.css" rel="stylesheet">
+    <link href="${config['cdn']}/media/bootstrap-responsive.css" rel="stylesheet">
+    <link href="${config['cdn']}/media/bootswatch.css" rel="stylesheet">
+    <link href="${config['cdn']}/media/pygments_style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="${config['cdn']}/favicon.ico" />
 </head>
 
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
@@ -88,27 +88,27 @@
 
         <li class="nav-header" style="color:black">Social</li>
         <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
-          <img src="${config['cnd']}/media/forum.png"/> Les Forums</a>
+          <img src="${config['cdn']}/media/forum.png"/> Les Forums</a>
         </li>
 
 
         <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html"">
-          <img src="${config['cnd']}/media/pen.png"/> Les Auteurs</a>
+          <img src="${config['cdn']}/media/pen.png"/> Les Auteurs</a>
         </li>
 
         <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">
-          <img src="${config['cnd']}/media/email.png"/> Mailing List</a>
+          <img src="${config['cdn']}/media/email.png"/> Mailing List</a>
         </li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
-            <img src="${config['cnd']}/media/twitter.png"/> Twitter</a>
+            <img src="${config['cdn']}/media/twitter.png"/> Twitter</a>
         </li>
         <li><a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">
-           <img src="${config['cnd']}/media/google_plus.png"/> Google+</a> </li>
+           <img src="${config['cdn']}/media/google_plus.png"/> Google+</a> </li>
         <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">
-          <img src="${config['cnd']}/media/github.png"/> Github
+          <img src="${config['cdn']}/media/github.png"/> Github
 </a></li>
         <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">
-          <img src="${config['cnd']}/media/rss.png"/> Flux Atom
+          <img src="${config['cdn']}/media/rss.png"/> Flux Atom
 </a></li>
 
 </ul>
@@ -121,7 +121,7 @@
 <br/><br/>
 
   <footer id="footer">
-   <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
+   <p class="pull-right"><a href="#"><img src="${config['cdn']}/media/up.png"></a></p>
 
   <div class="inner">
     <%block name="footer">
@@ -140,9 +140,9 @@
 
 </div> <!-- end container -->
 
-    <script src="${config['cnd']}/media/jquery.js"></script>
-    <script async src="${config['cnd']}/media/bootstrap.js"></script>
-    <script src="${config['cnd']}/media/retina.js"></script>
+    <script src="${config['cdn']}/media/jquery.js"></script>
+    <script async src="${config['cdn']}/media/bootstrap.js"></script>
+    <script src="${config['cdn']}/media/retina.js"></script>
    <%block name="script"></%block>
 </body></html>
 
