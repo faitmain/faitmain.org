@@ -47,7 +47,8 @@ domotique, puis developpé les petits projets autour de cette centrale ?
 Si j'automatise ma maison, je ne vais pas m'amuser à developper plusieurs
 petits systèmes indépendants. Je vais vouloir centraliser l'ensemble.
 
-L'autre souci est le choix de la puce radio `X-Bee <http://hackspark.fr/fr/zigbee-xbee-2-4ghz-1mw.html>`_.
+L'autre souci est le choix de la puce radio `X-Bee <http://hackspark.fr/fr/zigbee-xbee-2-4ghz-1mw.html>`_,
+pour tous les projets sans fils, qui forment la grande majorité du livre.
 A 20 euros par puce en moyenne, le prix de chaque projet monte très vite.
 
 Pourquoi ne pas avoir choisi des puces radios low-cost en 433 mhz ?
