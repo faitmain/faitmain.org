@@ -21,7 +21,7 @@ Programming Your Home
    :scale: 75
    :align: right
 
-   Programming Your Home (Mike Riley / Pragmatic Bookshelf)
+   Mike Riley / Pragmatic Bookshelf
 
 J'ai acheté ce livre au stand O'Reilly pendant le FOSDEM 2013, pour
 le lire dans l'avion que je prenais le lendemain. En feuilletant rapidement
@@ -97,7 +97,7 @@ Cooking For Geeks
    :scale: 75
    :align: right
 
-   Cooking for Geeks (Jeff Potter / O'Reilly Media)
+   Jeff Potter / O'Reilly Media
 
 
 TODO
