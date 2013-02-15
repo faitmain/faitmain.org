@@ -91,7 +91,7 @@ pas la maison du future avec ce livre là.
 Cooking For Geeks
 :::::::::::::::::
 
-.. figure:: cooking-geeks.jpg
+.. figure:: cooking-geeks.gif
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/Cooking-Geeks-Science-Great-Hacks/dp/0596805888/
    :scale: 75
