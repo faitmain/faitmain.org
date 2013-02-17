@@ -103,7 +103,7 @@ Cooking For Geeks
 La première fois que j'ai entendu parler de ce livre est lorsque j'ai vu la vidéo
 de Jeff Potter `en train de faire de la glace avec de l'azote liquide
 <https://www.youtube.com/watch?v=3WbvTV9rUFA>`_. Il y a même un glacier
-à San Francisco - `Smitten <http://smittenicecream.com>_`_ qui vends des glaces
+à San Francisco - `Smitten <http://smittenicecream.com>`_ qui vends des glaces
 faites devant les clients avec de l'azote. Vu que le processus ne prends que
 quelques secondes, l'eau n'a pas le temps de cristalliser et les fruits
 frais et la crème fraîche expriment complètement leurs saveurs.
