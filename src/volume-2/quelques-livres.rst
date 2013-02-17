@@ -100,4 +100,40 @@ Cooking For Geeks
    Jeff Potter / O'Reilly Media
 
 
-TODO
+La première fois que j'ai entendu parler de ce livre est lorsque j'ai vu la vidéo
+de Jeff Potter `en train de faire de la glace avec de l'azote liquide
+<https://www.youtube.com/watch?v=3WbvTV9rUFA>`_. Il y a même un glacier
+à San Francisco - `Smitten <http://smittenicecream.com>_`_ qui vends des glaces
+faites devant les clients avec de l'azote. Vu que le processus ne prends que
+quelques secondes, l'eau n'a pas le temps de cristalliser et les fruits
+frais et la crème fraîche expriment complètement leurs saveurs.
+
+C'est un peu la même idée pour la cuisine sous vide: les aliments sont
+emballés dans un sac plastique et cuit à basse température pendant des heures.
+Un steak sera uniformément cuit et ses cellules ne seront pas éclatées par
+une chaleur excessive.
+
+Pour en revenir au livre, il est tout bonnement incroyable. Il traite de
+la cuisine comme on peut traiter de la conception logicielle: l'outillage
+et la préparation de la cuisine sont passés en revue, puis les principes
+chimiques et physiques sont expliqués: du goût à l'odeur, en passant
+par les textures, puis la cuisson, la température et les différentes
+techniques pour enfermer de l'air dans les mousses, pates et autres
+soufflés.
+
+Ce livre a deux lectures: on peut lire chaque chapitre et apprendre
+des techniques de cuisine, appuyées par des explications scientifiques -
+puis tomber de temps à autre sur des recettes d'applications. *Ou*
+simplement se rendre à l'index des recettes et en faire une.
+
+J'aurais plus tendance à regarder la liste des recettes et en faire une qui me
+plaît, puis lire les explications techniques et scientifiques qui
+l'entourent.
+
+On oublie par contre les recettes basées sur de l'azote liquide car ce
+n'est pas vraiment à la portée de tous - les précautions de sécurités
+sont assez drastique et le matériel très onéreux.
+
+Pour conclure, j'ai trouvé **Cooking For Geeks** absolument génial.
+
+
