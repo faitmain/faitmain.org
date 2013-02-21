@@ -103,7 +103,13 @@
         <li><a target="_blank" title="Atom Feed" href="http://faitmain.org/feed.xml" id="atom">
           <img src="http://cnd.faitmain.org/media/rss.png"/> Flux Atom
 </a></li>
+        <li class="nav-header" style="color:black">Faites un don!</li>
 
+        <li>
+           <a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank">
+             <img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+           </a>
+        </li>
 </ul>
 
      </div>
