@@ -3,7 +3,7 @@ Tribune - Semences stériles et données futiles
 
 
 :date: 2013-02-01
-:category: autre,ecologie
+:category: autre,écologie
 :level: vulgarisation
 :author: David Larlet
 
