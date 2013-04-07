@@ -37,7 +37,6 @@ améliorer ce document, rectifier certaines erreurs.
    les réseaux informatiques, ne sera pas retranscrite ici pour alléger l'article.
 
 .. figure:: xbee/xbee.jpg
-
    :scale: 25
    :figclass: pull-right margin-left
    :align: right
@@ -188,6 +187,7 @@ professionnels *ZigBee Alliance*. Le **XBee** est une marque, un produit qui
 utilise le protocole ZigBee. Do you bien compris ?
 
 .. figure:: xbee/bluetooth-bee.jpg
+  :scale: 50
 
   Exemple d'un module Bluetooth utilisant la même forme que les modules XBee
 
@@ -242,6 +242,7 @@ Ce qu'il faut retenir :
 
 
 .. figure:: xbee/zigbee-topologies.jpg
+  :scale: 50
 
   Topologies des réseaux XBee
 
@@ -252,6 +253,7 @@ Antennes
 Vous aurez aussi à choisir le type d'antennes du module. En effet, les ondes radios ont besoin d'antennes pour émettre et recevoir les signaux.
 
 .. figure:: xbee/xbee-antennas.jpg
+  :scale: 50
 
   Les différents types d'antennes
 
@@ -293,8 +295,9 @@ Alimentation
 ------------
 
 .. figure:: xbee/xbee-supply-voltage.jpg
+   :scale: 50
 
-  Alimentation du XBee
+   Alimentation du XBee
 
 L'alimentation doit être comprise entre 2,8V et 3,4V. Dans mes montages
 j'utilise l'alimentation stabilisée 3.3V. Dans d'autres `exemples
@@ -306,13 +309,11 @@ régulateur de tension LM7833 qui sort directement une tension de 3,3V ou bien
 avec le LM317 qui permettrait avec des valeurs de résistances adaptées
 d'obtenir ce que l'on souhaite, mais je ne l'ai pas testé.
 
-.. figure:: xbee/LM7833.jpg
-
-  Régulateur LM7833
-
-.. figure:: xbee/LM317.jpg
-
-  Régulateur LM317
++-------------------------------------+-------------------------------+
+| .. figure:: xbee/LM7833.jpg         | .. figure:: xbee/LM317.jpg    |
++-------------------------------------+-------------------------------+
+|   Régulateur LM7833                 |    Régulateur LM317           |
++-------------------------------------+-------------------------------+
 
 
 Matériel nécessaire
@@ -510,8 +511,9 @@ Adressage
 ---------
 
 .. figure:: xbee/xbee-adressing.jpg
+   :scale: 50
 
-  Les différents types d'adresses
+   Les différents types d'adresses
 
 Pour tout XBee, il faut impérativement définir l'adresse du réseau **ATID**,
 son adresse personnelle **ATMY** et si besoin, l'adresse de destination des
@@ -522,8 +524,9 @@ Entrées / sorties
 -----------------
 
 .. figure:: xbee/xbee-IO-pins.jpg
+   :scale: 50
 
-  Entrées et sorties
+   Entrées et sorties
 
 Le XBee series 1 possède un certain nombre d'entrées et sorties. Les sorties
 analogiques sont PWM0 et PWM1. Les entrées et sorties numériques sont DIO1,
@@ -590,8 +593,9 @@ XBee > XBee
 -----------
 
 .. figure:: xbee/type-xbee-xbee.jpg
+   :scale: 50
 
-  Montage en direct
+   Montage en direct
 
 On peut faire un montage très simple, le montage direct entre deux modules
 XBee. On met deux capteurs sur le XBee#2, un bouton poussoir et un
@@ -602,14 +606,19 @@ l'autre LED de façon progressive (en PWM).
 **XBee#2 : émetteur (INPUT)**
 
 .. figure:: xbee/xbee-direct-send.jpg
+   :scale: 50
 
-  Montage émetteur
+   Montage émetteur
+
 
 **XBee#1 : receveur (OUTPUT)**
 
 .. figure:: xbee/xbee-direct-receive.jpg
+   :scale: 50
 
-  Montage récepteur
+   Montage récepteur
+
+----
 
 **Configuration**
 
