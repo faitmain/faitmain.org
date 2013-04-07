@@ -8,14 +8,15 @@ Interview de Sabine Blanc
 
 <METTRE UN TEXTE D'INTRO>
 
-Sabine Blanc, une des porteuses des projets Open Bidouile Camp, Hack The Press,
-Les hackers dans la cité arabe - auteure de "Hackers : Bâtisseurs depuis 1959"
+Sabine Blanc, une des porteuses des projets Open Bidouille Camp, Hack The Press,
+Les hackers dans la cité arabe (en stand-by) -
+co-auteure de "Hackers : Bâtisseurs depuis 1959"
 
 **Quel est ton parcours/ta formation initiale ?**
 
 DEA de littérature comparée, puis école de journalisme, bref une caricature de
 l'école française : passé le collège et la fin des cours d'arts plastiques, des
-rédaction d'imagination tout dans la tête rien dans les mains, asscèhement de
+rédaction d'imagination tout est dans la tête rien dans les mains, assèchement de
 la créativité.
 
 D'où peut-être ma fascination pour le DIY et les hackers.
@@ -38,7 +39,8 @@ Il s'agissait de joutes amicales entre équipes pluridisciplinaires
 journalistes-développeurs-designers, sur le principe de hacks/hackers.
 
 Owni a lancé l'initiative en octobre 2011, il y a eu une deuxième édition
-en xxx
+en janvier de l'année dernière. Un blog dédié rassemble les archives
+sur ces événements. http://hackthepress.net/
 
 
 **Les deux premiers OBC ont eu l'air de remporter un franc succes, c'est quoi la suite ?**
@@ -53,6 +55,44 @@ d'organiser des OBC, entre autres, dans le respect des valeurs initiales :
 gratuité, partage, amusement... Une charte est d'ailleurs en cours
 d'élaboration, et ouvertes à tous les commentaires pour la patcher.
 
+http://openbidouille.net/post/43143010616/notre-charte-en-open-source
+
+.. figure:: sabine/header.obc.jpg
+
+**La bidouille comme vecteur d'émancipation / quel rapport à l'éducation ?**
+
+La bidouille permet une approche par la pratique plutôt que par la théorie de
+la connaissance, ce qui va à rebours du système éducatif traditionnel. Elle
+donne aussi sa place à l'erreur, le fameux "learning by failing". Telle qu'elle
+se développe depuis quelques années grâce à Internet, elle met aussi en avant
+des pratiques de partage et de collaboration, de pair à pair. C'est bien sûr un
+levier d"émancipation potentiel dans la mesure où elle nous incite à soulever
+des capots qui sont de plus en plus fermés, que ce soit celui de la voiture ou
+de nos iPad.
+
+J'avais écrit un article plus fouillé sur le sujet
+http://owni.fr/2011/08/26/hackons-lecole/ et c'était l'objet de la table ronde
+d'OBC 2 qui a été documenté ici :
+http://unishared.com/notes/1V6acrSNk0dFHcYo-0DHSZd551LG3Dd6-ys4tLZTtn9E
+
+
+**"Les hackers dans la cité arabe" - encore un autre projet qui se lance -
+peux-tu nous en parler un peu ?**
+
+
+C'est un projet qui est malheureusement en stand by, après avoir déjà visité
+trois pays, la Tunisie, l'Algérie et l'Egypte.
+
+Avec Ophelia Noor, photoreporter
+qui travaillait aussi à Owni, nous sommes allées à la rencontre de ses
+communautés naissantes, nous avons quand même publié une partie de nos
+recherches sur un blog. https://leshackersdanslacitearabe.wordpress.com/
+
+
+.. figure:: sabine/sabine-oph-webdoc-hacker-photo.jpg
+
+   Ophelia Noor & Sabine Blanc. (demander copyright photo)
+
 
 **Quelle est la place du hacking dans la société ?
 Quelle(s) évolution(s) peuvent apporter le hacking à la société?**
@@ -61,7 +101,7 @@ Je pense que l'apport le plus fort du hacking à la société, par-delà les
 apports tangibles, c'est une aspiration irréductible à la liberté, qui était
 déjà dans l'ADN des premiers hackers du MIT quand ils crochetaient les portes
 des pièces abritant les ordis. C'est la marque des hackers purs et durs, ceux
-qui considère le hackin comme une philosophie de vie, un type comme Mitch
+qui considère le hacking comme une philosophie de vie, un type comme Mitch
 Altman.
 
 Au Caire aussi on a rencontré un gars comme ça, Tarek Ahmed le
@@ -79,11 +119,22 @@ réfléchir, faire des choses soi même, etc. ?**
 
 Le système peut-il enseigner la façon de le déconstruire ? Dubito. L'éducation
 nationale reflète grosso modo la société, et les valeurs du hacking vont à
-l'encontre : Et le hacking ne devrait pas etre une matière à part entière mais
+l'encontre dans l'ensemble.
+
+Et le hacking ne devrait pas etre une matière à part entière mais
 une démarche guidant les modes d'apprentissage, quelle que soit la matière. Bon
 après, je ne suis pas sûre qu'elle soit applicable tout le temps : je me suis
 enquiquinée à apprendre la grammaire allemande, il fallait bien en passer par
 là, le côté on apprend uniquement en s'amusant a des limites.
+
+**Le hacking & la bidouille devraient -ils avoir une place centrale dans des
+décheteries/ressourceries ? Pour faire société, doit-on faire lobby (douille) ?**
+
+Je pense qu'il l'a déjà de facto : quand tu récupères une vieille chaise pour
+la retaper, une carcasse d'ordi pour récupérer des composants, c'est de la
+bidouille. Après, ça pourrait être utile de faire des ateliers récup' dans les
+déchetteries municipales. Ca existe d'ailleurs déjà peut-être, je connais de
+loin cet univers.
 
 
 **Hacker nourrit-il son homme ? Ou comment est-ce qu'on hacke ses finances
@@ -107,4 +158,18 @@ logiciel libre est en plein développemnt et constitue une bonne alternative
 légale et plus sûre.
 
 Comment tu quantifies cela ?
+
+Et si hacker ne nourrit pas son homme, ça permet de faire des économies en
+amenant à davantage réparer, récupérer, et bidouiller pour le plaisir, au lieu
+d'aller acheter des saloperies toute prêtes.
+
+Dates à retenir
+:::::::::::::::
+
+Dates des prochains OBC :
+
+* Brest
+* Lille
+* IDF (lieu à déterminer) : samedi 6 juillet
+
 
