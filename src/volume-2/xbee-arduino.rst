@@ -29,14 +29,20 @@ des systèmes informatiques. N'hésitez pas à me `contacter
 <http://jeromeabel.net/infos/contact>`_ pour me faire part de vos remarques,
 améliorer ce document, rectifier certaines erreurs.
 
-Cet article est une version un peu réduite de celui-ci :
-http://jeromeabel.net/ressources/xbee-arduino. La `partie 2
-<http://jeromeabel.net/ressources/xbee-arduino#toc11>`_ notamment, concernant
-les réseaux informatiques, ne sera pas retranscrite ici pour alléger l'article.
+.. note::
+
+   Cet article est une version un peu réduite de celui-ci :
+   http://jeromeabel.net/ressources/xbee-arduino. La `partie 2
+   <http://jeromeabel.net/ressources/xbee-arduino#toc11>`_ notamment, concernant
+   les réseaux informatiques, ne sera pas retranscrite ici pour alléger l'article.
 
 .. figure:: xbee/xbee.jpg
 
-  Le module XBee
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
+
+   Le module XBee
 
 
 Présentation du XBee
@@ -92,21 +98,22 @@ en effet être utilisées par des groupes mercantiles et cyniques qui font
 reculer les principes démocratiques. Heureusement, des artistes s'approprient
 ces technologies et les utilisent à des fins plus poétiques.
 
-.. figure:: xbee/jie-qi.jpg
++-------------------------------------+----------------------------------------+
+| .. figure:: xbee/jie-qi.jpg         | .. figure:: xbee/robotic-drums.jpg     |
++-------------------------------------+----------------------------------------+
+|   Jie Qi messenger                  |    Robotics Drums                      |
++-------------------------------------+----------------------------------------+
 
-  Ici un couple d'oiseaux de papier communiquent ensemble. Quand l'un est
-  manipulé, l'autre s'allume (`Jie Qi messenger
-  <http://technolojie.com/xbee-messenger-doves/>`_).
 
-.. figure:: xbee/robotic-drums.jpg
+Ici un couple d'oiseaux de papier communiquent ensemble. Quand l'un est
+manipulé, l'autre s'allume (`Jie Qi messenger
+<http://technolojie.com/xbee-messenger-doves/>`_).
 
 Dans `Robotics drums <http://www.sweet-tech-studio.com/2010/09/robotic-drums.html>`_,
 des servo-moteurs contrôlés à distance tapent sur 18 percussions Darbukas pour
 créer des rythmes inédits dans la ville.
 
-.. figure:: xbee/programming-arduino.jpg
-
-  Programmer une Arduino à distance
+----
 
 Une autre application peut s'avérer très utile : programmer à distance une
 carte Arduino. En effet, d'habitude on relie sa carte avec câble USB, mais
@@ -115,6 +122,11 @@ le cas dans mon projet `Chimères Orchestra
 <http://jeromeabel.net/art/chimeres-orchestra>`_ ? La programmation à distance
 est donc la solution : `programming Arduino Wirelessly
 <http://www.faludi.com/itp_coursework/meshnetworking/xbee/XBee_program_Arduino_wireless.html>`_.
+
+
+.. figure:: xbee/programming-arduino.jpg
+
+  Programmer une Arduino à distance
 
 
 Pourquoi choisir le sans fil ?
