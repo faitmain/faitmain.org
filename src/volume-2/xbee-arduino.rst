@@ -7,6 +7,11 @@ XBee & Arduino
 :author: Jérôme Abel
 
 
+.. figure:: xbee/abeille.jpg
+
+  "Bee" pour abeille
+
+
 Quand il s'agit de concevoir des systèmes embarqués, interactifs ou bien quand
 des objets doivent communiquer entre eux, plusieurs techniques de communication
 sont envisageables. Nous explorerons ici le protocole `Zigbee
@@ -161,10 +166,6 @@ Wi-Fi / Bluetooth / ZigBee
 
 XBee ou Zigbee ?
 ----------------
-
-.. figure:: xbee/abeille.jpg
-
-  "Bee" pour abeille
 
 **Bee** signifiant "abeille", le choix du nom donne l'image qu'il peut y avoir
 plusieurs petits modules connectés ensemble comme une colonie d'abeilles. Au
