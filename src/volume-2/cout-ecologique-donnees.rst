@@ -8,7 +8,7 @@ Le coût écologique de vos données
 
 
 
-Des photos de vacances non triées aux mails archivés *ad vitam eternam*, des
+Des photos de vacances non triées aux mails archivés *ad vitam aeternam*, des
 films collectionnés aux bibliothèques musicales dont la qualité est devenue
 obsolète, des livres téléchargés mais jamais ouverts aux projets inachevés,
 nous disposons tous de **poussières numériques** plus ou moins évidentes.
@@ -17,8 +17,8 @@ nous disposons tous de **poussières numériques** plus ou moins évidentes.
 pourrait trouver saugrenue l'idée de limiter son impact en terme de stockage
 numérique. Et pourtant. Songez un instant à cette masse de données accumulées,
 à ce *grenier numérique* qui encombre votre disque dur de ses données
-antédiluviennes, et ses sauvegardes sur d'autres supports, et ses sauvegardes
-distantes, et ses sauvegardes incrémentales. **Autant de duplications et de
+antédiluviennes, et ces sauvegardes sur d'autres supports, et ces sauvegardes
+distantes, et ces sauvegardes incrémentales. **Autant de duplications et de
 transferts qui ont un coût écologique non négligeable.**
 
 Comment réduire son empreinte numérique ? La première option pourrait être de
@@ -37,8 +37,8 @@ exercices : **un ménage régulier et une hygiène de vie numérique**. Le mén
 initial est incroyablement chronophage en fonction de l'état de flemme dont
 vous avez fait preuve au cours des précédentes années (décennies ?!). La
 première étape pourra consister à localiser les fichiers qui sont les plus
-volumineux pour procéder à un premier tri et ce dans chacune des catégories
-possibles (films, livres, emails, etc) tout en ajustant la qualité des données
+volumineux pour procéder à un premier tri et, ce, dans chacune des catégories
+possibles (films, livres, emails, etc.) tout en ajustant la qualité des données
 à votre perception : inutile de conserver des rafales de photos en *raw* de 30
 Mo si vous avez un ordinateur portable de 13" non calibré… Une fois ce premier
 ménage effectué (je vous conseille le printemps approchant, c'est une
