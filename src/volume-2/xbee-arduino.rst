@@ -72,7 +72,7 @@ Applications
 
 Le ZigBee semble avoir été conçu pour réaliser ce qu'on appelle l'`Internet des
 objets <http://fr.wikipedia.org/wiki/Internet_des_objets>`_, un ensemble
-d'objets communiquants voir "autonomes", une extension d'Internet aux objets
+d'objets communiquants voire "autonomes", une extension d'Internet aux objets
 physiques. La `domotique <http://fr.wikipedia.org/wiki/Domotique>`_ est
 l'exemple le plus parlant.
 
@@ -80,7 +80,7 @@ l'exemple le plus parlant.
 
   Exemple d'une maison utilisant la domotique
 
-S'en entrer dans les détails car ce n'est pas le propos ici, la vision d'un
+Sans entrer dans les détails car ce n'est pas le propos ici, la vision d'un
 monde où tout doit être connecté, du frigo aux enfants, se rapproche pour ma
 part plus du cauchemar que du rêve. Les technologies de communication peuvent
 en effet être utilisées par des groupes mercantiles et cyniques qui font
@@ -104,7 +104,7 @@ créer des rythmes inédits dans la ville.
   Programmer une Arduino à distance
 
 Une autre application peut s'avérer très utile : programmer à distance une
-carte Arduino. En effet, d'habitude on relie sa carte avec câble USB, mais
+carte Arduino. En effet, d'habitude on relie sa carte par câble USB, mais
 comment faire quand la carte est située à trois mètres de hauteur comme c'est
 le cas dans mon projet `Chimères Orchestra
 <http://jeromeabel.net/art/chimeres-orchestra>`_ ? La programmation à distance
@@ -117,7 +117,7 @@ Pourquoi choisir le sans fil ?
 
 À première vue, le sans fil présente bien des avantages. Il permet de ne pas
 encombrer un espace de travail, d'équiper des appareils mouvants, de
-communiquer dans des endroits innacessibles. Cependant, il faut aussi prendre
+communiquer dans des endroits inacessibles. Cependant, il faut aussi prendre
 en considération d'autres paramètres :
 
 - La communication sans fil ne sera jamais aussi fiable qu'une communication
@@ -244,11 +244,12 @@ Vous aurez aussi à choisir le type d'antennes du module. En effet, les ondes ra
 
 Ce qu'il faut retenir :
 
-- **wire** : simple, radiations omnidirectionnelles ; - **chip** : puce plate
+- **wire** : simple, radiations omnidirectionnelles ; 
+- **chip** : puce plate
   en céramique, petite, transportable (pas de risques de casser l'antenne),
-  radiations cardioïdes (le signal est atténué dans certaines directions) ; -
-  **U.FL** : une antenne externe n'est pas toujours nécessaire; - **RPSMA** :
-  plus gros que le connecteur *U.FL*, permet de placer son antenne à
+  radiations cardioïdes (le signal est atténué dans certaines directions) ; 
+-**U.FL** : une antenne externe n'est pas toujours nécessaire; 
+- **RPSMA** :plus gros que le connecteur *U.FL*, permet de placer son antenne à
   l'extérieur d'un boîtier.
 
 
@@ -313,14 +314,14 @@ surtout aux magasins situés aux États-Unis. En gros, essayez d'éviter Sparkfu
 
 Synthèse de ce dont nous aurons besoin :
 
-- `Modules XBee <https://www.sparkfun.com/products/11215>`_ x 2 (au moins 2 pour créer une connection !) : série 1 ou 2, antennes filaire ou à puce
+- `Modules XBee <https://www.sparkfun.com/products/11215>`_ x 2 (au moins 2 pour créer une connexion !) : série 1 ou 2, antennes filaire ou à puce
 - `XBee Explorer USB <https://www.sparkfun.com/products/8687>`_ (Platine d'interface USB pour modules "XBee") : en option si vous choisissez la carte FT232
 - `Breakout Board for FT232RL USB to Serial <http://www.sparkfun.com/products/718>`_ (Module "FTDI Basic Breakout" - 3,3V)
 - Câble mini-USB/USB
 - `Breakout board XBee <https://www.sparkfun.com/products/8276>`_ x 2 (Platine d'interface pour modules "XBee")
 - `2mm XBee socket <https://www.sparkfun.com/products/8272>`_ x 2
 - `Break away headers <http://www.gotronic.fr/art-connecteur-he14-mh100-4457.htm>`_ x 1
-- `Fils prédécoupés de prototypages <http://www.gotronic.fr/art-boite-de-140-ponts-de-connexion-6864.htm>`_ x 1
+- `Fils pré-découpés de prototypages <http://www.gotronic.fr/art-boite-de-140-ponts-de-connexion-6864.htm>`_ x 1
 - Plaques à essais x 2 (solderless boards)
 - Potentiomètres 10K
 - LEDs x 4 (n'importe lesquelles)
@@ -347,7 +348,7 @@ Configuration
 :::::::::::::
 
 Une fois le matériel acheté, il ne reste plus qu'à assembler notre premier
-montage, à établir une connection avec l'ordinateur et connaître la syntaxe
+montage, à établir une connexion avec l'ordinateur et à connaître la syntaxe
 pour configurer le module XBee.
 
 Montage
@@ -381,7 +382,7 @@ USB-Serial**, son identifiant est **ttyUSB0**.
 Terminal
 --------
 
-L'idée maintenant est de pouvoir envoyer des commandes au module et de recevoir
+L'idée maintenant est de pouvoir envoyer des commandes au module et recevoir
 ses retours. Pour cela il faut utiliser un programme, appelé Terminal ou plus
 précisément `émulateur de terminal
 <https://fr.wikipedia.org/wiki/%C3%89mulateur_de_terminal>`_. On l'utilise dans
@@ -440,7 +441,7 @@ de fonctions qui facilitent la programmation d'un côté et qui de l'autre
 communique en langage binaire pour le XBee, sous forme de paquets. Je crois
 comprendre que ce mode devient utile quand il s'agit de construire des messages
 au format XBee à partir d'un ordinateur ou d'un microcontrôleur comme Arduino.
-Le mode API n'est possible qu'avec une connection locale en série et filaire
+Le mode API n'est possible qu'avec une connexion locale en série et filaire
 avec l'ordinateur ou la Arduino, pas entre modules XBee.
 
 Commandes AT
@@ -452,7 +453,7 @@ Ouvrez le terminal choisi. Avant tout, il faut dire au XBee que l'on veut
 quitter le mode TRANSPARENT pour entrer dans le mode COMMAND. Pour cela il faut
 prendre le coup de main, suivez bien ces instructions à la lettre :
 
-- Taper **+++** et attendre 1 seconde sans appuyer sur aucune autres touches,
+- Taper **+++** et attendre 1 seconde sans appuyer sur aucune autre touche,
   le message **OK** devrait alors s'afficher comme sur l'image du terminal
   juste en haut. Par ce OK, le XBee nous signale qu'il passe en mode COMMAND et
   qu'il est prêt à recevoir les messages de configuration.
@@ -549,13 +550,13 @@ En mode API, on peut reconstituer la trame ZigBee pour communiquer directement e
 
   Trame ZigBee
 
-Voilà, ce que ça pourrait donner en langage Arduino, pris sur http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde.
+Voilà, ce que cela pourrait donner en langage Arduino, pris sur http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde.
 
 .. figure:: xbee/api-mode-arduino.jpg
 
   Mode Api et Arduino
 
-Une autre solution, au lieu de reconstituer la trame, utiliser une bibliothèque spéciale :
+Une autre solution, au lieu de reconstituer la trame, est d'utiliser une bibliothèque spéciale :
 
 - http://code.google.com/p/xbee-api/wiki/WhyApiMode
 - http://www.instructables.com/id/Configuring-XBees-for-API-Mode/
@@ -646,7 +647,7 @@ XBee > XBee/ordinateur
 Avec le même montage, on peut visualiser dans le terminal, les informations
 reçues par le XBee#1 avec le convertisseur relié à l'ordinateur. Ces
 informations ne sont cependant pas tout à fait compréhensibles dans le
-terminal, on ne voit pas de chiffres par exemple car il s'agit de paquet
+terminal, on ne voit pas de chiffres par exemple car il s'agit de paquets
 ZigBee.
 
 XBee/Arduino > XBee/ordinateur
@@ -681,7 +682,7 @@ connecté avec RX et TX comme indiqué ci-dessus. On écrit "+++" en communicati
 série, on attend la réponse du XBee avec le caractère '\r' qui marque la fin
 d'une ligne et ensuite on écrit seulement cinq commandes pour configurer
 uniquement l'adressage du module comme vu dans la partie précédente. On
-récupère ensuite les informations numérique de l'entrée numérique de l'Arduino
+récupère ensuite les informations numériques de l'entrée numérique de l'Arduino
 et on envoie le chiffre reçu en série, donc au module XBee.
 
 
