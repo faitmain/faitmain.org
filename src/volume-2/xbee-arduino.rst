@@ -37,7 +37,7 @@ améliorer ce document, rectifier certaines erreurs.
    les réseaux informatiques, ne sera pas retranscrite ici pour alléger l'article.
 
 .. figure:: xbee/xbee.jpg
-   :scale: 25
+   :scale: 12
    :figclass: pull-right margin-left
    :align: right
 
@@ -187,7 +187,9 @@ professionnels *ZigBee Alliance*. Le **XBee** est une marque, un produit qui
 utilise le protocole ZigBee. Do you bien compris ?
 
 .. figure:: xbee/bluetooth-bee.jpg
-  :scale: 50
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
 
   Exemple d'un module Bluetooth utilisant la même forme que les modules XBee
 
@@ -259,11 +261,12 @@ Vous aurez aussi à choisir le type d'antennes du module. En effet, les ondes ra
 
 Ce qu'il faut retenir :
 
-- **wire** : simple, radiations omnidirectionnelles ; - **chip** : puce plate
+- **wire** : simple, radiations omnidirectionnelles ; 
+- **chip** : puce plate
   en céramique, petite, transportable (pas de risques de casser l'antenne),
-  radiations cardioïdes (le signal est atténué dans certaines directions) ; -
-  **U.FL** : une antenne externe n'est pas toujours nécessaire; - **RPSMA** :
-  plus gros que le connecteur *U.FL*, permet de placer son antenne à
+  radiations cardioïdes (le signal est atténué dans certaines directions) ; 
+- **U.FL** : une antenne externe n'est pas toujours nécessaire; 
+- **RPSMA** : plus gros que le connecteur *U.FL*, permet de placer son antenne à
   l'extérieur d'un boîtier.
 
 
