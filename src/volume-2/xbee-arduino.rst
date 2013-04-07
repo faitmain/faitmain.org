@@ -570,9 +570,43 @@ En mode API, on peut reconstituer la trame ZigBee pour communiquer directement e
 
 Voilà, ce que ça pourrait donner en langage Arduino, pris sur http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde.
 
-.. figure:: xbee/api-mode-arduino.jpg
+.. code-block:: c
 
-  Mode Api et Arduino
+    void setRemoteState(int value) { // pass either a 0x4 or and 0x5 to turn the pin on or off
+        Serial.print(0x7E, BYTE);
+        Serial.print(0x0, BYTE); // high part of length (always zero)
+        Serial.print(0x10, BYTE); // low part of length (the number of bytes that follow, not including checksum)
+        Serial.print(0x17, BYTE); // 0x17 is a remote AT command
+        Serial.print(0x0, BYTE); // frame id set to zero for no reply
+
+        // ID of recipient, or use 0xFFFF for broadcast
+        Serial.print(00, BYTE);
+        Serial.print(00, BYTE);
+        Serial.print(00, BYTE);
+        Serial.print(00, BYTE);
+        Serial.print(00, BYTE);
+        Serial.print(00, BYTE);
+        Serial.print(0xFF, BYTE); // 0xFF for broadcast
+        Serial.print(0xFF, BYTE); // 0xFF for broadcast
+
+        // 16 bit of recipient or 0xFFFE if unknown
+        Serial.print(0xFF, BYTE);
+        Serial.print(0xFE, BYTE);
+        Serial.print(0x02, BYTE); // 0x02 to apply changes immediately on remote
+
+        // command name in ASCII characters
+        Serial.print('D', BYTE);
+        Serial.print('1', BYTE);
+
+        // command data in as many bytes as needed
+        Serial.print(value, BYTE);
+
+        // checksum
+        long sum = 0x17 + 0xFF + 0xFF + 0xFF + 0xFE + 0x02 + 'D' + '1' + value;
+        Serial.print( 0xFF - ( sum & 0xFF) , BYTE );
+        delay(10);
+    }
+
 
 Une autre solution, au lieu de reconstituer la trame, utiliser une bibliothèque spéciale :
 
@@ -697,9 +731,24 @@ de façon compréhénsible.
 - Simplification du code de Robert Faludi : http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde.
 
 
-.. figure:: xbee/code-emetteur.jpg
+.. code-block:: c
 
-  Code émetteur
+    // Xbee configuration
+    void setDestination() {
+        Serial.print("+++");
+        char thisByte = 0;
+        while (thisByte != '\r') { // wait for xbee response
+            if (Serial.available() > 0) {
+            thisByte = Serial.read(); 
+            }
+        }
+        Serial.print("ATRE\r");
+        Serial.print("ATDL0\r"); // sent to xbee 0
+        Serial.print("ATMY1\r"); // this xbee is 1
+        Serial.print("ATID1111\r");
+        Serial.print("ATCN\r");
+    }
+
 
 Le code n'a rien de compliqué. Tout d'abord on configure le module XBee
 connecté avec RX et TX comme indiqué ci-dessus. On écrit "+++" en communication
@@ -727,19 +776,54 @@ L'émetteur est le même que précédemment, une Arduino avec un bouton poussoir
 
 **Code récepteur**
 
-- Téléchargement : http://jeromeabel.net/files/ressources/xbee-arduino/code/arduino_XBee_led/arduino_XBee_led.ino.
+- Téléchargement : http://jeromeabel.net/files/ressources/xbee-arduino/code/arduino_xbee_led/arduino_xbee_led.ino
 - Simplification du code de Robert Faludi http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde.
 
 
-.. figure:: xbee/code-recepteur-1.jpg
+.. code-block:: c
 
-  Code récepteur
+    // Xbee configuration
+    void setDestination() {
+        Serial.print("+++");
+        char thisByte = 0;
+        while (thisByte != '\r') { // wait for xbee response
+            if (Serial.available() > 0) {
+            thisByte = Serial.read(); 
+            }
+        }
+        Serial.print("ATRE\r");
+        Serial.print("ATMY0\r");
+        Serial.print("ATID1111\r");
+        Serial.print("ATCN\r");
+    }
 
-On configure tout d'abord le module XBee#1 pour qu'il reçoive les données de l'autre XBee.
 
-.. figure:: xbee/code-recepteur-2.jpg
+On configure tout d'abord le module XBee#1 pour qu'il reçoive les données de
+l'autre XBee.
 
- Code récepteur (suite)
+.. code-block:: c
+
+    void handleSerial() {
+        char inByte = Serial.read();
+
+        // save only ASCII numeric characters (ASCII 0 - 9):
+        if (isDigit(inByte)){
+            inputString = inputString + inByte;
+        }
+
+        // if you get an ASCII newline:
+        if (inByte == '\n') {
+            // convert the string to a number:
+            receiveValue = inputString.toInt();
+
+            // set the analog output LED:
+            digitalWrite(led, receiveValue);
+
+            // clear the input string for the 
+            // next value:
+            inputString = "";
+        }
+    }
 
 Et on récupère les données du port Série. Ce bout de code est un peu plus
 compliqué. **Pour l'instant il ne permet de recevoir qu'une donnée à la fois**.
