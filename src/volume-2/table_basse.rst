@@ -89,19 +89,9 @@ Matériel et matériaux
 
 Donc au final, on a besoin de :
 
-* Matériel
+* Matériel : une scie (-sauteuse pour ma part, mais manuelle ou circulaire doivent marcher de même, voire mieux), une perceuse et des mèches de 3, 8 et 10mm, une ponceuse, papier de verre, paille de fer, et pinceau pour vernir.
 
-  - une scie, -sauteuse pour ma part, mais manuelle ou circulaire doivent marcher de même (voire mieux)
-  - une perceuse et des mèches de 3, 8 et 10mm
-  - une ponceuse, papier de verre, paille de fer
-  - pinceau pour vernir
-
-* Matériaux
-
-  - 4 lattes de sommier
-  - 4 petites équerres
-  - des vis (auto-taraudeuses pour éviter de prépercer) de 25mm, 40mm et 75mm
-  - en fonction du plateau : vernis, huile ou vitrificateur.
+* Matériaux : 4 lattes de sommier de 80cm, 4 petites équerres, des vis (auto-taraudeuses pour éviter de prépercer) de 20mm, 40mm et 75mm, et en fonction du plateau : vernis, huile ou vitrificateur.
 
 
 Séparer les planches
