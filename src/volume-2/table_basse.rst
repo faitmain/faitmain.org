@@ -191,8 +191,8 @@ passer dans les trous des équerres. C'est pas très beau dans le principe, mais
 *Plateau*
 
 Le plateau est aussi de récupération, poncé (il en avait bien besoin !!) puis
-vitrifié. Sur le plateau, commencer par faire les trous au centre de l'axe
-fixe, de part et d'autre de la séparation, puis sur les 2 contre-forts des
+vitrifié. Commencer par faire les trous sur les pieds : 2 au centre de l'axe
+fixe, de part et d'autre de la séparation, puis un sur chaque contre-fort des
 pieds pivotants.
 
 .. figure:: table_basse/Trous_w600.jpg
