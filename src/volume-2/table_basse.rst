@@ -9,14 +9,24 @@ Table basse pliante
 Introduction : une table basse escamotable
 ::::::::::::::::::::::::::::::::::::::::::
 
-J'avais pour idée de faire une petite table basse pliante, en table d'appoint pour prendre l'apéro, faire manger les enfants, ... le tout avec des matériaux de récupération, glanés dans les rues le mardi soir, veille du ramassage des encombrants dans mon quartier.
+J'avais pour idée de faire une petite table basse pliante, en table d'appoint
+pour prendre l'apéro, faire manger les enfants, ... le tout avec des matériaux
+de récupération, glanés dans les rues le mardi soir, veille du ramassage des
+encombrants dans mon quartier.
 
-Dans mon idée, une fois pliée, la table devait pouvoir être glissée derrière le canapé, donc avoir un plateau désolidarisable des pieds, et les pieds "compactables". De fait, le casse-tête était comment avoir des pieds à la fois stables, une structure pliable et qu'elle soit un minimum design.
+Dans mon idée, une fois pliée, la table devait pouvoir être glissée derrière le
+canapé, donc avoir un plateau désolidarisable des pieds, et les pieds
+"compactables". De fait, le casse-tête était comment avoir des pieds à la fois
+stables, une structure pliable et qu'elle soit un minimum design.
 
 Les matériaux et le matériel
 ::::::::::::::::::::::::::::
 
-En mode "DIY" (Do-It-Yourself, Fais-Le-Toi-Même pour les non anglophones) donc, de A à Z, de la conception à la réalisation. Avec une contrainte importante : je n'avais comme "outils électroportatifs" qu'une perceuse et une scie-sauteuse. J'ai complété par une ponceuse excentrique quand j'ai découvert l'ampleur du travail de ponçage à faire sur le plateau trouvé dans la rue...
+En mode "DIY" (Do-It-Yourself, Fais-Le-Toi-Même pour les non anglophones) donc,
+de A à Z, de la conception à la réalisation. Avec une contrainte importante :
+je n'avais comme "outils électroportatifs" qu'une perceuse et une
+scie-sauteuse. J'ai complété par une ponceuse excentrique quand j'ai découvert
+l'ampleur du travail de ponçage à faire sur le plateau trouvé dans la rue...
 
 L'idée était d'utiliser des grosses lattes de sommier pour lit simple Ikea, trouvées dans la rue. Chacune mesurait 800 x 69 x 18 mm. 
 
@@ -30,19 +40,23 @@ A compléter par des petites fournitures : vis, équerres, ... vernis.
 Le concept
 ::::::::::
 
-C'est en feuilletant un magazine de mobilier design que le déclic est venu : faire rejoindre les pieds au centre, formant la grande barre d'un "y", la petite assurant le support du plateau. Une sorte d'arc-boutant en bois. 
+
+C'est en feuilletant un magazine de mobilier design que le déclic est venu :
+faire rejoindre les pieds au centre, formant la grande barre d'un "y", la
+petite assurant le support du plateau. Un arc-boutant en bois.
 
 .. figure:: table_basse/TableBasse-Declic_w600.jpg
 
 	De l'idée au schéma initial
 
-Ce qui avec une configuration à 4 pieds donnera ça : 
+Ce qui avec une configuration à 4 pieds donnera ça :
 
 .. figure:: table_basse/Final_w600.jpg
 
 	Résultat final
 
-Et du coup, on peut avoir un axe fixe diagonal avec deux pieds opposés solidaires, et les deux autres qui se rabattent vers les deux fixes pour les ranger.
+Et du coup, on peut avoir un axe diagonal avec deux pieds opposés fixés entre
+eux, et les deux autre qui se rabattent vers les deux fixes pour les ranger.
 
 .. figure:: table_basse/Pied-pliants-trous_w600.jpg
 
@@ -58,7 +72,6 @@ La solution consiste à faire des trous dans les pieds : un sur chaque pied pivo
 
 Pas la peine d'en mettre sur les contre-forts, cela ne ferait qu'ajouter des contraintes à l'ensemble.
 
-
 Y'a plus qu'à remonter ses manches...
 
 ----
@@ -66,11 +79,10 @@ Y'a plus qu'à remonter ses manches...
 La réalisation
 ::::::::::::::
 
----------------------
 Matériel et matériaux
 ---------------------
 
-Donc au final, on a besoin de : 
+Donc au final, on a besoin de :
 
 * Matériel
 
@@ -87,21 +99,20 @@ Donc au final, on a besoin de :
   - en fonction du plateau : vernis, huile ou vitrificateur.
 
 
-
---------------------
 Séparer les planches
 --------------------
 
-Les planches étaient fixées à deux rubans de tissus par des agrafes, donc à enlever avec un tournevis plat, et de la patience. Les agrafes et l'opération ont tendance à marquer le bois, donc il faut faire attention. 
+Les planches étaient fixées à deux rubans de tissus par des agrafes, donc à
+enlever avec un tournevis plat, et de la patience. Les agrafes et l'opération
+ont tendance à marquer le bois, donc il faut faire attention.
 
 
-------------
 Les découpes
 ------------
 
 La coupe en 'y' permet de réutiliser le bout coupé, quel que soit l'angle de coupe. Après quelques mesures, il fallait que j'utilise un angle de près de 45 degrés pour avoir une table suffisamment haute pour l'usage. 45°, ça tombe bien, c'est plus facile à mesurer !
 
-Et donc voici les découpes : 
+Et donc voici les découpes :
 
 .. figure:: table_basse/Plans_table_basse-pieds_fixes_w600.jpg
 
@@ -188,4 +199,5 @@ Et voilà le résultat final :
 	Avant/après montage
 
 Il n'y a plus qu'à prendre l'apéro ou un petit café !
+
 
