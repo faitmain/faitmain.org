@@ -28,7 +28,8 @@ je n'avais comme "outils électroportatifs" qu'une perceuse et une
 scie-sauteuse. J'ai complété par une ponceuse excentrique quand j'ai découvert
 l'ampleur du travail de ponçage à faire sur le plateau trouvé dans la rue...
 
-L'idée était d'utiliser des grosses lattes de sommier pour lit simple Ikea, trouvées dans la rue. Chacune mesurait 800 x 69 x 18 mm. 
+L'idée était d'utiliser des grosses lattes de sommier pour lit simple Ikea,
+trouvées dans la rue. Chacune mesurait 800 x 69 x 18 mm.
 
 Chez Ikea, il me semble que c'est ce sommier : http://www.ikea.com/fr/fr/catalog/products/85590800/
 15 € pour 15 planches en "vrai" bois, ça vaut le coup même si on le paie !
@@ -62,15 +63,22 @@ eux, et les deux autre qui se rabattent vers les deux fixes pour les ranger.
 
 	Deux pieds formant l'axe central + 2 pieds pivotants
 
-Vu que le plateau est amovible, et et que deux pieds pivotent, il faut solidariser le tout quand la table est en place, sinon le plateau peut glisser et les pieds se refermer. Et c'est la cata. 
+Vu que le plateau est amovible, et et que deux pieds pivotent, il faut
+solidariser le tout quand la table est en place, sinon le plateau peut glisser
+et les pieds se refermer. Et c'est la cata.
 
-La solution consiste à faire des trous dans les pieds : un sur chaque pied pivotant, et deux sur les pieds fixes, au centre, puis à mettre des têtes de vis dépassant sous le plateau. Les têtes viennent s'encastrer dans les trous des pieds : le plateau ne peut plus glisser, et les pieds ne peuvent plus pivoter. 
+La solution consiste à faire des trous dans les pieds : un sur chaque pied
+pivotant, et deux sur les pieds fixes, au centre, puis à mettre des têtes de
+vis dépassant sous le plateau. Les têtes viennent s'encastrer dans les trous
+des pieds : le plateau ne peut plus glisser, et les pieds ne peuvent plus
+pivoter.
 
 .. figure:: table_basse/plateau_et_pieds_w600.jpg
 
 	Les têtes de vis à aligner avec les trous des pieds
 
-Pas la peine d'en mettre sur les contre-forts, cela ne ferait qu'ajouter des contraintes à l'ensemble.
+Pas la peine d'en mettre sur les contre-forts, cela ne ferait qu'ajouter des
+contraintes à l'ensemble.
 
 Y'a plus qu'à remonter ses manches...
 
@@ -110,7 +118,10 @@ ont tendance à marquer le bois, donc il faut faire attention.
 Les découpes
 ------------
 
-La coupe en 'y' permet de réutiliser le bout coupé, quel que soit l'angle de coupe. Après quelques mesures, il fallait que j'utilise un angle de près de 45 degrés pour avoir une table suffisamment haute pour l'usage. 45°, ça tombe bien, c'est plus facile à mesurer !
+La coupe en 'y' permet de réutiliser le bout coupé, quel que soit l'angle de
+coupe. Après quelques mesures, il fallait que j'utilise un angle de près de 45
+degrés pour avoir une table suffisamment haute pour l'usage. 45°, ça tombe
+bien, c'est plus facile à mesurer !
 
 Et donc voici les découpes :
 
@@ -129,7 +140,11 @@ Assemblage
 
 *Fixation des contre-forts*
 
-Difficile de percer droit sans perceuse à colonne, donc pour fixer le petit bras du 'y' sur le grand, un pré-trou petit (3mm) puis un plus large (diamètre de la tête de vis) qui le rejoint depuis l'autre côté. Puis des chevilles pour l'empêcher de pivoter. Au final, je n'ai pas trouvé de cheville de récup', mais ça tient bien quand même comme ça !
+Difficile de percer droit sans perceuse à colonne, donc pour fixer le petit
+bras du 'y' sur le grand, un pré-trou petit (3mm) puis un plus large (diamètre
+de la tête de vis) qui le rejoint depuis l'autre côté. Puis des chevilles pour
+l'empêcher de pivoter. Au final, je n'ai pas trouvé de cheville de récup', mais
+ça tient bien quand même comme ça !
 
 .. figure:: table_basse/Plans_table_basse-assemblage_contrefort_w600.jpg
 
@@ -141,7 +156,10 @@ Difficile de percer droit sans perceuse à colonne, donc pour fixer le petit bra
 
 *Axe diagonal = pieds fixes*
 
-Pour fixer les deux pieds de l'axe fixe diagonal, j'ai réutilisé une chute, en découpant un petit morceau triangulaire, dans lequel j'ai mis deux vis de part et d'autre (traits noirs) pour figer le bas. Elles sont complétées par une troisième vis plus longue passée par le côté.
+Pour fixer les deux pieds de l'axe fixe diagonal, j'ai réutilisé une chute, en
+découpant un petit morceau triangulaire, dans lequel j'ai mis deux vis de part
+et d'autre (traits noirs) pour figer le bas. Elles sont complétées par une
+troisième vis plus longue passée par le côté.
 
 .. figure:: table_basse/Plans_table_basse-assemblage_pieds_fixes_w600.jpg
 
@@ -149,7 +167,9 @@ Pour fixer les deux pieds de l'axe fixe diagonal, j'ai réutilisé une chute, en
 
 *Pivots des pieds mobiles*
 
-Pour le pliage des deux pieds mobiles, je n'ai pas trouvé de charnière adéquate au magasin de bricolage du coin, du coup j'ai utilisé des petites équerres (encore moins cher !) :
+Pour le pliage des deux pieds mobiles, je n'ai pas trouvé de charnière adéquate
+au magasin de bricolage du coin, du coup j'ai utilisé des petites équerres
+(encore moins cher !) :
 
 Du coup, c'est pas très symétique, elle sera pas parfaite une fois pliée !
 
@@ -158,7 +178,10 @@ Du coup, c'est pas très symétique, elle sera pas parfaite une fois pliée !
    Equerres
 
 
-Sur le pied, il faut faire deux fentes à la scie-sauteuse, puis les élargir (salement, à la scie sauteuse aussi), puis un pré-trou et une grande vis pour passer dans les trous des équerres. C'est pas très beau dans le principe, mais ça marche !
+Sur le pied, il faut faire deux fentes à la scie-sauteuse, puis les élargir
+(salement, à la scie sauteuse aussi), puis un pré-trou et une grande vis pour
+passer dans les trous des équerres. C'est pas très beau dans le principe, mais
+ça marche !
 
 .. figure:: table_basse/Axes_w600.jpg
 
@@ -167,36 +190,44 @@ Sur le pied, il faut faire deux fentes à la scie-sauteuse, puis les élargir (s
 
 *Plateau*
 
-Le plateau est aussi de récupération, poncé (il en avait bien besoin !!) puis vitrifié. Sur le plateau, commencer par faire les trous au centre de l'axe fixe, de part et d'autre de la séparation, puis sur les 2 contre-forts des pieds pivotants.
+Le plateau est aussi de récupération, poncé (il en avait bien besoin !!) puis
+vitrifié. Sur le plateau, commencer par faire les trous au centre de l'axe
+fixe, de part et d'autre de la séparation, puis sur les 2 contre-forts des
+pieds pivotants.
 
 .. figure:: table_basse/Trous_w600.jpg
 
    Pieds sur l'axe des équerres
 
-Pour positionner les vis, dessiner au crayon les deux diagonales sous le plateau, puis le centre. Placer les pieds à l'envers sur la table, positionner les vis en face des trous.
+Pour positionner les vis, dessiner au crayon les deux diagonales sous le
+plateau, puis le centre. Placer les pieds à l'envers sur la table, positionner
+les vis en face des trous.
 
 .. figure:: table_basse/plateau_et_pieds_w600.jpg
 
 	*Astuce :* faire dépasser les vis au centre du plateau plus que celles sur les bords, cela permet de soulever un coin du plateau sans déboîter le centre.
 
-On peut ajouter des petites cales au besoin, comme des patins de chaise en feutre, pour éviter les jeux dûs aux usinages et assemblages approximatifs. 
+On peut ajouter des petites cales au besoin, comme des patins de chaise en
+feutre, pour éviter les jeux dûs aux usinages et assemblages approximatifs.
 
-Pour monter la table, il n'y a plus qu'à aligner vis et trous, et ainsi le plateau ne glisse plus, et les pieds ne se referment pas. 
+Pour monter la table, il n'y a plus qu'à aligner vis et trous, et ainsi le
+plateau ne glisse plus, et les pieds ne se referment pas.
 
-Très peu de chutes à la fin : il ne reste que les coins et les morceaux rognés sur les pieds mobiles. Optimisation maximale.
+Très peu de chutes à la fin : il ne reste que les coins et les morceaux rognés
+sur les pieds mobiles. Optimisation maximale.
 
 .. figure:: table_basse/Chutes_w600.jpg
-	:scale: 50%
+   :scale: 50
 
-	Même pas de quoi faire un Tangram !
+   Même pas de quoi faire un Tangram !
 
 
-
-Et voilà le résultat final : 
+Et voilà le résultat final :
 
 .. figure:: table_basse/FinalAvantApres_w600.jpg
 
-	Avant/après montage
+   Avant/après montage
+
 
 Il n'y a plus qu'à prendre l'apéro ou un petit café !
 
