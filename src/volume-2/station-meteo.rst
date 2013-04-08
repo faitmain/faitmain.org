@@ -59,7 +59,16 @@ Les puces Yocto
 XXX
 
 decrire les puces - prix un peu onereux mais tout integré,
+dire qu'il manque l'altimetre donc faut connaitre son altitude
+pour calculer la vrai pression
 
+https://www.sparkfun.com/products/8942
+https://www.sparkfun.com/products/10586
+https://www.sparkfun.com/products/11084
+https://www.sparkfun.com/products/10988
+
+
+souder les composants weather et light ensembles
 
 
 Le projet
