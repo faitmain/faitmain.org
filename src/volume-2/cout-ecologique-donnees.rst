@@ -6,7 +6,9 @@ Le coût écologique de vos données
 :level: decouverte
 :author: David Larlet
 
+.. figure:: cout/donnees-hangar.jpg
 
+   Hangar.
 
 Des photos de vacances non triées aux mails archivés *ad vitam aeternam*, des
 films collectionnés aux bibliothèques musicales dont la qualité est devenue
@@ -45,6 +47,8 @@ ménage effectué (je vous conseille le printemps approchant, c'est une
 excellente période pour ça) il va falloir suivre une certaine méthode de tri
 des données qui doit devenir à terme une routine. En procédant ainsi, vous
 allez pouvoir cultiver une base saine et propre à vos besoins.
+
+----
 
 Outre la satisfaction d'un travail bien fait et la préservation de votre santé
 mentale, je parlais en introduction du coût écologique de ces données. Il faut
