@@ -47,20 +47,20 @@ C'est en feuilletant un magazine de mobilier design que le déclic est venu :
 faire rejoindre les pieds au centre, formant la grande barre d'un "y", la
 petite assurant le support du plateau. Un arc-boutant en bois.
 
-.. figure:: images/TableBasse-Declic_w600.jpg
+.. figure:: table_basse/TableBasse-Declic_w600.jpg
 
 	De l'idée au schéma initial
 
 Ce qui avec une configuration à 4 pieds donnera ça :
 
-.. figure:: images/Final_w600.jpg
+.. figure:: table_basse/Final_w600.jpg
 
 	Résultat final
 
 Et du coup, on peut avoir un axe diagonal avec deux pieds opposés fixés entre
 eux, et les deux autre qui se rabattent vers les deux fixes pour les ranger.
 
-.. figure:: images/Pied-pliants-trous_w600.jpg
+.. figure:: table_basse/Pied-pliants-trous_w600.jpg
 
 	Deux pieds formant l'axe central + 2 pieds pivotants
 
@@ -119,11 +119,11 @@ bien, c'est plus facile à mesurer !
 
 Et donc voici les découpes :
 
-.. figure:: Plans_table_basse.jpg
+.. figure:: table_basse/Plans_table_basse.jpg
 
    Découpe pour les 2 pieds fixes
 
-.. figure:: Plans_table_basse-pieds_pivotant.jpg
+.. figure:: table_basse/Plans_table_basse-pieds_pivotant.jpg
 
    Découpe pour les 2 pieds pivotants
 
