@@ -16,9 +16,9 @@ Quand il s'agit de concevoir des systèmes embarqués, interactifs ou bien quand
 des objets doivent communiquer entre eux, plusieurs techniques de communication
 sont envisageables. Nous explorerons ici le protocole `Zigbee
 <http://fr.wikipedia.org/wiki/ZigBee>`_ qui permet de communiquer par ondes
-radio, c'est-à-dire sans fil. Je m'efforcerais dans un premier temps de
+radio, c'est-à-dire sans fil. Je m'efforcerai dans un premier temps de
 présenter les caractéristiques de ce protocole et d'éviter certaines
-confusions. Ensuite je présenterais des cas pratiques avec et sans la carte
+confusions. Ensuite je présenterai des cas pratiques avec et sans la carte
 Arduino. Pour en savoir plus sur la carte Arduino, vous pouvez consulter ma
 page `Arduino <http://jeromeabel.net/ressources/arduino>`_. À noter que ces cas
 pratiques ne concernent pour l'instant (01/2013) que la série 1 du module XBee.
@@ -48,7 +48,7 @@ Présentation du XBee
 ::::::::::::::::::::
 
 Les produits MaxStream XBee™ sont des modules de communication sans fil très
-populaires fabriqués par l'entreprise `Digi International
+populaires, fabriqués par l'entreprise `Digi International
 <http://www.digi.com>`_. Ils ont été `certifiés
 <http://www.digi.com/fr/news/pressrelease?prid=368>`_ par la communauté
 industrielle `ZigBee Alliance <http://www.zigbee.org>`_ en 2006 après le
@@ -82,7 +82,7 @@ Applications
 
 Le ZigBee semble avoir été conçu pour réaliser ce qu'on appelle l'`Internet des
 objets <http://fr.wikipedia.org/wiki/Internet_des_objets>`_, un ensemble
-d'objets communiquants voir "autonomes", une extension d'Internet aux objets
+d'objets communiquants, voire "autonomes", une extension d'Internet aux objets
 physiques. La `domotique <http://fr.wikipedia.org/wiki/Domotique>`_ est
 l'exemple le plus parlant.
 
@@ -90,7 +90,7 @@ l'exemple le plus parlant.
 
   Exemple d'une maison utilisant la domotique
 
-S'en entrer dans les détails car ce n'est pas le propos ici, la vision d'un
+Sans entrer dans les détails, car ce n'est pas le propos ici, la vision d'un
 monde où tout doit être connecté, du frigo aux enfants, se rapproche pour ma
 part plus du cauchemar que du rêve. Les technologies de communication peuvent
 en effet être utilisées par des groupes mercantiles et cyniques qui font
@@ -115,7 +115,7 @@ créer des rythmes inédits dans la ville.
 ----
 
 Une autre application peut s'avérer très utile : programmer à distance une
-carte Arduino. En effet, d'habitude on relie sa carte avec câble USB, mais
+carte Arduino. En effet, d'habitude on relie sa carte avec un câble USB, mais
 comment faire quand la carte est située à trois mètres de hauteur comme c'est
 le cas dans mon projet `Chimères Orchestra
 <http://jeromeabel.net/art/chimeres-orchestra>`_ ? La programmation à distance
@@ -133,7 +133,7 @@ Pourquoi choisir le sans fil ?
 
 À première vue, le sans fil présente bien des avantages. Il permet de ne pas
 encombrer un espace de travail, d'équiper des appareils mouvants, de
-communiquer dans des endroits innacessibles. Cependant, il faut aussi prendre
+communiquer dans des endroits inaccessibles. Cependant, il faut aussi prendre
 en considération d'autres paramètres :
 
 - La communication sans fil ne sera jamais aussi fiable qu'une communication
@@ -160,7 +160,7 @@ en considération d'autres paramètres :
 
 Par exemple, l'artiste Benjamin Gaulon démontre dans son projet `2.4Ghz
 <http://www.recyclism.com/twopointfour.php>`_ qu'il est possible de recevoir
-dans l'espace public le signal des vidéos de surveillance sensé rester privé..
+dans l'espace public le signal des vidéos de surveillance sensé rester privé.
 
 //Note : certains éléments de cette rubrique s'inspirent de la page 178 du
 livre `Making Things Talk <http://shop.oreilly.com/product/9780596510510.do>`_
@@ -182,7 +182,7 @@ XBee ou Zigbee ?
 plusieurs petits modules connectés ensemble comme une colonie d'abeilles. Au
 début, on peut confondre les termes XBee et ZigBee. En fait, comme expliqué au
 début de l'article, le **ZigBee** est un protocole de communication qui
-s'appuie sur le travail du groupe IEEE 802.15.4 et définit par le groupe de
+s'appuie sur le travail du groupe IEEE 802.15.4 et est défini par le groupe de
 professionnels *ZigBee Alliance*. Le **XBee** est une marque, un produit qui
 utilise le protocole ZigBee. Do you bien compris ?
 
@@ -195,7 +195,7 @@ utilise le protocole ZigBee. Do you bien compris ?
 
 Le XBee étant devenu populaire, sa forme si particulière est aujourd'hui
 reprise par des fabricants de puces Bluetooth. Comme il existe beaucoup de
-shields arduinos et d'adaptateurs XBee, cela sera sans doute compatible avec
+shields Arduinos et d'adaptateurs XBee, cela sera sans doute compatible avec
 les puces Bluetooth.
 
 
@@ -279,7 +279,7 @@ Communication avec l'ordinateur
 
 Pour établir une communication avec l'ordinateur, il y a deux options :
 l'assemblage de différents éléments comme sur l'image ou le XBee USB Explorer.
-J'ai choisi la première option car un peu moins cher et plus flexible.
+J'ai choisi la première option car un peu moins chère et plus flexible.
 L'inconvénient est que ça nécessite un peu de soudure (3 minutes) et un petit
 montage sur plaque à essais. Bref, cela revient au même.
 
@@ -330,7 +330,7 @@ surtout aux magasins situés aux États-Unis. En gros, essayez d'éviter Sparkfu
 
 Synthèse de ce dont nous aurons besoin :
 
-- `Modules XBee <https://www.sparkfun.com/products/11215>`_ x 2 (au moins 2 pour créer une connection !) : série 1 ou 2, antennes filaire ou à puce
+- `Modules XBee <https://www.sparkfun.com/products/11215>`_ x 2 (au moins 2 pour créer une connection !) : série 1 ou 2, antennes filaires ou à puce
 - `XBee Explorer USB <https://www.sparkfun.com/products/8687>`_ (Platine d'interface USB pour modules "XBee") : en option si vous choisissez la carte FT232
 - `Breakout Board for FT232RL USB to Serial <http://www.sparkfun.com/products/718>`_ (Module "FTDI Basic Breakout" - 3,3V)
 - Câble mini-USB/USB
@@ -364,7 +364,7 @@ Configuration
 :::::::::::::
 
 Une fois le matériel acheté, il ne reste plus qu'à assembler notre premier
-montage, à établir une connection avec l'ordinateur et connaître la syntaxe
+montage, à établir une connexion avec l'ordinateur et à connaître la syntaxe
 pour configurer le module XBee.
 
 Montage
@@ -374,9 +374,9 @@ Montage
 
   Montage XBee et FTDI
 
-Souder l'adaptateur XBee, il permet juste d'avoir des contacteurs avec le bon
-espacement pour pouvoir enfoncer le module dans une platine d'essais. Placer la
-carte FTDI. Connecter l'ensemble suivant le schéma.
+Soudez l'adaptateur XBee, il permet juste d'avoir des contacteurs avec le bon
+espacement pour pouvoir enfoncer le module dans une platine d'essais. Placez la
+carte FTDI. Connectez l'ensemble suivant le schéma.
 
 
 Connaître son matériel
@@ -454,10 +454,10 @@ l'expérimenter avec succès. Une `API
 programming interface//) est un terme bien connu en informatique. Il désigne
 une interface fournie par un programme informatique, c'est-à-dire un ensemble
 de fonctions qui facilitent la programmation d'un côté et qui de l'autre
-communique en langage binaire pour le XBee, sous forme de paquets. Je crois
+communiquent en langage binaire pour le XBee, sous forme de paquets. Je crois
 comprendre que ce mode devient utile quand il s'agit de construire des messages
 au format XBee à partir d'un ordinateur ou d'un microcontrôleur comme Arduino.
-Le mode API n'est possible qu'avec une connection locale en série et filaire
+Le mode API n'est possible qu'avec une connexion locale en série et filaire
 avec l'ordinateur ou la Arduino, pas entre modules XBee.
 
 Commandes AT
@@ -507,7 +507,7 @@ La syntaxe est simple, il faut taper **AT**, puis le nom de la commande, les opt
 - > 1234
 
 
-Vous avez défini ici l'adresse du module à 1234 (ATMY 1234) puis demander quelle était votre adresse (ATMY).
+Vous avez défini ici l'adresse du module à 1234 (ATMY 1234) puis demandé quelle était votre adresse (ATMY).
 
 
 Adressage
@@ -536,7 +536,7 @@ analogiques sont PWM0 et PWM1. Les entrées et sorties numériques sont DIO1,
 DIO2, DIO3, DIO4, DIO5, DIO6, DIO7 ("DIO" pour Digital Input Output). Les
 entrées analogiques sont : AD1, AD2, AD3, AD4, AD5 ("AD" pour Analog Digital,
 l'échantillonnage des tensions analogiques converties en numérique). Pour
-trouver la bonne commande AT, on peut se référer au pages 12, 31, 39 et 43 du
+trouver la bonne commande AT, on peut se référer aux pages 12, 31, 39 et 43 du
 `manuel (.pdf) <http://ftp1.digi.com/support/documentation/90000982_B.pdf>`_ ou
 à l'image ci-dessous.
 
@@ -833,7 +833,7 @@ compliqué. **Pour l'instant il ne permet de recevoir qu'une donnée à la fois*
 En pratique, on voudrait avoir la possibilité d'envoyer plusieurs données
 différentes provenant de plusieurs capteurs et d'actionner plusieurs sorties.
 Les méthodes présentées ici ne le font pas. Pour cela, deux options semblent
-envisageable : construire des messages série plus compliqués avec un
+envisageables : construire des messages série plus compliqués avec un
 identifiant (comme `ici
 <http://kiilo.org/tiki/tiki-index.php?page=Arduino-PureData-MessageSystem>`_)
 ou bien utiliser l'API XBee pour Arduino.
