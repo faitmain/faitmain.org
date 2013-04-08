@@ -13,7 +13,7 @@ sont envisageables. Nous explorerons ici le protocole `Zigbee
 <http://fr.wikipedia.org/wiki/ZigBee>`_ qui permet de communiquer par ondes
 radio, c'est-à-dire sans fil. Je m'efforcerais dans un premier temps de
 présenter les caractéristiques de ce protocole et d'éviter certaines
-confusions. Ensuite je présenterais des cas pratiques avec et sans la carte
+confusions. Ensuite, je présenterais des cas pratiques, avec et sans la carte
 Arduino. Pour en savoir plus sur la carte Arduino, vous pouvez consulter ma
 page `Arduino <http://jeromeabel.net/ressources/arduino>`_. À noter que ces cas
 pratiques ne concernent pour l'instant (01/2013) que la série 1 du module XBee.
@@ -71,7 +71,7 @@ Applications
 ------------
 
 Le ZigBee semble avoir été conçu pour réaliser ce qu'on appelle l'`Internet des
-objets <http://fr.wikipedia.org/wiki/Internet_des_objets>`_, un ensemble
+objets <http://fr.wikipedia.org/wiki/Internet_des_objets>`_ : un ensemble
 d'objets communiquants voire "autonomes", une extension d'Internet aux objets
 physiques. La `domotique <http://fr.wikipedia.org/wiki/Domotique>`_ est
 l'exemple le plus parlant.
@@ -81,9 +81,9 @@ l'exemple le plus parlant.
   Exemple d'une maison utilisant la domotique
 
 Sans entrer dans les détails car ce n'est pas le propos ici, la vision d'un
-monde où tout doit être connecté, du frigo aux enfants, se rapproche pour ma
+monde où tout peut être connecté, du frigo aux enfants, se rapproche pour ma
 part plus du cauchemar que du rêve. Les technologies de communication peuvent
-en effet être utilisées par des groupes mercantiles et cyniques qui font
+être utilisées par des groupes mercantiles et cyniques qui font
 reculer les principes démocratiques. Heureusement, des artistes s'approprient
 ces technologies et les utilisent à des fins plus poétiques.
 
@@ -104,7 +104,7 @@ créer des rythmes inédits dans la ville.
   Programmer une Arduino à distance
 
 Une autre application peut s'avérer très utile : programmer à distance une
-carte Arduino. En effet, d'habitude on relie sa carte par câble USB, mais
+carte Arduino. D'habitude on relie sa carte par câble USB, mais
 comment faire quand la carte est située à trois mètres de hauteur comme c'est
 le cas dans mon projet `Chimères Orchestra
 <http://jeromeabel.net/art/chimeres-orchestra>`_ ? La programmation à distance
@@ -115,8 +115,8 @@ est donc la solution : `programming Arduino Wirelessly
 Pourquoi choisir le sans fil ?
 ------------------------------
 
-À première vue, le sans fil présente bien des avantages. Il permet de ne pas
-encombrer un espace de travail, d'équiper des appareils mouvants, de
+À première vue, le sans-fil présente bien des avantages. Il permet d'éviter
+d'encombrer un espace de travail, d'équiper des appareils mobiles, de
 communiquer dans des endroits inacessibles. Cependant, il faut aussi prendre
 en considération d'autres paramètres :
 
@@ -130,7 +130,7 @@ en considération d'autres paramètres :
 - L'environnement semble aujourd'hui saturé d'ondes électromagnétiques, on
   parle de `pollution électromagnétique
   <http://fr.wikipedia.org/wiki/Pollution_%C3%A9lectromagn%C3%A9tique>`_. Le
-  XBee génère des radiations électromagnétiques alors pourquoi en rajouter ?
+  XBee génère des radiations électromagnétiques, alors pourquoi en rajouter ?
 - La communication n'est pas 1-1 entre l'émetteur et le récepteur. En effet les
   ondes radio rayonnent en cercle autour de l'émetteur. Seuls les appareils
   décryptant le bon protocole peuvent différencier les informations provenant
@@ -144,7 +144,7 @@ en considération d'autres paramètres :
 
 Par exemple, l'artiste Benjamin Gaulon démontre dans son projet `2.4Ghz
 <http://www.recyclism.com/twopointfour.php>`_ qu'il est possible de recevoir
-dans l'espace public le signal des vidéos de surveillance sensé rester privé..
+dans l'espace public le signal des vidéos de surveillance sensé rester privé…
 
 //Note : certains éléments de cette rubrique s'inspirent de la page 178 du
 livre `Making Things Talk <http://shop.oreilly.com/product/9780596510510.do>`_
@@ -178,9 +178,9 @@ utilise le protocole ZigBee. Do you bien compris ?
 
   Exemple d'un module Bluetooth utilisant la même forme que les modules XBee
 
-Le XBee étant devenu populaire, sa forme si particulière est aujourd'hui
+Le XBee est devenu si populaire que sa forme si particulière est aujourd'hui
 reprise par des fabricants de puces Bluetooth. Comme il existe beaucoup de
-shields arduinos et d'adaptateurs XBee, cela sera sans doute compatible avec
+shields Arduinos et d'adaptateurs XBee, cela sera sans doute compatible avec
 les puces Bluetooth.
 
 
@@ -262,7 +262,7 @@ Communication avec l'ordinateur
 
 Pour établir une communication avec l'ordinateur, il y a deux options :
 l'assemblage de différents éléments comme sur l'image ou le XBee USB Explorer.
-J'ai choisi la première option car un peu moins cher et plus flexible.
+J'ai choisi la première option car cela était un peu moins cher et plus flexible.
 L'inconvénient est que ça nécessite un peu de soudure (3 minutes) et un petit
 montage sur plaque à essais. Bref, cela revient au même.
 
@@ -382,25 +382,26 @@ USB-Serial**, son identifiant est **ttyUSB0**.
 Terminal
 --------
 
-L'idée maintenant est de pouvoir envoyer des commandes au module et recevoir
+Le but maintenant est de pouvoir envoyer des commandes au module et recevoir
 ses retours. Pour cela il faut utiliser un programme, appelé Terminal ou plus
 précisément `émulateur de terminal
 <https://fr.wikipedia.org/wiki/%C3%89mulateur_de_terminal>`_. On l'utilise dans
 notre cas pour communiquer en série avec le port ouvert par le contrôleur USB.
-Des spécifités existent entre les systèmes d'exploitation que je ne peux
-répertorier (pour Windows : programme Putty et Xctu à télécharger).
+Des spécifités existent entre les différents systèmes d'exploitation que je ne peux
+répertorier (par exemple pour Windows : programme Putty et Xctu à télécharger).
 
 Trois possibilités :
 
 - dans le logiciel Arduino, il y a **un moniteur série**
 
-- sur Linux, installer le logiciel screen pour avoir un utilitaire ultra simple
-  : sudo apt-get install screen. Et ensuite, vous avez accès au port série avec
-  la commande : **screen /dev/ttyUSB0 9600**. Le logiciel screen se connecte au
+- sur Linux, installer le logiciel ``screen`` pour avoir un utilitaire ultra simple
+  (``sudo apt-get install screen``). Ensuite, vous avez accès au port série avec
+  la commande : **screen /dev/ttyUSB0 9600**. Le logiciel ``screen`` se connecte au
   port série de notre adaptateur FTDI. Si vous avez lu la partie concernant la
   communication en série, vous ne serez pas surpris de voir le chiffre 9600. En
-  effet, comme il s'agit d'une communication asynchrone, il faut se mettre
-  d'accord sur le débit en binaire (bits/seconde). Commandes utiles de screen :
+  effet, étant donné qu'il s'agit d'une communication asynchrone, il faut se mettre
+  d'accord sur le débit en binaire (bits/seconde). 
+  Commandes utiles de screen :
   Ctl-A ? : help et Ctl-A \ : quit (en tapant "y" pour "yes")
 
 - Une autre solution, sans doute la meilleure, car très agréable à utiliser et
@@ -427,18 +428,18 @@ Modes
 -----
 
 Le XBee possède trois modes : **TRANSPARENT**, **COMMAND** et **API**. Le mode
-TRANSPARENT est le mode par défaut à la mise en marche du module, celui qui
-reçoit et envoie les données. Le mode COMMAND permet de configurer le module,
+TRANSPARENT est le mode sélectionné par défaut à la mise en marche du module, celui qui
+reçoit et envoie les données. Le mode COMMAND permet de configurer le module : 
 ses entrées, ses sorties, son adresse, l'adresse de destination de ses
 messages, etc.
 
-Le mode API est un peu plus compliqué et pour dire vrai, je n'ai pas encore pu
+Le mode API est un peu plus compliqué, et, pour dire vrai, je n'ai pas encore pu
 l'expérimenter avec succès. Une `API
 <http://fr.wikipedia.org/wiki/Interface_de_programmation>`_ (//Application
 programming interface//) est un terme bien connu en informatique. Il désigne
 une interface fournie par un programme informatique, c'est-à-dire un ensemble
-de fonctions qui facilitent la programmation d'un côté et qui de l'autre
-communique en langage binaire pour le XBee, sous forme de paquets. Je crois
+de fonctions qui facilitent la programmation d'un côté, et qui, de l'autre
+communique en langage binaire (pour le XBee), sous forme de paquets. Je crois
 comprendre que ce mode devient utile quand il s'agit de construire des messages
 au format XBee à partir d'un ordinateur ou d'un microcontrôleur comme Arduino.
 Le mode API n'est possible qu'avec une connexion locale en série et filaire
@@ -449,7 +450,7 @@ Commandes AT
 
 **MODE COMMAND**
 
-Ouvrez le terminal choisi. Avant tout, il faut dire au XBee que l'on veut
+Ouvrez le terminal choisi. Avant tout, il faut signaler au XBee que l'on veut
 quitter le mode TRANSPARENT pour entrer dans le mode COMMAND. Pour cela il faut
 prendre le coup de main, suivez bien ces instructions à la lettre :
 
@@ -491,7 +492,7 @@ La syntaxe est simple, il faut taper **AT**, puis le nom de la commande, les opt
 - > 1234
 
 
-Vous avez défini ici l'adresse du module à 1234 (ATMY 1234) puis demander quelle était votre adresse (ATMY).
+Vous avez défini ici l'adresse du module à 1234 (ATMY 1234) puis demandé quelle était votre adresse (ATMY).
 
 
 Adressage
@@ -537,7 +538,7 @@ poussoir sur l'entrée numérique 1, il faudrait écrire **ATD1 3**. D1 pour pin
 
 Il faut savoir que les entrées fonctionnent par paire, c'est la notion de
 "**line passing**". L'entrée 0 du XBee#2 correspond à la sortie 0 du XBee#1.
-Comme il y a deux sorties 0 (PWM0, DIO0), alors si on veut avoir deux sorties
+Puisqu'il y a deux sorties 0 (PWM0, DIO0), si on veut avoir deux sorties
 différentes il faut choisir une autre sortie DIO1 pour l'autre LED.
 
 
@@ -647,7 +648,7 @@ XBee > XBee/ordinateur
 Avec le même montage, on peut visualiser dans le terminal, les informations
 reçues par le XBee#1 avec le convertisseur relié à l'ordinateur. Ces
 informations ne sont cependant pas tout à fait compréhensibles dans le
-terminal, on ne voit pas de chiffres par exemple car il s'agit de paquets
+terminal. On ne voit pas de chiffres par exemple car il s'agit de paquets
 ZigBee.
 
 XBee/Arduino > XBee/ordinateur
@@ -658,8 +659,8 @@ XBee/Arduino > XBee/ordinateur
   Communication entre l'Arduino et l'ordinateur
 
 L'Arduino capte un bouton poussoir et envoie un message tout ou rien au XBee#1
-pour allumer la LED. Cette fois, on peut voir dans le terminal les informations
-de façon compréhénsible.
+pour allumer la LED. Cette fois, on peut lire dans le terminal les informations
+de façon compréhensible.
 
 **Montage émetteur**
 
@@ -679,7 +680,7 @@ de façon compréhénsible.
 
 Le code n'a rien de compliqué. Tout d'abord on configure le module XBee
 connecté avec RX et TX comme indiqué ci-dessus. On écrit "+++" en communication
-série, on attend la réponse du XBee avec le caractère '\r' qui marque la fin
+série, puis on attend la réponse du XBee avec le caractère '\r' qui marque la fin
 d'une ligne et ensuite on écrit seulement cinq commandes pour configurer
 uniquement l'adressage du module comme vu dans la partie précédente. On
 récupère ensuite les informations numériques de l'entrée numérique de l'Arduino
@@ -725,7 +726,7 @@ compliqué. **Pour l'instant il ne permet de recevoir qu'une donnée à la fois*
 En pratique, on voudrait avoir la possibilité d'envoyer plusieurs données
 différentes provenant de plusieurs capteurs et d'actionner plusieurs sorties.
 Les méthodes présentées ici ne le font pas. Pour cela, deux options semblent
-envisageable : construire des messages série plus compliqués avec un
+envisageables : construire des messages série plus compliqués avec un
 identifiant (comme `ici
 <http://kiilo.org/tiki/tiki-index.php?page=Arduino-PureData-MessageSystem>`_)
 ou bien utiliser l'API XBee pour Arduino.
@@ -745,7 +746,7 @@ Livres
   réseaux maillés.
 - `Making Things Talk <http://shop.oreilly.com/product/9780596510510.do>`_, de Tom Igoe. Le livre
   présente les communications Ethernet, infra-rouge, radio, XBee, GPS.
-  Attention, le XBee utilisé est de la série 1 et un seul montage XBee est
+  Attention, le XBee utilisé est de la série 1 or un seul montage XBee est
   disponible, ce qui est décevant. Il faut plutôt choisir ce livre pour le
   support d'informations concernant l'ensemble des techniques de communication.
 
