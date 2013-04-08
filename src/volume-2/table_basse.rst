@@ -57,7 +57,7 @@ Ce qui avec une configuration à 4 pieds donnera ça :
 	Résultat final
 
 Et du coup, on peut avoir un axe diagonal avec deux pieds opposés fixés entre
-eux, et les deux autre qui se rabattent vers les deux fixes pour les ranger.
+eux, et les deux autres qui se rabattent vers les deux fixes pour les ranger.
 
 .. figure:: table_basse/Pied-pliants-trous_w600.jpg
 
@@ -171,7 +171,7 @@ Pour le pliage des deux pieds mobiles, je n'ai pas trouvé de charnière adéqua
 au magasin de bricolage du coin, du coup j'ai utilisé des petites équerres
 (encore moins cher !) :
 
-Du coup, c'est pas très symétique, elle sera pas parfaite une fois pliée !
+Du coup, c'est pas très symétrique, elle ne sera pas parfaite une fois pliée !
 
 .. figure:: table_basse/Equerres_w600.jpg
 
