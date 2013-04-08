@@ -28,11 +28,8 @@ je n'avais comme "outils électroportatifs" qu'une perceuse et une
 scie-sauteuse. J'ai complété par une ponceuse excentrique quand j'ai découvert
 l'ampleur du travail de ponçage à faire sur le plateau trouvé dans la rue...
 
-L'idée était d'utiliser des grosses lattes de sommier pour lit simple Ikea,
+L'idée était d'utiliser des grosses lattes de sommier pour lit simple,
 trouvées dans la rue. Chacune mesurait 800 x 69 x 18 mm.
-
-Chez Ikea, il me semble que c'est ce sommier : http://www.ikea.com/fr/fr/catalog/products/85590800/
-15 € pour 15 planches en "vrai" bois, ça vaut le coup même si on le paie !
 
 Et un plateau trouvé dans la rue, de dimensions 75x60 cm.
 
