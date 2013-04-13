@@ -251,12 +251,13 @@ d'appliquer la `formule du nivellement barométrique <https://fr.wikipedia.org/w
 sur la valeur renvoyé par la sonde.
 
 .. figure:: station/formule.png
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
 
    Formule du nivellement barométrique.
 
-
-Où **z** est l'altitude. Traduite en Python la formule donne:
-
+Traduite en Python, la formule donne:
 
 .. code-block:: python
 
