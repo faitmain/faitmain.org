@@ -281,6 +281,7 @@ des séries temporelles.
 
 
 .. figure:: station/grenouille.png
+   :scale: 50
 
    Organisation de Grenouille
 
