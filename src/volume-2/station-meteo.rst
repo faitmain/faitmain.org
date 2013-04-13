@@ -6,6 +6,12 @@ Station météo USB
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
 
+
+.. figure:: station/jardin.jpg
+
+   Surveillance de mon Jardin avec Yocto-Meteo & Raspberry-Pi
+
+
 Après la sortie du premier numéro de FaitMain, j'ai été
 contacté par `Yoctopuce <http://yoctopuce.com>`_ qui
 m'a proposé de tester son matériel dans un article.
