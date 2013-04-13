@@ -125,6 +125,13 @@ du coup les valeurs de pression fournies qui sont relatives au niveau de
 la mer doivent être corrigées en fonction de l'altitude du lieu
 - qu'il faut connaitre
 
+.. figure:: station/formule.png
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
+
+   Formule du nivellement barométrique.
+
 Mais ce problème peut être contourné en géolocalisant la station
 météo via internet et retrouver l'altitude via des bases de données.
 
@@ -249,13 +256,6 @@ la valeur en cours du senseur:
 Enfin, pour corriger la valeur de la pression, il convient
 d'appliquer la `formule du nivellement barométrique <https://fr.wikipedia.org/wiki/Formule_du_nivellement_barom%C3%A9trique>`_
 sur la valeur renvoyé par la sonde.
-
-.. figure:: station/formule.png
-   :scale: 25
-   :figclass: pull-right margin-left
-   :align: right
-
-   Formule du nivellement barométrique.
 
 Traduite en Python, la formule donne:
 
