@@ -165,7 +165,7 @@ fourni par Yoctopuce:
 
 
     def convert_pressure(value, altitude=TURCEY):
-        return value + value / 8.3 * 100. / 100.
+        return 1013.25 * (1 - ((0.0065 * altitude / 288.15) ** 5.255))
 
 
     def format_value(sensor):
@@ -246,6 +246,28 @@ la valeur en cours du senseur:
     print temperature.get_currentValue()
 
 
+Enfin, pour corriger la valeur de la pression, il convient
+d'appliquer la `formule du nivellement barométrique <https://fr.wikipedia.org/wiki/Formule_du_nivellement_barom%C3%A9trique>`_
+sur la valeur renvoyé par la sonde.
+
+.. figure:: station/formule.jpg
+
+   Formule du nivellement barométrique.
+
+
+Où **z** est l'altitude. Traduite en Python la formule donne:
+
+
+.. code-block:: python
+
+
+    TURCEY = 374.
+
+    def convert_pressure(value, altitude=TURCEY):
+        return 1013.25 * (1 - ((0.0065 * altitude / 288.15) ** 5.255))
+
+
+Ma maison est à 374 mètres au dessus du niveau de l'eau.
 
 
 Le projet
