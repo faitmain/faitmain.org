@@ -271,10 +271,61 @@ Traduite en Python, la formule donne:
 Ma maison est à 374 mètres au dessus du niveau de l'eau.
 
 
-Le projet
----------
+Le projet Grenouille
+--------------------
 
-Decrire le projet logiciel XXX
+Ce n'est pas un nom très original mais je n'ai pas trouvé mieux. Le
+projet **Grenouille** utilise la sonde Yocto Meteo pour remplir une
+base de données qui sert ensuite à afficher les informations dans
+des séries temporelles.
+
+
+.. figure:: station/grenouille.png
+
+   Organisation de Grenouille
+
+
+Pour la base de données, j'ai choisi `Elastic Search <http://www.elasticsearch.org>`_.
+
+Elastic Search est un service de recherche au dessus de `Apache Lucene <https://lucene.apache.org/>`_
+qui permet d'indexer des données en continu et qui fournit une interface
+`REST <https://fr.wikipedia.org/wiki/Rest>`_ pour faire des recherches,
+
+Les performances d'Elastic Search sont assez bluffantes. Ce système est par
+exemple utilisé par FourSquare pour son moteur de recherche de lieux qui
+compte plus de 50 millions d'entrées.
+
+Ce qui est intéressant pour un projet comme Grenouille est qu'Elastic Search
+permet de faire des recherches par *facettes* et d'aggréger les données
+par minute, heure, jour, semaine, mois ou année.
+
+Autrement dit, en stockant continuellement les relevés de température, pression
+et humidité dans cette base, il est possible de faire des requêtes pour
+récupérer toute sort de *séries temporelles*.
+
+Elastic Search offre aussi le support de `CORS <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_
+(Cross-origin resource sharing) qui permet de construire une application
+Javascript qui va faire directement des requêtes sur le moteur.
+
+L'interface web de Grenouille n'est donc pas une application web
+qui s'exécute coté serveur, mais du code Javascript qui se charge
+dans le naviguateur et interagit avec ElasticSearch.
+
+Pour l'affichage, Grenouille utilise `RickShaw <http://code.shutterstock.com/rickshaw/>`_
+qui est une librairie Javascript spécialisée dans l'affichage
+de séries temporelles.
+
+RickShaw est elle-même basée sur `d3.js <http://d3js.org/>`_ un moteur de
+visualisation de données qui est beaucoup utilisé dans la communauté
+open source.
+
+
+.. figure:: station/rickshaw.jpg
+
+   Rickshaw en action
+
+Pour résumer, RickShaw permet de faire de *jolis* diagrammes en temps
+réel sans difficultés.
 
 
 Limites
