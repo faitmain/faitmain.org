@@ -6,6 +6,28 @@ Station météo USB
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
 
+Après la sortie du premier numéro de FaitMain, j'ai été
+contacté par `Yoctopuce <http://yoctopuce.com>`_ qui
+m'a proposé de tester son matériel dans un article.
+
+Ca tombait plutôt bien puisque dans la (volumineuse) pile
+des projets en attente de réalisation il y a avait la conception
+d'une station météo connectée sur internet.
+
+Publier sur internet les courbes de température, pression atmosphérique
+et humidité de mon jardin en Bourgogne, ne vont interesser que
+ma mère qui vient de temps en temps jardiner chez moi.
+Mais d'un point de vue réalisation technique c'est un projet
+intéressant à réaliser, surtout du coté logiciel.
+
+Cet article ne va pas trop s'attarder sur le coté hardware
+et va surtout vous expliquer comment on peut traiter et visualiser
+un stream continu de données.
+
+
+Station météo
+-------------
+
 Une station météo est composée d'une ensemble de senseurs qui
 relèvent des informations comme la température, la pression
 atmosphérique ou encore l'humidité et les transmettent à un
@@ -25,8 +47,9 @@ possède les senseurs de base ainsi qu'un pluviomètre et un
 anénomètre.
 
 .. figure:: station/Cap2000EX-web.jpg
-
+   :scale: 50
    Station Capricorn 2000EX - Columbia Weather System
+
 
 Les stations haut de gamme sont par contre communicantes, et
 donc programmables, que ce soit par USB, Wifi ou tout autre moyen
@@ -53,29 +76,82 @@ le prix des senseurs seuls, c'est assez rageant.
    Senseur humidité + température (Sparkfun, $9.95)
 
 
-Les puces Yocto
----------------
+Dans l'idéal, on peut fabriquer soi-même sa station météo complète en
+achetant les senseurs séparément et en fabriquant une board connectée
+à un Arduino ou un Raspberry-PI.
 
-XXX
+En feuilletant le catalogue Sparkfun, on trouve tous les senseurs
+nécessaires montés sur des petites breakout boards, comme le
+`MPL3115A2 <https://www.sparkfun.com/products/11084>`_ qui permet une
+interaction en `I2C <https://fr.wikipedia.org/wiki/I2C>`_ avec
+un Arduino.
 
-decrire les puces - prix un peu onereux mais tout integré,
-dire qu'il manque l'altimetre donc faut connaitre son altitude
-pour calculer la vrai pression
-
-https://www.sparkfun.com/products/8942
-https://www.sparkfun.com/products/10586
-https://www.sparkfun.com/products/11084
-https://www.sparkfun.com/products/10988
+Ces puces ne sont pas chers mais nécessitent pas mal de travail
+d'intégration pour construire sa station météo.
 
 
-souder les composants weather et light ensembles
+Les puces Yoctopuce
+-------------------
+
+Les puces `Yoctopuce <http://www.yoctopuce.com/>`_ sont un bon compromis
+entre les stations clef-en-main et les senseurs de base: ce sont de
+petites boards USB plug'n'play qui peuvent être pilotées très
+simplement depuis n'importe quel ordinateur.
+
+Le fabriquant fournit une librairie dans `plusieurs languages <http://www.yoctopuce.com/EN/libraries.php>`_
+et une documentation exhaustive des API.
+
+La puce Yocto-Meteo fournit les trois senseurs de base qui nous
+interessent, à savoir la température, l'humidité et la pression.
+
+XXX Photo
+
+Le seul défaut de cette board est de ne pas fournir un altimètre,
+du coup les valeurs de pression fournies qui sont relatives au niveau de
+la mere doivent être corrigées en fonction de l'altitude du lieu
+- qu'il faut connaitre
+
+Mais ce problème peut être contourné en géolocalisant la station
+météo via internet et retrouver l'altitude via des bases de données.
+
+Après quelques échanges avec la sympatique équipe suisse de Yoctopuce,
+je les ais convaincus en bon Pythonneur qu'il fallait absolument
+que la librairie soit accessible sur le Python Package Index (PyPI)
+pour que les projets Python autour de ce matériel puissent très
+facilement installer la librairie dans l'environnement d'exécution.
+
+C'est chose faite et installer la librairie Python est aussi simple que:
+
+.. code-block:: bash
+
+   $ pip install yoctopuce
+
+
+`Pip <http://www.pip-installer.org>`_ est l'outil standard pour installer
+des extensions Python.
+
+Un fois la puce branchée,
+
+XXX montrer un script de test
 
 
 Le projet
 ---------
 
+Decrire le projet logiciel XXX
+
+
+Limites
+-------
+
+Parler du pb de batteries  USB etc.
+
+
+Conclusion
+----------
+
 XXX
+Trucs pas fait : soudure hub usb etc
 
-
-
+oeut etre plus adapter a du indorr etc
 
