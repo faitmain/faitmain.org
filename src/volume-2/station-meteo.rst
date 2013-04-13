@@ -48,6 +48,7 @@ anénomètre.
 
 .. figure:: station/Cap2000EX-web.jpg
    :scale: 50
+
    Station Capricorn 2000EX - Columbia Weather System
 
 
@@ -72,6 +73,9 @@ le prix des senseurs seuls, c'est assez rageant.
 
 .. figure:: station/RHT03.jpg
    :target: https://www.sparkfun.com/products/10167
+   :scale: 12
+   :figclass: pull-right margin-left
+   :align: right
 
    Senseur humidité + température (Sparkfun, $9.95)
 
