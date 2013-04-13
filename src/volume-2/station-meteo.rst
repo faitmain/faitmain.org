@@ -172,7 +172,7 @@ fourni par Yoctopuce:
 
 
     def convert_pressure(value, altitude=TURCEY):
-        return 1013.25 * (1 - ((0.0065 * altitude / 288.15) ** 5.255))
+        return value + 1013.25 * (1 - (((288.15 - 0.0065 * altitude) / 288.15) ** 5.255))
 
 
     def format_value(sensor):
@@ -265,7 +265,7 @@ Traduite en Python, la formule donne:
     TURCEY = 374.
 
     def convert_pressure(value, altitude=TURCEY):
-        return 1013.25 * (1 - ((0.0065 * altitude / 288.15) ** 5.255))
+        return value + 1013.25 * (1 - (((288.15 - 0.0065 * altitude) / 288.15) ** 5.255))
 
 
 Ma maison est à 374 mètres au dessus du niveau de l'eau.
