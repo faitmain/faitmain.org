@@ -108,7 +108,10 @@ et une documentation exhaustive des API.
 La puce Yocto-Meteo fournit les trois senseurs de base qui nous
 interessent, à savoir la température, l'humidité et la pression.
 
-XXX Photo
+.. figure:: station/yoctopuces.jpg
+
+   Les puce Yocto-Meteo, Yocto-Light & le mini-hub USB
+
 
 Le seul défaut de cette board est de ne pas fournir un altimètre,
 du coup les valeurs de pression fournies qui sont relatives au niveau de
