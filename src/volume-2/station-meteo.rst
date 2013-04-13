@@ -83,7 +83,7 @@ le prix des senseurs seuls, c'est assez rageant.
    :figclass: pull-right margin-left
    :align: right
 
-   Senseur humidité + température (Sparkfun, $9.95)
+   RHT03 - Senseur humidité + température (Sparkfun, $9.95)
 
 
 Dans l'idéal, on peut fabriquer soi-même sa station météo complète en
@@ -94,7 +94,8 @@ En feuilletant le catalogue Sparkfun, on trouve tous les senseurs
 nécessaires montés sur des petites breakout boards, comme le
 `MPL3115A2 <https://www.sparkfun.com/products/11084>`_ qui permet une
 interaction en `I2C <https://fr.wikipedia.org/wiki/I2C>`_ avec
-un Arduino.
+un Arduino. Ou encore la puce *RHT03* qui fournit une interface
+digitale basique.
 
 Ces puces ne sont pas chers mais nécessitent pas mal de travail
 d'intégration pour construire sa station météo.
@@ -121,7 +122,7 @@ interessent, à savoir la température, l'humidité et la pression.
 
 Le seul défaut de cette board est de ne pas fournir un altimètre,
 du coup les valeurs de pression fournies qui sont relatives au niveau de
-la mere doivent être corrigées en fonction de l'altitude du lieu
+la mer doivent être corrigées en fonction de l'altitude du lieu
 - qu'il faut connaitre
 
 Mais ce problème peut être contourné en géolocalisant la station
@@ -143,9 +144,108 @@ C'est chose faite et installer la librairie Python est aussi simple que:
 `Pip <http://www.pip-installer.org>`_ est l'outil standard pour installer
 des extensions Python.
 
-Un fois la puce branchée,
+Un fois la puce branchée, sur le port USB, la lecture des données
+est très simple.
 
-XXX montrer un script de test
+Voici un script en Python, inspiré de l'exemple
+fourni par Yoctopuce:
+
+.. code-block:: python
+
+    # -* encoding: utf8 -*-
+    #
+    import time
+
+    from yoctopuce.yocto_api import YAPI, YModule, YRefParam
+    from yoctopuce.yocto_humidity import YHumidity
+    from yoctopuce.yocto_temperature import YTemperature
+    from yoctopuce.yocto_pressure import YPressure
+
+    TURCEY = 374.
+
+
+    def convert_pressure(value, altitude=TURCEY):
+        return value + value / 8.3 * 100. / 100.
+
+
+    def format_value(sensor):
+        value = sensor.get_currentValue()
+        name = sensor.get_friendlyName()
+
+        if isinstance(sensor, YHumidity):
+            return name, value, u'%.2f %%' % value
+        elif isinstance(sensor, YPressure):
+            value = convert_pressure(value)
+            return name, value, u'%4.0f mb' % value
+        else:
+            return name, value, u'%2.1f ºC' % value
+
+
+    def get_info():
+        errmsg = YRefParam()
+
+        if YAPI.RegisterHub("usb", errmsg) != YAPI.SUCCESS:
+            raise IOError("init error" + errmsg.value)
+
+        sensor = YHumidity.FirstHumidity()
+        if sensor is None:
+            raise IOError('No module connected')
+
+        module = sensor.get_module()
+        target = module.get_serialNumber()
+
+        sensors = [YHumidity.FindHumidity(target+'.humidity'),
+                   YPressure.FindPressure(target+'.pressure'),
+                   YTemperature.FindTemperature(target+'.temperature')]
+
+
+        while True:
+            if not module.isOnline():
+                raise IOError('Device not connected')
+
+            for sensor in sensors:
+                name, value, formatted = format_value(sensor)
+                print '%s %s' % (name, formatted)
+
+            time.sleep(5.)
+
+
+    if __name__ == '__main__':
+        get_info()
+
+
+Et l'exécution donne::
+
+    $ bin/python test.py
+    METEOMK1-0A918.humidity 47.00 %
+    METEOMK1-0A918.pressure 1096 mb
+    METEOMK1-0A918.temperature 15.8 ºC
+
+
+Le script paraît compliqué à premier abord car j'ai ajouté des
+fonctionnalités d'affichage dans **format_value()** et quelques
+autres automatismes en vue de son intégration dans le projet.
+
+Mais le coeur de la fonctionnalité est simple: une board
+Yoctopuce est définie par un objet **module** qui possède
+un numéro de série correspondant à celui du matériel.
+
+Une fois ce numéro obtenu, **METEOMK1-0A918** dans mon cas,
+les API Yoctopuce fournissent des classes pour récuperer
+la valeur en cours du senseur:
+
+.. code-block:: python
+
+    humidity = YHumidity.FindHumidity('METEOMK1-0A918.humidity')
+    print humidity.get_currentValue()
+
+    pressure = YPressure.FindPressure('METEOMK1-0A918.pressure')
+    print pressure.get_currentValue()
+
+    temperature = YTemperature.FindTemperature('METEOMK1-0A918.temperature')
+    print temperature.get_currentValue()
+
+
 
 
 Le projet
