@@ -250,7 +250,7 @@ Enfin, pour corriger la valeur de la pression, il convient
 d'appliquer la `formule du nivellement barométrique <https://fr.wikipedia.org/wiki/Formule_du_nivellement_barom%C3%A9trique>`_
 sur la valeur renvoyé par la sonde.
 
-.. figure:: station/formule.jpg
+.. figure:: station/formule.png
 
    Formule du nivellement barométrique.
 
