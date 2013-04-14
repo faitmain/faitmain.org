@@ -334,6 +334,7 @@ Grenouille est organisé en deux parties:
 
 
 .. figure:: station/grenouille.png
+   :scale: 50
 
    Organisation de Grenouille
 
@@ -364,7 +365,8 @@ La partie affichage est quant à elle un peu plus complexe, je ne vais
 pas la détailler ici.
 
 La partie la plus intéressante est la fonction qui envoie une requête
-au serveur ElasticSearch, En voici des extraits:
+au serveur ElasticSearch, En voici un extrait qui permet d'afficher
+la temperature par heure pour le 1 mai 2013:
 
 .. code-block:: javascript
 
@@ -376,10 +378,10 @@ au serveur ElasticSearch, En voici des extraits:
         "facets": {
             "facet_histo" : {"date_histogram" : {
                 "key_field" : "date",
-                "value_field": this.field,
-                "interval": this.interval},
+                "value_field": "temperature",
+                "interval": "hour"},
                 "facet_filter": {
-                          "range": {"date": {"gte": start_date_str,
+                          "range": {"date": {"gte": "2013/05/01",
                                              "lte": end_date_str}
                           }
                 }
@@ -419,8 +421,59 @@ au serveur ElasticSearch, En voici des extraits:
 XXX affichage rendu final
 
 
-Limites
--------
+Raspberry-PI
+------------
+
+Passer tout le système sur le Raspberry-PI est très simple. Je l'ai configuré
+comme pour `le projet de JukeBox <http://faitmain.org/volume-1/raspberry-jukebox.html>`_
+du mois dernier, puis j'ai installé Java.
+
+Oracle fourni une version spéciale embarqué et un `guide <http://www.oracle.com/technetwork/articles/java/raspberrypi-1704896.html>`_ d'installation.
+
+Un peu refroidi par le besoin de donner mes infos personnelles pour
+récupérer le logiciel, j'ai décidé d'utiliser le paquet *OpenJDK* disponible
+dans les repositories de Raspbian. *OpenJDK* fait tourner ElasticSearch sans
+erreurs, mais il est un peu plus lent.
+
+Enfin, j'ai déployé un server NGinx qui se contente d'afficher la page
+html statique qui contient les diagrammes Javascript.
+
+Pour le reste de l'installation je fournis
+un `Makefile <https://github.com/tarekziade/grenouille/blob/master/Makefile>`_
+dans le code de Grenouille qui s'occupe d'installer ElasticSearch et
+toutes les dépendances Python.
+
+Extraits:
+
+.. code-block:: Makefile
+
+
+    build: $(PYTHON) elasticsearch
+           $(PYTHON) setup.py develop
+
+    elasticsearch:
+        curl -C - --progress-bar http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-$(ES_VERSION).tar.gz | tar -zx
+        mv elasticsearch-$(ES_VERSION) elasticsearch
+        chmod a+x elasticsearch/bin/elasticsearch
+        mv elasticsearch/config/elasticsearch.yml elasticsearch/config/elasticsearch.in.yml
+        cp elasticsearch.yml elasticsearch/config/elasticsearch.yml
+
+
+
+Une fois ElasticSearch et le script Python lancé sur le Raspberry-PI, les
+diagrammes vont commencer à se remplir.
+
+
+.. figure:: station/diags.jpg
+
+   Grenouilles en action
+
+
+
+
+
+Limitations
+-----------
 
 Parler du pb de batteries  USB etc.
 
