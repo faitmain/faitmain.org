@@ -279,13 +279,6 @@ projet **Grenouille** utilise la sonde Yocto Meteo pour remplir une
 base de données qui sert ensuite à afficher les informations dans
 des séries temporelles.
 
-
-.. figure:: station/grenouille.png
-   :scale: 50
-
-   Organisation de Grenouille
-
-
 Pour la base de données, j'ai choisi `Elastic Search <http://www.elasticsearch.org>`_.
 
 Elastic Search est un service de recherche au dessus de `Apache Lucene <https://lucene.apache.org/>`_
@@ -327,6 +320,103 @@ open source.
 
 Pour résumer, RickShaw permet de faire de *jolis* diagrammes en temps
 réel sans difficultés.
+
+Fonctionnement de Grenouille
+----------------------------
+
+Grenouille est organisé en deux parties:
+
+1. un script Python qui interroge la sonde et qui index le résultat dans
+   ElastiSearch.
+
+2. Une application Javascript qui interroge ElasticSearch et affiche
+   les informations.
+
+
+.. figure:: station/grenouille.png
+
+   Organisation de Grenouille
+
+
+La partie indexation du script Python est basée sur la librairie
+`pyelasticsearch <https://pyelasticsearch.readthedocs.org>`_ qui permet
+d'indexer très simplement n'importe quel dictionnaire de données Python.
+
+Le code d'indexation ressemble à cet extrait:
+
+.. code-block:: python
+
+    from pyelasticsearch import ElasticSearch
+    import datetime
+
+    data = {'date': datetime.now(),
+            'humidity': 45,
+            'pressure': 1080,
+            'temperature': 17.3}
+
+    server = ElasticSearch('http://0.0.0.0:9901')
+    server.index('weather', 'sensor', data)
+
+
+Ce code est appelé toute les 15 minutes.
+
+La partie affichage est quant à elle un peu plus complexe, je ne vais
+pas la détailler ici.
+
+La partie la plus intéressante est la fonction qui envoie une requête
+au serveur ElasticSearch, En voici des extraits:
+
+.. code-block:: javascript
+
+    // construction de la requête
+   [...]
+
+    var match = {'match_all': {}};
+    var query = {"query": match,
+        "facets": {
+            "facet_histo" : {"date_histogram" : {
+                "key_field" : "date",
+                "value_field": this.field,
+                "interval": this.interval},
+                "facet_filter": {
+                          "range": {"date": {"gte": start_date_str,
+                                             "lte": end_date_str}
+                          }
+                }
+            }
+        },
+        "sort": [{"date": {"order" : "asc"}}],
+        "size": 0
+    };
+
+    // appel asynchrone
+    query = JSON.stringify(query);
+    this._async(query);
+
+   [...]
+   // recuperation des resultats et affichage
+   _async_receive: function(json, chart, fields) {
+      var name;
+      var data = [];
+      var series = chart.series;
+
+      $.each(json.facets.facet_histo.entries, function(i, item) {
+        var date = new Date(item.time);
+        var hour = date.getHours();
+        var mean = Number((item.mean).toFixed(2));
+        var line = {x: item.time / 1000, y: mean, hour: hour};
+        data.push(line);
+      });
+
+      data.sort(sortbyx);
+      console.log(data);
+      series[0].data = data;
+      chart.render();
+    },
+
+
+
+XXX affichage rendu final
 
 
 Limites
