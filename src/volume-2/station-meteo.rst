@@ -418,8 +418,6 @@ la temperature par heure pour le 1 mai 2013:
 
 
 
-XXX affichage rendu final
-
 
 Raspberry-PI
 ------------
@@ -469,13 +467,38 @@ diagrammes vont commencer à se remplir.
    Grenouilles en action
 
 
+Et voila une première version d'une station météo tournant sur une Raspberry-Pi.
+
+Tout le code source décrit dans cet article est disponible ici: https://github.com/tarekziade/grenouille
+
+La fonctionnalité que je n'ai pas encore ajoutées pour rendre le code plus
+générique est la récupération automatiaue de l'altitude
+`en fonction de l'addresse IP <https://fr.wikipedia.org/wiki/G%C3%A9olocalisation#G.C3.A9olocalisation_par_adresse_IP_.28sur_internet.29>`_,
+en utilisant une base de données de Géolocalisation.
+
+Il en existe plusieurs, la plus connue étant celle de `MaxMind <www.maxmind.com>`_.
 
 
+Limites du système
+------------------
 
-Limitations
------------
+Le principal problème d'une station météo basé sur un Raspberry-PI et la
+Yocto-Meteo est la consommation d'énergie. L'USB est un port très gourmand en
+énergie et en branchant mon système complet sur une batterie lithium 3.7v en
+6000 mAh et un panneau solaire censé charger la batterie la journée pour qu'elle
+tienne le coup toute la nuit - je n'ai tenu que quelques heures...
 
-Parler du pb de batteries  USB etc.
+Les puces Yoctopuce peuvent être coupées en deux afin de déporter les sondes
+du port USB de quelques mètres, mais ca ne résoud rien dans mon cas car le
+jardin est loin de la première prise de courant.
+
+Une évolution possible pour limiter la consommation serait de déporter la
+base ElasticSearch sur un ordinateur dans la maison ou sur internet, et
+de suspendre les ports USB pour ne les utiliser que toutes les 15 minutes
+pour la récupération des valeurs.
+
+
+XXX
 
 
 Conclusion
