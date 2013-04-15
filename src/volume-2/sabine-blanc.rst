@@ -6,6 +6,11 @@ Interview de Sabine Blanc
 :level: interview
 :author: Tarek Ziadé
 
+
+.. figure:: sabine/obc2.jpg
+
+   Open Bidouille Camp #2 © Ophelia Noor
+
 <METTRE UN TEXTE D'INTRO>
 
 Sabine Blanc, une des porteuses des projets Open Bidouille Camp, Hack The Press,
@@ -89,9 +94,9 @@ communautés naissantes, nous avons quand même publié une partie de nos
 recherches sur un blog. https://leshackersdanslacitearabe.wordpress.com/
 
 
-.. figure:: sabine/sabine-oph-webdoc-hacker-photo.jpg
+.. figure:: sabine/sabine.jpg
 
-   Ophelia Noor & Sabine Blanc. (demander copyright photo)
+   Sabine Blanc (à gauche) et Anne-Sophie Novel (à droite) © Ophelia Noor
 
 
 **Quelle est la place du hacking dans la société ?

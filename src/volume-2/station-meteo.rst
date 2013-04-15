@@ -18,13 +18,13 @@ m'a proposé de tester son matériel dans un article.
 
 Ca tombait plutôt bien puisque dans la (volumineuse) pile
 des projets en attente de réalisation il y a avait la conception
-d'une station météo connectée sur internet.
+d'une station météo.
 
-Publier sur internet les courbes de température, pression atmosphérique
-et humidité de mon jardin en Bourgogne, ne vont interesser que
+Publier les courbes de température, pression atmosphérique
+et humidité de mon jardin en Bourgogne, ne vont intéresser que
 ma mère qui vient de temps en temps jardiner chez moi.
 Mais d'un point de vue réalisation technique c'est un projet
-intéressant à réaliser, surtout du coté logiciel.
+intéressant à conçevoir, surtout du coté logiciel.
 
 Cet article ne va pas trop s'attarder sur le coté hardware
 et va surtout vous expliquer comment on peut traiter et visualiser
@@ -291,9 +291,8 @@ compte plus de 50 millions d'entrées.
 
 Ce qui est intéressant pour un projet comme Grenouille est qu'Elastic Search
 permet de faire des recherches par *facettes* et d'aggréger les données
-par minute, heure, jour, semaine, mois ou année.
-
-Autrement dit, en stockant continuellement les relevés de température, pression
+par minute, heure, jour, semaine, mois ou année. Autrement dit, en stockant
+continuellement les relevés de température, pression
 et humidité dans cette base, il est possible de faire des requêtes pour
 récupérer toute sort de *séries temporelles*.
 
@@ -478,8 +477,8 @@ en utilisant une base de données de Géolocalisation.
 Il en existe plusieurs, la plus connue étant celle de `MaxMind <www.maxmind.com>`_.
 
 
-Limites du système
-------------------
+Limites & Evolutions
+--------------------
 
 Le principal problème d'une station météo basé sur un Raspberry-PI et la
 Yocto-Meteo est la consommation d'énergie. L'USB est un port très gourmand en
@@ -496,15 +495,13 @@ base ElasticSearch sur un ordinateur dans la maison ou sur internet, et
 de suspendre les ports USB pour ne les utiliser que toutes les 15 minutes
 pour la récupération des valeurs.
 
+En tout cas pour une application indoor du genre surveillance de datacenter
+cette board est parfaite puisqu'il suffit de la brancher à un ordinateur
+qui traîne, et hop.
 
-XXX
-
-
-Conclusion
-----------
-
-XXX
-Trucs pas fait : soudure hub usb etc
-
-oeut etre plus adapter a du indorr etc
+Pour ma station météo, je reste quand même sur l'objectif de créér un
+système autonome en énergie, qui puisse être interrogé sans fil -
+donc la prochaine version de la station sera certainement faite avec
+du matériel plus low-level. Donc peut être un Arduino, une puce radio
+433mhz et une base déportée...
 
