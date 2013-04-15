@@ -443,8 +443,7 @@ toutes les dépendances Python.
 
 Extraits:
 
-.. code-block:: Makefile
-
+.. code-block:: make
 
     build: $(PYTHON) elasticsearch
            $(PYTHON) setup.py develop
