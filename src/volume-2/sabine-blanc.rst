@@ -11,11 +11,24 @@ Interview de Sabine Blanc
 
    Open Bidouille Camp #2 © Ophelia Noor
 
-<METTRE UN TEXTE D'INTRO>
+Depuis l'an dernier, le mouvement DIY est en train de prendre de l'ampleur dans
+l'hexagone, et on voit de plus en plus d'évènements organisés autour de ces
+sujets, que ce soit dans les locaux de FabLabs ou dans le cadre de conférences,
+hack days ou petits ateliers.
 
-Sabine Blanc, une des porteuses des projets Open Bidouille Camp, Hack The Press,
-Les hackers dans la cité arabe (en stand-by) -
-co-auteure de "Hackers : Bâtisseurs depuis 1959"
+La tout réçente association `Open Bidouille Camp <http://openbidouille.net/>`_
+organise depuis quelques temps des ateliers de bidouilles et commence à construire
+un réseau de bidouilleurs parout en France.
+
+Sabine Blanc est l'une des principales porteuses du projet *OBC*, et aussi
+l'instiguatrice de *Hack The Press*, *Les hackers dans la cité arabe* (en stand-by),
+et co-auteure de `Hackers : Bâtisseurs depuis 1959 <http://www.amazon.fr/Hackers-B%C3%A2tisseurs-depuis-1959-ebook/dp/B009NF67BE>`_.
+
+Les lecteurs de FaitMain lui ont posé quelques questions, sur son parcours,
+ses projets et pleins d'autres sujets.
+
+----
+
 
 **Quel est ton parcours/ta formation initiale ?**
 
