@@ -171,8 +171,8 @@ Dates à retenir
 
 Dates des prochains OBC :
 
-* Brest
-* Lille
-* IDF (lieu à déterminer) : samedi 6 juillet
 
+* Lille 22 et 23 juin à Saint-Sauveur dans le cadre de la Fête de l'Environnement et des Solidarités.
+* Brest les 17 et 18 mai puis probablement le 12 octobre pendant Brest en Biens Communs et la fête de la science.
+* Île de France : Cet été peut-être... lieu à déterminer
 
