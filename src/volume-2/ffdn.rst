@@ -114,7 +114,7 @@ simple.
 Les FAIs, tous salauds ?
 ------------------------
 
-Même si on considère que "non", un FAI commercial a, comme toute
+Même si on considère que « non », un FAI commercial a, comme toute
 entreprise commerciale, vocation à générer de l'argent. Partant de ce
 principe, tout FAI commercial peut, un jour ou l'autre, retourner sa
 veste et choisir de ne plus garder comme objectif que la satisfaction
