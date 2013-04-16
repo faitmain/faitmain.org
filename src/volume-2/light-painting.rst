@@ -2,7 +2,7 @@ Faire de la peinture sans support et sans tâche, avec de la lumière
 ===================================================================
 
 :date: 2013-05-01
-:category:électronique,informatique,art
+:category: électronique,informatique,art
 :level: facile
 :autor: Fabien Batteix
 
@@ -36,7 +36,7 @@ sur la photo finale. Donnant ainsi une image constituée d'un « historique »
 par couches successives, des traces lumineuses observées.
 
 
-.. figure:: light/exemple.jpg
+.. figure:: light/example.jpg
 
    Exemple de light painting en étant face à l'objectif (source : wikipedia)
 
