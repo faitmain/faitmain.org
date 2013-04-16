@@ -4,7 +4,7 @@ Faire de la peinture sans support et sans tâche, avec de la lumière
 :date: 2013-05-01
 :category: électronique,informatique,art
 :level: facile
-:autor: Fabien Batteix
+:author: Fabien Batteix
 
 C'est un fait tout le monde aiment les spectacles de son et lumière, qu'on soit
 petit ou grand. Alors si comme moi vous aimez bricoler, photographier et
