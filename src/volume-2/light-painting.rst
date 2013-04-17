@@ -22,9 +22,6 @@ français est une technique de photographie consistant à réaliser une image av
 de la lumière comme seul outil de dessin. D'un point de vue technique cela se
 résume à utiliser un appareil photo en exposition manuelle.
 
-Le principe du « Light Painting »
-:::::::::::::::::::::::::::::::::
-
 Traditionnellement on prend une photo en exposition « courte », dans un
 environnement bien éclairé. Si on manque de lumière la photo sera sombre et le
 sujet masqué par l'obscurité. En light painting c'est tout le contraire ! On
