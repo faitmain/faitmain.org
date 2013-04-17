@@ -25,12 +25,12 @@ et ce qu'on peut trouver à l'intérieur.
 .. warning::
 
    Toutes les manipulations de cet article sont faites avec de **l'acide chaud**
-   et sont extrêmement dangeureuses. Seuls des personnes agguerries et habilitées
+   et sont extrêmement dangeureuses. Seuless des personnes aguerries et habilitées
    à faire ce genre de manipulations, avec le materiel de protection adéquat
-   (gants anti-acide, lunettes de protections, combinaison, cheminée d'extraction
-   des fumées etc.). peuvent effectuer ces opérations.
+   (gants anti-acide, lunettes de protection, combinaison, cheminée d'extraction
+   des fumées etc.) peuvent effectuer ces opérations.
 
-   Rappelez vous que vous n'avez que deux yeux.
+   Rappelez-vous que vous n'avez que deux yeux.
 
    Cet article est juste informatif, n'essayez pas ces manipulations à la maison.
 
@@ -38,11 +38,11 @@ et ce qu'on peut trouver à l'intérieur.
 Ouvrir une puce
 :::::::::::::::
 
-Prenez des puces qui vous intéressent et de l'acide sulfurique concentrée.
-Le récipient à utiliser doit être fermé mais par hermétique, pour laisser les
+Prenez des puces qui vous intéressent et de l'acide sulfurique concentré.
+Le récipient à utiliser doit être fermé mais pa hermétique, pour laisser les
 fumées s'échapper - c'est très important.
 
-Chauffez l'acide jusqu'à sa température d'ébulition - 300ºC. La matière blanche
+Chauffez l'acide jusqu'à sa température d'ébulition (300ºC). La matière blanche
 au fond est du bicarbonate de soude qui est utilisé pour neutraliser les
 projections accidentelles d'acide et une partie de la fumée.
 
@@ -68,7 +68,7 @@ composants enrobés d'une grosse couche ont en général besoin de trois bains.
 
 
 Si des morcaux de carbones sont coincés dans la puce et ne peuvent être retirés
-mécaniquement - ils peuvent en général être retirés dans un bain d'acid
+mécaniquement - ils peuvent en général être retirés dans un bain d'acide
 concentré maintenue à une température plus basse (~110-120 °C)
 
 .. figure:: puce/nitric.jpg
@@ -81,10 +81,10 @@ Regardons de plus prêt
 
 .. note::
 
-   Les images ci-dessous peuvent être clickées pour afficher une image haute résolution.
+   Les images ci-dessous peuvent être cliquées pour afficher une image haute résolution.
    Attention, les images haute résolution pèsent entre 5 et 25Mb.
 
-   Les couleurs ont été saturées pour mieux visualiser les circuit.
+   Les couleurs ont été saturées pour mieux visualiser les circuits.
 
 
 .. figure:: puce/PL2303HX.jpg
@@ -136,7 +136,7 @@ Regardons de plus prêt
 .. figure:: puce/atmel-attiny13a.jpg
    :target: http://s.zeptobars.ru/atmel-attiny13a-HD.jpg
 
-   ATtiny13A — un des plus petits micro-controlleurs. Seulement 1kb de
+   ATtiny13A — un des plus petits micro-contrôleurs. Seulement 1kb de
    mémoire flash et 32 bytes de SRAM.
 
    La taille des semi-conducteurs est étonamment grosse (1620 X 1640 µm)
@@ -145,7 +145,7 @@ Regardons de plus prêt
 .. figure:: puce/atmega8.jpg
    :target: http://s.zeptobars.ru/atmega8-HD.jpg
 
-   ATmega8 — un des micro-controlleurs 8 bit les plus populaires.
+   ATmega8 — un des micro-contrôleurs 8 bit les plus populaires.
 
    Taille des semi-conducteurs: 2855 x 2795 µm, gravage 500nm
 
@@ -166,7 +166,7 @@ Regardons de plus prêt
 .. figure:: puce/STM32F100C4T6B.jpg
    :target: http://s.zeptobars.ru/STM32F100C4T6B-HD.jpg
 
-   STM32F100C4T6B, le plus petit micro-controlleur fabriqué par STMicroelectronics et
+   STM32F100C4T6B, le plus petit micro-contrôleur fabriqué par STMicroelectronics et
    basé sur un coeur ARM Cortex-M3.
 
    Taille des semi-conducteurs: 2854 x 3123 µm

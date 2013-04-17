@@ -34,7 +34,7 @@ données**, ce qui vous a amené à effectuer des sauvegardes suivant la méthod
 recommandée des 3 emplacements physiques distincts (ce qui soulève notamment un
 problème de confidentialité diluée mais ce n'est pas l'objet de cette tribune).
 
-Pour venir à bout de cette poussière qui s'accumule, il faut se prêter à 2
+Pour venir à bout de cette poussière qui s'accumule, il faut se prêter à deux
 exercices : **un ménage régulier et une hygiène de vie numérique**. Le ménage
 initial est incroyablement chronophage en fonction de l'état de flemme dont
 vous avez fait preuve au cours des précédentes années (décennies ?!). La
