@@ -178,8 +178,8 @@ continents), les RIR (Regional Internet Registry), qui eux-mêmes
 distribuent soit aux opérateurs en eux-mêmes, soit à de plus petits
 revendeurs, les LIR (Local Internet Registry). Pour devenir
 opérateur, il faut donc demander à l’autorité appropriée (les
-opérateurs français dépendent du RIPE, le RIR eurasien) un numéro de
-Système Autonome (AS), qui sera notre identifiant auprès des 400 000
+opérateurs français dépendent du RIPE-NCC, le RIR eurasien) un numéro de
+Système Autonome (AS), qui sera notre identifiant auprès des 40 000
 autres, et des blocs d’adresses IP.
 
 Une fois qu’on a ça, il y a 2 détails à prendre en compte : d’abord,
@@ -232,7 +232,7 @@ notre réseau dans un datacenter, et l'on se connecte aux routeurs
 d’autres opérateurs. Encore faut-il leur demander l’autorisation.
 Concrètement, ça se traduit en contrats de transit et accords de
 peering, qui régulent les volumes d’échanges qu’il y aura entre les
-deux parties. On ne peut pas se connecter physiquement aux 400 000
+deux parties. On ne peut pas se connecter physiquement aux 40 000
 opérateurs, donc pour pouvoir discuter avec un opérateur lointain, on
 devra transiter par un ou plusieurs intermédiaires, et ces derniers
 facturent le débit consommé.
