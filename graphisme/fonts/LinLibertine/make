@@ -1,9 +1,0 @@
-#!/bin/sh
-# Zuerst das Font-Archiv
-if test $1 = "clean" ; then
-	if test -d SRC ; then
-		rm -r SRC
-	fi
-else
-./scripts/rek-sfd2font.sh
-fi
