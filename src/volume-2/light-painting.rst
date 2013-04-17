@@ -15,7 +15,7 @@ photographie, c'est une question de point de vue. Cette méthode s'appelle le
 « light painting », « peinture de lumière » en français.
 
 Qu'est-ce que le « Light Painting » ?
--------------------------------------
+:::::::::::::::::::::::::::::::::::::
 
 Le light painting, qu'on pourrait traduire par « peinture de lumière » en
 français est une technique de photographie consistant à réaliser une image avec
@@ -23,7 +23,7 @@ de la lumière comme seul outil de dessin. D'un point de vue technique cela se
 résume à utiliser un appareil photo en exposition manuelle.
 
 Le principe du « Light Painting »
----------------------------------
+:::::::::::::::::::::::::::::::::
 
 Traditionnellement on prend une photo en exposition « courte », dans un
 environnement bien éclairé. Si on manque de lumière la photo sera sombre et le
@@ -75,7 +75,7 @@ texte « propre » ou un pixel-art, du moins à la main.
 
 
 La technologie au secours du light painting
--------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::
 
 Dans cet article je ne vais pas vous expliquer comment dessiner, ou comment
 utiliser un appareil photo, je vous laisse chercher dans le manuel de celui-ci
@@ -113,7 +113,7 @@ humaine nécessaire est de déplacer le ruban de manière rectiligne le plus
 régulièrement possible.
 
 Le matériel nécessaire
-----------------------
+::::::::::::::::::::::
 
 .. figure:: light/matos.JPG
 
@@ -141,7 +141,7 @@ vous faut :
 
 
 Assemblage des composants
--------------------------
+:::::::::::::::::::::::::
 
 L'assemblage des composants est l'étape la plus facile du projet, si vous avez
 choisi d'utiliser une carte arduino classique et des shields du commerce cette
@@ -158,7 +158,7 @@ fils et assembler le tout ;)
 
 
 Petite modification hardware
-----------------------------
+::::::::::::::::::::::::::::
 
 Durant le montage de mes composants j'ai remarqué un problème au niveau du
 câblage de la shield « support pour carte SD » et de la shield lcd de DFRobots.
@@ -181,7 +181,7 @@ SD sur la broche D3 de l'arduino.
 
 
 Derniers détails techniques
----------------------------
+:::::::::::::::::::::::::::
 
 Tenir un ruban de leds (flexible) droit, à la main, n'est pas une chose facile
 … Si en plus il faut manipuler le contrôleur pour choisir quelle image dessiner
@@ -197,7 +197,7 @@ scotch transparent. Ainsi la prise en main du système devient un jeu d'enfant.
 
 
 Le logiciel
------------
+:::::::::::
 
 C'est ici que les choses se corsent.
 
@@ -313,7 +313,7 @@ copiés sur la carte SD. De même ils ne devront pas dépasser 64 pixels de
 largeur sinon la partie droite de l'image sera tronquée.
 
 Le résultat
------------
+:::::::::::
 
 Après
 toute cette lecture il est grand temps de prendre un peu de repos devant

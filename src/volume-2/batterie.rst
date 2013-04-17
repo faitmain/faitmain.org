@@ -26,7 +26,7 @@ de charge en lui-même (combien allons nous consommer en pic) et la recharge
 (usb ? énergie solaire ? eau qui coule ? roue de vélo ? etc.)
 
 Quelle batterie ?
------------------
+:::::::::::::::::
 
 .. figure:: batterie/batteries.jpg
 
@@ -47,7 +47,7 @@ modèle A et 7 à 10h à un RPi modèle B, selon l'utilisation du cpu et de l'us
 
 
 Quel module de charge ?
------------------------
+:::::::::::::::::::::::
 
 .. figure:: batterie/lipo-rider.jpg
 
@@ -80,8 +80,7 @@ charger votre téléphone portable en fait.
 
 
 Quelle source d'énergie ?
--------------------------
-
+:::::::::::::::::::::::::
 
 Lorsque l'on peut être branché au secteur ou à un ordinateur, pas de soucis, on
 se recharge lorsque l'on est branché en USB, et on utilise la batterie lorsque
@@ -121,7 +120,7 @@ consomme beaucoup moins, et pourra être opéré avec un panneau de 2.5W sans tr
 de soucis.
 
 Connectons tout ça...
----------------------
+:::::::::::::::::::::
 
 .. figure:: batterie/schema.jpg
 

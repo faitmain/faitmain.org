@@ -53,7 +53,7 @@ faire un outil du passé.
 
 
 Internet fonctionne en lecture/écriture
----------------------------------------
+:::::::::::::::::::::::::::::::::::::::
 
 Cela vous semble aujourd’hui naturel de pouvoir écrire sur Internet.
 Qu’il s’agisse de laisser un commentaire sur un article, de publier
@@ -112,7 +112,7 @@ lecture/écriture » d’Internet n’a, lui, pas de réponse technique
 simple.
 
 Les FAIs, tous salauds ?
-------------------------
+::::::::::::::::::::::::
 
 Même si on considère que « non », un FAI commercial a, comme toute
 entreprise commerciale, vocation à générer de l'argent. Partant de ce
@@ -146,7 +146,7 @@ possibilité d’utiliser soi-même un réseau fonctionnel et indépendant
 et pouvoir, en cas de dysfonctionnement, intervenir soi-même.
 
 Faire de l’Internet avec ses bits et son couteau
-------------------------------------------------
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 Internet, ce n’est pas une machine géante sur laquelle un milliard
 d’internautes sont connectés. Internet, c’est « le réseau des
@@ -238,7 +238,7 @@ devra transiter par un ou plusieurs intermédiaires, et ces derniers
 facturent le débit consommé.
 
 Les rejetons de FDN
--------------------
+:::::::::::::::::::
 
 Dans la continuité de sa volonté de rester un petit opérateur
 associatif, FDN a, en 2006, considéré qu’il fallait « forker »

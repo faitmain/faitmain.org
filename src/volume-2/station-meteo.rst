@@ -32,7 +32,7 @@ un stream continu de données.
 
 
 Station météo
--------------
+:::::::::::::
 
 Une station météo est composée d'une ensemble de senseurs qui
 relèvent des informations comme la température, la pression
@@ -102,7 +102,7 @@ d'intégration pour construire sa station météo.
 
 
 Les puces Yoctopuce
--------------------
+:::::::::::::::::::
 
 Les puces `Yoctopuce <http://www.yoctopuce.com/>`_ sont un bon compromis
 entre les stations clef-en-main et les senseurs de base: ce sont de
@@ -272,7 +272,7 @@ Ma maison est à 374 mètres au dessus du niveau de l'eau.
 
 
 Le projet Grenouille
---------------------
+::::::::::::::::::::
 
 Ce n'est pas un nom très original mais je n'ai pas trouvé mieux. Le
 projet **Grenouille** utilise la sonde Yocto Meteo pour remplir une
@@ -321,7 +321,7 @@ Pour résumer, RickShaw permet de faire de *jolis* diagrammes en temps
 réel sans difficultés.
 
 Fonctionnement de Grenouille
-----------------------------
+::::::::::::::::::::::::::::
 
 Grenouille est organisé en deux parties:
 
@@ -419,7 +419,7 @@ la temperature par heure pour le 1 mai 2013:
 
 
 Raspberry-PI
-------------
+::::::::::::
 
 Passer tout le système sur le Raspberry-PI est très simple. Je l'ai configuré
 comme pour `le projet de JukeBox <http://faitmain.org/volume-1/raspberry-jukebox.html>`_
@@ -478,7 +478,7 @@ Il en existe plusieurs, la plus connue étant celle de `MaxMind <www.maxmind.com
 
 
 Limites & Evolutions
---------------------
+::::::::::::::::::::
 
 Le principal problème d'une station météo basé sur un Raspberry-PI et la
 Yocto-Meteo est la consommation d'énergie. L'USB est un port très gourmand en
