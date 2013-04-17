@@ -9,7 +9,7 @@ Sérigraphie sur textile
 
 Cet article explique les techniques de base de la sérigraphie,
 qui vont nous permettre de réaliser une jolie impression
-monochrome sur un t-shirt.
+monochrome sur un T-shirt.
 
 En France le matériel reste difficile à trouver et cher. Je m'équipe
 chez `a.buisine <http://www.abuisine.fr/>`_, et pour ceux qui ne veulent
@@ -27,7 +27,7 @@ La sérigraphie se passe en trois temps:
 ::::::::::::
 
 L'écran est enduit avec une émulsion photosensible, c'est ce produit qui après
-séchage et insolation deviendra le pochoir de notre t-shirt.
+séchage et insolation deviendra le pochoir de notre T-shirt.
 
 .. figure:: serigraphie/nettoyage-ecran.jpg
 
@@ -62,18 +62,18 @@ longtemps.
 2. Insolation
 :::::::::::::
 
-Sous l'action de la lumière, l'émulsion durcit, les parties masquées elles se
-disolvent sous l'eau, et voilà comment on obtient un joli pochoir.
+Sous l'action de la lumière, l'émulsion durcit, les parties masquées, elles, se
+disolvent sous l'eau. Et voilà comment on obtient un joli pochoir!
 
 .. figure:: serigraphie/pochoir.jpg
 
    Préparation pochoir.
 
 
-Imprimer le dessin à l'encre noir sur un transparent ou dessiner directement
+Imprimer le dessin à l'encre noire sur un transparent ou dessiner directement
 dessus avec un feutre adéquat, le transparent servira de typon.
 
-Installer une vitre à 1m20 du sol poser 2 halogènes de chantier
+Installer une vitre à 1m20 du sol et poser 2 halogènes de chantier.
 
 Poser le typon sur la vitre et caler l'écran dessus, couvrir avec un objet qui
 coupe la lumière de la taille de l'écran, il faut qu'il soit noir pour éviter
@@ -99,7 +99,7 @@ travers les mailles de l'écran aux endroits où il n'y a pas d'émulsion.
 
    Mis en place du cadre.
 
-Vous pouvez utiliser une presse à sérigraphie pour les t shirts, j'utilise la
+Vous pouvez utiliser une presse à sérigraphie pour les T-shirts, j'utilise la
 presse print box de `whe <http://www.whe.fr/store/fr/>`_. Mais il est
 possible de faire sans.
 
@@ -109,10 +109,9 @@ possible de faire sans.
    Placement de l'encre.
 
 
-Coller le t-shirt
-à la table ou à la jeannette avec de la colle repositionnable. Pour le moment,
-l'écran ne doit pas être en contact avec le t shirt. Etaler l'encre à la
-spatule sur le haut de l'écran, avec une racle étaler l'encre sur tout le
+Coller le T-shirt à la table ou à la jeannette avec de la colle repositionnable. Pour le moment,
+l'écran ne doit pas être en contact avec le T-shirt. Etaler l'encre à la
+spatule sur le haut de l'écran. Avec une racle étaler l'encre sur tout le
 dessin.
 
 .. figure:: serigraphie/encre2.jpg
