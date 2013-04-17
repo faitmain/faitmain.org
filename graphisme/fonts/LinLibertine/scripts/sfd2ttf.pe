@@ -1,0 +1,144 @@
+#!/usr/bin/fontforge
+# ZULETZT GEÄNDERT: 20090616
+# convert the Libertine-Font to ttf font 
+#
+# see http://fontforge.sourceforge.net/scripting.html
+#
+# $1 sfd-file
+# $2 fontversion
+#
+# $Id: sfdtottf.pe,v 1.8 2008/01/08 15:53:21 mgn Exp $
+#
+# Philipp Poll philthelion@sf.net, Michael Niedermair m.g.n@gmx.de
+#
+Open($1,1)
+# Definiere folgende Variablen für die Funktion SetFontNames()
+F1 = "" # fontname
+F2 = "" # familyname
+F3 = "" # fullname
+F4 = "" # weight
+F5 = LoadStringFromFile("Copyright") # copyright
+F6 = $2 # fontversion
+
+#
+# SetFontNames(fontname[,family[,fullname[,weight[,copyright-notice[,fontversion]]]]])
+# Sets various postscript names associated with a font. If a name is omitted (or is the
+# empty string) it will not be changed. 
+SetFontNames(F1,F2,F3,F4,F5,F6)
+
+# Zur Überprüfung zeige Variablenbelegung wie gesetzt:
+Print( "fontname    : " , $fontname )
+Print( "familyname  : " , $familyname )
+Print( "fullname    : " , $fullname )
+Print( "weight      : " , $weight )
+Print( "copyright   : " , $copyright )
+Print( "fontversion : " , $fontversion )
+
+#---------------Liliput-Namen definieren-------------------------------
+if ( $fontname == "LinBiolinumO" )
+   lilliputname = "LinBiolinum_Re"   
+endif
+if ( $fontname == "LinBiolinumOB" )
+   lilliputname = "LinBiolinum_Bd"   
+endif
+if ( $fontname == "LinBiolinumOI" )
+   lilliputname = "LinBiolinum_It"   
+endif
+if ( $fontname == "LinBiolinumOKb" )
+   lilliputname = "LinBiolinum_Kb"   
+endif
+if ( $fontname == "LinBiolinumOSl" )
+   lilliputname = "LinBiolinum_Sl"   
+endif
+if ( $fontname == "LinLibertineO" )
+   lilliputname = "LinLibertine_Re"   
+endif
+if ( $fontname == "LinLibertineOB" )
+   lilliputname = "LinLibertine_Bd"   
+endif
+if ( $fontname == "LinLibertineOI" )
+   lilliputname = "LinLibertine_It"   
+endif
+if ( $fontname == "LinLibertineOBI" )
+   lilliputname = "LinLibertine_BI"   
+endif
+if ( $fontname == "LinLibertineOC" )
+   lilliputname = "LinLibertine_C"   
+endif
+#-----------------------------------------------------------------
+#
+#
+# change the fontname
+# SetFontNames(fontname[,family[,fullname[,weight [,copyright-notice[,fontversion]]]]]) 
+if ( $fontname == "LinBiolinumO" )
+   SetFontNames("LinBiolinum", "Linux Biolinum", "Linux Biolinum")   
+endif
+if ( $fontname == "LinBiolinumOB" )
+   SetFontNames("LinBiolinumB", "Linux Biolinum", "Linux Biolinum Bold")   
+endif
+if ( $fontname == "LinBiolinumOI" )
+   SetFontNames("LinBiolinumI", "Linux Biolinum", "Linux Biolinum Italic")   
+endif
+if ( $fontname == "LinBiolinumOKb" )
+   SetFontNames("LinBiolinumKb", "Linux Biolinum Kb", "Linux Biolinum Keyboard")   
+endif
+if ( $fontname == "LinBiolinumOSl" )
+   SetFontNames("LinBiolinumSl", "Linux Biolinum Slanted", "Linux Biolinum Slanted")   
+endif
+if ( $fontname == "LinLibertineO" )
+   SetFontNames("LinLibertine", "Linux Libertine", "Linux Libertine")   
+endif
+if ( $fontname == "LinLibertineOB" )
+   SetFontNames("LinLibertineB", "Linux Libertine", "Linux Libertine Bold")   
+endif
+if ( $fontname == "LinLibertineOI" )
+   SetFontNames("LinLibertineI", "Linux Libertine", "Linux Libertine Italic")   
+endif
+if ( $fontname == "LinLibertineOBI" )
+   SetFontNames("LinLibertineBI", "Linux Libertine", "Linux Libertine Bold Italic")   
+endif
+if ( $fontname == "LinLibertineOC" )
+   SetFontNames("LinLibertineC", "Linux Libertine C", "Linux Libertine Capitals")   
+endif
+#
+# Alle Zeichen markieren
+SelectAll()
+#
+# Zeichenreferenzen auflösen
+UnlinkReference()
+#
+# Überlagerungen entfernen
+RemoveOverlap()
+#
+# Auf Integer runden mit einer Nachkommastelle
+# (factor * x) / factor
+# 10 -> eine Nachkommstelle
+# 100 -> zwei Nachkommastellen
+# RoundToInt(10)
+#
+# Hintergrund löschen
+# Clears the background of all selected glyphs
+ClearBackground()
+#
+#    Runterskalieren und anschließend Runden  
+ScaleToEm(2048)
+#
+# Sets the font's order. 
+# Order must be either 2 (quadratic) or 3 (cubic). 
+# Umwandeln nach Quadratischen Splines
+SetFontOrder(2)
+#
+RoundToInt()
+#
+# Hinting: Auto Instruct
+# Generates (TrueType) instructions for selected glyphs. 
+AutoInstr()
+#
+Print( "lilliputname : " , lilliputname )
+genname = lilliputname + "-" + $fontversion + ".ttf"
+Print( "genname : " , genname )
+Generate(genname)
+#OldStyleKerning: fmflags&0x800
+#
+Close()
+Quit()
