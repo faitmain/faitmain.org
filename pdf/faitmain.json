@@ -14,7 +14,7 @@
 },
 
 "fontsAlias" : {
-  "stdFont": "Tuffy-Regular",
+  //"stdFont": "Tuffy-Regular",
   "stdBold": "Tuffy-Bold",
   "stdItalic": "Tuffy-Oblique",
   "stdBoldItalic": "Tuffy-BoldOblique",
