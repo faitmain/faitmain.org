@@ -1066,13 +1066,14 @@ div.links li {
  float: left;
  padding-left: 10px;
  padding-right: 10px;
- border-right: 1px solid rgba(0, 0, 0, 0.15);
  word-wrap: break-word;
  text-wrap: break-word;
 }
 
 #footer {
   margin-top: 20px;
+  text-align: center;
+  color: #008066;
 }
 
 .center{

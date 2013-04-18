@@ -140,7 +140,7 @@
 
 <br/><br/>
 
-  <footer id="footer">
+  <footer id="footer" class="span12 offset1">
    <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
 
   <div class="inner">
