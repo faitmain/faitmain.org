@@ -608,7 +608,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .alert-block{padding-top:14px;padding-bottom:14px;}
 .alert-block>p,.alert-block>ul{margin-bottom:0;}
 .alert-block p+p{margin-top:5px;}
-.nav{margin-left:0;margin-bottom:0;list-style:none;}
+.nav{margin-left:0;margin-bottom:5px;list-style:none;}
 .nav>li>a{display:block;}
 .nav>li>a:hover{text-decoration:underline;}
 .nav>li>a>img{max-width:none;}
