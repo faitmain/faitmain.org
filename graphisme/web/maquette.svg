@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98603159"
-     inkscape:cx="-390.30598"
-     inkscape:cy="-1017.307"
+     inkscape:zoom="0.17430741"
+     inkscape:cx="986.57183"
+     inkscape:cy="-525.20407"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,455 +72,6 @@
     <g
        transform="translate(26.263977,130.81475)"
        id="g3823" />
-    <rect
-       style="color:#000000;fill:#fbfcfc;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.62500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3074"
-       width="1440"
-       height="1200"
-       x="1342.6604"
-       y="1222.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       y="1224.3245"
-       x="1342.6604"
-       height="78.224136"
-       width="1440"
-       id="rect3076"
-       style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4131"
-       width="1440"
-       height="78.25"
-       x="1342.6604"
-       y="1222.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.25636968;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       d="m 1582.6603,1243.237 0,39.3116 5.1822,0 0,-16.9755 5.8965,0 0,-5.1819 -5.8965,0 0,-11.7936 28.7686,0 0,-5.3606 z m 39.8477,0 0,5.3606 5.1818,0 0,-5.3606 z m 108.4639,0 0,5.3606 5.1818,0 0,-5.3606 z m -97.3852,5.8968 0,33.4148 16.9752,0 0,-5.1821 -11.0787,0 0,-11.7934 11.0787,0 0,-5.1819 -11.0787,0 0,-11.2574 z m -33.951,5.3606 0,5.1819 11.0787,0 0,6.433 -11.0787,0 0,16.4393 28.0541,0 0,-28.0542 -5.1818,0 0,22.8721 -5.8969,0 0,-22.8721 z m 62.72,0 0,28.0542 5.1817,0 0,-22.8723 6.4327,0 0,22.8723 16.4394,0 0,-22.8723 6.4329,0 0,22.8723 5.3607,0 0,-28.0542 -16.9755,0 0,22.8721 -5.8969,0 0,-22.8721 z m 45.744,0 0,5.1819 11.6148,0 0,6.433 -11.6148,0 0,16.4393 28.054,0 0,-28.0542 -5.1818,0 0,22.8721 -5.8968,0 0,-22.8721 z m 34.487,0 0,28.0542 5.3606,0 0,-22.8723 5.8966,0 0,22.8723 5.1821,0 0,-28.0542 z m -137.7689,16.9755 5.8966,0 0,5.8966 -5.8966,0 z m 108.464,0 6.4327,0 0,5.8966 -6.4327,0 z"
-       id="path3080"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:1.97710192;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       d="m 1371.1888,1242.2403 0,1.0811 17.4,0 0,8.7343 -0.9094,0 0,-7.3101 0,-0.5319 -0.5492,0 -19.9396,0 -0.532,0 0,0.5319 0,1.9562 0,0.5492 0.532,0 17.4172,0 0,7.31 0,0.5319 0.5319,0 5.4396,0 0,0.8752 -6.881,0 0,-7.2929 0,-0.5491 -0.549,0 -17.9492,0 -0.5322,0 0,0.5491 0,1.9562 0,0.5491 0.5322,0 15.4094,0 0,7.2929 0,0.5492 0.5492,0 5.9715,0 3.4491,0 0,12.6467 -16.851,0 0,-0.8752 3.4321,0 0.5492,0 0,-0.549 0,-7.3101 0.9095,0 0,7.3101 0,0.549 0.5489,0 5.9717,0 0.5491,0 0,-0.549 0,-7.3101 0.9096,0 0,7.3101 0,0.549 0.5318,0 2.0078,0 0.5319,0 0,-0.549 0,-9.8154 0,-0.532 -0.5319,0 -5.9887,0 -0.5494,0 0,0.532 0,7.31 -0.9092,0 0,-7.31 0,-0.532 -0.532,0 -5.9888,0 -0.532,0 0,0.532 0,7.31 -3.4491,0 -0.5491,0 0,0.5491 0,1.4071 -0.9094,0 0,-2.8314 3.449,0 0.549,0 0,-0.5491 0,-5.8857 0,-0.532 -0.549,0 -3.449,0 0,-0.8751 9.4377,0 0.5321,0 0,-0.5492 0,-5.8857 0,-0.532 -0.5321,0 -15.9585,0 -0.5492,0 0,0.532 0,15.7011 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-13.1959 10.8793,0 0,0.8752 -9.4378,0 -0.532,0 0,0.5491 0,5.8858 0,0.532 0.532,0 3.4491,0 0,0.8751 -3.4491,0 -0.532,0 0,0.5491 0,5.3367 -1.4585,0 -0.5322,0 0,0.5492 0,1.9562 0,0.549 0.5322,0 5.4396,0 0,1.4072 0,0.5491 0.5491,0 17.4,0 0,0.8751 -18.8585,0 0,-1.4242 0,-0.532 -0.5321,0 -2.0076,0 -0.532,0 0,0.532 0,3.9296 0,0.5491 0.532,0 19.4078,0 0,0.8751 -17.4002,0 -0.549,0 0,0.532 0,1.9733 0,0.532 0.549,0 15.9415,0 0,-1.0811 -15.4094,0 0,-0.8751 17.3999,0 0.5492,0 0,-0.5491 0,-1.9562 0,-0.5492 -0.5492,0 -19.3906,0 0,-2.8313 0.9096,0 0,1.4243 0,0.5319 0.549,0 19.9398,0 0.5319,0 0,-0.5319 0,-1.9734 0,-0.532 -0.5319,0 -17.4001,0 0,-1.4242 0,-0.532 -0.5491,0 -5.4397,0 0,-0.8752 1.4415,0 0.549,0 0,-0.549 0,-5.3368 3.4492,0 0.5491,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5491,0 -3.4492,0 0,-4.7876 9.4208,0 0.5492,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5492,0 -11.9603,0 -0.5322,0 0,0.5491 0,13.1787 -0.9092,0 0,-14.603 14.8604,0 0,4.8048 -9.4209,0 -0.549,0 0,0.5319 0,1.9563 0,0.5491 0.549,0 3.4321,0 0,4.8047 -3.4321,0 -0.549,0 0,0.5319 0,3.9297 0,0.549 0.549,0 1.9906,0 0.5491,0 0,-0.549 0,-1.4243 3.432,0 0.5491,0 0,-0.532 0,-7.31 4.8905,0 0,7.31 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-7.31 4.8905,0 0,8.7171 -0.9094,0 0,-7.2929 0,-0.5491 -0.5492,0 -1.9905,0 -0.5319,0 0,0.5491 0,7.2929 -4.9077,0 0,-7.2929 0,-0.5491 -0.5321,0 -2.0076,0 -0.532,0 0,0.5491 0,7.2929 -3.4491,0 -0.549,0 0,0.5492 0,1.9562 0,0.549 0.549,0 17.9492,0 0.5318,0 0,-0.549 0,-13.7279 0,-0.5319 -0.5318,0 -3.9983,0 -5.4395,0 0,-7.3101 0,-0.5491 -0.532,0 -15.4096,0 0,-0.8751 16.8508,0 0,7.31 0,0.5491 0.5494,0 7.9792,0 0.5318,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5318,0 -5.4397,0 0,-7.3101 0,-0.5319 -0.5491,0 -17.4001,0 0,-0.8752 18.8588,0 0,7.293 0,0.549 0.5318,0 2.0078,0 0.5319,0 0,-0.549 0,-9.7983 0,-0.5491 -0.5319,0 -17.9492,0 z"
-       id="path3173"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <g
-       id="g4226"
-       transform="matrix(1.775853,0,0,1.775853,2942.6441,-300.64771)"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747">
-      <rect
-         y="971.20966"
-         x="-788.34442"
-         height="315.39124"
-         width="450.48773"
-         id="rect3361"
-         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.28155485;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.50000018;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect4135"
-         width="450.48779"
-         height="1.3582791"
-         x="-788.34442"
-         y="1285.458" />
-      <flowRoot
-         transform="translate(754.59628,774.52231)"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-         id="flowRoot4143"
-         xml:space="preserve"><flowRegion
-           id="flowRegion4145"><rect
-             y="211.6479"
-             x="-1520.7142"
-             height="214.42975"
-             width="405.21326"
-             id="rect4147"
-             style="fill:#373e48;fill-opacity:1" /></flowRegion><flowPara
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine"
-           id="flowPara3468">Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder.</flowPara></flowRoot>      <flowRoot
-         xml:space="preserve"
-         id="flowRoot3474"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-         transform="translate(754.59628,935.5521)"><flowRegion
-           id="flowRegion3476"><rect
-             style="fill:#373e48;fill-opacity:1"
-             id="rect3478"
-             width="405.21326"
-             height="214.42975"
-             x="-1520.7142"
-             y="211.6479" /></flowRegion><flowPara
-           id="flowPara3480"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine">Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et  géantes imaginaires,  avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu géantes imaginaires, animées avec la bibliothèque Cinder.</flowPara></flowRoot>    </g>
-    <flowRoot
-       transform="matrix(1.7491531,0,0,1.7491531,4632.6329,892.53951)"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       id="flowRoot4182"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><flowRegion
-         id="flowRegion4184"><rect
-           y="211.6479"
-           x="-1520.7142"
-           height="18.393015"
-           width="111.9521"
-           id="rect4186"
-           style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold" /></flowRegion><flowPara
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold"
-         id="flowPara4188">Électronique</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4190"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       transform="matrix(1.7491531,0,0,1.7491531,4797.9858,892.53951)"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><flowRegion
-         id="flowRegion4192"><rect
-           id="rect4194"
-           width="111.9521"
-           height="18.393015"
-           x="-1520.7142"
-           y="211.6479"
-           style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold" /></flowRegion><flowPara
-         id="flowPara4196"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold">Informatique</flowPara></flowRoot>    <rect
-       style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4224"
-       width="33.635296"
-       height="5.841733"
-       x="2308.886"
-       y="1295.816"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <flowRoot
-       transform="matrix(1.7491531,0,0,1.7491531,4969.9081,892.53951)"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       id="flowRoot4198"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><flowRegion
-         id="flowRegion4200"><rect
-           y="211.6479"
-           x="-1520.7142"
-           height="18.393015"
-           width="111.9521"
-           id="rect4202"
-           style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold" /></flowRegion><flowPara
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold"
-         id="flowPara4204">Art</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4206"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       transform="matrix(1.7491531,0,0,1.7491531,5045.634,892.53951)"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><flowRegion
-         id="flowRegion4208"><rect
-           id="rect4210"
-           width="111.9521"
-           height="18.393015"
-           x="-1520.7142"
-           y="211.6479"
-           style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold" /></flowRegion><flowPara
-         id="flowPara4212"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold">Cuisine</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4214"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       transform="matrix(1.7491531,0,0,1.7491531,5162.3761,892.53951)"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><flowRegion
-         id="flowRegion4216"><rect
-           id="rect4218"
-           width="111.9521"
-           height="18.393015"
-           x="-1520.7142"
-           y="211.6479"
-           style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold" /></flowRegion><flowPara
-         id="flowPara4220"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold">Écologie</flowPara></flowRoot>    <text
-       xml:space="preserve"
-       style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="2422.6604"
-       y="1442.5486"
-       id="text4240"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><tspan
-         sodipodi:role="line"
-         id="tspan4242"
-         x="2422.6604"
-         y="1442.5486"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Recherche</tspan></text>
-    <g
-       id="g4268"
-       transform="matrix(0.64789771,0,0,0.64789771,2897.6102,1175.2538)"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4244"
-         d="m -938.86406,299.54929 c 3.1399,-5.30892 5.5147,-3.3771 10.7143,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4246"
-         d="m -529.37423,333.60234 c -1.9252,4.28157 -5.2905,9.98167 -1.0101,12.12183"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4248"
-         d="m -852.16417,920.62522 c 8.8132,2.83217 11.1117,1.65613 11.1117,10.10153 0,2.01513 -0.043,3.07336 -1.0102,4.04061"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4250"
-         d="m -1773.266,923.3225 c -0.3176,6.83107 -5.969,15.3361 -3.0304,21.2132"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4252"
-         d="m -988.34733,991.26279 c 2.1616,3.0157 2.0204,4.08043 2.0204,7.07107"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4254"
-         d="m -1949.8757,1338.3695 c 11.4961,0.7488 13.132,-4.5578 13.132,8.0812"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4256"
-         d="m -2009.1934,566.47881 c 2.7811,-2.65665 5.0508,-4.45617 5.0508,-8.08122"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4258"
-         d="m -2304.7203,1083.6451 c -0.6333,7.458 4.3642,10.1015 11.1117,10.1015"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4260"
-         d="m -1436.6671,1197.084 c 2.5585,-4.6063 6.5447,-4.7876 11.1117,-7.0711"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4262"
-         d="m -1627.4918,281.93907 c 3.507,3.12717 6.0297,8.08122 11.1117,8.08122"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4264"
-         d="m -2329.4118,323.03204 c 2.6835,3.95919 6.883,5.87283 10.1016,9.09138"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4266"
-         d="m -2134.4733,252.81089 c 1.5453,-5.15846 5.055,-13.63923 10.1015,-16.16244"
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -231.44227,670.56502 c 3.1399,-5.30892 5.5147,-3.3771 10.7143,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
-         id="path4282"
-         inkscape:connector-curvature="0" />
-    </g>
-    <rect
-       style="color:#000000;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:0.20000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4286"
-       width="141.7066"
-       height="24.999987"
-       x="2422.6604"
-       y="1447.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <path
-       style="fill:none;stroke:#b3b3b3;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 2428.5062,1450.3823 0,19.9784"
-       id="path4288"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <text
-       sodipodi:linespacing="167.99999%"
-       id="text4290"
-       y="1516.9948"
-       x="2447.5222"
-       style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:167.99999475%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1516.9948"
-         x="2447.5222"
-         id="tspan4292"
-         sodipodi:role="line">Forums</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1542.0229"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4294">Auteurs</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1567.051"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4296">Mailing List</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1592.0792"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4298">Twitter</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1617.1074"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4300">Google+</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1642.1356"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4304">Gitgub</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1667.1638"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4306">Flux Atom</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1692.192"
-         x="2447.5222"
-         sodipodi:role="line"
-         id="tspan4302" /></text>
-    <rect
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4308"
-       width="15.221597"
-       height="15.221597"
-       x="2422.6604"
-       y="1502.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       y="1527.5486"
-       x="2422.6604"
-       height="15.634914"
-       width="15.221597"
-       id="rect4310"
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4312"
-       width="15.221597"
-       height="15.221597"
-       x="2422.6604"
-       y="1552.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       y="1577.5486"
-       x="2422.6604"
-       height="15.221597"
-       width="15.221597"
-       id="rect4314"
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4316"
-       width="15.221597"
-       height="15.221597"
-       x="2422.6604"
-       y="1627.327"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       y="1602.327"
-       x="2422.6604"
-       height="15.221597"
-       width="15.221597"
-       id="rect4318"
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <rect
-       y="1652.327"
-       x="2422.6604"
-       height="15.221597"
-       width="15.221597"
-       id="rect4320"
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4324"
-       y="1729.5698"
-       x="2422.6604"
-       style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
-         y="1729.5698"
-         x="2422.6604"
-         id="tspan4326"
-         sodipodi:role="line">Faites un don!</tspan></text>
-    <rect
-       style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4328"
-       width="85"
-       height="15.000019"
-       x="2422.6604"
-       y="1742.5486"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4354"
-       y="1382.5486"
-       x="1582.6604"
-       style="font-size:25.78147316px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-ydpi="113.56747"><tspan
-         id="tspan4358"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Bold"
-         y="1382.5486"
-         x="1582.6604"
-         sodipodi:role="line">À Propos</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
@@ -533,33 +84,486 @@
          id="tspan4106"
          x="282"
          y="956" /></text>
-    <rect
-       inkscape:export-ydpi="113.56747"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4146"
-       width="1440"
-       height="2.0324829"
-       x="1342.6604"
-       y="-2284.3816"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       style="font-size:20.93828583px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:153.99999619%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="2061.8823"
-       y="2292.6089"
-       id="text4115"
-       sodipodi:linespacing="154%"><tspan
-         sodipodi:role="line"
-         id="tspan4117"
-         x="2061.8823"
-         y="2292.6089" /><tspan
-         sodipodi:role="line"
-         x="2061.8823"
-         y="2313.8723"
-         id="tspan4137"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:153.99999619%;text-anchor:middle;fill:#008066;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">© 2013 FaitMain     ISSN 2261-8376     Contenu CC-By-NC-SA 3.0     À propos</tspan></text>
+    <g
+       id="g3200"
+       transform="translate(-741.3735,-320.31707)">
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="172.67924"
+         x="2461.3735"
+         height="1200"
+         width="1440"
+         id="rect3074"
+         style="color:#000000;fill:#fbfcfc;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.62500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3076"
+         width="1440"
+         height="78.224136"
+         x="2461.3735"
+         y="174.45512" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="172.67924"
+         x="2461.3735"
+         height="78.25"
+         width="1440"
+         id="rect4131"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3080"
+         d="m 2701.3735,193.36767 0,39.3116 5.1822,0 0,-16.9755 5.8965,0 0,-5.1819 -5.8965,0 0,-11.7936 28.7686,0 0,-5.3606 z m 39.8477,0 0,5.3606 5.1818,0 0,-5.3606 z m 108.4639,0 0,5.3606 5.1818,0 0,-5.3606 z m -97.3852,5.8968 0,33.4148 16.9752,0 0,-5.1821 -11.0787,0 0,-11.7934 11.0787,0 0,-5.1819 -11.0787,0 0,-11.2574 z m -33.951,5.3606 0,5.1819 11.0787,0 0,6.433 -11.0787,0 0,16.4393 28.0541,0 0,-28.0542 -5.1818,0 0,22.8721 -5.8969,0 0,-22.8721 z m 62.72,0 0,28.0542 5.1817,0 0,-22.8723 6.4327,0 0,22.8723 16.4394,0 0,-22.8723 6.4329,0 0,22.8723 5.3607,0 0,-28.0542 -16.9755,0 0,22.8721 -5.8969,0 0,-22.8721 z m 45.744,0 0,5.1819 11.6148,0 0,6.433 -11.6148,0 0,16.4393 28.054,0 0,-28.0542 -5.1818,0 0,22.8721 -5.8968,0 0,-22.8721 z m 34.487,0 0,28.0542 5.3606,0 0,-22.8723 5.8966,0 0,22.8723 5.1821,0 0,-28.0542 z m -137.7689,16.9755 5.8966,0 0,5.8966 -5.8966,0 z m 108.464,0 6.4327,0 0,5.8966 -6.4327,0 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.25636968;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+      <path
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         inkscape:connector-curvature="0"
+         id="path3173"
+         d="m 2489.902,192.37097 0,1.0811 17.4,0 0,8.7343 -0.9094,0 0,-7.3101 0,-0.5319 -0.5492,0 -19.9396,0 -0.532,0 0,0.5319 0,1.9562 0,0.5492 0.532,0 17.4172,0 0,7.31 0,0.5319 0.5319,0 5.4396,0 0,0.8752 -6.881,0 0,-7.2929 0,-0.5491 -0.549,0 -17.9492,0 -0.5322,0 0,0.5491 0,1.9562 0,0.5491 0.5322,0 15.4094,0 0,7.2929 0,0.5492 0.5492,0 5.9715,0 3.4491,0 0,12.6467 -16.851,0 0,-0.8752 3.4321,0 0.5492,0 0,-0.549 0,-7.3101 0.9095,0 0,7.3101 0,0.549 0.5489,0 5.9717,0 0.5491,0 0,-0.549 0,-7.3101 0.9096,0 0,7.3101 0,0.549 0.5318,0 2.0078,0 0.5319,0 0,-0.549 0,-9.8154 0,-0.532 -0.5319,0 -5.9887,0 -0.5494,0 0,0.532 0,7.31 -0.9092,0 0,-7.31 0,-0.532 -0.532,0 -5.9888,0 -0.532,0 0,0.532 0,7.31 -3.4491,0 -0.5491,0 0,0.5491 0,1.4071 -0.9094,0 0,-2.8314 3.449,0 0.549,0 0,-0.5491 0,-5.8857 0,-0.532 -0.549,0 -3.449,0 0,-0.8751 9.4377,0 0.5321,0 0,-0.5492 0,-5.8857 0,-0.532 -0.5321,0 -15.9585,0 -0.5492,0 0,0.532 0,15.7011 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-13.1959 10.8793,0 0,0.8752 -9.4378,0 -0.532,0 0,0.5491 0,5.8858 0,0.532 0.532,0 3.4491,0 0,0.8751 -3.4491,0 -0.532,0 0,0.5491 0,5.3367 -1.4585,0 -0.5322,0 0,0.5492 0,1.9562 0,0.549 0.5322,0 5.4396,0 0,1.4072 0,0.5491 0.5491,0 17.4,0 0,0.8751 -18.8585,0 0,-1.4242 0,-0.532 -0.5321,0 -2.0076,0 -0.532,0 0,0.532 0,3.9296 0,0.5491 0.532,0 19.4078,0 0,0.8751 -17.4002,0 -0.549,0 0,0.532 0,1.9733 0,0.532 0.549,0 15.9415,0 0,-1.0811 -15.4094,0 0,-0.8751 17.3999,0 0.5492,0 0,-0.5491 0,-1.9562 0,-0.5492 -0.5492,0 -19.3906,0 0,-2.8313 0.9096,0 0,1.4243 0,0.5319 0.549,0 19.9398,0 0.5319,0 0,-0.5319 0,-1.9734 0,-0.532 -0.5319,0 -17.4001,0 0,-1.4242 0,-0.532 -0.5491,0 -5.4397,0 0,-0.8752 1.4415,0 0.549,0 0,-0.549 0,-5.3368 3.4492,0 0.5491,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5491,0 -3.4492,0 0,-4.7876 9.4208,0 0.5492,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5492,0 -11.9603,0 -0.5322,0 0,0.5491 0,13.1787 -0.9092,0 0,-14.603 14.8604,0 0,4.8048 -9.4209,0 -0.549,0 0,0.5319 0,1.9563 0,0.5491 0.549,0 3.4321,0 0,4.8047 -3.4321,0 -0.549,0 0,0.5319 0,3.9297 0,0.549 0.549,0 1.9906,0 0.5491,0 0,-0.549 0,-1.4243 3.432,0 0.5491,0 0,-0.532 0,-7.31 4.8905,0 0,7.31 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-7.31 4.8905,0 0,8.7171 -0.9094,0 0,-7.2929 0,-0.5491 -0.5492,0 -1.9905,0 -0.5319,0 0,0.5491 0,7.2929 -4.9077,0 0,-7.2929 0,-0.5491 -0.5321,0 -2.0076,0 -0.532,0 0,0.5491 0,7.2929 -3.4491,0 -0.549,0 0,0.5492 0,1.9562 0,0.549 0.549,0 17.9492,0 0.5318,0 0,-0.549 0,-13.7279 0,-0.5319 -0.5318,0 -3.9983,0 -5.4395,0 0,-7.3101 0,-0.5491 -0.532,0 -15.4096,0 0,-0.8751 16.8508,0 0,7.31 0,0.5491 0.5494,0 7.9792,0 0.5318,0 0,-0.5491 0,-1.9562 0,-0.5491 -0.5318,0 -5.4397,0 0,-7.3101 0,-0.5319 -0.5491,0 -17.4001,0 0,-0.8752 18.8588,0 0,7.293 0,0.549 0.5318,0 2.0078,0 0.5319,0 0,-0.549 0,-9.7983 0,-0.5491 -0.5319,0 -17.9492,0 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:1.97710192;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+      <g
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         transform="matrix(1.775853,0,0,1.775853,4061.3573,-1350.517)"
+         id="g4226">
+        <rect
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.28155485;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect3361"
+           width="450.48773"
+           height="315.39124"
+           x="-788.34442"
+           y="971.20966" />
+        <rect
+           y="1285.458"
+           x="-788.34442"
+           height="1.3582791"
+           width="450.48779"
+           id="rect4135"
+           style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.50000018;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4143"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+           transform="translate(754.59628,774.52231)"><flowRegion
+             id="flowRegion4145"><rect
+               style="fill:#373e48;fill-opacity:1"
+               id="rect4147"
+               width="405.21326"
+               height="214.42975"
+               x="-1520.7142"
+               y="211.6479" /></flowRegion><flowPara
+             id="flowPara3468"
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine">Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder.</flowPara></flowRoot>        <flowRoot
+           transform="translate(754.59628,935.5521)"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+           id="flowRoot3474"
+           xml:space="preserve"><flowRegion
+             id="flowRegion3476"><rect
+               y="211.6479"
+               x="-1520.7142"
+               height="214.42975"
+               width="405.21326"
+               id="rect3478"
+               style="fill:#373e48;fill-opacity:1" /></flowRegion><flowPara
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine"
+             id="flowPara3480">Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et  géantes imaginaires,  avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu des méduses géantes imaginaires, animées avec la bibliothèque Cinder. Artiste et programmeur, Marcin Ignac nous explique comment il a conçu géantes imaginaires, animées avec la bibliothèque Cinder.</flowPara></flowRoot>      </g>
+      <flowRoot
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         xml:space="preserve"
+         id="flowRoot4182"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
+         transform="matrix(1.7491531,0,0,1.7491531,5751.3461,-157.32982)"><flowRegion
+           id="flowRegion4184"><rect
+             style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
+             id="rect4186"
+             width="111.9521"
+             height="18.393015"
+             x="-1520.7142"
+             y="211.6479" /></flowRegion><flowPara
+           id="flowPara4188"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold">Électronique</flowPara></flowRoot>      <flowRoot
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         transform="matrix(1.7491531,0,0,1.7491531,5916.699,-157.32982)"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
+         id="flowRoot4190"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4192"><rect
+             style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
+             y="211.6479"
+             x="-1520.7142"
+             height="18.393015"
+             width="111.9521"
+             id="rect4194" /></flowRegion><flowPara
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold"
+           id="flowPara4196">Informatique</flowPara></flowRoot>      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="245.9467"
+         x="3427.5991"
+         height="5.841733"
+         width="33.635296"
+         id="rect4224"
+         style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         xml:space="preserve"
+         id="flowRoot4198"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
+         transform="matrix(1.7491531,0,0,1.7491531,6088.6213,-157.32982)"><flowRegion
+           id="flowRegion4200"><rect
+             style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
+             id="rect4202"
+             width="111.9521"
+             height="18.393015"
+             x="-1520.7142"
+             y="211.6479" /></flowRegion><flowPara
+           id="flowPara4204"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold">Art</flowPara></flowRoot>      <flowRoot
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         transform="matrix(1.7491531,0,0,1.7491531,6164.3472,-157.32982)"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
+         id="flowRoot4206"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4208"><rect
+             style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
+             y="211.6479"
+             x="-1520.7142"
+             height="18.393015"
+             width="111.9521"
+             id="rect4210" /></flowRegion><flowPara
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold"
+           id="flowPara4212">Cuisine</flowPara></flowRoot>      <flowRoot
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         transform="matrix(1.7491531,0,0,1.7491531,6281.0893,-157.32982)"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
+         id="flowRoot4214"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4216"><rect
+             style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
+             y="211.6479"
+             x="-1520.7142"
+             height="18.393015"
+             width="111.9521"
+             id="rect4218" /></flowRegion><flowPara
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Whois Bold"
+           id="flowPara4220">Écologie</flowPara></flowRoot>      <text
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         sodipodi:linespacing="125%"
+         id="text4240"
+         y="392.67926"
+         x="3541.3735"
+         style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
+           y="392.67926"
+           x="3541.3735"
+           id="tspan4242"
+           sodipodi:role="line">Recherche</tspan></text>
+      <g
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         transform="matrix(0.64789771,0,0,0.64789771,4016.3234,125.38447)"
+         id="g4268">
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -938.86406,299.54929 c 3.1399,-5.30892 5.5147,-3.3771 10.7143,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
+           id="path4244"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -529.37423,333.60234 c -1.9252,4.28157 -5.2905,9.98167 -1.0101,12.12183"
+           id="path4246"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -852.16417,920.62522 c 8.8132,2.83217 11.1117,1.65613 11.1117,10.10153 0,2.01513 -0.043,3.07336 -1.0102,4.04061"
+           id="path4248"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -1773.266,923.3225 c -0.3176,6.83107 -5.969,15.3361 -3.0304,21.2132"
+           id="path4250"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -988.34733,991.26279 c 2.1616,3.0157 2.0204,4.08043 2.0204,7.07107"
+           id="path4252"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -1949.8757,1338.3695 c 11.4961,0.7488 13.132,-4.5578 13.132,8.0812"
+           id="path4254"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -2009.1934,566.47881 c 2.7811,-2.65665 5.0508,-4.45617 5.0508,-8.08122"
+           id="path4256"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -2304.7203,1083.6451 c -0.6333,7.458 4.3642,10.1015 11.1117,10.1015"
+           id="path4258"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -1436.6671,1197.084 c 2.5585,-4.6063 6.5447,-4.7876 11.1117,-7.0711"
+           id="path4260"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -1627.4918,281.93907 c 3.507,3.12717 6.0297,8.08122 11.1117,8.08122"
+           id="path4262"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -2329.4118,323.03204 c 2.6835,3.95919 6.883,5.87283 10.1016,9.09138"
+           id="path4264"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -2134.4733,252.81089 c 1.5453,-5.15846 5.055,-13.63923 10.1015,-16.16244"
+           id="path4266"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4282"
+           d="m -231.44227,670.56502 c 3.1399,-5.30892 5.5147,-3.3771 10.7143,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
+           style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="397.67926"
+         x="3541.3735"
+         height="24.999987"
+         width="141.7066"
+         id="rect4286"
+         style="color:#000000;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:0.20000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         inkscape:connector-curvature="0"
+         id="path4288"
+         d="m 3547.2194,400.51297 0,19.9784"
+         style="fill:none;stroke:#b3b3b3;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         xml:space="preserve"
+         style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:167.99999475%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+         x="3566.2354"
+         y="467.12543"
+         id="text4290"
+         sodipodi:linespacing="167.99999%"><tspan
+           sodipodi:role="line"
+           id="tspan4292"
+           x="3566.2354"
+           y="467.12543"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Forums</tspan><tspan
+           id="tspan4294"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="492.15363"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Auteurs</tspan><tspan
+           id="tspan4296"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="517.18182"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Mailing List</tspan><tspan
+           id="tspan4298"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="542.21002"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Twitter</tspan><tspan
+           id="tspan4300"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="567.23822"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Google+</tspan><tspan
+           id="tspan4304"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="592.26636"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Gitgub</tspan><tspan
+           id="tspan4306"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="617.29456"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Flux Atom</tspan><tspan
+           id="tspan4302"
+           sodipodi:role="line"
+           x="3566.2354"
+           y="642.32275"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine" /></text>
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="452.67926"
+         x="3541.3735"
+         height="15.221597"
+         width="15.221597"
+         id="rect4308"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4310"
+         width="15.221597"
+         height="15.634914"
+         x="3541.3735"
+         y="477.67926" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="502.67926"
+         x="3541.3735"
+         height="15.221597"
+         width="15.221597"
+         id="rect4312"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4314"
+         width="15.221597"
+         height="15.221597"
+         x="3541.3735"
+         y="527.67926" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="577.4577"
+         x="3541.3735"
+         height="15.221597"
+         width="15.221597"
+         id="rect4316"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4318"
+         width="15.221597"
+         height="15.221597"
+         x="3541.3735"
+         y="552.4577" />
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4320"
+         width="15.221597"
+         height="15.221597"
+         x="3541.3735"
+         y="602.4577" />
+      <text
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         xml:space="preserve"
+         style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+         x="3541.3735"
+         y="679.7005"
+         id="text4324"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4326"
+           x="3541.3735"
+           y="679.7005"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Faites un don!</tspan></text>
+      <rect
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         y="692.67926"
+         x="3541.3735"
+         height="15.000019"
+         width="85"
+         id="rect4328"
+         style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         inkscape:export-ydpi="113.56747"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         xml:space="preserve"
+         style="font-size:25.78147316px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+         x="2701.3735"
+         y="332.67926"
+         id="text4354"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="2701.3735"
+           y="332.67926"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Bold"
+           id="tspan4358">À Propos</tspan></text>
+      <rect
+         transform="scale(1,-1)"
+         y="-1234.5122"
+         x="2461.3735"
+         height="2.0324829"
+         width="1440"
+         id="rect4146"
+         style="color:#000000;fill:#008066;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-ydpi="113.56747" />
+      <text
+         sodipodi:linespacing="154%"
+         id="text4115"
+         y="1242.7395"
+         x="3180.5955"
+         style="font-size:20.93828583px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:153.99999619%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
+         xml:space="preserve"><tspan
+           y="1242.7395"
+           x="3180.5955"
+           id="tspan4117"
+           sodipodi:role="line" /><tspan
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:153.99999619%;text-anchor:middle;fill:#008066;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
+           id="tspan4137"
+           y="1264.0029"
+           x="3180.5955"
+           sodipodi:role="line">© 2013 FaitMain     ISSN 2261-8376     Contenu CC-By-NC-SA 3.0     À propos</tspan></text>
+    </g>
     <g
        id="g3276"
        transform="translate(1781.8153,130.81475)" />
@@ -568,7 +572,7 @@
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="-147.63783"
-       x="1755.5514"
+       x="0"
        height="1200"
        width="1440"
        id="rect3278"
@@ -581,14 +585,14 @@
        id="rect3280"
        width="1440"
        height="78.224136"
-       x="1755.5514"
+       x="0"
        y="-145.86198" />
     <rect
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="-147.63783"
-       x="1755.5514"
+       x="0"
        height="78.25"
        width="1440"
        id="rect3282"
@@ -600,7 +604,7 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        id="path3284"
-       d="m 1995.5513,-126.94945 0,39.31162 5.1822,0 0,-16.97547 5.8965,0 0,-5.18188 -5.8965,0 0,-11.7936 28.7686,0 0,-5.36067 z m 39.8477,0 0,5.36067 5.1818,0 0,-5.36067 z m 108.4639,0 0,5.36067 5.1818,0 0,-5.36067 z m -97.3852,5.8968 0,33.41482 16.9752,0 0,-5.1821 -11.0787,0 0,-11.79337 11.0787,0 0,-5.18188 -11.0787,0 0,-11.25747 z m -33.951,5.36067 0,5.18189 11.0787,0 0,6.43294 -11.0787,0 0,16.43932 28.0541,0 0,-28.05415 -5.1818,0 0,22.87205 -5.8969,0 0,-22.87205 z m 62.72,0 0,28.05415 5.1817,0 0,-22.87226 6.4327,0 0,22.87226 16.4394,0 0,-22.87226 6.4329,0 0,22.87226 5.3607,0 0,-28.05415 -16.9755,0 0,22.87205 -5.8969,0 0,-22.87205 z m 45.744,0 0,5.18189 11.6148,0 0,6.43294 -11.6148,0 0,16.43932 28.054,0 0,-28.05415 -5.1818,0 0,22.87205 -5.8968,0 0,-22.87205 z m 34.487,0 0,28.05415 5.3606,0 0,-22.87226 5.8966,0 0,22.87226 5.1821,0 0,-28.05415 z m -137.7689,16.975471 5.8966,0 0,5.896579 -5.8966,0 z m 108.464,0 6.4327,0 0,5.896579 -6.4327,0 z"
+       d="m 239.99991,-126.94945 0,39.311623 5.1822,0 0,-16.975473 5.8965,0 0,-5.18188 -5.8965,0 0,-11.7936 28.7686,0 0,-5.36067 z m 39.8477,0 0,5.36067 5.1818,0 0,-5.36067 z m 108.4639,0 0,5.36067 5.1818,0 0,-5.36067 z m -97.3852,5.8968 0,33.414823 16.9752,0 0,-5.1821 -11.0787,0 0,-11.793373 11.0787,0 0,-5.18188 -11.0787,0 0,-11.25747 z m -33.951,5.36067 0,5.18189 11.0787,0 0,6.43294 -11.0787,0 0,16.439323 28.0541,0 0,-28.054153 -5.1818,0 0,22.872053 -5.8969,0 0,-22.872053 z m 62.72,0 0,28.054153 5.1817,0 0,-22.872263 6.4327,0 0,22.872263 16.4394,0 0,-22.872263 6.4329,0 0,22.872263 5.3607,0 0,-28.054153 -16.9755,0 0,22.872053 -5.8969,0 0,-22.872053 z m 45.744,0 0,5.18189 11.6148,0 0,6.43294 -11.6148,0 0,16.439323 28.054,0 0,-28.054153 -5.1818,0 0,22.872053 -5.8968,0 0,-22.872053 z m 34.487,0 0,28.054153 5.3606,0 0,-22.872263 5.8966,0 0,22.872263 5.1821,0 0,-28.054153 z m -137.7689,16.975474 5.8966,0 0,5.896579 -5.8966,0 z m 108.464,0 6.4327,0 0,5.896579 -6.4327,0 z"
        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.25636968;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
     <path
        inkscape:export-ydpi="113.56747"
@@ -608,13 +612,13 @@
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        inkscape:connector-curvature="0"
        id="path3286"
-       d="m 1784.0798,-127.94611 0,1.08106 17.4,0 0,8.7343 -0.9094,0 0,-7.31004 0,-0.53195 -0.5492,0 -19.9396,0 -0.532,0 0,0.53195 0,1.95621 0,0.54912 0.532,0 17.4172,0 0,7.31008 0,0.5319 0.5319,0 5.4396,0 0,0.87518 -6.881,0 0,-7.29291 0,-0.54912 -0.549,0 -17.9492,0 -0.5322,0 0,0.54912 0,1.95622 0,0.5491 0.5322,0 15.4094,0 0,7.29292 0,0.54912 0.5492,0 5.9715,0 3.4491,0 0,12.646757 -16.851,0 0,-0.875187 3.4321,0 0.5492,0 0,-0.549064 0,-7.310096 0.9095,0 0,7.310096 0,0.549064 0.5489,0 5.9717,0 0.5491,0 0,-0.549064 0,-7.310096 0.9096,0 0,7.310096 0,0.549064 0.5318,0 2.0078,0 0.5319,0 0,-0.549064 0,-9.815416 0,-0.53194 -0.5319,0 -5.9887,0 -0.5494,0 0,0.53194 0,7.31008 -0.9092,0 0,-7.31008 0,-0.53194 -0.532,0 -5.9888,0 -0.532,0 0,0.53194 0,7.31008 -3.4491,0 -0.5491,0 0,0.54908 0,1.40713 -0.9094,0 0,-2.8314 3.449,0 0.549,0 0,-0.5491 0,-5.88579 0,-0.53194 -0.549,0 -3.449,0 0,-0.87515 9.4377,0 0.5321,0 0,-0.54912 0,-5.88579 0,-0.53199 -0.5321,0 -15.9585,0 -0.5492,0 0,0.53199 0,15.70116 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-13.19588 10.8793,0 0,0.87518 -9.4378,0 -0.532,0 0,0.54908 0,5.88584 0,0.53194 0.532,0 3.4491,0 0,0.87514 -3.4491,0 -0.532,0 0,0.54913 0,5.3367 -1.4585,0 -0.5322,0 0,0.549126 0,1.956196 0,0.549072 0.5322,0 5.4396,0 0,1.407148 0,0.549113 0.5491,0 17.4,0 0,0.875122 -18.8585,0 0,-1.424235 0,-0.531953 -0.5321,0 -2.0076,0 -0.532,0 0,0.531953 0,3.929577 0,0.549113 0.532,0 19.4078,0 0,0.875146 -17.4002,0 -0.549,0 0,0.531945 0,1.97338 0,0.531937 0.549,0 15.9415,0 0,-1.081058 -15.4094,0 0,-0.875146 17.3999,0 0.5492,0 0,-0.549113 0,-1.956204 0,-0.549122 -0.5492,0 -19.3906,0 0,-2.831342 0.9096,0 0,1.424268 0,0.531928 0.549,0 19.9398,0 0.5319,0 0,-0.531928 0,-1.973381 0,-0.531953 -0.5319,0 -17.4001,0 0,-1.424267 0,-0.531945 -0.5491,0 -5.4397,0 0,-0.875187 1.4415,0 0.549,0 0,-0.549064 0,-5.336726 3.4492,0 0.5491,0 0,-0.5491 0,-1.95621 0,-0.54914 -0.5491,0 -3.4492,0 0,-4.78755 9.4208,0 0.5492,0 0,-0.54915 0,-1.95616 0,-0.54911 -0.5492,0 -11.9603,0 -0.5322,0 0,0.54911 0,13.1787 -0.9092,0 0,-14.60301 14.8604,0 0,4.80477 -9.4209,0 -0.549,0 0,0.53195 0,1.95621 0,0.5491 0.549,0 3.4321,0 0,4.80474 -3.4321,0 -0.549,0 0,0.53195 0,3.929626 0,0.549064 0.549,0 1.9906,0 0.5491,0 0,-0.549064 0,-1.424256 3.432,0 0.5491,0 0,-0.532 0,-7.31006 4.8905,0 0,7.31006 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-7.31006 4.8905,0 0,8.71719 -0.9094,0 0,-7.29291 0,-0.54914 -0.5492,0 -1.9905,0 -0.5319,0 0,0.54914 0,7.29291 -4.9077,0 0,-7.29291 0,-0.54914 -0.5321,0 -2.0076,0 -0.532,0 0,0.54914 0,7.29291 -3.4491,0 -0.549,0 0,0.549126 0,1.956196 0,0.549072 0.549,0 17.9492,0 0.5318,0 0,-0.549072 0,-13.727822 0,-0.53195 -0.5318,0 -3.9983,0 -5.4395,0 0,-7.31007 0,-0.54908 -0.532,0 -15.4096,0 0,-0.87519 16.8508,0 0,7.31004 0,0.54915 0.5494,0 7.9792,0 0.5318,0 0,-0.54915 0,-1.95616 0,-0.54911 -0.5318,0 -5.4397,0 0,-7.31009 0,-0.53195 -0.5491,0 -17.4001,0 0,-0.87514 18.8588,0 0,7.29291 0,0.54907 0.5318,0 2.0078,0 0.5319,0 0,-0.54907 0,-9.79823 0,-0.54912 -0.5319,0 -17.9492,0 z"
+       d="m 28.528408,-127.94611 0,1.08106 17.4,0 0,8.7343 -0.9094,0 0,-7.31004 0,-0.53195 -0.5492,0 -19.9396,0 -0.532,0 0,0.53195 0,1.95621 0,0.54912 0.532,0 17.4172,0 0,7.31008 0,0.5319 0.5319,0 5.4396,0 0,0.87518 -6.881,0 0,-7.29291 0,-0.54912 -0.549,0 -17.9492,0 -0.5322,0 0,0.54912 0,1.95622 0,0.5491 0.5322,0 15.4094,0 0,7.29292 0,0.54912 0.5492,0 5.9715,0 3.4491,0 0,12.64676 -16.851,0 0,-0.875187 3.4321,0 0.5492,0 0,-0.549064 0,-7.310099 0.9095,0 0,7.310099 0,0.549064 0.5489,0 5.9717,0 0.5491,0 0,-0.549064 0,-7.310099 0.9096,0 0,7.310099 0,0.549064 0.5318,0 2.0078,0 0.5319,0 0,-0.549064 0,-9.815419 0,-0.53194 -0.5319,0 -5.9887,0 -0.5494,0 0,0.53194 0,7.31008 -0.9092,0 0,-7.31008 0,-0.53194 -0.532,0 -5.9888,0 -0.532,0 0,0.53194 0,7.31008 -3.4491,0 -0.5491,0 0,0.54908 0,1.40713 -0.9094,0 0,-2.8314 3.449,0 0.549,0 0,-0.5491 0,-5.88579 0,-0.53194 -0.549,0 -3.449,0 0,-0.87515 9.4377,0 0.5321,0 0,-0.54912 0,-5.88579 0,-0.53199 -0.5321,0 -15.9585,0 -0.5492,0 0,0.53199 0,15.70116 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-13.19588 10.8793,0 0,0.87518 -9.4378,0 -0.532,0 0,0.54908 0,5.88584 0,0.53194 0.532,0 3.4491,0 0,0.87514 -3.4491,0 -0.532,0 0,0.54913 0,5.3367 -1.4585,0 -0.5322,0 0,0.549129 0,1.956196 0,0.549072 0.5322,0 5.4396,0 0,1.407148 0,0.549113 0.5491,0 17.4,0 0,0.875122 -18.8585,0 0,-1.424235 0,-0.531953 -0.5321,0 -2.0076,0 -0.532,0 0,0.531953 0,3.929577 0,0.549113 0.532,0 19.4078,0 0,0.875146 -17.4002,0 -0.549,0 0,0.531945 0,1.97338 0,0.531937 0.549,0 15.9415,0 0,-1.081058 -15.4094,0 0,-0.875146 17.3999,0 0.5492,0 0,-0.549113 0,-1.956204 0,-0.549122 -0.5492,0 -19.3906,0 0,-2.831342 0.9096,0 0,1.424268 0,0.531928 0.549,0 19.9398,0 0.5319,0 0,-0.531928 0,-1.973381 0,-0.531953 -0.5319,0 -17.4001,0 0,-1.424267 0,-0.531945 -0.5491,0 -5.4397,0 0,-0.875187 1.4415,0 0.549,0 0,-0.549064 0,-5.336729 3.4492,0 0.5491,0 0,-0.5491 0,-1.95621 0,-0.54914 -0.5491,0 -3.4492,0 0,-4.78755 9.4208,0 0.5492,0 0,-0.54915 0,-1.95616 0,-0.54911 -0.5492,0 -11.9603,0 -0.5322,0 0,0.54911 0,13.1787 -0.9092,0 0,-14.60301 14.8604,0 0,4.80477 -9.4209,0 -0.549,0 0,0.53195 0,1.95621 0,0.5491 0.549,0 3.4321,0 0,4.80474 -3.4321,0 -0.549,0 0,0.53195 0,3.929629 0,0.549064 0.549,0 1.9906,0 0.5491,0 0,-0.549064 0,-1.424259 3.432,0 0.5491,0 0,-0.532 0,-7.31006 4.8905,0 0,7.31006 0,0.532 0.5492,0 1.9906,0 0.549,0 0,-0.532 0,-7.31006 4.8905,0 0,8.71719 -0.9094,0 0,-7.29291 0,-0.54914 -0.5492,0 -1.9905,0 -0.5319,0 0,0.54914 0,7.29291 -4.9077,0 0,-7.29291 0,-0.54914 -0.5321,0 -2.0076,0 -0.532,0 0,0.54914 0,7.29291 -3.4491,0 -0.549,0 0,0.549129 0,1.956196 0,0.549072 0.549,0 17.9492,0 0.5318,0 0,-0.549072 0,-13.727825 0,-0.53195 -0.5318,0 -3.9983,0 -5.4395,0 0,-7.31007 0,-0.54908 -0.532,0 -15.4096,0 0,-0.87519 16.8508,0 0,7.31004 0,0.54915 0.5494,0 7.9792,0 0.5318,0 0,-0.54915 0,-1.95616 0,-0.54911 -0.5318,0 -5.4397,0 0,-7.31009 0,-0.53195 -0.5491,0 -17.4001,0 0,-0.87514 18.8588,0 0,7.29291 0,0.54907 0.5318,0 2.0078,0 0.5319,0 0,-0.54907 0,-9.79823 0,-0.54912 -0.5319,0 -17.9492,0 z"
        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:1.97710192;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
     <g
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(1.775853,0,0,1.775853,4698.1954,-300.64771)"
+       transform="matrix(1.775853,0,0,1.775853,2942.644,-300.64771)"
        id="g3288">
       <rect
          style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.28155485;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -680,7 +684,7 @@
        xml:space="preserve"
        id="flowRoot3312"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       transform="matrix(1.7491531,0,0,1.7491531,5045.5239,-477.6469)"><flowRegion
+       transform="matrix(1.7491531,0,0,1.7491531,3289.9725,-477.6469)"><flowRegion
          id="flowRegion3314"><rect
            style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
            id="rect3316"
@@ -693,7 +697,7 @@
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(1.7491531,0,0,1.7491531,5210.8768,-477.6469)"
+       transform="matrix(1.7491531,0,0,1.7491531,3455.3254,-477.6469)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
        id="flowRoot3320"
        xml:space="preserve"><flowRegion
@@ -710,7 +714,7 @@
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="-74.370407"
-       x="2721.7771"
+       x="966.22571"
        height="5.841733"
        width="33.635296"
        id="rect3328"
@@ -722,7 +726,7 @@
        xml:space="preserve"
        id="flowRoot3330"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
-       transform="matrix(1.7491531,0,0,1.7491531,5382.7991,-477.6469)"><flowRegion
+       transform="matrix(1.7491531,0,0,1.7491531,3627.2477,-477.6469)"><flowRegion
          id="flowRegion3332"><rect
            style="font-weight:bold;fill:#008066;fill-opacity:1;-inkscape-font-specification:Whois Bold"
            id="rect3334"
@@ -735,7 +739,7 @@
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(1.7491531,0,0,1.7491531,5458.525,-477.6469)"
+       transform="matrix(1.7491531,0,0,1.7491531,3702.9736,-477.6469)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
        id="flowRoot3338"
        xml:space="preserve"><flowRegion
@@ -751,7 +755,7 @@
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(1.7491531,0,0,1.7491531,5575.2671,-477.6469)"
+       transform="matrix(1.7491531,0,0,1.7491531,3819.7157,-477.6469)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Bold"
        id="flowRoot3346"
        xml:space="preserve"><flowRegion
@@ -770,19 +774,19 @@
        sodipodi:linespacing="125%"
        id="text3354"
        y="72.362183"
-       x="2835.5513"
+       x="1079.9999"
        style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
          y="72.362183"
-         x="2835.5513"
+         x="1079.9999"
          id="tspan3356"
          sodipodi:role="line">Recherche</tspan></text>
     <g
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(0.64789771,0,0,0.64789771,3310.5012,-194.93265)"
+       transform="matrix(0.64789771,0,0,0.64789771,1554.9498,-194.93265)"
        id="g3358">
       <path
          style="fill:none;stroke:#008066;stroke-width:0.3086907;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -855,7 +859,7 @@
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="77.362183"
-       x="2835.5513"
+       x="1079.9999"
        height="24.999987"
        width="141.7066"
        id="rect3386"
@@ -866,7 +870,7 @@
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        inkscape:connector-curvature="0"
        id="path3388"
-       d="m 2841.3972,80.195919 0,19.978351"
+       d="m 1085.8458,80.195922 0,19.978348"
        style="fill:none;stroke:#b3b3b3;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        inkscape:export-ydpi="113.56747"
@@ -874,48 +878,48 @@
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        xml:space="preserve"
        style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:167.99999475%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="2860.4133"
+       x="1104.8619"
        y="146.80829"
        id="text3390"
        sodipodi:linespacing="167.99999%"><tspan
          sodipodi:role="line"
          id="tspan3392"
-         x="2860.4133"
+         x="1104.8619"
          y="146.80829"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Forums</tspan><tspan
          id="tspan3394"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="171.83649"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Auteurs</tspan><tspan
          id="tspan3396"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="196.86467"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Mailing List</tspan><tspan
          id="tspan3398"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="221.89287"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Twitter</tspan><tspan
          id="tspan3400"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="246.92105"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Google+</tspan><tspan
          id="tspan3402"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="271.94925"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Gitgub</tspan><tspan
          id="tspan3404"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="296.97745"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Flux Atom</tspan><tspan
          id="tspan3406"
          sodipodi:role="line"
-         x="2860.4133"
+         x="1104.8619"
          y="322.00565"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:167.99999475%;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine" /></text>
     <rect
@@ -923,7 +927,7 @@
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="132.36218"
-       x="2835.5513"
+       x="1079.9999"
        height="15.221597"
        width="15.221597"
        id="rect3408"
@@ -936,14 +940,14 @@
        id="rect3410"
        width="15.221597"
        height="15.634914"
-       x="2835.5513"
+       x="1079.9999"
        y="157.36218" />
     <rect
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="182.36218"
-       x="2835.5513"
+       x="1079.9999"
        height="15.221597"
        width="15.221597"
        id="rect3412"
@@ -956,14 +960,14 @@
        id="rect3414"
        width="15.221597"
        height="15.221597"
-       x="2835.5513"
+       x="1079.9999"
        y="207.36218" />
     <rect
        inkscape:export-ydpi="113.56747"
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="257.14059"
-       x="2835.5513"
+       x="1079.9999"
        height="15.221597"
        width="15.221597"
        id="rect3416"
@@ -976,7 +980,7 @@
        id="rect3418"
        width="15.221597"
        height="15.221597"
-       x="2835.5513"
+       x="1079.9999"
        y="232.14059" />
     <rect
        inkscape:export-ydpi="113.56747"
@@ -986,7 +990,7 @@
        id="rect3420"
        width="15.221597"
        height="15.221597"
-       x="2835.5513"
+       x="1079.9999"
        y="282.14059" />
     <text
        inkscape:export-ydpi="113.56747"
@@ -994,13 +998,13 @@
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        xml:space="preserve"
        style="font-size:14.89773369px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#373e48;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="2835.5513"
+       x="1079.9999"
        y="359.38342"
        id="text3422"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3424"
-         x="2835.5513"
+         x="1079.9999"
          y="359.38342"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#373e48;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine">Faites un don!</tspan></text>
     <rect
@@ -1008,13 +1012,13 @@
        inkscape:export-xdpi="113.56747"
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        y="372.36218"
-       x="2835.5513"
+       x="1079.9999"
        height="15.000019"
        width="85"
        id="rect3426"
        style="color:#000000;fill:#008066;fill-opacity:1;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <g
-       transform="translate(1749.9938,-161.27839)"
+       transform="translate(-5.5575916,-161.27839)"
        id="g3428">
       <rect
          y="593.64056"
@@ -1094,13 +1098,13 @@
        inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
        xml:space="preserve"
        style="font-size:25.78147316px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
-       x="1995.5514"
-       y="12.362166"
+       x="240"
+       y="12.362169"
        id="text3450"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="1995.5514"
-         y="12.362166"
+         x="240"
+         y="12.362169"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008066;fill-opacity:1;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Bold"
          id="tspan3452">Sommaire du Volume 1 - CU-Avril</tspan></text>
     <text
@@ -1117,7 +1121,7 @@
     <rect
        transform="scale(1,-1)"
        y="-914.19513"
-       x="1755.5514"
+       x="0"
        height="2.0324829"
        width="1440"
        id="rect3458"
@@ -1129,99 +1133,103 @@
        sodipodi:linespacing="154%"
        id="text3460"
        y="922.42255"
-       x="2474.7734"
+       x="719.22205"
        style="font-size:20.93828583px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:153.99999619%;letter-spacing:0px;word-spacing:0px;fill:#008066;fill-opacity:1;stroke:none;font-family:Whois;-inkscape-font-specification:Whois Medium"
        xml:space="preserve"><tspan
          y="922.42255"
-         x="2474.7734"
+         x="719.22205"
          id="tspan3462"
          sodipodi:role="line" /><tspan
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:153.99999619%;text-anchor:middle;fill:#008066;fill-opacity:1;font-family:Cousine;-inkscape-font-specification:Cousine"
          id="tspan3464"
          y="943.68591"
-         x="2474.7734"
+         x="719.22205"
          sodipodi:role="line">© 2013 FaitMain     ISSN 2261-8376     Contenu CC-By-NC-SA 3.0     À propos</tspan></text>
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/background.png"
-       y="1499.3621"
-       x="-781"
-       height="834"
-       width="1111"
-       id="rect3484"
-       style="color:#000000;fill:#fbfcfc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62500006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <g
-       inkscape:export-ydpi="113.56747"
-       inkscape:export-xdpi="113.56747"
-       inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
-       transform="matrix(0.64789771,0,0,0.64789771,773.88592,1422.0733)"
-       id="g3486">
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1509.9407,608.24009 c 3.1398,-5.30892 5.5146,-3.3771 10.7142,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
-         id="path3488"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1100.452,642.29314 c -1.9252,4.28157 -5.2905,9.98167 -1.0101,12.12183"
-         id="path3490"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1423.2411,1229.3155 c 8.8132,2.8321 11.1117,1.6561 11.1117,10.1014 0,2.0152 -0.043,3.0734 -1.0102,4.0407"
-         id="path3492"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1773.266,923.3225 c -0.3176,6.83107 -5.969,15.3361 -3.0304,21.2132"
-         id="path3494"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1559.4239,1299.9528 c 2.1616,3.0157 2.0204,4.0805 2.0204,7.0711"
-         id="path3496"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1949.8757,1338.3695 c 11.4961,0.7488 13.132,-4.5578 13.132,8.0812"
-         id="path3498"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -2009.1934,566.47881 c 2.7811,-2.65665 5.0508,-4.45617 5.0508,-8.08122"
-         id="path3500"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -2304.7203,1083.6451 c -0.6333,7.458 4.3642,10.1015 11.1117,10.1015"
-         id="path3502"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1436.6671,1197.084 c 2.5585,-4.6063 6.5447,-4.7876 11.1117,-7.0711"
-         id="path3504"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1627.4918,281.93907 c 3.507,3.12717 6.0297,8.08122 11.1117,8.08122"
-         id="path3506"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -2329.4118,323.03204 c 2.6835,3.95919 6.883,5.87283 10.1016,9.09138"
-         id="path3508"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -2134.4733,252.81089 c 1.5453,-5.15846 5.055,-13.63923 10.1015,-16.16244"
-         id="path3510"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3512"
-         d="m -802.52028,979.25582 c 3.1399,-5.30892 5.51473,-3.3771 10.71433,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
-         style="fill:none;stroke:#008066;stroke-width:0.61738141;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       id="g3183"
+       transform="translate(-570,-1646.9999)">
+      <rect
+         style="color:#000000;fill:#fbfcfc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62500006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3484"
+         width="1111"
+         height="834"
+         x="-781"
+         y="1499.3621"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/background.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g3486"
+         transform="matrix(0.64789771,0,0,0.64789771,773.88592,1422.0733)"
+         inkscape:export-filename="/Users/raphael/Documents/WORK/PERSO/Petits projets/fait main/website.png"
+         inkscape:export-xdpi="113.56747"
+         inkscape:export-ydpi="113.56747">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3488"
+           d="m -1509.9407,608.24009 c 3.1398,-5.30892 5.5146,-3.3771 10.7142,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3490"
+           d="m -1100.452,642.29314 c -1.9252,4.28157 -5.2905,9.98167 -1.0101,12.12183"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3492"
+           d="m -1423.2411,1229.3155 c 8.8132,2.8321 11.1117,1.6561 11.1117,10.1014 0,2.0152 -0.043,3.0734 -1.0102,4.0407"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3494"
+           d="m -1773.266,923.3225 c -0.3176,6.83107 -5.969,15.3361 -3.0304,21.2132"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3496"
+           d="m -1559.4239,1299.9528 c 2.1616,3.0157 2.0204,4.0805 2.0204,7.0711"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3498"
+           d="m -1949.8757,1338.3695 c 11.4961,0.7488 13.132,-4.5578 13.132,8.0812"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3500"
+           d="m -2009.1934,566.47881 c 2.7811,-2.65665 5.0508,-4.45617 5.0508,-8.08122"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3502"
+           d="m -2304.7203,1083.6451 c -0.6333,7.458 4.3642,10.1015 11.1117,10.1015"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3504"
+           d="m -1436.6671,1197.084 c 2.5585,-4.6063 6.5447,-4.7876 11.1117,-7.0711"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3506"
+           d="m -1627.4918,281.93907 c 3.507,3.12717 6.0297,8.08122 11.1117,8.08122"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3508"
+           d="m -2329.4118,323.03204 c 2.6835,3.95919 6.883,5.87283 10.1016,9.09138"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3510"
+           d="m -2134.4733,252.81089 c 1.5453,-5.15846 5.055,-13.63923 10.1015,-16.16244"
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           style="fill:none;stroke:#008066;stroke-width:0.61738139;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -802.52028,979.25582 c 3.1399,-5.30892 5.51473,-3.3771 10.71433,-2.85714 1.0801,0.10801 3.2956,-0.49506 4.2857,0 0.4517,0.22587 0.6383,0.81156 1.0714,1.07142 2.2966,1.37796 5.3784,-0.0213 6.7857,-1.42857"
+           id="path3512"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
   <g
