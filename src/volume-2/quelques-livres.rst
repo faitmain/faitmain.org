@@ -34,14 +34,14 @@ ou encore une *maison interactive* qui répond aux ordres oraux via de
 la synthèse vocale. Programme alléchant.
 
 Seulement voila: je m'attendais pour un livre consacré à de la domotique
-un minimum d'information sur les systèmes et protocoles existants dans
+à un minimum d'information sur les systèmes et protocoles existants dans
 le domaine. Il y a moins d'une page sur le sujet: l'auteur parle furtivement
 du protocole `X10 <https://fr.wikipedia.org/wiki/X10_%28informatique%29>`_
 dans l'introduction et puis l'utilise dans un projet de lumière pilotée
 par le web - mais il y a très peu de détails sur le matériel et les usages
 existants dans la communauté des domoticiens, ce qui est dommage.
 
-Le livre n'est finalement qu'un regroupement de petits projets Arduinos
+Le livre n'est finalement qu'un regroupement de petits projets Arduino
 qui ne forment pas un ensemble cohérent.
 
 Par exemple, pourquoi ne pas avoir expliqué comment créer une centrale de
@@ -64,7 +64,7 @@ Enfin, *le* projet phare du livre, un système de verrouillage de porte,
 est complètement tiré par les cheveux. Il faut carrément installer un
 téléphone Android pour prendre des photos des personnes qui sonnent, pour
 envoyer une photo via internet et demander à une autre personne de déverouiller
-à distance. Cette technique n'est évidemment très sûre de l'aveu même de
+à distance. Cette technique n'est évidemment pas très sûre de l'aveu même de
 l'auteur, qui suggère des pistes dans la conclusion.
 
 Une solution à base de `RFID <https://fr.wikipedia.org/wiki/Rfid>`_ ou
@@ -72,16 +72,16 @@ un digicode à mot de passe unique auraient été plus réalistes.
 
 Le prix prohibitif du projet est aussi rédhibitoire: pourquoi ne pas avoir opté
 pour une simple web cam voir une board de type Raspberry-PI (ou une
-une autre board vu que le livre est sorti la même année que le Rasperry).
+une autre board vu que le livre est sorti la même année que le Raspberry).
 
 A vouloir montrer un maximum de techniques et périphériques différents,
-l'auteur fini par faire quelques projets un peu bizzare.
+l'auteur fini par faire quelques projets un peu bizarres.
 
 Je vais arrêter de critiquer ce projet en particulier, vous l'aurez compris
 le livre m'a un peu déçu.
 
 Quelques points positifs tout de même: ce livre touche à beaucoup
-de composants et donne de bonne idées et j'ai bien aimé le volet éléctrique
+de composants et donne de bonnes idées et j'ai bien aimé le volet éléctrique
 automatique.
 
 **Programming Your Home** reste une lecture intéressante pour découvrir
@@ -100,16 +100,16 @@ Cooking For Geeks
    Jeff Potter / O'Reilly Media
 
 
-La première fois que j'ai entendu parler de ce livre est lorsque j'ai vu la vidéo
+La première fois que j'ai entendu parler de ce livre, c'est lorsque j'ai vu la vidéo
 de Jeff Potter `en train de faire de la glace avec de l'azote liquide
 <https://www.youtube.com/watch?v=3WbvTV9rUFA>`_. Il y a même un glacier
-à San Francisco - `Smitten <http://smittenicecream.com>`_ qui vends des glaces
-faites devant les clients avec de l'azote. Vu que le processus ne prends que
+à San Francisco - `Smitten <http://smittenicecream.com>`_ qui vend des glaces
+faites devant les clients avec de l'azote. Vu que le processus ne prend que
 quelques secondes, l'eau n'a pas le temps de cristalliser et les fruits
 frais et la crème fraîche expriment complètement leurs saveurs.
 
 C'est un peu la même idée pour la cuisine sous vide: les aliments sont
-emballés dans un sac plastique et cuit à basse température pendant des heures.
+emballés dans un sac plastique et cuits à basse température pendant des heures.
 Un steak sera uniformément cuit et ses cellules ne seront pas éclatées par
 une chaleur excessive.
 
@@ -131,8 +131,8 @@ plaît, puis lire les explications techniques et scientifiques qui
 l'entourent.
 
 On oublie par contre les recettes basées sur de l'azote liquide car ce
-n'est pas vraiment à la portée de tous - les précautions de sécurités
-sont assez drastique et le matériel très onéreux.
+n'est pas vraiment à la portée de tous - les précautions de sécurité
+sont assez drastiques et le matériel très onéreux.
 
 Pour conclure, j'ai trouvé **Cooking For Geeks** absolument génial.
 
