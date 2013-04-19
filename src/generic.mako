@@ -24,24 +24,38 @@
 <div class="navbar navbar-fixed-top">
 
 <div class="navbar-inner">
-<div class="container branding">
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</a>
-<a class="brand small-logo visible-phone" href="${config['siteurl']}/index.html">Fait Main</a>
-<a class="brand big-logo hidden-phone" href="${config['siteurl']}/index.html">Fait Main</a>
+  <div class="signe">
+    <img class="visible-phone" src="${config['cnd']}/media/signe-s.png"></img>
+    <img class="hidden-phone" src="${config['cnd']}/media/signe-s.png"></img>
+  </div>
 
-<div class="nav-collapse">
-<ul class="nav">
- %for category in config['categories']:
- <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
- %endfor
-</ul>
-</div><!--/.nav-collapse -->
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span10 offset1">
+
+  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  </a>
+  <a class="brand small-logo visible-phone" href="${config['siteurl']}/index.html">
+    <img src="${config['cnd']}/media/logo-typo-m.png"></img>
+  </a>
+  <a class="brand big-logo hidden-phone" href="${config['siteurl']}/index.html">
+    <img src="${config['cnd']}/media/logo-typo-m.png"></img>
+  </a>
+
+  <div class="nav-collapse">
+  <ul class="nav">
+   %for category in config['categories']:
+   <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
+   %endfor
+  </ul>
+  </div><!--/.nav-collapse -->
+
 </div>
-
+</div>
+</div>
 </div>
 </div>
 
@@ -126,7 +140,7 @@
 
 <br/><br/>
 
-  <footer id="footer">
+  <footer id="footer" class="span12 offset1">
    <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
 
   <div class="inner">
