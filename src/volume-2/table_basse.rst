@@ -1,7 +1,7 @@
 Table basse pliante
 ===================
 
-:date: 2013-04-06
+:date: 2013-05-01
 :category: bricolage
 :level: vulgarisation
 :author: Christophe Seyve

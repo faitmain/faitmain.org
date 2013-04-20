@@ -1,7 +1,7 @@
 XBee & Arduino
 ==============
 
-:date: 2013-04-01
+:date: 2013-05-01
 :category: électronique,informatique
 :level: vulgarisation,moyen
 :author: Jérôme Abel
