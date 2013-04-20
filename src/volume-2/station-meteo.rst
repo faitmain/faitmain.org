@@ -2,7 +2,7 @@ Station météo USB
 =================
 
 :date: 2013-04-01
-:category: electronique,informatique,ecologie
+:category: électronique,informatique,ecologie
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
 
