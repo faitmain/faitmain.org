@@ -2,7 +2,7 @@ Comment ouvrir une puce ?
 =========================
 
 :date: 2013-05-01
-:category: autre
+:category: électronique,autre
 :level: insolite
 :author: Zeptobars
 :translator: Tarek Ziadé

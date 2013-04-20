@@ -2,10 +2,9 @@ Passer un projet sur batterie
 =============================
 
 :date: 2013-05-01
-:category: electronique
+:category: électronique
 :level: debutant
 :author: Jonathan Schemoul
-
 
 
 Vous venez de finir votre projet, il est tout beau, tout propre.
