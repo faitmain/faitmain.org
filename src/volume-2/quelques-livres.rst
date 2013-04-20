@@ -2,7 +2,7 @@ Quelques livres
 ===============
 
 :date: 2013-05-01
-:category: electronique,informatique
+:category: cuisine,électronique,informatique
 :level: decouverte
 :author: Tarek Ziadé
 
