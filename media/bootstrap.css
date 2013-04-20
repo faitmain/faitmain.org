@@ -1109,6 +1109,7 @@ div.links li {
 
 #footer {
   margin-top: 20px;
+  border-top: 2px solid rgb(0, 128, 102);
 }
 
 .center{
