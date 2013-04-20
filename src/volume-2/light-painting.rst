@@ -319,7 +319,7 @@ quelques belles photos vous ne trouvez pas ?
 
 .. figure:: light/cat.jpg
 
-   Lolcat en light painting.
+   Nyancat en light painting.
 
 
 .. figure:: light/logo.JPG
