@@ -277,7 +277,10 @@ input:focus:invalid,textarea:focus:invalid,select:focus:invalid{color:#b94a48;bo
 .input-prepend.input-append .add-on:first-child,.input-prepend.input-append .btn:first-child{margin-right:-1px;-webkit-border-radius:0 0 0 0;-moz-border-radius:0 0 0 0;border-radius:0 0 0 0;}
 .input-prepend.input-append .add-on:last-child,.input-prepend.input-append .btn:last-child{margin-left:-1px;-webkit-border-radius:0 0 0 0;-moz-border-radius:0 0 0 0;border-radius:0 0 0 0;}
 .input-prepend.input-append .btn-group:first-child{margin-left:0;}
-input.search-query{padding-right:14px;padding-right:4px \9;padding-left:14px;padding-left:4px \9;margin-bottom:0;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+input.search-query{padding-right:14px;padding-right:4px
+;padding-left:14px;padding-left:4px 
+;margin-bottom:0;
+border: 1px solid rgb(0, 128, 102)}
 .form-search .input-append .search-query,.form-search .input-prepend .search-query{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
 .form-search .input-append .search-query{-webkit-border-radius:14px 0 0 14px;-moz-border-radius:14px 0 0 14px;border-radius:14px 0 0 14px;}
 .form-search .input-append .btn{-webkit-border-radius:0 14px 14px 0;-moz-border-radius:0 14px 14px 0;border-radius:0 14px 14px 0;}
@@ -608,7 +611,8 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .alert-block{padding-top:14px;padding-bottom:14px;}
 .alert-block>p,.alert-block>ul{margin-bottom:0;}
 .alert-block p+p{margin-top:5px;}
-.nav{margin-left:0;margin-bottom:5px;list-style:none;}
+.nav{margin-left:0;margin-bottom:0;list-style:none}
+.nav-menu{margin-left:0;margin-bottom:0;list-style:square;color:rgb(0, 128, 102)}
 .nav>li>a{display:block;}
 .nav>li>a:hover{text-decoration:underline;}
 .nav>li>a>img{max-width:none;}
@@ -1055,15 +1059,20 @@ a.image:hover {
     margin-bottom: 10px
 }
 
+div.links {
+  text-align: center;
+}
+
 div.links ul {
  list-style-type: none;
+ text-align:center;
  height: 40px;
- margin: auto;
-
+ color:rgb(0, 128, 102);
 }
 
 div.links li {
- float: left;
+ /*float: left;*/
+ display: inline;
  padding-left: 10px;
  padding-right: 10px;
  word-wrap: break-word;
@@ -1072,8 +1081,6 @@ div.links li {
 
 #footer {
   margin-top: 20px;
-  text-align: center;
-  color: #008066;
 }
 
 .center{
@@ -1150,4 +1157,14 @@ a.headerlink {
 div.signe {
   float: left;
   margin: 15px;
+}
+
+ul.nav-menu {
+  list-style: square inside none;!important
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(0, 128, 102);
 }

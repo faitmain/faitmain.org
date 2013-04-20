@@ -77,7 +77,7 @@
  </div>  <!-- end of body span9 -->
    <div class="span2">
      <div class="sidebar-nav">
-      <ul class="nav nav-list">
+      <ul class="nav-list nav-menu">
         <%block name="sections">
           %if doc_sections:
            <li class="nav-header" style="color:black">Contenu</li>
@@ -88,7 +88,7 @@
         </%block>
 
         <li class="nav-header" style="color:black">Recherche</li>
-        <li>
+        <li class="nav-header">
           <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
            <input type="text" class="input-small search-query" name="query"/>
          </form>
@@ -101,32 +101,31 @@
         </li>
 
         <li class="nav-header" style="color:black">Social</li>
-        <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
-          <img src="${config['cnd']}/media/forum.png"/> Les Forums</a>
+        <li>
+          <a target="_blank" title="Forums" href="http://forums.faitmain.org">Les Forums</a>
         </li>
-
-
-        <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html"">
-          <img src="${config['cnd']}/media/pen.png"/> Les Auteurs</a>
+        <li>
+          <a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a>
         </li>
-
-        <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">
-          <img src="${config['cnd']}/media/email.png"/> Mailing List</a>
-        </li>
-        <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
-            <img src="${config['cnd']}/media/twitter.png"/> Twitter</a>
-        </li>
-        <li><a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">
-           <img src="${config['cnd']}/media/google_plus.png"/> Google+</a> </li>
-        <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">
-          <img src="${config['cnd']}/media/github.png"/> Github
-</a></li>
-        <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">
-          <img src="${config['cnd']}/media/rss.png"/> Flux Atom
-</a></li>
-        <li class="nav-header" style="color:black">Faites un don!</li>
 
         <li>
+          <a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a>
+        </li>
+        <li>
+          <a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">Twitter</a>
+        </li>
+        <li>
+           <a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">Google+</a> </li>
+        <li>
+           <a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">Github</a>
+        </li>
+        <li>
+          <a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">Flux Atom
+          </a>
+        </li>
+        <li class="nav-header" style="color:black">Faites un don!</li>
+
+        <li class="nav-header">
            <a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank">
              <img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
            </a>
@@ -143,7 +142,6 @@
   <footer id="footer" class="span12 offset1">
    <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
 
-  <div class="inner">
     <%block name="footer">
     <div class="links">
       <ul>
@@ -152,10 +150,11 @@
         <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
         <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
       </ul>
-      <div style="clear:both"/>
+
      </div>
+
+      <div style="clear:both"/>
     </%block>
-  </div>
   </footer>
 
 </div> <!-- end container -->
