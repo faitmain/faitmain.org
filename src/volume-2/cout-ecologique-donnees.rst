@@ -2,7 +2,7 @@ Le coût écologique de vos données
 =================================
 
 :date: 2013-05-01
-:category: ecologie
+:category: écologie,autre
 :level: decouverte
 :author: David Larlet
 
