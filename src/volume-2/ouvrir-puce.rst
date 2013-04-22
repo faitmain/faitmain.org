@@ -2,7 +2,7 @@ Comment ouvrir une puce ?
 =========================
 
 :date: 2013-05-01
-:category: autre
+:category: électronique,autre
 :level: insolite
 :author: Zeptobars
 :translator: Tarek Ziadé
@@ -82,7 +82,7 @@ Regardons de plus prêt
 .. note::
 
    Les images ci-dessous peuvent être cliquées pour afficher une image haute résolution.
-   Attention, les images haute résolution pèsent entre 5 et 25Mb.
+   Attention, les images en haute résolution pèsent entre 5 et 25Mb.
 
    Les couleurs ont été saturées pour mieux visualiser les circuits.
 
@@ -182,7 +182,7 @@ Regardons de plus prêt
 
 
 .. figure:: puce/mifare.jpg
-   :target: http://s.zeptobars.ru/myfare-HD.jpg
+   :target: http://s.zeptobars.ru/mifare-HD.jpg
 
    Puce MIFARE, utilisée dans les carte RFID du métro de Moscou.
 

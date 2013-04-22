@@ -2,10 +2,9 @@ Passer un projet sur batterie
 =============================
 
 :date: 2013-05-01
-:category: electronique
+:category: électronique
 :level: debutant
 :author: Jonathan Schemoul
-
 
 
 Vous venez de finir votre projet, il est tout beau, tout propre.
@@ -13,7 +12,7 @@ Oui, mais est-il transportable ? S'il y a une coupure de courant, que se passe-t
 
 Il existe plusieurs solutions pour mettre un projet sur batterie :
 
-- Utiliser des bêtes piles, on a plusieurs réceptacles pour cela... mais la
+- Utiliser de bêtes piles, on a plusieurs réceptacles pour cela... mais la
   recharge doit être séparée ou les piles changées régulièrement. Pas génial.
 - Utiliser une pile 12V de voiture ou d'onduleur, lourd et pas forcément efficace.
 
@@ -22,7 +21,7 @@ Il existe plusieurs solutions pour mettre un projet sur batterie :
 
 Dans le cas d'une solution à base de li-poly, il y a plusieurs choses à prendre
 en compte : la batterie en elle-même (combien allons-nous consommer), le module
-de charge en lui-même (combien allons nous consommer en pic) et la recharge
+de charge (combien allons nous consommer en pic) et la recharge
 (usb ? énergie solaire ? eau qui coule ? roue de vélo ? etc.)
 
 Quelle batterie ?
@@ -33,11 +32,11 @@ Quelle batterie ?
    Batteries 3.7v à 1000, 2000 et 6000 mAh
 
 Supposons que nous ayons un projet avec un Arduino Uno, quelques senseurs, une ou
-deux leds et une carte SD, ça nous fait pas beaucoup d'énergie au final (5V
-200mA environ). Si on veut être alimenté tout le temps sauf de temps en temps
+deux leds et une carte SD, ça ne nous fait pas beaucoup d'énergie au final (5V
+200mA environ). Si on veut être alimenté tout le temps, sauf de temps en temps,
 et continuer à marcher lorsque l'on est débranché (continuer en cas de coupure
 de courant), on pourra prendre une petite batterie 1000mAh. Pour tenir un petit
-moment une batterie 2000mAh (en 3.7v, ça équivaut à environ 1500mAh en 5v soit
+moment une batterie 2000mAh (en 3.7v, cela équivaut à environ 1500mAh en 5v soit
 7h30 environ).
 
 Si l'on veut tenir plus longtemps ou que notre projet consomme plus (utilisant
@@ -63,7 +62,7 @@ générique.
 Pour cela, on en a choisi deux.
 
 La carte LiPo Rider est un bon choix car elle permet de brancher n'importe
-quel périphérique en usb et l'alimenter à partir de la batterie. Dès que vous
+quel périphérique en usb et de l'alimenter à partir de la batterie. Dès que vous
 branchez le lipo rider à l'ordinateur, vous accédez de façon transparente au
 device alimenté (votre arduino pour l'exemple précédent, et ainsi le programmer
 pendant que vous le chargez) tout en rechargeant la batterie. L'autre avantage

@@ -6,6 +6,7 @@ Faire de la peinture sans support et sans tâche, avec de la lumière
 :level: facile
 :author: Fabien Batteix
 
+
 C'est un fait tout le monde aiment les spectacles de son et lumière, qu'on soit
 petit ou grand. Alors si comme moi vous aimez bricoler, photographier et
 programmer l'article qui suit devrait vous intéresser ;)
@@ -316,4 +317,11 @@ Après
 toute cette lecture il est grand temps de prendre un peu de repos devant
 quelques belles photos vous ne trouvez pas ?
 
-– PHOTO : todo
+.. figure:: light/cat.jpg
+
+   Nyancat en light painting.
+
+
+.. figure:: light/logo.JPG
+
+   Logo de Fait Main en light painting.

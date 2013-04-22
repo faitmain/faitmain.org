@@ -5,9 +5,7 @@
 <%block name="first_h1"> 
 </%block>
 
-<img class="row-fluid centered" src="${config['cnd']}/media/${category}_banner.jpg"/>
-
-<br/><br/>
+<h1>${category.capitalize()}</h1>
 
 %if paths:
  <p>Tous les articles sur ce sujet:</p>
