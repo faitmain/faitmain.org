@@ -17,7 +17,7 @@ sujets, que ce soit dans les locaux de FabLabs ou dans le cadre de conférences,
 hack days ou petits ateliers.
 
 La tout réçente association `Open Bidouille Camp <http://openbidouille.net/>`_
-organise depuis quelques temps des ateliers de bidouilles et commence à construire
+ (*OBC*) organise depuis quelques temps des ateliers de bidouilles et commence à construire
 un réseau de bidouilleurs parout en France.
 
 Sabine Blanc est l'une des principales porteuses du projet *OBC*, et aussi
@@ -32,9 +32,9 @@ ses projets et pleins d'autres sujets.
 
 **Quel est ton parcours/ta formation initiale ?**
 
-DEA de littérature comparée, puis école de journalisme, bref une caricature de
-l'école française : passés le collège et la fin des cours d'arts plastiques, des
-rédactions d'imagination tout est dans la tête rien dans les mains, assèchement de
+DEA de littérature comparée puis une école de journalisme, une caricature de
+l'école française... Passés le collège et la fin des cours d'arts plastiques, que des
+rédactions d'imagination: "tout est dans la tête rien dans les mains". Bref un assèchement de
 la créativité.
 
 D'où peut-être ma fascination pour le DIY et les hackers.
