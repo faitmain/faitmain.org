@@ -199,7 +199,9 @@ les vis en face des trous.
 .. figure:: table_basse/plateau_et_pieds_w600.jpg
    :scale: 50
 
-	*Astuce :* faire dépasser les vis au centre du plateau plus que celles sur les bords, cela permet de soulever un coin du plateau sans déboîter le centre.
+   *Astuce :* faire dépasser les vis au centre du plateau plus que celles sur
+   les bords, cela permet de soulever un coin du plateau sans déboîter le
+   centre.
 
 On peut ajouter des petites cales au besoin, comme des patins de chaise en
 feutre, pour éviter les jeux dûs aux usinages et assemblages approximatifs.
