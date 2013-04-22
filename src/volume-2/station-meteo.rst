@@ -474,7 +474,7 @@ générique est la récupération automatiaue de l'altitude
 `en fonction de l'addresse IP <https://fr.wikipedia.org/wiki/G%C3%A9olocalisation#G.C3.A9olocalisation_par_adresse_IP_.28sur_internet.29>`_,
 en utilisant une base de données de Géolocalisation.
 
-Il en existe plusieurs, la plus connue étant celle de `MaxMind <www.maxmind.com>`_.
+Il en existe plusieurs, la plus connue étant celle de `MaxMind <http://www.maxmind.com>`_.
 
 
 Limites & Evolutions
