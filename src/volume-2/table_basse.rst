@@ -134,10 +134,12 @@ l'empêcher de pivoter. Au final, je n'ai pas trouvé de cheville de récup', ma
 ça tient bien quand même comme ça !
 
 .. figure:: table_basse/Plans_table_basse-assemblage_contrefort_w600.jpg
+   :scale: 70
 
    Pré-trous.
 
 .. figure:: table_basse/Plans_table_basse-assemblage_contrefort2_w600.jpg
+   :scale: 50
 
    Assemblage.
 
@@ -149,6 +151,7 @@ et d'autre (traits noirs) pour figer le bas. Elles sont complétées par une
 troisième vis plus longue passée par le côté.
 
 .. figure:: table_basse/Plans_table_basse-assemblage_pieds_fixes_w600.jpg
+   :scale: 50
 
    Bidouille mais assez esthétique finalement.
 
@@ -161,6 +164,7 @@ au magasin de bricolage du coin, du coup j'ai utilisé des petites équerres
 Du coup, c'est pas très symétrique, elle ne sera pas parfaite une fois pliée !
 
 .. figure:: table_basse/Equerres_w600.jpg
+   :scale: 50
 
    Equerres
 
@@ -171,6 +175,7 @@ passer dans les trous des équerres. C'est pas très beau dans le principe, mais
 ça marche !
 
 .. figure:: table_basse/Axes_w600.jpg
+   :scale: 50
 
    Pieds sur l'axe des équerres
 
@@ -183,6 +188,7 @@ fixe, de part et d'autre de la séparation, puis un sur chaque contre-fort des
 pieds pivotants.
 
 .. figure:: table_basse/Trous_w600.jpg
+   :scale: 50
 
    Pieds sur l'axe des équerres
 
@@ -191,6 +197,7 @@ plateau, puis le centre. Placer les pieds à l'envers sur la table, positionner
 les vis en face des trous.
 
 .. figure:: table_basse/plateau_et_pieds_w600.jpg
+   :scale: 50
 
 	*Astuce :* faire dépasser les vis au centre du plateau plus que celles sur les bords, cela permet de soulever un coin du plateau sans déboîter le centre.
 
