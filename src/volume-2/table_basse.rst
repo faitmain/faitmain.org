@@ -113,6 +113,7 @@ bien, c'est plus facile à mesurer !
 Et donc voici les découpes :
 
 .. figure:: table_basse/Plans_table_basse-pieds_fixes_w600.jpg
+   :scale: 50
 
    Découpe pour les 2 pieds fixes
 
@@ -134,9 +135,10 @@ l'empêcher de pivoter. Au final, je n'ai pas trouvé de cheville de récup', ma
 ça tient bien quand même comme ça !
 
 .. figure:: table_basse/Plans_table_basse-assemblage_contrefort_w600.jpg
-   :scale: 70
+   :scale: 50
 
    Pré-trous.
+
 
 .. figure:: table_basse/Plans_table_basse-assemblage_contrefort2_w600.jpg
    :scale: 50
@@ -183,7 +185,9 @@ passer dans les trous des équerres. C'est pas très beau dans le principe, mais
 *Plateau*
 
 Le plateau est aussi de récupération, poncé (il en avait bien besoin !!) puis
-vitrifié. Commencer par faire les trous sur les pieds : 2 au centre de l'axe
+vitrifié. 
+
+Commencer par faire les trous sur les pieds : 2 au centre de l'axe
 fixe, de part et d'autre de la séparation, puis un sur chaque contre-fort des
 pieds pivotants.
 
