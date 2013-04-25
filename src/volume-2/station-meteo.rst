@@ -71,7 +71,7 @@ qui centralise toutes les informations envoyées par des particuliers
 pour fournir une carte météo assez précise.
 
 Wunderground reste un projet commercial, et je n'ai pas trouvé de projet
-libre basé sur un protocol ouvert (je cherche encore..) c'est dommage
+libre basé sur un protocole ouvert (je cherche encore..) c'est dommage
 
 Les stations du commerce de toute façon sont en général basées sur
 des protocoles et/ou des logiciels propriétaires. Quand on connaît
@@ -109,35 +109,38 @@ entre les stations clef-en-main et les senseurs de base: ce sont de
 petites boards USB plug'n'play qui peuvent être pilotées très
 simplement depuis n'importe quel ordinateur.
 
-Le fabriquant fournit une librairie dans `plusieurs languages <http://www.yoctopuce.com/EN/libraries.php>`_
+Aucun driver n'est nécessaire, et le fabriquant fournit une librairie 
+dans `plusieurs languages <http://www.yoctopuce.com/EN/libraries.php>`_
 et une documentation exhaustive des API.
 
+Le code source des librairies est livré sous une license BSD-like
+avec une restriction sur une utilisation exclusive sur le matériel
+Yoctopuce. Le firmware est quant à lui propriétaire.
+
+----
+
 La puce Yocto-Meteo fournit les trois senseurs de base qui nous
-interessent, à savoir la température, l'humidité et la pression.
+intéressent, à savoir la température, l'humidité et la pression.
 
 .. figure:: station/yoctopuces.jpg
 
    Les puce Yocto-Meteo, Yocto-Light & le mini-hub USB
 
 
-Le seul défaut de cette board est de ne pas fournir un altimètre,
-du coup les valeurs de pression fournies qui sont relatives au niveau de
-la mer doivent être corrigées en fonction de l'altitude du lieu
-- qu'il faut connaitre
+Les valeures de pression fournies sont relatives au niveau de la mer.
+Elles doivent donc être ajustées en fonction de l'altitude à laquelle
+on se trouve. Il faut donc connaître son altitude, ce qui n'est 
+pas forcément toujours évident.
 
-.. figure:: station/formule.png
-   :scale: 25
-   :figclass: pull-right margin-left
-   :align: right
-
-   Formule du nivellement barométrique.
-
-Mais ce problème peut être contourné en géolocalisant la station
-météo via internet et retrouver l'altitude via des bases de données.
+Une solution élégante consiste à géolocaliser la station
+météo via internet et retrouver l'altitude via des bases de données
+de géolocalisation open source. Mais laissons ce problème
+de côté pour l'instant.
 
 Après quelques échanges avec la sympatique équipe suisse de Yoctopuce,
 je les ais convaincus en bon Pythonneur qu'il fallait absolument
-que la librairie soit accessible sur le Python Package Index (PyPI)
+que la librairie soit accessible sur le 
+`Python Package Index (PyPI) <https://pypi.python.org/pypi>`_
 pour que les projets Python autour de ce matériel puissent très
 facilement installer la librairie dans l'environnement d'exécution.
 
@@ -238,7 +241,7 @@ Yoctopuce est définie par un objet **module** qui possède
 un numéro de série correspondant à celui du matériel.
 
 Une fois ce numéro obtenu, **METEOMK1-0A918** dans mon cas,
-les API Yoctopuce fournissent des classes pour récuperer
+les API Yoctopuce fournissent des classes pour récupérer
 la valeur en cours du senseur:
 
 .. code-block:: python
@@ -286,19 +289,27 @@ qui permet d'indexer des données en continu et qui fournit une interface
 `REST <https://fr.wikipedia.org/wiki/Rest>`_ pour faire des recherches,
 
 Les performances d'Elastic Search sont assez bluffantes. Ce système est par
-exemple utilisé par FourSquare pour son moteur de recherche de lieux qui
+exemple utilisé par `FourSquare <https://foursquare.com/>`_ 
+pour son moteur de recherche de lieux qui
 compte plus de 50 millions d'entrées.
 
 Ce qui est intéressant pour un projet comme Grenouille est qu'Elastic Search
-permet de faire des recherches par *facettes* et d'aggréger les données
-par minute, heure, jour, semaine, mois ou année. Autrement dit, en stockant
-continuellement les relevés de température, pression
-et humidité dans cette base, il est possible de faire des requêtes pour
+permet de faire des recherches par 
+`facettes <http://www.elasticsearch.org/guide/reference/api/search/facets/>`_.
+Les facettes permettent de faire des recherches puis d'aggréger les 
+occurences de résultats en fonction d'un ou plusieurs champs pour avoir
+par exemple une moyenne. Dans notre cas par minute, heure, jour, semaine, 
+mois ou année. Cette fonctionnalité est un peu équivalente à un 
+*SELECT AVG(TEMPERATURE) GROUP BY HOUR* en sql.
+
+En stockant continuellement les relevés de température, pression
+et humidité dans cette base, il devient donc possible de faire des requêtes pour
 récupérer toute sort de *séries temporelles*.
 
 Elastic Search offre aussi le support de `CORS <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_
 (Cross-origin resource sharing) qui permet de construire une application
-Javascript qui va faire directement des requêtes sur le moteur.
+Javascript qui va faire directement des requêtes sur le moteur même si
+ce dernier n'est pas sur le même domaine.
 
 L'interface web de Grenouille n'est donc pas une application web
 qui s'exécute coté serveur, mais du code Javascript qui se charge
@@ -317,6 +328,7 @@ open source.
 
    Rickshaw en action
 
+
 Pour résumer, RickShaw permet de faire de *jolis* diagrammes en temps
 réel sans difficultés.
 
@@ -325,7 +337,7 @@ Fonctionnement de Grenouille
 
 Grenouille est organisé en deux parties:
 
-1. un script Python qui interroge la sonde et qui index le résultat dans
+1. un script Python qui interroge la sonde et qui indexe le résultat dans
    ElastiSearch.
 
 2. Une application Javascript qui interroge ElasticSearch et affiche
@@ -413,7 +425,7 @@ la temperature par heure pour le 1 mai 2013:
       console.log(data);
       series[0].data = data;
       chart.render();
-    },
+    }
 
 
 
@@ -425,15 +437,16 @@ Passer tout le système sur le Raspberry-PI est très simple. Je l'ai configuré
 comme pour `le projet de JukeBox <http://faitmain.org/volume-1/raspberry-jukebox.html>`_
 du mois dernier, puis j'ai installé Java.
 
-Oracle fourni une version spéciale embarqué et un `guide <http://www.oracle.com/technetwork/articles/java/raspberrypi-1704896.html>`_ d'installation.
+Oracle fourni une version spéciale embarqué et un 
+`guide <http://www.oracle.com/technetwork/articles/java/raspberrypi-1704896.html>`_ d'installation.
 
 Un peu refroidi par le besoin de donner mes infos personnelles pour
-récupérer le logiciel, j'ai décidé d'utiliser le paquet *OpenJDK* disponible
-dans les repositories de Raspbian. *OpenJDK* fait tourner ElasticSearch sans
+récupérer le logiciel, j'ai décidé d'utiliser le paquet `OpenJDK <http://openjdk.java.net/>`_ 
+disponible dans les repositories de Raspbian. *OpenJDK* fait tourner ElasticSearch sans
 erreurs, mais il est un peu plus lent.
 
-Enfin, j'ai déployé un server NGinx qui se contente d'afficher la page
-html statique qui contient les diagrammes Javascript.
+Enfin, j'ai déployé un server `NGinx <http://nginx.org/>`_ qui se contente d'afficher la 
+page html statique qui contient les diagrammes Javascript.
 
 Pour le reste de l'installation je fournis
 un `Makefile <https://github.com/tarekziade/grenouille/blob/master/Makefile>`_
@@ -456,7 +469,7 @@ Extraits:
 
 
 
-Une fois ElasticSearch et le script Python lancé sur le Raspberry-PI, les
+Une fois ElasticSearch et le script Python lancé sur le Raspberry-Pi, les
 diagrammes vont commencer à se remplir.
 
 
@@ -487,21 +500,22 @@ Yocto-Meteo est la consommation d'énergie. L'USB est un port très gourmand en
 tienne le coup toute la nuit - je n'ai tenu que quelques heures...
 
 Les puces Yoctopuce peuvent être coupées en deux afin de déporter les sondes
-du port USB de quelques mètres, mais ca ne résoud rien dans mon cas car le
-jardin est loin de la première prise de courant.
+du port USB de quelques dizaines, voir centaines de mètre, mais ça n'enlève pas
+la dépendance à une source d'énergie fixe.
 
 Une évolution possible pour limiter la consommation serait de déporter la
 base ElasticSearch sur un ordinateur dans la maison ou sur internet, et
 de suspendre les ports USB pour ne les utiliser que toutes les 15 minutes
 pour la récupération des valeurs.
 
-En tout cas pour une application indoor du genre surveillance de datacenter
-cette board est parfaite puisqu'il suffit de la brancher à un ordinateur
-qui traîne, et hop.
-
 Pour ma station météo, je reste quand même sur l'objectif de créér un
 système autonome en énergie, qui puisse être interrogé sans fil -
-donc la prochaine version de la station sera certainement faite avec
+donc la prochaine version de la station sera peut être réalisée avec
 du matériel plus low-level. Donc peut être un Arduino, une puce radio
 433mhz et une base déportée...
+
+Dans tout les cas, pour une application indoor ou proche de la maison,
+cette board est très simple à mettre en oeuvre et parfaite pour mettre 
+rapidement en place un projet sans avoir à jouer du fer à souder.
+
 
