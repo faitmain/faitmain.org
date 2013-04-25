@@ -17,11 +17,11 @@ contacté par `Yoctopuce <http://yoctopuce.com>`_ qui
 m'a proposé de tester son matériel dans un article.
 
 Ca tombait plutôt bien puisque dans la (volumineuse) pile
-des projets en attente de réalisation il y a avait la conception
+des projets en attente de réalisation il y a la conception
 d'une station météo.
 
 Publier les courbes de température, pression atmosphérique
-et humidité de mon jardin en Bourgogne, ne vont intéresser que
+et humidité de mon jardin en Bourgogne, ne va intéresser que
 ma mère qui vient de temps en temps jardiner chez moi.
 Mais d'un point de vue réalisation technique c'est un projet
 intéressant à conçevoir, surtout du coté logiciel.
@@ -36,7 +36,7 @@ Station météo
 
 Une station météo est composée d'une ensemble de senseurs qui
 relèvent des informations comme la température, la pression
-atmosphérique ou encore l'humidité et les transmettent à un
+atmosphérique ou encore l'humidité, et les transmettent à un
 afficheur ou à un autre périphérique de traitement.
 
 Les stations météos vendues dans le commerce sont en générale des boîtes
@@ -88,7 +88,7 @@ le prix des senseurs seuls, c'est assez rageant.
 
 Dans l'idéal, on peut fabriquer soi-même sa station météo complète en
 achetant les senseurs séparément et en fabriquant une board connectée
-à un Arduino ou un Raspberry-PI.
+à un Arduino ou un Raspberry-Pi.
 
 En feuilletant le catalogue Sparkfun, on trouve tous les senseurs
 nécessaires montés sur des petites breakout boards, comme le
@@ -109,7 +109,7 @@ entre les stations clef-en-main et les senseurs de base: ce sont de
 petites boards USB plug'n'play qui peuvent être pilotées très
 simplement depuis n'importe quel ordinateur.
 
-Aucun driver n'est nécessaire, et le fabriquant fournit une librairie 
+Aucun driver n'est nécessaire, et le fabriquant fournit une librairie
 dans `plusieurs languages <http://www.yoctopuce.com/EN/libraries.php>`_
 et une documentation exhaustive des API.
 
@@ -117,9 +117,8 @@ Le code source des librairies est livré sous une license BSD-like
 avec une restriction sur une utilisation exclusive sur le matériel
 Yoctopuce. Le firmware est quant à lui propriétaire.
 
-----
-
-La puce Yocto-Meteo fournit les trois senseurs de base qui nous
+La puce `Yocto-Meteo <http://www.yoctopuce.com/FR/products/usb-sensors/yocto-meteo>`_
+fournit les trois senseurs de base qui nous
 intéressent, à savoir la température, l'humidité et la pression.
 
 .. figure:: station/yoctopuces.jpg
@@ -129,7 +128,7 @@ intéressent, à savoir la température, l'humidité et la pression.
 
 Les valeures de pression fournies sont relatives au niveau de la mer.
 Elles doivent donc être ajustées en fonction de l'altitude à laquelle
-on se trouve. Il faut donc connaître son altitude, ce qui n'est 
+on se trouve. Il faut donc connaître son altitude, ce qui n'est
 pas forcément toujours évident.
 
 Une solution élégante consiste à géolocaliser la station
@@ -139,7 +138,7 @@ de côté pour l'instant.
 
 Après quelques échanges avec la sympatique équipe suisse de Yoctopuce,
 je les ais convaincus en bon Pythonneur qu'il fallait absolument
-que la librairie soit accessible sur le 
+que la librairie soit accessible sur le
 `Python Package Index (PyPI) <https://pypi.python.org/pypi>`_
 pour que les projets Python autour de ce matériel puissent très
 facilement installer la librairie dans l'environnement d'exécution.
@@ -258,7 +257,7 @@ la valeur en cours du senseur:
 
 Enfin, pour corriger la valeur de la pression, il convient
 d'appliquer la `formule du nivellement barométrique <https://fr.wikipedia.org/wiki/Formule_du_nivellement_barom%C3%A9trique>`_
-sur la valeur renvoyé par la sonde.
+sur la valeur renvoyée par la sonde.
 
 Traduite en Python, la formule donne:
 
@@ -278,7 +277,7 @@ Le projet Grenouille
 ::::::::::::::::::::
 
 Ce n'est pas un nom très original mais je n'ai pas trouvé mieux. Le
-projet **Grenouille** utilise la sonde Yocto Meteo pour remplir une
+projet **Grenouille** utilise la sonde Yocto-Meteo pour remplir une
 base de données qui sert ensuite à afficher les informations dans
 des séries temporelles.
 
@@ -289,27 +288,27 @@ qui permet d'indexer des données en continu et qui fournit une interface
 `REST <https://fr.wikipedia.org/wiki/Rest>`_ pour faire des recherches,
 
 Les performances d'Elastic Search sont assez bluffantes. Ce système est par
-exemple utilisé par `FourSquare <https://foursquare.com/>`_ 
+exemple utilisé par `FourSquare <https://foursquare.com/>`_
 pour son moteur de recherche de lieux qui
 compte plus de 50 millions d'entrées.
 
 Ce qui est intéressant pour un projet comme Grenouille est qu'Elastic Search
-permet de faire des recherches par 
+permet de faire des recherches par
 `facettes <http://www.elasticsearch.org/guide/reference/api/search/facets/>`_.
-Les facettes permettent de faire des recherches puis d'aggréger les 
+Les facettes permettent de faire des recherches puis d'aggréger les
 occurences de résultats en fonction d'un ou plusieurs champs pour avoir
-par exemple une moyenne. Dans notre cas par minute, heure, jour, semaine, 
-mois ou année. Cette fonctionnalité est un peu équivalente à un 
+par exemple une moyenne. Dans notre cas par minute, heure, jour, semaine,
+mois ou année. Cette fonctionnalité est un peu équivalente à un
 *SELECT AVG(TEMPERATURE) GROUP BY HOUR* en sql.
 
 En stockant continuellement les relevés de température, pression
 et humidité dans cette base, il devient donc possible de faire des requêtes pour
-récupérer toute sort de *séries temporelles*.
+récupérer toute sorte de *séries temporelles*.
 
 Elastic Search offre aussi le support de `CORS <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_
 (Cross-origin resource sharing) qui permet de construire une application
 Javascript qui va faire directement des requêtes sur le moteur même si
-ce dernier n'est pas sur le même domaine.
+ce dernier n'est pas déployé sur le même nom de domaine.
 
 L'interface web de Grenouille n'est donc pas une application web
 qui s'exécute coté serveur, mais du code Javascript qui se charge
@@ -377,7 +376,7 @@ pas la détailler ici.
 
 La partie la plus intéressante est la fonction qui envoie une requête
 au serveur ElasticSearch, En voici un extrait qui permet d'afficher
-la temperature par heure pour le 1 mai 2013:
+la temperature par heure pour le 1 et 2 mai 2013:
 
 .. code-block:: javascript
 
@@ -393,7 +392,7 @@ la temperature par heure pour le 1 mai 2013:
                 "interval": "hour"},
                 "facet_filter": {
                           "range": {"date": {"gte": "2013/05/01",
-                                             "lte": end_date_str}
+                                             "lte": "2013/05/02"}
                           }
                 }
             }
@@ -433,19 +432,19 @@ la temperature par heure pour le 1 mai 2013:
 Raspberry-PI
 ::::::::::::
 
-Passer tout le système sur le Raspberry-PI est très simple. Je l'ai configuré
+Passer tout le système sur le Raspberry-Pi est très simple. Je l'ai configuré
 comme pour `le projet de JukeBox <http://faitmain.org/volume-1/raspberry-jukebox.html>`_
 du mois dernier, puis j'ai installé Java.
 
-Oracle fourni une version spéciale embarqué et un 
+Oracle fourni une version spéciale embarqué et un
 `guide <http://www.oracle.com/technetwork/articles/java/raspberrypi-1704896.html>`_ d'installation.
 
 Un peu refroidi par le besoin de donner mes infos personnelles pour
-récupérer le logiciel, j'ai décidé d'utiliser le paquet `OpenJDK <http://openjdk.java.net/>`_ 
+récupérer le logiciel, j'ai décidé d'utiliser le paquet `OpenJDK <http://openjdk.java.net/>`_
 disponible dans les repositories de Raspbian. *OpenJDK* fait tourner ElasticSearch sans
 erreurs, mais il est un peu plus lent.
 
-Enfin, j'ai déployé un server `NGinx <http://nginx.org/>`_ qui se contente d'afficher la 
+Enfin, j'ai déployé un server `NGinx <http://nginx.org/>`_ qui se contente d'afficher la
 page html statique qui contient les diagrammes Javascript.
 
 Pour le reste de l'installation je fournis
@@ -478,11 +477,11 @@ diagrammes vont commencer à se remplir.
    Grenouilles en action
 
 
-Et voila une première version d'une station météo tournant sur une Raspberry-Pi.
+Et voila une première version d'une station météo tournant sur un Raspberry-Pi!
 
 Tout le code source décrit dans cet article est disponible ici: https://github.com/tarekziade/grenouille
 
-La fonctionnalité que je n'ai pas encore ajoutées pour rendre le code plus
+La fonctionnalité que je n'ai pas encore ajoutée pour rendre le code plus
 générique est la récupération automatiaue de l'altitude
 `en fonction de l'addresse IP <https://fr.wikipedia.org/wiki/G%C3%A9olocalisation#G.C3.A9olocalisation_par_adresse_IP_.28sur_internet.29>`_,
 en utilisant une base de données de Géolocalisation.
@@ -508,6 +507,9 @@ base ElasticSearch sur un ordinateur dans la maison ou sur internet, et
 de suspendre les ports USB pour ne les utiliser que toutes les 15 minutes
 pour la récupération des valeurs.
 
+Jonathan a écrit un article très intéressant à ce sujet dans ce numéro:
+`Passer un projet sur batterie </volume-2/batterie.html>`_
+
 Pour ma station météo, je reste quand même sur l'objectif de créér un
 système autonome en énergie, qui puisse être interrogé sans fil -
 donc la prochaine version de la station sera peut être réalisée avec
@@ -515,7 +517,7 @@ du matériel plus low-level. Donc peut être un Arduino, une puce radio
 433mhz et une base déportée...
 
 Dans tout les cas, pour une application indoor ou proche de la maison,
-cette board est très simple à mettre en oeuvre et parfaite pour mettre 
+cette board est très simple à mettre en oeuvre et parfaite pour mettre
 rapidement en place un projet sans avoir à jouer du fer à souder.
 
 
