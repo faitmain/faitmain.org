@@ -130,6 +130,10 @@
              <img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
            </a>
         </li>
+        <li class="nav-header" style="color:black">
+           <a href="/partenariat.html">Devenez partenaire</a>
+        </li>
+
 </ul>
 
      </div>
