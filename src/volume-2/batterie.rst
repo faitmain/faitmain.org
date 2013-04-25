@@ -6,6 +6,11 @@ Passer un projet sur batterie
 :level: debutant
 :author: Jonathan Schemoul
 
+.. note::
+
+   Article élaboré en partenariat avec Hackspark.fr.
+   Voir la page `partenariats </partenariat.html>`_ pour plus de
+   détails.
 
 Vous venez de finir votre projet, il est tout beau, tout propre.
 Oui, mais est-il transportable ? S'il y a une coupure de courant, que se passe-t-il ?

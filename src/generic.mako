@@ -131,7 +131,7 @@
            </a>
         </li>
         <li class="nav-header" style="color:black">
-           <a href="/partenariat.html">Devenez partenaire</a>
+           <a href="${config['siteurl']}/partenariat.html">Devenez partenaire</a>
         </li>
 
 </ul>
