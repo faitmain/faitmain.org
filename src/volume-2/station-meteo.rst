@@ -482,7 +482,7 @@ Et voila une première version d'une station météo tournant sur un Raspberry-P
 Tout le code source décrit dans cet article est disponible ici: https://github.com/tarekziade/grenouille
 
 La fonctionnalité que je n'ai pas encore ajoutée pour rendre le code plus
-générique est la récupération automatiaue de l'altitude
+générique est la récupération automatique de l'altitude
 `en fonction de l'addresse IP <https://fr.wikipedia.org/wiki/G%C3%A9olocalisation#G.C3.A9olocalisation_par_adresse_IP_.28sur_internet.29>`_,
 en utilisant une base de données de Géolocalisation.
 
