@@ -29,24 +29,23 @@ La sérigraphie se passe en trois temps:
 L'écran est enduit avec une émulsion photosensible, c'est ce produit qui après
 séchage et insolation deviendra le pochoir de notre T-shirt.
 
-.. figure:: serigraphie/nettoyage-ecran.jpg
-
-   Nettoyage de l'écran
-
 Nettoyer, l'écran avec un dégraissant ménager, rincer, laisser sécher.
 
-.. figure:: serigraphie/materiel.jpg
+.. figure:: serigraphie/nettoyage-ecran.jpg
+   :scale: 50
 
-   Matériel
-
+   Nettoyage de l'écran
 
 Pour l'enduction, il faut une racle à enduction et de l'émulsion
 photo-sensible. Mettre le produit dans la racle, ne pas avoir peur d'en mettre
 trop, on pourra remettre le surplus dans le pot.
 
-.. figure:: serigraphie/enduction.jpg
 
-   Étalage de l'enduction.
++----------------------------------------------+----------------------------------------+
+| .. figure:: serigraphie/materiel.jpg         | .. figure:: serigraphie/enduction.jpg  |
++----------------------------------------------+----------------------------------------+
+|   Matériel                                   |    Étalage de l'enduction.             |
++----------------------------------------------+----------------------------------------+
 
 
 Tenir l'écran verticalement et faire glisser la racle contre l'écran pour
@@ -87,6 +86,10 @@ en moyenne.
 
 Rincer à l'eau des deux côtés, l'émulsion part aux endroits où se trouvait le
 dessin. Laisser sécher à la lumière.
+
+.. figure:: serigraphie/nettoyage.jpg
+
+   Rinçage.
 
 
 3. Impression
