@@ -1,14 +1,14 @@
-Partenariats avec Faitmain
-==========================
+Partenariats avec Fait Main
+===========================
 
 Vous êtes constructeur de matériel susceptible d'être présentés dans le
-magazine Faitmain ?
+magazine Fait Main ?
 
 Vous pouvez devenir partenaire permanent ou ponctuel et fournir du matériel aux
 auteurs pour le test de matériel et l'écriture d'articles, en
 échange d'une bannière et de liens sur l'article.
 
-Vous êtes auteur ? Grâce à FaitMain vous pourrez peut être récupérer du matériel
+Vous êtes auteur ? Grâce à Fait Main vous pourrez peut être récupérer du matériel
 à tester. 
 
 Contactez tarek@faitmain.org.
