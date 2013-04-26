@@ -1,7 +1,7 @@
 Zeptobars
 =========
 
-ZeptoBars est une companie de R7D Russe qui se concentre dans le
+ZeptoBars est une companie de R&D Russe qui se concentre dans le
 domaine de la micro-électtonique.
 
 Nous fabriquons notre propre microcontrolleur, son implémentation

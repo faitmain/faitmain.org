@@ -19,7 +19,7 @@ Station météo USB
    détails.
 
 Après la sortie du premier numéro de FaitMain, j'ai été
-contacté par `Yoctopuce <http://yoctopuce.com>`_ qui
+contacté par `Yoctopuce <http://yoctopuce.com>`__ qui
 m'a proposé de tester son matériel dans un article.
 
 Ca tombait plutôt bien puisque dans la (volumineuse) pile
@@ -110,7 +110,7 @@ d'intégration pour construire sa station météo.
 Les puces Yoctopuce
 :::::::::::::::::::
 
-Les puces `Yoctopuce <http://www.yoctopuce.com/>`_ sont un bon compromis
+Les puces `Yoctopuce <http://www.yoctopuce.com/>`__ sont un bon compromis
 entre les stations clef-en-main et les senseurs de base: ce sont de
 petites boards USB plug'n'play qui peuvent être pilotées très
 simplement depuis n'importe quel ordinateur.
