@@ -21,12 +21,34 @@ Yourself), en mode atelier.
 Le *Toulouse Hacker Space Factory* c'est une semaine de conférences,
 ateliers, concerts et encore plus - autour du hacking.
 
-* Lieu Toulouse
+* Lieu: Toulouse
 * Site: http://thsf.tetalab.org/2013/
 
 
 Juin 2013
 :::::::::
+
+16 Juin
+-------
+
+Le Loop présente le POOP : Portes Ouvertes … Ou Pas. 
+Un festival de hack en mode tambouille au Loop.
+
+
+* Lieu: Le Loop à Paris
+* Site: http://wiki.leloop.org/index.php/POOP
+
+
+20 au 23 Juin
+-------------
+
+Comme chaque année depuis maintenant 5ans, PSES va vous proposer un cycle de
+conférences, de talks, de rencontres, avec des bidouilleurs, des "gens du
+réseau", des artistes, des hacktivistes, des entrepreneurs, des journalistes,
+des curieux.
+
+* Lieu: La Cantine à Paris
+* Site: http://www.passageenseine.org/Passage/pses-2013
 
 22 et 23 Juin
 -------------
