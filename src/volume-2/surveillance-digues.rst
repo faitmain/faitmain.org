@@ -2,7 +2,7 @@ Mapping levees and their stability using the interwebs
 ======================================================
 
 :date: 2013-05-01
-:category: écologie|informatique|électronique
+:category: écologie,informatique,électronique
 :level: découverte
 :author: Fritz van Deventer
 :translator: Tarek Ziadé
