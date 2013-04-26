@@ -9,3 +9,6 @@ Vous recevrez un message de confirmation auquel il suffira de répondre.
 
 Les archives peuvent être consultées ici: http://librelist.com/browser/faitmain
 
+Pour vous désabonner, il suffit d'envoyer un mail à faitmain-unsubscribe@librelist.com
+avec l'addresse e-mail utilisée pour l'inscription.
+
