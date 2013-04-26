@@ -12,6 +12,12 @@ Station météo USB
    Surveillance de mon Jardin avec Yocto-Meteo & Raspberry-Pi
 
 
+.. note::
+
+   Article élaboré en partenariat avec Yoctopuce.
+   Voir la page `partenariats </partenariat.html>`_ pour plus de
+   détails.
+
 Après la sortie du premier numéro de FaitMain, j'ai été
 contacté par `Yoctopuce <http://yoctopuce.com>`_ qui
 m'a proposé de tester son matériel dans un article.
