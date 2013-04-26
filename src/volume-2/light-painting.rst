@@ -18,10 +18,12 @@ photographie, c'est une question de point de vue. Cette méthode s'appelle le
 Qu'est-ce que le « Light Painting » ?
 :::::::::::::::::::::::::::::::::::::
 
-Le light painting, qu'on pourrait traduire par « peinture de lumière » en
+Le `light painting <http://fr.wikipedia.org/wiki/Light_painting>`_,
+qu'on pourrait traduire par « peinture de lumière » en
 français est une technique de photographie consistant à réaliser une image avec
 de la lumière comme seul outil de dessin. D'un point de vue technique cela se
-résume à utiliser un appareil photo en exposition manuelle.
+résume à utiliser un appareil photo en
+`exposition manuelle <http://fr.wikipedia.org/wiki/Exposition_(photographie)>`_.
 
 Traditionnellement on prend une photo en exposition « courte », dans un
 environnement bien éclairé. Si on manque de lumière la photo sera sombre et le
@@ -132,7 +134,8 @@ vous faut :
 .. note::
 
    Pour ce projet il est obligatoire d'utiliser un ruban de leds RGB
-   bien précis : le LPD8806, vendu par Adafruit. Celui-ci a la particularité de
+   bien précis : le `LPD8806 <http://www.adafruit.com/products/306>`_,
+   vendu par `Adafruit <http://adafruit.com/>`_. Celui-ci a la particularité de
    posséder des contrôleurs de led indépendants au sein même du ruban. Il est donc
    possible de contrôler chaque led indépendamment et d'avoir un profondeur de
    couleur de 21 bits (7 bits par composante R, G et B).
@@ -281,10 +284,12 @@ plusieurs jours et des centaines de pages de texte …
 Je souhaiterai cependant détailler deux points en particulier concernant la
 gestion des fichiers bitmap et des couleurs.
 
-→ Contrairement aux idées reçu un fichier Bitmap peut être compresser !
+→ Contrairement aux idées reçu un fichier
+`Bitmap <http://fr.wikipedia.org/wiki/Windows_bitmap>`_ peut être compressé !
 
 Gérer la décompression nécessiterait l'implémentation de l'algorithme de codage
-de Huffman, très coûteux en ressources. C'est pourquoi le programme rejettera
+de `Huffman <http://fr.wikipedia.org/wiki/Codage_de_Huffman>`_,
+très coûteux en ressources. C'est pourquoi le programme rejettera
 tout fichier Bitmap compressé. De même afin de faciliter la gestion des
 couleurs celui-ci rejettera aussi tout fichier Bitmap dont les couleurs ne
 seraient pas codées sur 24 bits (3 octets).
@@ -300,7 +305,8 @@ d'un #define dans le fichier principal :
   ainsi passer de 8 bits par couleur (0 ~ 255) à 7 bits par couleur (0 ~ 127)
   soit 21 bits au total.
 
-- Correction gamma : chaque couleur est passée dans une table de correction
+- `Correction gamma <http://fr.wikipedia.org/wiki/Correction_gamma>`_ :
+  chaque couleur est passée dans une table de correction
   prenant en entrée une valeur sur 8 bits et générant en sortie une valeur sur 7
   bits suivant la courbe de réponse de l’œil humain. C'est cette deuxième
   solution qui est appliquée par défaut dans le programme, c'est celle-ci qui

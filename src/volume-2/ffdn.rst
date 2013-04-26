@@ -2,7 +2,7 @@ Comment réparer soi-même les Internets
 ======================================
 
 :date: 2013-05-01
-:category: ecologie
+:category: informatique,écologie
 :level: decouverte
 :author: Damien Nicolas
 
@@ -23,7 +23,9 @@ télévision que tout le monde regarde. Pas parce qu’il y a un seul
 contenu imposé à tous, mais parce qu’il n’y a qu’un service. La
 comparaison atteint très vite sa limite, car, bien sûr, on peut
 regarder la vidéo de son choix sur Youtube, à tout moment. Du moment
-que Youtube le veut bien, et c’est là toute l’importance. En effet,
+que Youtube le veut bien, et c’est là toute l’importance.
+
+En effet,
 et même si vous êtes l’auteur d’une vidéo que vous choisissez de
 diffuser sur cette plateforme, si elle contrevenait aux conditions
 générales d’utilisation, elle serait supprimée sans procès. Et c’est
@@ -37,6 +39,8 @@ gouvernement en place, que pouvez-vous faire ? Bien sûr, vous pouvez
 l’héberger sur Dailymotion, ou un autre service similaire. Le
 problème se pose toujours : vous dépendez d’une grosse plateforme qui
 peut à loisir décider que vous n’avez pas le droit de publier ça.
+
+----
 
 Et c’est un problème, parce que ce fonctionnement est censé être un
 vestige du passé. Ce passé où Internet n’existait pas encore, où
@@ -70,6 +74,7 @@ http://www.wordpress.com par exemple, ou de louer de l’espace sur un
 serveur et d’installer un moteur de blog libre. Ou même, installer
 un serveur web sur votre propre ordinateur, qui, sans plus de
 formalités, pourra être accessible par tout utilisateur d’Internet.
+
 D’un point de vue idéologique, cette dernière possibilité est
 idéale. Car tout utilisateur d’Internet, représenté par une adresse
 IP, peut sans restriction être un serveur aussi bien qu’un client.
@@ -88,7 +93,11 @@ pratique. De cette façon, ils transforment Internet en un réseau en
 lecture seule. Bien sûr, il est toujours possible de poster des
 commentaires sous une vidéo Youtube, ou de créer son blog ailleurs.
 Mais vous n’avez plus la possibilité de devenir votre propre
-fournisseur de votre propre contenu. L’autre problème est plus
+fournisseur de votre propre contenu.
+
+----
+
+L’autre problème est plus
 sensible, et nettement plus technique. Aujourd’hui en France, la
 majorité des accès à Internet personnels se fait par technologie
 ADSL, dont le A signifie « Asymétrique ». En effet, cette
@@ -103,6 +112,7 @@ envoi, téléversement) ! La conséquence directe est que, quand vous
 postez une vidéo du petit dernier de la famille, l’envoi est
 généralement laborieux, alors que lire une vidéo haute définition sur
 n’importe quelle plateforme se fait quasiment en temps réel.
+
 Il s’agit d’un problème inhérent à l’ADSL, et pour le résoudre, il
 faut donc se tourner vers d’autres technologies : la fibre optique,
 dont le déploiement souffre, en France, d’un retard inquiétant, ou
@@ -127,7 +137,9 @@ tout simplement en faisant eux-mêmes leur Internet équitable. Ces
 gens, ce sont d’abord les membres de French Data Network (FDN), un
 fournisseur d'accès Internet associatif, créé en un temps où dans ce
 secteur l'association était la norme et l'entreprise l'exception, et
-qui a gardé ce modèle depuis. À l’époque, ces considérations
+qui a gardé ce modèle depuis.
+
+À l’époque, ces considérations
 n’avaient pas lieu d’être. Quand on était FAI, on reliait des gens à
 Internet, et c’est tout. Aujourd’hui, les gros FAIs ont la fâcheuse
 tendance à être de grosses sociétés ayant des intérêts de grosses
@@ -155,7 +167,9 @@ dizaines de milliers d’opérateurs, qu’il s’agisse de FAIs grand
 public, de sociétés suffisamment importantes pour avoir besoin de
 leur propre accès, ou autres. Chacun de ces opérateurs dispose
 d’adresses IP à redistribuer à ses clients, ou machines. Tout cela
-compose son réseau. Dans le cas d’un FAI commercial, le réseau est
+compose son réseau.
+
+Dans le cas d’un FAI commercial, le réseau est
 l’ensemble des « box » connectées et dotées d’une adresse IP
 publique. Et Internet, c’est tout simplement le fait que tous ces
 réseaux sachent discuter entre eux. Il n’y a rien de plus au milieu,
@@ -166,6 +180,8 @@ qu’on a à faire, c’est donc de créer un petit opérateur qui prendra
 sa place auprès des quelques 400 000 autres. Il s’agit d’une formalité
 administrative, du même ressort que celle qui permet d’obtenir des
 adresses IP à distribuer.
+
+----
 
 Car s’il est vrai qu’Internet n’a pas de centre ou de chef technique,
 il faut savoir qu’il y a tout de même une entité « à la tête »
@@ -208,7 +224,9 @@ ne peuvent pas être branchées ensemble directement, car trop
 distantes, on a besoin d’utiliser d’autres méthodes de liaison. C’est
 là que l’xDSL, ou la fibre, ou d’autres moyens, entrent en jeu. Leur
 rôle est de connecter les utilisateurs aux serveurs de routage de
-l’opérateur. Le problème, quand on est une petite association, c’est
+l’opérateur.
+
+Le problème, quand on est une petite association, c’est
 qu’on peut difficilement se permettre financièrement de monter de
 l’ADSL, ou de la fibre, jusqu’à chaque utilisateur. La solution
 choisie par FDN a été de louer de la collecte à un autre opérateur
@@ -240,6 +258,14 @@ facturent le débit consommé.
 Les rejetons de FDN
 :::::::::::::::::::
 
+.. figure:: ffdn/logo_ffdn_0.png
+   :scale: 50
+   :figclass: pull-right margin-left
+   :align: right
+
+   La Fédération FDN
+
+
 Dans la continuité de sa volonté de rester un petit opérateur
 associatif, FDN a, en 2006, considéré qu’il fallait « forker »
 l’association, tel un projet logiciel. La Fédération des
@@ -252,7 +278,9 @@ neutre, donc en lecture/écriture.
 Depuis lors, 16 autres fournisseurs d’accès à Internet ont rejoint la
 fédération, et d’autres ont formulé leur demande d’adhésion. Chacun
 d’entre eux met en avant la portée locale de son projet, pour
-garantir une gestion humaine. Au-delà de ça, des projets différents
+garantir une gestion humaine.
+
+Au-delà de ça, des projets différents
 ont émergé : certains se contentent de fournir des abonnements ADSL
 en marque blanche de FDN (en se focalisant sur le développement du
 tissu social de l’association), d’autres mettent en place leur propre
