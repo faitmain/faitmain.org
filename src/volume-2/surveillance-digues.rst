@@ -1,5 +1,5 @@
-Mapping levees and their stability using the interwebs
-======================================================
+Surveillance de la stabilité digues
+====================================
 
 :date: 2013-05-01
 :category: écologie,informatique,électronique
@@ -44,7 +44,7 @@ une quantité astronomique de données à traiter.
 
 A `Nelen & Schuurmans <http://nelen-schuurmans.nl>`_ nous avons tenté
 de résoudre partiellement
-ce problème. Avec le `Dijk Data Service Center <http://www.ijkdijk.nl/en/>`))
+ce problème. Avec le `Dijk Data Service Center <http://www.ijkdijk.nl/en/>`_))
 (Centre de données des digues - DDSC), nous avons construit un système pour stocker
 et afficher toutes les données provenants des senseurs.
 

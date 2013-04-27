@@ -1,8 +1,7 @@
 Les évènements à ne pas manquer
 ===============================
 
-Mai 2013
-::::::::
+**Mai 2013**
 
 
 Open Bidouille Camp
@@ -25,8 +24,7 @@ ateliers, concerts et encore plus - autour du hacking.
 * Site: http://thsf.tetalab.org/2013/
 * Dates: Open Bidouille Camp
 
-Juin 2013
-:::::::::
+**Juin 2013**
 
 le POOP
 -------
@@ -64,8 +62,7 @@ Solidarités
 * Dates: 22 et 23 Juin
 
 
-Juillet 2013
-::::::::::::
+**Juillet 2013**
 
 
 SummerLab 2013
