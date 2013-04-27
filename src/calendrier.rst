@@ -4,6 +4,19 @@ Les évènements à ne pas manquer
 **Mai 2013**
 
 
+Fête01 2013
+-----------
+
+Ce fameux virus informatique à l’origine de problèmes dans la  centrale
+nucléaire iranienne est devenu sentimental. Il viendra nous égailler pour
+chatouiller les frontières entre le réel et le virtuel à  travers un programme
+d’ateliers participatifs, de soirées démos, projections et performances.
+
+* Lieu: Labomedia - Orléans
+* Site: http://labomedia.org/du-6-au-10-mai-2013-fete01-2013-stuxnet-est-tombe-amoureux
+* Dates: 6 au 10 mai 2013
+
+
 Open Bidouille Camp
 -------------------
 
@@ -74,6 +87,5 @@ chercheurs, activistes…) dans un cadre favorisant coopération et échanges
 ouverts.
 
 * Lieu: Ecole d’Architecture de Nantes
-* Dates: 8 au 13 Juillet
 * Site: http://summerlabnantes.net/
-
+* Dates: 8 au 13 Juillet
