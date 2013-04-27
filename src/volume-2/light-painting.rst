@@ -1,4 +1,4 @@
-Faire de la peinture sans support et sans tâche, avec de la lumière
+Faire de la peinture sans support et sans tache, avec de la lumière
 ===================================================================
 
 :date: 2013-05-01
@@ -7,9 +7,9 @@ Faire de la peinture sans support et sans tâche, avec de la lumière
 :author: Fabien Batteix
 
 
-C'est un fait tout le monde aiment les spectacles de son et lumière, qu'on soit
+C'est un fait, tout le monde aime les spectacles de son et lumière, qu'on soit
 petit ou grand. Alors si comme moi vous aimez bricoler, photographier et
-programmer l'article qui suit devrait vous intéresser ;)
+programmer, l'article qui suit devrait vous intéresser ;)
 
 Dans cet article je vais vous présenter une méthode de dessin, ou de
 photographie, c'est une question de point de vue. Cette méthode s'appelle le
@@ -28,10 +28,10 @@ résume à utiliser un appareil photo en
 Traditionnellement on prend une photo en exposition « courte », dans un
 environnement bien éclairé. Si on manque de lumière la photo sera sombre et le
 sujet masqué par l'obscurité. En light painting c'est tout le contraire ! On
-prend une photo … dans l'ombre, voir même dans l'obscurité la plus totale.
-Comme l'on utilise une exposition manuelle, pouvant aller jusqu'à 30 voir même
+prend une photo … dans l'ombre, voire même dans l'obscurité la plus totale.
+Comme l'on utilise une exposition manuelle, pouvant aller jusqu'à 30 voire même
 60 secondes (cela dépend bien sûr de l'appareil photo utilisé) toute « trace »
-de lumière vue par l’appareil photo durant ce lapse de temps sera reproduite
+de lumière vue par l’appareil photo durant ce laps de temps sera reproduite
 sur la photo finale. Donnant ainsi une image constituée d'un « historique »,
 par couches successives, des traces lumineuses observées.
 
@@ -82,7 +82,7 @@ utiliser un appareil photo, je vous laisse chercher dans le manuel de celui-ci
 comment utiliser l'exposition manuelle ;)
 
 Ce que je vais vous expliquer c'est
-comment - au moyen de matériels simples et facilement disponible - fabriquer
+comment - au moyen de matériels simples et facilement disponibles - fabriquer
 une « digital light wand » (« baguette lumineuse numérique » en français, c'est
 tout de suite moins glamour), l'outil ultime du « light painter ».
 
@@ -92,9 +92,9 @@ tout de suite moins glamour), l'outil ultime du « light painter ».
 
 
 
-Le principe est simple : un humain ne peut pas dessiner quelque chose de précis
+Le principe est simple : un humain ne peut pas dessiner quelque-chose de précis
 et encore moins en plusieurs couleurs. Pour cela il faudrait une précision dans
-les mouvements et une notion de position dans l'espace sur-humaine !
+les mouvements et une notion de position dans l'espace surhumaine !
 
 Un microcontrôleur par contre n'a pas ce problème. Un microcontrôleur peut sans
 problème contrôler des leds RGB (leds tri-colores permettant de générer
@@ -102,13 +102,13 @@ n'importe quelle autre couleur), respecter des timings précis et même utiliser
 des périphériques de stockage !
 
 C'est justement ce qu'est une « digital light
-wand », un microcontrôleur, un ruban de led RGB et (accessoirement) un lecteur
-pour carte SD.
+wand » : un microcontrôleur, un ruban de led RGB et (accessoirement) un lecteur
+de carte SD.
 
-Les leds RGB étant principalement vendus en ruban il suffit de
+Les leds RGB étant principalement vendues en ruban il suffit de
 déplacer la ligne de « pixels lumineux » ainsi formée de manière rectiligne
 devant l'appareil photo pour obtenir une image parfaite. La gestion des pixels
-et des timings étant laissé à la charge du microcontrôleur, la seule action
+et des timings étant laissée à la charge du microcontrôleur, la seule action
 humaine nécessaire est de déplacer le ruban de manière rectiligne le plus
 régulièrement possible.
 
@@ -117,7 +117,7 @@ Le matériel nécessaire
 
 .. figure:: light/matos.JPG
 
-   Pour un total d'une centaine d'euro environ cela reste un projet
+   Pour un total d'une centaine d'euros environ cela reste un projet
    relativement abordable
 
 Comme précisé précédemment le matériel nécessaire est très limité et est
@@ -137,7 +137,7 @@ vous faut :
    bien précis : le `LPD8806 <http://www.adafruit.com/products/306>`_,
    vendu par `Adafruit <http://adafruit.com/>`_. Celui-ci a la particularité de
    posséder des contrôleurs de led indépendants au sein même du ruban. Il est donc
-   possible de contrôler chaque led indépendamment et d'avoir un profondeur de
+   possible de contrôler chaque led indépendamment et d'avoir une profondeur de
    couleur de 21 bits (7 bits par composante R, G et B).
 
 
@@ -146,7 +146,7 @@ Assemblage des composants
 
 L'assemblage des composants est l'étape la plus facile du projet, si vous avez
 choisi d'utiliser une carte arduino classique et des shields du commerce cette
-étape se résumera à empiler les shields sur l'arduino.
+étape se résumera à l'empilage des shields sur l'arduino.
 
 Si vous avez choisi de
 faire votre propre montage avec des composants séparés (arduino pro mini +
@@ -172,7 +172,7 @@ l'afficheur !
    Une simple broche aurait pu tout faire capoter …
 
 
-Il y avait donc conflit entre ces deux shields, la solution : un fils et un
+Il y avait donc conflit entre ces deux shields, la solution : un fil et un
 coup de cutter (léger) pour « re-router » la broche « chip select » de la carte
 SD sur la broche D3 de l'arduino.
 
@@ -186,7 +186,7 @@ Derniers détails techniques
 
 Tenir un ruban de leds (flexible) droit, à la main, n'est pas une chose facile
 … Si en plus il faut manipuler le contrôleur pour choisir quelle image dessiner
-cela deviens impossible ... à moins d'avoir trois bras.
+cela devient impossible... à moins d'avoir trois bras.
 
 .. figure:: light/scotch.JPG
 
@@ -237,7 +237,7 @@ loop() :
 La majeure partie du code se trouve en réalité dans les différents codes « de
 contrôle » du matériel.
 
-L'interface homme / machine lui se résume à de simple messages textuels :
+L'interface homme / machine elle se résume à de simples messages textuels :
 
 .. figure:: light/LCD-1.JPG
 
@@ -252,12 +252,12 @@ L'interface homme / machine lui se résume à de simple messages textuels :
 
 .. figure:: light/LCD-3.JPG
 
-   Un fichier bitmap a été détecté, les informations de tailles s'affichent
+   Un fichier bitmap a été détecté, les informations de taille s'affichent
 
 
 .. figure:: light/LCD-4.JPG
 
-   Plus de fichiers dans le dossier courant, retour au début de la liste des
+   Plus de fichier dans le dossier courant, retour au début de la liste des
    fichiers
 
 
@@ -269,22 +269,22 @@ L'interface homme / machine lui se résume à de simple messages textuels :
 .. figure:: light/LCD-6.JPG
 
    Le nom du fichier, le pourcentage de progression et une barre de progression
-   permettent de savoir instantanément où en est le dessin de l'image. Et ainsi
+   permettent de savoir instantanément où en est le dessin de l'image et ainsi
    d'ajuster la vitesse de déplacement du ruban en conséquence.
 
 
 Le code source complet est disponible sous licence GPLv3 sur mon compte GitHub :
 https://github.com/skywodd/digital_light_wand
 
-Je vous invite à regarder les commentaires présent dans le code source pour
+Je vous invite à regarder les commentaires présents dans le code source pour
 mieux comprendre le principe de fonctionnement du programme. Détailler ici
 point par point chaque fonction, algorithme et structure de données demanderait
-plusieurs jours et des centaines de pages de texte …
+plusieurs jours et des centaines de pages de texte…
 
 Je souhaiterai cependant détailler deux points en particulier concernant la
 gestion des fichiers bitmap et des couleurs.
 
-→ Contrairement aux idées reçu un fichier
+→ Contrairement aux idées reçues, un fichier
 `Bitmap <http://fr.wikipedia.org/wiki/Windows_bitmap>`_ peut être compressé !
 
 Gérer la décompression nécessiterait l'implémentation de l'algorithme de codage
@@ -295,7 +295,7 @@ couleurs celui-ci rejettera aussi tout fichier Bitmap dont les couleurs ne
 seraient pas codées sur 24 bits (3 octets).
 
 → Le contrôleur LPD8806 travaille avec des couleurs codées sur 21 bits, le
-fichier Bitmap lui travaille avec des couleurs codées sur 24 bits !
+fichier Bitmap, lui, travaille avec des couleurs codées sur 24 bits !
 
 Deux solutions sont implémentées dans le programme, le choix se fait au moyen
 d'un #define dans le fichier principal :
@@ -310,7 +310,7 @@ d'un #define dans le fichier principal :
   prenant en entrée une valeur sur 8 bits et générant en sortie une valeur sur 7
   bits suivant la courbe de réponse de l’œil humain. C'est cette deuxième
   solution qui est appliquée par défaut dans le programme, c'est celle-ci qui
-  permet d'avoir un résultat finale au plus proche des couleurs voulus.
+  permet d'avoir un résultat final au plus proche des couleurs voulues.
 
 Remarque : les fichiers Bitmap doivent être retournés de 90° avant d'être
 copiés sur la carte SD. De même ils ne devront pas dépasser 64 pixels de
