@@ -7,8 +7,15 @@ Surveillance de la stabilité digues
 :author: Fritz van Deventer
 :translator: Tarek Ziadé
 
+.. note::
+  
+   Article conçu en Anglais pour Fait Main par Fritz van Deventer,
+   ingénieur chez Nelen & Schuurmans, et traduit librement
+   par Tarek Ziadé.
+
+
 En Hollande, la sécurité relative au niveau de l'eau est probablement
-un des problème majeur dont le pays doit faire face. En effet, 26%
+un des problème majeur auquel le pays doit faire face. En effet, 26%
 du pays est en dessous du niveau de la mer, et cette surface hébèrge
 60% de la population.
 
@@ -20,16 +27,20 @@ Ce problème est devenu un problème de sécurité national.
 
 Les digues sont les principales protections du pays contre l'eau.
 
-En 2013, elles ont été équipées d'une multitude de senseurs pour
-pouvoir être contrôlées à distance. Les digues sont devenues
-communicantes et intelligentes.
+En 2013, mon entreprise `Nelen & Schuurmans <http://nelen-schuurmans.nl>`_
+et l'association `Ijkdijk <http://www.ijkdijk.nl/en/>`_ 
+(qui signifie *Digue de calibration* en Hollandais) ont collaboré
+pour mettre au point un système de surveillance automatisé.
 
-Data Center
------------
+Les digues sont devenues communicantes.
 
-Une digue témoin a été construite par l'association **IJkdijk** (qui
-signifie *Digue de calibration* en Hollandais) et a été
-submergée volontairement pour qu'elle cède sous le poids de l'eau.
+
+Description du système
+----------------------
+
+Une digue témoin a été construite par l'association *IJkdijk* et a 
+été submergée volontairement pour qu'elle cède sous la pression
+de l'eau.
 
 Cette simulation a permis de récolter des mesures qui ont servi de
 calibration pour mettre au point un système d'alerte.
@@ -38,29 +49,25 @@ calibration pour mettre au point un système d'alerte.
 
    source: http://www.ijkdijk.nl/en/experiments/macrostability
 
-L'objectif est d'équiper toutes les digues du pays avec ce système, mais
-ce système pose un défi en terme de passage à l'échelle. Chaque digue produit
+L'objectif est d'équiper toutes les digues du pays avec des senseurs 
+et de récolter en continu et en temps réel les informations. (XXX STATUS?)
+
+*IJkdijk* a placé dans chaque digue une multitudes de senseurs différents:
+température, taux d'humidité du sol, acidité du sol, etc.
+Ces senseurs sont gérés par le le *Centre de données des digues*  ou *DDSC*
+et vous trouverez plus de détails techniques sur leur site web: http://www.ijkdijk.nl/en
+
+Mais ce système pose un défi en terme de passage à l'échelle. Chaque digue produit
 une quantité astronomique de données à traiter.
 
-A `Nelen & Schuurmans <http://nelen-schuurmans.nl>`_ nous avons tenté
-de résoudre partiellement
-ce problème. Avec le `Dijk Data Service Center <http://www.ijkdijk.nl/en/>`_))
-(Centre de données des digues - DDSC), nous avons construit un système pour stocker
-et afficher toutes les données provenants des senseurs.
-
-
-Stockage & Collections
-----------------------
-
-Nous avons bourrés les digues d'une multitudes de senseurs différents:
-température, taux d'humidité du sol, acidité du sol, etc.
-Ces senseurs sont gérés par le DDSC et vous trouverez plus de détails
-techniques sur leur site web.
+A *Nelen & Schuurmans* nous avons tenté de résoudre partiellement ce problème. 
+Avec le *DDSC*, nous avons construit un système pour stocker et afficher toutes 
+les données provenants des senseurs.
 
 Nos serveurs de traitement peuvent réceptionner les données par plusieurs
 moyens: un classique serveur FTP, un serveur TCP avec des connections
 persistentes, ou encore via des importations de
-fichiers XML.
+fichiers XML.  (XXX on s'en fout non?)
 
 Pour résumer, nous acceptons toute forme de transport en fonction des
 contraintes, du moment que nous reçevons des valeures avec des
@@ -68,7 +75,7 @@ contraintes, du moment que nous reçevons des valeures avec des
 
 Les donnés sont stockées dans un cluster
 `Cassandra <http://cassandra.apache.org>`_ et nous utilisons une
-based de données `PostGIS <http://postgis.net/>`_ pour mettre en cache
+base de données `PostGIS <http://postgis.net/>`_ pour mettre en cache
 les dernières valeurs reçues pour chaque digue.
 
 Nous fournissons ensuite des services web `REST <https://fr.wikipedia.org/wiki/Rest>`_
@@ -112,6 +119,9 @@ Le code du client envoit sa résolution et la fenêtre de temps souhaitée au
 serveur, qui lui retourne une liste de point à afficher.
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Douglas_Peucker.png/220px-Douglas_Peucker.png
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
 
    Réduction des points d'une courbe par l'algorithme de Ramer-Douglas-Peucker
    (source: Wikipedia)
