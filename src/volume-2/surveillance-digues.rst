@@ -109,8 +109,7 @@ Nous avons opté pour les visualisations suivantes:
 - Recherche dans les données via Solr.
 
 Les diagrammes temporels avaient le potentiel de devenir très denses,
-étant donnée que la quantité d'information pour chaque fenêtre de temps
-peut être énorme.
+étant donnée la quantité d'information pour chaque fenêtre de temps.
 
 Nous avons utilisé l'algorithme de
 `Douglas-Peucker <https://fr.wikipedia.org/wiki/Algorithme_de_Douglas-Peucker>`_
@@ -119,12 +118,11 @@ Le code du client envoit sa résolution et la fenêtre de temps souhaitée au
 serveur, qui lui retourne une liste de point à afficher.
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Douglas_Peucker.png/220px-Douglas_Peucker.png
-   :scale: 25
+   :scale: 12
    :figclass: pull-right margin-left
    :align: right
 
-   Réduction des points d'une courbe par l'algorithme de Ramer-Douglas-Peucker
-   (source: Wikipedia)
+   Ramer-Douglas-Peucker (source: Wikipedia)
 
 L'affichage de la carte a été complexe a mettre au point à cause de
 la concentration de différents senseurs sur chaque digue.
@@ -168,7 +166,7 @@ pour nos utilisateurs techniques ou non techniques.
 Mais nous avons fait de grands avancées déjà:
 
 - l'introduction de diagrammes prédéfinis au lieu du chaos que peut
-  représenter un *"Nous voulons un Excel dans notre navigateur#*.
+  représenter un *"Nous voulons un Excel dans notre navigateur"*.
 - L'introduction de *Douglas-Peucker* qui nous a permis de limiter le
   nombre de points à afficher au nombre de pixels disponibles sur l'écran.
 - N'afficher que l'information nécessairee
