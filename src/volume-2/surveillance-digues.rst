@@ -91,10 +91,10 @@ avec `Apache Solr <https://lucene.apache.org/solr>`_ pour offrir
 un moteur de recherche.
 
 
-Client Web
-----------
+Interface Web
+-------------
 
-Notre client web récupère les données avec les API Rest de l'application
+Notre interface web récupère les données avec les API Rest de l'application
 Django - et le plus gros travail consistait à trouver une bonne représentation
 visuelle des données.
 
