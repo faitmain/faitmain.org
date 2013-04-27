@@ -8,7 +8,7 @@ Surveillance de digues
 :translator: Tarek Ziadé
 
 .. note::
-  
+
    Article conçu en Anglais pour Fait Main par Fritz van Deventer,
    ingénieur chez Nelen & Schuurmans, et traduit librement
    par Tarek Ziadé.
@@ -21,14 +21,14 @@ du pays est en dessous du niveau de la mer, et cette surface hébèrge
 
 Ce problème est devenu un problème de sécurité national.
 
-.. figure:: http://www.ijkdijk.nl/images/Grechtdijk2.jpg
+.. figure:: digues/Grechtdijk2.jpg
 
    source: http://www.ijkdijk.nl/nl/livedijken/livedijk-utrecht
 
 Les digues sont les principales protections du pays contre l'eau.
 
 En 2013, mon entreprise `Nelen & Schuurmans <http://nelen-schuurmans.nl>`_
-et l'association `Ijkdijk <http://www.ijkdijk.nl/en/>`_ 
+et l'association `Ijkdijk <http://www.ijkdijk.nl/en/>`_
 (qui signifie *Digue de calibration* en Hollandais) ont collaboré
 pour mettre au point un système de surveillance automatisé.
 
@@ -38,18 +38,21 @@ Les digues sont devenues communicantes.
 Description du système
 ----------------------
 
-Une digue témoin a été construite par l'association *IJkdijk* et a 
+Une digue témoin a été construite par l'association *IJkdijk* et a
 été submergée volontairement pour qu'elle cède sous la pression
 de l'eau.
 
 Cette simulation a permis de récolter des mesures qui ont servi de
-calibration pour mettre au point un système d'alerte.
+calibration pour mettre au point un système d'alerte qui
+est capable de prévenir qu'une digue va céder *bien avant*
+que l'incident ne se produise.
 
-.. figure:: http://www.beeldsite.nl/ijkdijk/20080928ijkdijk/slides/DSC04627.JPG
+
+.. figure:: digues/DSC04627.JPG
 
    source: http://www.ijkdijk.nl/en/experiments/macrostability
 
-L'objectif est d'équiper toutes les digues du pays avec des senseurs 
+L'objectif est d'équiper toutes les digues du pays avec des senseurs
 et de récolter en continu et en temps réel les informations. (XXX STATUS?)
 
 *IJkdijk* a placé dans chaque digue une multitudes de senseurs différents:
@@ -60,8 +63,8 @@ et vous trouverez plus de détails techniques sur leur site web: http://www.ijkd
 Mais ce système pose un défi en terme de passage à l'échelle. Chaque digue produit
 une quantité astronomique de données à traiter.
 
-A *Nelen & Schuurmans* nous avons tenté de résoudre partiellement ce problème. 
-Avec le *DDSC*, nous avons construit un système pour stocker et afficher toutes 
+A *Nelen & Schuurmans* nous avons tenté de résoudre partiellement ce problème.
+Avec le *DDSC*, nous avons construit un système pour stocker et afficher toutes
 les données provenants des senseurs.
 
 Nos serveurs de traitement peuvent réceptionner les données par plusieurs
@@ -117,7 +120,7 @@ pour simplifier les courbes sur des écrans basses résolutions.
 Le code du client envoit sa résolution et la fenêtre de temps souhaitée au
 serveur, qui lui retourne une liste de point à afficher.
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Douglas_Peucker.png/220px-Douglas_Peucker.png
+.. figure:: digues/220px-Douglas_Peucker.png
    :scale: 12
    :figclass: pull-right margin-left
    :align: right
