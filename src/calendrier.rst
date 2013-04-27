@@ -22,14 +22,14 @@ ateliers, concerts et encore plus - autour du hacking.
 
 * Lieu: Toulouse
 * Site: http://thsf.tetalab.org/2013/
-* Dates: Open Bidouille Camp
+* Dates: 22 au 26 Mai
 
 **Juin 2013**
 
 le POOP
 -------
 
-Le Loop présente le POOP : Portes Ouvertes … Ou Pas. 
+Le Loop présente le POOP : Portes Ouvertes … Ou Pas.
 Un festival de hack en mode tambouille au Loop.
 
 
@@ -49,7 +49,7 @@ des curieux.
 * Site: http://www.passageenseine.org/Passage/pses-2013
 * Dates: 20 au 23 Juin
 
-  
+
 Open Bidouille Camp
 -------------------
 
