@@ -64,9 +64,10 @@ sur ces événements. http://hackthepress.net/
 **Les deux premiers OBC ont eu l'air de remporter un franc succès, c'est quoi la suite ?**
 
 Effectivement, on a été débordé par le succès du premier OBC, fin septembre à
-Mains d'Oeuvres à Saint-Ouen. Dès ce jour, des gens nous ont demandé "alors
-c'est quand le prochain ?" Brest s'est lancé très vite dans la foulée, en
-novembre.
+`Mains d'Oeuvres <http://www.mainsdoeuvres.org/>`_ à Saint-Ouen. Dès ce jour, des
+gens nous ont demandé "alors c'est quand le prochain ?".
+
+Brest s'est lancé très vite dans la foulée, en Novembre.
 
 Nous avons donc créé une association loi 1901 pour continuer
 d'organiser des OBC, entre autres, dans le respect des valeurs initiales :
@@ -119,11 +120,12 @@ Je pense que l'apport le plus fort du hacking à la société, par-delà les
 apports tangibles, c'est une aspiration irréductible à la liberté, qui était
 déjà dans l'ADN des premiers hackers du MIT quand ils crochetaient les portes
 des pièces abritant les ordis. C'est la marque des hackers purs et durs, ceux
-qui considèrent le hacking comme une philosophie de vie, un type comme Mitch
-Altman.
+qui considèrent le hacking comme une philosophie de vie, un type comme
+`Mitch Altman <https://en.wikipedia.org/wiki/Mitch_Altman>`_.
 
 Au Caire aussi on a rencontré un gars comme ça, Tarek Ahmed le
-co-fondateur du Cairo hackerspace. Pour lui hacker, c'est trouver sa voie, et
+co-fondateur du `Cairo hackerspace <http://cairohackerspace.org/>`_.
+Pour lui hacker, c'est trouver sa voie, et
 il le fait dans tous les sens du terme en allant sauter d'immeuble en immeuble.
 Du coup, il nous renvoie à notre propre tiédeur, une certaine attirance pour
 les petites cases plus ou moins préformatées, c'est très subversif, à fortiori
@@ -159,10 +161,10 @@ loin cet univers.
 personnelles pour réussir à hacker et manger ? Quels modèles économiques ?**
 
 Hé hé, j'aimerais bien faire un livre sur l'économie du hack. Je suis assez
-pessimiste : Apple a fini comme on le sait, MakerBot suit le même chemin. En ce
-qui concerne le logiciel libre/open source (han je vais me faire taper sur les
-doigts par les puristes), les business models sont connus : développer des
-programmes sur mesure, faire du support.
+pessimiste : Apple a fini comme on le sait, `MakerBot <http://www.makerbot.com/>`_
+suit le même chemin. En ce qui concerne le logiciel libre/open source
+(han je vais me faire taper sur les doigts par les puristes), les business
+models sont connus : développer des programmes sur mesure, faire du support.
 
 Mais l'économie du logiciel libre ne
 fait pas le poids par rapport au logiciel propriétaire, loin de là. Après, on
