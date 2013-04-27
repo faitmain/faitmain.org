@@ -16,9 +16,9 @@ l'hexagone, et on voit de plus en plus d'évènements organisés autour de ces
 sujets, que ce soit dans les locaux de FabLabs ou dans le cadre de conférences,
 hack days ou petits ateliers.
 
-La tout réçente association `Open Bidouille Camp <http://openbidouille.net/>`_ (OBC) 
+La tout réçente association `Open Bidouille Camp <http://openbidouille.net/>`_ (OBC)
 organise depuis quelques temps des ateliers de bidouilles et commence à construire
-un réseau de bidouilleurs parout en France.
+un réseau de bidouilleurs partout en France.
 
 Sabine Blanc est l'une des principales porteuses du projet *OBC*, et aussi
 l'instiguatrice de *Hack The Press*, *Les hackers dans la cité arabe* (en stand-by),
