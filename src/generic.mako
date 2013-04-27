@@ -50,6 +50,7 @@
    %for category in config['categories']:
    <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
    %endfor
+   <li><a href="${config['siteurl']}/calendrier.html" title="Agenda"><strong>Agenda</strong></a></li>
   </ul>
   </div><!--/.nav-collapse -->
 
