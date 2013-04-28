@@ -15,7 +15,7 @@ Surveillance de digues
 
 
 En Hollande, la sécurité relative au niveau de l'eau est probablement
-un des problème majeur auquel le pays doit faire face. En effet, 26%
+un des problèmes majeurs auquel le pays doit faire face. En effet, 26%
 du pays est en dessous du niveau de la mer, et cette surface hébèrge
 60% de la population.
 
@@ -72,11 +72,11 @@ moyens: un classique serveur FTP, un serveur TCP avec des connections
 persistentes, ou encore via des importations de
 fichiers XML.  (XXX on s'en fout non?)
 
-Pour résumer, nous acceptons toute forme de transport en fonction des
-contraintes, du moment que nous reçevons des valeures avec des
+Pour résumer, nous acceptons toutes formes de transport en fonction des
+contraintes, du moment que nous recevons des valeures avec des
 *timestamps*.
 
-Les donnés sont stockées dans un cluster
+Les données sont stockées dans un cluster
 `Cassandra <http://cassandra.apache.org>`_ et nous utilisons une
 base de données `PostGIS <http://postgis.net/>`_ pour mettre en cache
 les dernières valeurs reçues pour chaque digue.
@@ -144,7 +144,7 @@ Le client web a été écrit avec `Backbone.js <http://backbonejs.org/>`_
 et l'extension `Marionette.js <http://marionettejs.com>`_
 
 Ces outils ont été une découverte pour notre équipe puisque nous avions
-l'habitude de faire tout le templating et le rendu despages coté
+l'habitude de faire tout le templating et le rendu des pages coté
 serveur jusqu'ici.
 
 Mais ce projet était l'occasion d'apprendre et de capitaliser sur
@@ -166,14 +166,14 @@ Nous sommes toujours en train de chercher la solution la plus *simple* pour
 l'affichage de données temps réel dans une application web - que ce soit
 pour nos utilisateurs techniques ou non techniques.
 
-Mais nous avons fait de grands avancées déjà:
+Mais nous avons déjà fait de grandes avancées:
 
 - l'introduction de diagrammes prédéfinis au lieu du chaos que peut
-  représenter un *"Nous voulons un Excel dans notre navigateur"*.
-- L'introduction de *Douglas-Peucker* qui nous a permis de limiter le
-  nombre de points à afficher au nombre de pixels disponibles sur l'écran.
-- N'afficher que l'information nécessairee
+  représenter un *"Nous voulons un Excel dans notre navigateur"*;
+- l'introduction de *Douglas-Peucker* qui nous a permis de limiter le
+  nombre de points à afficher au nombre de pixels disponibles sur l'écran;
+- n'afficher que l'information nécessaire.
 
 
-Retrouvez des infos sur ces projets à http://github.com/ddsc et http://dijkdata.nl
+Retrouvez des informations sur ces projets à http://github.com/ddsc et http://dijkdata.nl
 
