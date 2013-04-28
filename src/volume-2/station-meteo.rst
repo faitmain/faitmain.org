@@ -68,7 +68,7 @@ Les stations haut de gamme sont par contre communicantes, et
 donc programmables, que ce soit par USB, Wifi ou tout autre moyen
 de communication que le fabricant a fourni.
 
-Le gros interêt de communiquer avec une station est de pouvoir
+Le gros intérêt de communiquer avec une station est de pouvoir
 conçevoir sa propre application avec les données collectées ou
 de les transmettre à une application existante.
 
@@ -132,7 +132,7 @@ intéressent, à savoir la température, l'humidité et la pression.
    Les puce Yocto-Meteo, Yocto-Light & le mini-hub USB
 
 
-Les valeures de pression fournies sont relatives au niveau de la mer.
+Les valeurs de pression fournies sont relatives au niveau de la mer.
 Elles doivent donc être ajustées en fonction de l'altitude à laquelle
 on se trouve. Il faut donc connaître son altitude, ce qui n'est
 pas forcément toujours évident.
@@ -142,7 +142,7 @@ météo via internet et retrouver l'altitude via des bases de données
 de géolocalisation open source. Mais laissons ce problème
 de côté pour l'instant.
 
-Après quelques échanges avec la sympatique équipe suisse de Yoctopuce,
+Après quelques échanges avec la sympathique équipe suisse de Yoctopuce,
 je les ais convaincus en bon Pythonneur qu'il fallait absolument
 que la librairie soit accessible sur le
 `Python Package Index (PyPI) <https://pypi.python.org/pypi>`_
@@ -159,7 +159,7 @@ C'est chose faite et installer la librairie Python est aussi simple que:
 `Pip <http://www.pip-installer.org>`_ est l'outil standard pour installer
 des extensions Python.
 
-Un fois la puce branchée, sur le port USB, la lecture des données
+Une fois la puce branchée, sur le port USB, la lecture des données
 est très simple.
 
 Voici un script en Python, inspiré de l'exemple
