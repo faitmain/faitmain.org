@@ -26,9 +26,9 @@ transferts qui ont un coût écologique non négligeable.**
 Comment réduire son empreinte numérique ? La première option pourrait être de
 ne pas faire de sauvegarde du tout, ce qui règlerait le problème en faisant un
 *reset* du système à chaque itération de crash/réinstallation. Cette
-éventualité vous fait peut-être sourire mais c'est pourtant la gestion de leur
-patrimoine numérique de la plupart des personnes (non-techniciennes) de mon
-entourage. En tant que lecteur du magazine, vous êtes probablement dans un cas
+éventualité vous fait peut-être sourire pourtant la plupart des personnes
+(non-techniciennes) de mon entourage gèrent leur patrimoine numérique de cette
+manière. En tant que lecteur du magazine, vous êtes probablement dans un cas
 inverse et **vous accordez une certaine importance à la pérennité de vos
 données**, ce qui vous a amené à effectuer des sauvegardes suivant la méthode
 recommandée des 3 emplacements physiques distincts (ce qui soulève notamment un
@@ -39,7 +39,7 @@ exercices : **un ménage régulier et une hygiène de vie numérique**. Le mén
 initial est incroyablement chronophage en fonction de l'état de flemme dont
 vous avez fait preuve au cours des précédentes années (décennies ?!). La
 première étape pourra consister à localiser les fichiers qui sont les plus
-volumineux pour procéder à un premier tri et, ce, dans chacune des catégories
+volumineux pour procéder à un premier tri, et ce, dans chacune des catégories
 possibles (films, livres, emails, etc.) tout en ajustant la qualité des données
 à votre perception : inutile de conserver des rafales de photos en *raw* de 30
 Mo si vous avez un ordinateur portable de 13" non calibré… Une fois ce premier
