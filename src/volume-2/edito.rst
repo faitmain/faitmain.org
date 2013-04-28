@@ -28,7 +28,7 @@ ou revendeurs de matériel de s'associer à l'élaboration d'un
 article de bidouille en envoyant du matériel.
 
 Il y a aussi un `calendrier </calendrier.html>`_ qui liste les
-évènements DYI de l'hexagone (ou autour).
+évènements DIY de l'hexagone (ou autour).
 
 Mais trêve de bavardages, parlons plutôt du contenu...
 
@@ -36,7 +36,7 @@ Contenu du volume 2
 :::::::::::::::::::
 
 David nous revient avec un article sur le `coût écologique
-de vos données </volume-2/cout-ecologique-donnees.html>` qui
+de vos données </volume-2/cout-ecologique-donnees.html>`_ qui
 souhaite faire prendre conscience de l'impact de vos photos
 oubliées au fond de votre disque dur.
 
@@ -82,7 +82,7 @@ Amina El Kamel nous explique rapidement comment fonctionne
 la `sérigraphie
 sur textile <http://next.faitmain.org/volume-2/serigraphie.html>`_.
 
-Enfin, un article qui présente `quelques livres </volume-2/quelques-livres.html>`.
+Enfin, un article qui présente `quelques livres </volume-2/quelques-livres.html>`_.
 Pour ce dernier j'espère que le numéro 3 pourra inclure des revues
 de livres par plus de contributeurs.
 
