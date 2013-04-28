@@ -21,7 +21,7 @@ Il existe plusieurs solutions pour mettre un projet sur batterie :
   recharge doit être séparée ou les piles changées régulièrement. Pas génial.
 - Utiliser une pile 12V de voiture ou d'onduleur, lourd et pas forcément efficace.
 
-- Notre solution préferée, et c'est celle que nous allons étudier ici, utiliser
+- Notre solution préférée, et c'est celle que nous allons étudier ici, utiliser
   des `batteries lithium polymer (li-poly) <http://hackspark.fr/fr/composants/puissance-et-energie/stockage-batteries.html?voltage=172>`_ protégées avec un module de charge usb.
 
 Dans le cas d'une solution à base de li-poly, il y a plusieurs choses à prendre
@@ -62,7 +62,7 @@ Quel module de charge ?
    et `LiPo Rider <http://hackspark.fr/fr/lipo-rider.html>`_ côte à côte
 
 
-Avoir une batterie, c'est bien, mais autant faut il pouvoir l'utiliser.
+Avoir une batterie, c'est bien, mais autant faut-il pouvoir l'utiliser.
 
 Certaines cartes de prototypage proposent un port permettant d'en raccorder une en
 direct (la `seeeduino mega <http://hackspark.fr/fr/seeeduino-mega.html>`_ par
@@ -82,7 +82,7 @@ suffisant pour un arduino avec quelques capteurs, mais si vous voulez
 alimenter une matrice de leds, un moteur ou autre chose, passez à la carte suivante.
 
 La carte `LiPo Rider Pro <http://hackspark.fr/fr/lipo-rider-pro.html>`__ a
-les memes fonctionnalités que sa petite soeur, mais
+les mêmes fonctionnalités que sa petite soeur, mais
 permet de sortir 1A en 5V, de quoi alimenter un raspberry pi avec sa clé wifi,
 un arduino avec des petits moteurs, etc. Vous pourrez même l'utiliser pour
 charger votre téléphone portable en fait.
@@ -92,8 +92,7 @@ Quelle source d'énergie ?
 :::::::::::::::::::::::::
 
 Lorsque l'on peut être branché au secteur ou à un ordinateur, pas de soucis, on
-se recharge lorsque l'on est branché en USB, et on utilise la batterie lorsque
-l'on ne l'est pas. Pas besoin d'une source annexe.
+se recharge lorsque l'on est branché en USB, et on utilise la batterie lorsqu'on ne l'est pas. Pas besoin d'une source annexe.
 
 En revanche, pour des projets nomades ou devant rester à l'extérieur, nous
 avons plusieurs sources d'énergie à notre disposition, que ce soit une dynamo
