@@ -5,10 +5,13 @@
               "cout-ecologique-donnees.rst",
               "ffdn.rst",
               "light-painting.rst",
+              "surveillance-digues.rst",
               "ouvrir-puce.rst",
               "sabine-blanc.rst",
               "serigraphie.rst",
               "station-meteo.rst",
-              "table_basse.rst",
+              "table_basse.rst", 
+              "../calendrier.rst",
+              "../partenariat.rst",
               "../apropos.rst"]
 }
