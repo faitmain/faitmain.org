@@ -106,3 +106,5 @@ Ont participé à ce numéro :
 
 - Relecteurs: XXX COMPLETER
 
+- Code & design: Raphael Bastide, Tarek Ziadé, XXX COMPLETER
+
