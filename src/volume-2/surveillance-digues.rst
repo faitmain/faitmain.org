@@ -36,7 +36,7 @@ Les digues sont devenues communicantes.
 
 
 Description du système
-----------------------
+::::::::::::::::::::::
 
 Une digue témoin a été construite par l'association *IJkdijk* et a
 été submergée volontairement pour qu'elle cède sous la pression
@@ -95,7 +95,7 @@ un moteur de recherche.
 
 
 Interface Web
--------------
+:::::::::::::
 
 Notre interface web récupère les données avec les API Rest de l'application
 Django - et le plus gros travail consistait à trouver une bonne représentation
@@ -160,7 +160,7 @@ terminé. Surtout que Backbone est un framework très verbeux.
 Peut être qu'`Angular.js <http://angularjs.org/>`_ aurait été un choix plus judicieux.
 
 Conclusion
-----------
+::::::::::
 
 Nous sommes toujours en train de chercher la solution la plus *simple* pour
 l'affichage de données temps réel dans une application web - que ce soit
