@@ -14,8 +14,6 @@ Au niveau PDF, rien n'a changé par manque de temps. C'est toujours un
 PDF spartiate qui est obtenu avec une moulinette. Les images sont
 mal taillées mais le magazine reste lisible.
 J'espère que le numéro 3 verra des évolutions sur ce front.
-Idéalement, si nous avions de l'aide de quelqu'un qui s'y connait
-en Scribus ce serait génial.
 
 Niveau style et orthographe, il nous manque encore clairement un
 gros boulot de fond - mais depuis la création de la
