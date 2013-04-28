@@ -18,7 +18,7 @@ Par souci de transparence, tous les partenariats permanents sont détaillés
 ici, avec les conditions entendues avec le partenaire.
 
 Hackspark.fr
-------------
+::::::::::::
 
 `Hackspark <http://hackspark.fr>`_ est une boutique dédiée au hacking (bidouille)
 hardware sous toutes ses formes et aspects.
@@ -34,7 +34,7 @@ L'article conçu avec le matériel aura des liens vers la boutique Hackspark et
 une en-tête pour préciser le partenariat avec un lien vers cette page.
 
 Yoctopuce
----------
+:::::::::
 
 `Yoctopuce <http://www.yoctopuce.com>`_ est une entreprise Suisse qui
 conçoit, fabrique et vend des modules USB destinés à tous ceux qui

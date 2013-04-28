@@ -5,7 +5,7 @@ Les évènements à ne pas manquer
 
 
 Fête01 2013
------------
+:::::::::::
 
 Ce fameux virus informatique à l’origine de problèmes dans la  centrale
 nucléaire iranienne est devenu sentimental. Il viendra nous égailler pour
@@ -18,7 +18,7 @@ d’ateliers participatifs, de soirées démos, projections et performances.
 
 
 Open Bidouille Camp
--------------------
+:::::::::::::::::::
 
 Un Open Bidouille Camp - une fête populaire dédiée à la bidouille ou DIY (Do It
 Yourself), en mode atelier.
@@ -28,7 +28,7 @@ Yourself), en mode atelier.
 * Dates: 17 et 18 Mai
 
 THSF 2013
-----------
+:::::::::
 
 Le *Toulouse Hacker Space Factory* c'est une semaine de conférences,
 ateliers, concerts et encore plus - autour du hacking.
@@ -40,7 +40,7 @@ ateliers, concerts et encore plus - autour du hacking.
 **Juin 2013**
 
 le POOP
--------
+:::::::
 
 Le Loop présente le POOP : Portes Ouvertes … Ou Pas.
 Un festival de hack en mode tambouille au Loop.
@@ -51,7 +51,7 @@ Un festival de hack en mode tambouille au Loop.
 * Date: 16 Juin
 
 Pas Sage en Seine
------------------
+:::::::::::::::::
 
 Comme chaque année depuis maintenant 5ans, PSES va vous proposer un cycle de
 conférences, de talks, de rencontres, avec des bidouilleurs, des "gens du
@@ -64,7 +64,7 @@ des curieux.
 
 
 Open Bidouille Camp
--------------------
+:::::::::::::::::::
 
 Un Open Bidouille Camp - une fête populaire dédiée à la bidouille ou DIY (Do It
 Yourself), en mode atelier - dans le cadre de la Fête de l'Environnement et des
@@ -79,7 +79,7 @@ Solidarités
 
 
 SummerLab 2013
---------------
+::::::::::::::
 
 Un SummerLab est une rencontre ancrée dans les valeurs de la culture libre, une
 opportunité pour travailler ensemble en mode interdisciplinaire (créateurs,
