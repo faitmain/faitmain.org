@@ -139,8 +139,8 @@ sont assez drastiques et le matériel très onéreux.
 
 Pour conclure, j'ai trouvé **Cooking For Geeks** absolument génial.
 
-Photo Culinaire
-:::::::::::::::
+Photo Culinaire & Gourmande
+:::::::::::::::::::::::::::
 
 .. figure:: livres/photo_culinaire.gif
    :figclass: pull-right margin-left
@@ -149,11 +149,72 @@ Photo Culinaire
 
    Philippe Barret / Eyrolles
 
+`L'article du numéro 1 </volume-1/5-trucs.html>`_ sur la photographie
+culinaire m'a donné envie de pousser un peu plus dans l'exploration
+de ce domaine.
 
-XXX
+Les Éditions Eyrolles proposent deux ouvrages dans la photo culinaire:
+`Photo Culinaire <http://www.editions-eyrolles.com/Livre/9782212673371/photo-culinaire>`_
+de Philippe Barret et `Photo Gourmande <http://www.editions-eyrolles.com/Livre/9782212134315/photo-gourmande>`_
+de Mouni Abdelli.
 
-Photo Gourmande
-:::::::::::::::
+Deux ouvrages écrits par deux auteurs différents: Philippe Barret est
+un photographe culinaire professionel et illustre des recettes dans
+de nombreux ouvrages. Mouni Addelli est quant à elle bloggueuse
+et photographe amateure. Elle tient le blog
+`Rdv Aux Mignardises <http://www.mignardise.fr/>`_.
+
+Les Éditions Eyrolles m'ont gentiment envoyé les deux livres
+pour que je puisse les étudier et les présenter ici.
+
+Le livre *Photo Culinaire* est une belle édition au format
+22x24 - un A4 un peu écrasé en quelque sorte, ce qui laisse la part
+belle aux clichés.
+
+Au niveau du contenu, on retrouve les principes de base de la
+photographie et un passage en revue du matériel nécessaire, que ce
+le matériel d'éclairage aux décors et accessoires.
+
+Rassurez vous, il n'y a pas besoin d'un studio onéreux pour
+faire des photos culinaires - mais pour une bonne maîtrise de la
+lumière, quelques spots deviennent vite indispensable si vous
+ne pouvez pas prendre des photos en extérieur.
+
+Le chapitre 2 sur les rappels techniques est très bien fait et
+détaille les paramètres à prendre en compte lorsque l'on prend
+des photos culinaire. Une dizaine de pages bien utiles.
+
+Le reste du livre détail les techniques propres à chaque
+domaine de la photographie numérique - de la méthode employée
+pour prendre les photos à la post-production: les photos
+d'emballage & de catalogue, les photos pour les livres et
+la photographie avec les chefs.
+
+Cette dernière catégorie est en fait l'art et la manière
+de photographier des *créations* de plat. Autant dire que si
+vous n'avez pas un Paul Bocuse sous la main vous avez le
+droit de photographier vos propres créations :)
+
+Ce qui m'a le plus intêressé c'est la réalisation des recettes
+en mode pas à pas et l'ouvrage donne de bonnes indications
+
+Le clou du livre, page 73 - c'est les carottes qui se jettent
+dans un plat avec un effet d'animation pour le mouvement.
+
+Un petit détail que j'ai trouvé gênant est l'utilisation
+du `bokeh <https://fr.wikipedia.org/wiki/Bokeh>`_ à outrance
+sur de nombreux clichés. Sur certaines photos, le bokeh qui est
+utilisé pour mettre en valeur un sujet, floute une partie
+du sujet lui même et j'ai trouvé ca génant.
+
+Il existe une technique appelée le
+`Focus Stacking <https://fr.wikipedia.org/wiki/Focus_stacking>`_
+pour maîtriser parfaitement la profondeur de champ sur
+des sujets ou l'on souhaite flouter l'arrière plan.
+
+Mais mis à part ce détail, j'ai trouvé l'ouvrage très bien,
+même pour les photographe avertis: il donne de bonne idées.
+
 
 .. figure:: livres/photo_gourmande.gif
    :figclass: pull-right margin-left
