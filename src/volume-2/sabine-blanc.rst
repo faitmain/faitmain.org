@@ -9,7 +9,7 @@ Interview de Sabine Blanc
 
 .. figure:: sabine/obc2.jpg
 
-   Open Bidouille Camp #2 © Ophelia Noor
+   Open Bidouille Camp #2 - Photo Ophelia Noor CC-BY-NC-ND
 
 Depuis l'an dernier, le mouvement DIY est en train de prendre de l'ampleur dans
 l'hexagone, et on voit de plus en plus d'évènements organisés autour de ces
@@ -109,7 +109,7 @@ recherches sur un blog. https://leshackersdanslacitearabe.wordpress.com/
 
 .. figure:: sabine/sabine.jpg
 
-   Sabine Blanc (à gauche) et Anne-Sophie Novel (à droite) © Ophelia Noor
+   Sabine Blanc (à gauche) et Anne-Sophie Novel (à droite) - Photo Ophelia Noor CC-BY-NC-ND
 
 
 **Quelle est la place du hacking dans la société ?
