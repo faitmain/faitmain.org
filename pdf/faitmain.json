@@ -15,17 +15,17 @@
 
 "fontsAlias" : {
   //"stdFont": "Tuffy-Regular",
-  "stdBold": "Tuffy-Bold",
-  "stdItalic": "Tuffy-Oblique",
-  "stdBoldItalic": "Tuffy-BoldOblique",
+  "stdBold": "LinLibertine_Bd",
+  "stdItalic": "LinLibertine_It",
+  "stdBoldItalic": "LinLibertine_BI",
   "stdMono": "Courier"
 },
 
 "styles" : [
-       ["heading1", { "fontName" : "Lobster" }],
-       ["heading2", { "fontName" : "Lobster" }],
-       ["heading3", { "fontName" : "Lobster" }],
-       ["wfont", {"fontname" : "Tuffy-Oblique",
+       ["heading1", { "fontName" : "Cousine-Regular-Latin" }],
+       ["heading2", { "fontName" : "Cousine-Regular-Latin" }],
+       ["heading3", { "fontName" : "Cousine-Regular-Latin" }],
+       ["wfont", {"fontname" : "LinLibertine_It",
                   "fontSize": 14,
                   "textColor": "white"}],
        ["pull-right", {"alignment": "right"}]
@@ -46,7 +46,7 @@
     "page": {
           "showHeader" : true,
           "showFooter" : true,
-          "background": "page.pdf",
+          //"background": "page.pdf",
           "margin-left": "0cm",
           "margin-right": "0cm",
           "margin-top": "0cm",
