@@ -62,7 +62,7 @@ température, taux d'humidité du sol, acidité du sol, etc.
 Ces senseurs sont gérés par le le *Centre de données des digues*  ou *DDSC*
 et vous trouverez plus de détails techniques sur leur site web: http://www.ijkdijk.nl/en
 
-.. figure:: digues/fibres.png
+.. figure:: digues/fibres.jpg
 
    Fibres de mesure de l'humidité du sol.
 
