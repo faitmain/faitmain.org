@@ -186,3 +186,6 @@ Mais nous avons déjà fait de grandes avancées:
 Retrouvez des informations sur ces projets à http://github.com/ddsc et http://dijkdata.nl
 Tout notre code est sous la licence `MIT <https://fr.wikipedia.org/wiki/Licence_MIT>`_.
 
+Vous pouvez aussi regarder une
+`vidéo qui montre la digue de tests en action <http://vimeo.com/55620328>`_.
+
