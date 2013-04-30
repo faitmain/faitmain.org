@@ -15,7 +15,7 @@ mais lorsqu'ils sont en anglais, restent très abordables.
 Programming Your Home
 :::::::::::::::::::::
 
-.. figure:: programming_home.jpg
+.. figure:: livres/programming_home.jpg
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/Programming-Your-Home-Automate-ebook/dp/B00AYQNR64
    :scale: 75
@@ -50,11 +50,11 @@ domotique, puis developpé les petits projets autour de cette centrale ?
 Si j'automatise ma maison, je ne vais pas m'amuser à developper plusieurs
 petits systèmes indépendants. Je vais vouloir centraliser l'ensemble.
 
-L'autre souci est le choix exclusif de la puce radio 
+L'autre souci est le choix exclusif de la puce radio
 `X-Bee <http://hackspark.fr/fr/zigbee-xbee-2-4ghz-1mw.html>`_,
 pour tous les projets sans fils, qui forment la grande majorité du livre.
 Même si cette puce et son protocole Zigbee (lire notre dossier
-`Xbee </volume-2/xbee-arduino.html>`_) sont très intéressants, 
+`Xbee </volume-2/xbee-arduino.html>`_) sont très intéressants,
 à 20 euros par puce en moyenne, le prix de chaque projet monte très vite.
 
 Pourquoi ne pas avoir aussi exploré des puces radios low-cost en 433 mhz,
@@ -94,7 +94,7 @@ pas la maison du future avec ce livre là.
 Cooking For Geeks
 :::::::::::::::::
 
-.. figure:: cooking-geeks.gif
+.. figure:: livres/cooking-geeks.gif
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/Cooking-Geeks-Science-Great-Hacks/dp/0596805888/
    :scale: 75
@@ -139,4 +139,28 @@ sont assez drastiques et le matériel très onéreux.
 
 Pour conclure, j'ai trouvé **Cooking For Geeks** absolument génial.
 
+Photo Culinaire
+:::::::::::::::
+
+.. figure:: livres/photo_culinaire.gif
+   :figclass: pull-right margin-left
+   :target: http://www.editions-eyrolles.com/Livre/9782212673371/photo-culinaire
+   :align: right
+
+   Philippe Barret / Eyrolles
+
+
+XXX
+
+Photo Gourmande
+:::::::::::::::
+
+.. figure:: livres/photo_gourmande.gif
+   :figclass: pull-right margin-left
+   :target: http://www.editions-eyrolles.com/Livre/9782212134315/photo-gourmande
+   :align: right
+
+   Mouni Abdelli / Eyrolles
+
+XXX
 

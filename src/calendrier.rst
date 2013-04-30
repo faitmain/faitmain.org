@@ -1,6 +1,11 @@
 Les évènements à ne pas manquer
 ===============================
 
+.. note::
+
+   Ajoutez vos évènements en envoyant un mail à tarek@faitmain.org
+
+
 **Mai 2013**
 
 
