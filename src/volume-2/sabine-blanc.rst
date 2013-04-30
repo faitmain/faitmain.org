@@ -57,8 +57,8 @@ Il s'agissait de joutes amicales entre équipes pluridisciplinaires
 journalistes-développeurs-designers, sur le principe de hacks/hackers.
 
 Owni a lancé l'initiative en octobre 2011, il y a eu une deuxième édition
-en janvier de l'année dernière. Un blog dédié rassemble les archives
-sur ces événements. http://hackthepress.net/
+en janvier de l'année dernière. Un `blog dédié <http://hackthepress.net/>`_
+rassemble les archives sur ces événements.
 
 
 **Les deux premiers OBC ont eu l'air de remporter un franc succès, c'est quoi la suite ?**
@@ -71,10 +71,9 @@ Brest s'est lancé très vite dans la foulée, en Novembre.
 
 Nous avons donc créé une association loi 1901 pour continuer
 d'organiser des OBC, entre autres, dans le respect des valeurs initiales :
-gratuité, partage, amusement... Une charte est d'ailleurs en cours
-d'élaboration et ouverte à tous les commentaires pour la patcher.
-
-http://openbidouille.net/post/43143010616/notre-charte-en-open-source
+gratuité, partage, amusement... Une `charte est d'ailleurs en cours
+d'élaboration <http://openbidouille.net/post/43143010616/notre-charte-en-open-source>`_
+et ouverte à tous les commentaires pour la patcher.
 
 .. figure:: sabine/header.obc.jpg
 
@@ -172,8 +171,10 @@ peut/doit aussi remettre en question la notion d'économie pour ne pas
 considérer uniquement le CA généré mais l'apport à la société, de même qu'il
 est important de mesurer celui du tissu associatif par exemple. Quand une
 personne utilise des outils gratuits au lieu de payer une licence par exemple.
-En Algérie, par exemple, vu les tarifs prohibitifs ils ont le choix entre du
-logiciel propriétaire cracké plein de virus. Heureusement, la communauté du
+
+Dans les pays arabes que j'ai visités, qui sont plus pauvres que nous, les
+logiciels propriétaires sont hors de prix, ils sont donc obligés d'utiliser des
+versions crackées pleines de virus. Heureusement, la communauté du
 logiciel libre est en plein développement et constitue une bonne alternative
 légale et plus sûre.
 
@@ -189,5 +190,5 @@ Dates des prochains OBC :
 
 * Lille 22 et 23 juin à Saint-Sauveur dans le cadre de la Fête de l'Environnement et des Solidarités.
 * Brest les 17 et 18 mai puis probablement le 12 octobre pendant Brest en Biens Communs et la fête de la science.
-* Île de France : Cet été peut-être... lieu à déterminer
+* Île de France le 6 juillet - Le lieu reste encore à déterminer.
 
