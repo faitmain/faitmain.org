@@ -32,7 +32,7 @@ et l'association `Ijkdijk <http://www.ijkdijk.nl/en/>`_
 (qui signifie *Digue de calibration* en Hollandais) ont collaboré
 pour mettre au point un système de surveillance automatisé.
 
-Les digues sont devenues communicantes.
+L'objectif est de rendre les digues communicantes.
 
 
 Description du système
@@ -53,12 +53,18 @@ que l'incident ne se produise.
    source: http://www.ijkdijk.nl/en/experiments/macrostability
 
 L'objectif est d'équiper toutes les digues du pays avec des senseurs
-et de récolter en continu et en temps réel les informations. (XXX STATUS?)
+et de récolter en continu et en temps réel les informations. Au jour
+d'aujourd'hui, nous avons quatre digues déployées en production
+en plus de la digue de test.
 
 *IJkdijk* a placé dans chaque digue une multitudes de senseurs différents:
 température, taux d'humidité du sol, acidité du sol, etc.
 Ces senseurs sont gérés par le le *Centre de données des digues*  ou *DDSC*
 et vous trouverez plus de détails techniques sur leur site web: http://www.ijkdijk.nl/en
+
+.. figure:: digues/fibres.png
+
+   Fibres de mesure de l'humidité du sol.
 
 Mais ce système pose un défi en terme de passage à l'échelle. Chaque digue produit
 une quantité astronomique de données à traiter.
@@ -70,16 +76,18 @@ les données provenants des senseurs.
 Nos serveurs de traitement peuvent réceptionner les données par plusieurs
 moyens: un classique serveur FTP, un serveur TCP avec des connections
 persistentes, ou encore via des importations de
-fichiers XML.  (XXX on s'en fout non?)
-
-Pour résumer, nous acceptons toutes formes de transport en fonction des
-contraintes, du moment que nous recevons des valeures avec des
+fichiers XML. Pour résumer, nous acceptons toutes formes de transport en
+fonction des contraintes, du moment que nous recevons des valeures avec des
 *timestamps*.
 
-Les données sont stockées dans un cluster
-`Cassandra <http://cassandra.apache.org>`_ et nous utilisons une
-base de données `PostGIS <http://postgis.net/>`_ pour mettre en cache
-les dernières valeurs reçues pour chaque digue.
+.. figure:: digues/sensors.png
+
+   Récupération des donées
+
+Les données sont réceptionées et traitées via `RabbitMQ <http://www.rabbitmq.com/>`_
+puis stockées dans un cluster `Cassandra <http://cassandra.apache.org>`_ et nous
+utilisons une base de données `PostGIS <http://postgis.net/>`_
+pour mettre en cache les dernières valeurs reçues pour chaque digue.
 
 Nous fournissons ensuite des services web `REST <https://fr.wikipedia.org/wiki/Rest>`_
 que nous avons construit avec Python et `Django <https://www.djangoproject.com/>`_.
@@ -176,4 +184,5 @@ Mais nous avons déjà fait de grandes avancées:
 
 
 Retrouvez des informations sur ces projets à http://github.com/ddsc et http://dijkdata.nl
+Tout notre code est sous la licence `MIT <https://fr.wikipedia.org/wiki/Licence_MIT>`_.
 
