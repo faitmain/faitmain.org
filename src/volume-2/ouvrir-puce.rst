@@ -12,7 +12,7 @@ Comment ouvrir une puce ?
 
    Cet article est une traduction adaptée de l'article de Zeptobars
    originalement paru en anglais & russe à
-   `cette addresse <http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside>`_.
+   `cette adresse <http://zeptobars.ru/en/read/how-to-open-microchip-asic-what-inside>`_.
 
 
 Les puces électroniques sont des petites boîtes noires. Si elles fonctionnent,
@@ -25,7 +25,7 @@ et ce qu'on peut trouver à l'intérieur.
 .. warning::
 
    Toutes les manipulations de cet article sont faites avec de **l'acide chaud**
-   et sont extrêmement dangeureuses. Seuless des personnes aguerries et habilitées
+   et sont extrêmement dangeureuses. Seules des personnes aguerries et habilitées
    à faire ce genre de manipulations, avec le materiel de protection adéquat
    (gants anti-acide, lunettes de protection, combinaison, cheminée d'extraction
    des fumées etc.) peuvent effectuer ces opérations.
@@ -48,7 +48,7 @@ projections accidentelles d'acide et une partie de la fumée.
 
 .. figure:: puce/acid1.jpg
 
-  Le bain d'acide
+  Le bain d'acide.
 
 
 Après 30 à 40 minutes, l'acide brûle le plastique en carbone:
@@ -69,7 +69,7 @@ composants enrobés d'une grosse couche ont en général besoin de trois bains.
 
 Si des morcaux de carbones sont coincés dans la puce et ne peuvent être retirés
 mécaniquement - ils peuvent en général être retirés dans un bain d'acide
-concentré maintenue à une température plus basse (~110-120 °C)
+concentré maintenue à une température plus basse (~110-120 °C).
 
 .. figure:: puce/nitric.jpg
 
@@ -96,7 +96,7 @@ Regardons de plus prêt
 .. figure:: puce/LM1117.jpg
    :target: http://s.zeptobars.ru/LM1117-HD.jpg
 
-   LM1117 — Regulateur ldo
+   LM1117 — Régulateur ldo.
 
 
 .. figure:: puce/74HC595.jpg
@@ -126,11 +126,11 @@ Regardons de plus prêt
    :target: http://s.zeptobars.ru/amd-palce16V8h-HD.jpg
 
    AMD Palce16V8h GAL est un tableau AND de 32 x 64.
-   Les puce GAL (Generic array logic) sont des puces reprogrammables,
+   Les puces GAL (Generic array logic) sont des puces reprogrammables,
    ancêtres des `FPGA <https://fr.wikipedia.org/wiki/FPGA>`_ et
    CPLD.
 
-   Taille des semi-conducteurs: 2434 x 2079 µm, gravage 1µm
+   Taille des semi-conducteurs: 2434 x 2079 µm, gravage 1µm.
 
 
 .. figure:: puce/atmel-attiny13a.jpg
@@ -140,7 +140,7 @@ Regardons de plus prêt
    mémoire flash et 32 bytes de SRAM.
 
    La taille des semi-conducteurs est étonamment grosse (1620 X 1640 µm)
-   Gravage en 500nm
+   Gravage en 500nm.
 
 .. figure:: puce/atmega8.jpg
    :target: http://s.zeptobars.ru/atmega8-HD.jpg
@@ -160,7 +160,7 @@ Regardons de plus prêt
    8080A (ou 8080), mais un redesign compatible. Plusieurs parties sont
    similaires mais le routage et le placement des pads est différent.
 
-   Les plus petites lignes font 6µm
+   Les plus petites lignes font 6µm.
 
 
 .. figure:: puce/STM32F100C4T6B.jpg
@@ -178,7 +178,7 @@ Regardons de plus prêt
 
    Une des dernières fonctionnant encore sur du 5v.
 
-   Taille des semi-conducteurs: 3446 x 2252 µm, gravage 1µm
+   Taille des semi-conducteurs: 3446 x 2252 µm, gravage 1µm.
 
 
 .. figure:: puce/mifare.jpg
