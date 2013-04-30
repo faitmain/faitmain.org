@@ -27,7 +27,7 @@
        ["heading3", { "fontName" : "Cousine-Regular-Latin" }],
        ["wfont", {"fontname" : "LinLibertine_It",
                   "fontSize": 14,
-                  "textColor": "white"}],
+                  "textColor": "black"}],
        ["pull-right", {"alignment": "right"}]
 ],
 
