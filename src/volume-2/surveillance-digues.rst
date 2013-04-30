@@ -81,6 +81,7 @@ fonction des contraintes, du moment que nous recevons des valeures avec des
 *timestamps*.
 
 .. figure:: digues/sensors.png
+   :scale: 50
 
    Récupération des donées
 
