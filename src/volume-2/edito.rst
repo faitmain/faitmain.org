@@ -107,8 +107,8 @@ Ont participé à ce numéro :
 
 - Relecteurs: Cédric Bonhomme, husano, Duvelleking, merlin8282,
   Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David "Animateur",
-  Ysabeau, François Roels, Lantin Henriette, Patrice Godard et tous ceux
-  que nous avons oublié!
+  Ysabeau, François Roels, Lantin Henriette, Patrice Godard, Jean-Philippe 
+  Camguilhem, et tous ceux que nous avons oublié!
 
 - Code & design: Raphael Bastide, Tarek Ziadé.
 
