@@ -185,7 +185,7 @@ Le chapitre 2 sur les rappels techniques est très bien fait et
 détaille les paramètres à prendre en compte lorsque l'on prend
 des photos culinaire. Une dizaine de pages bien utiles.
 
-Le reste du livre détail les techniques propres à chaque
+Le reste du livre détaille les techniques propres à chaque
 domaine de la photographie numérique - de la méthode employée
 pour prendre les photos à la post-production: les photos
 d'emballage & de catalogue, les photos pour les livres et
@@ -211,7 +211,7 @@ du sujet lui même et j'ai trouvé ca génant.
 Il existe une technique appelée le
 `Focus Stacking <https://fr.wikipedia.org/wiki/Focus_stacking>`_
 pour maîtriser parfaitement la profondeur de champ sur
-des sujets ou l'on souhaite flouter l'arrière plan.
+des sujets où l'on souhaite flouter l'arrière plan.
 
 Mais mis à part ce détail, j'ai trouvé l'ouvrage très bien,
 même pour les photographe avertis: il donne de bonne idées.
