@@ -74,7 +74,7 @@ Une solution à base de `RFID <https://fr.wikipedia.org/wiki/Rfid>`_ ou
 un digicode à mot de passe unique auraient été plus réalistes.
 
 Le prix prohibitif du projet est aussi rédhibitoire: pourquoi ne pas avoir opté
-pour une simple web cam voir une board de type Raspberry-PI (ou une
+pour une simple web cam voir une board de type Raspberry-PI (ou
 une autre board vu que le livre est sorti la même année que le Raspberry).
 
 A vouloir montrer un maximum de techniques et périphériques différents,
@@ -89,7 +89,7 @@ automatique.
 
 **Programming Your Home** reste une lecture intéressante pour découvrir
 des techniques d'interaction avec l'environnement, mais vous ne ne construirez
-pas la maison du future avec ce livre là.
+pas la maison du futur avec ce livre là.
 
 Cooking For Geeks
 :::::::::::::::::
