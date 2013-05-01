@@ -174,7 +174,7 @@ belle aux clichés.
 
 Au niveau du contenu, on retrouve les principes de base de la
 photographie et un passage en revue du matériel nécessaire, que ce
-le matériel d'éclairage aux décors et accessoires.
+soit le matériel d'éclairage ou les décors et accessoires.
 
 Rassurez vous, il n'y a pas besoin d'un studio onéreux pour
 faire des photos culinaires - mais pour une bonne maîtrise de la
