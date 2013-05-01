@@ -103,7 +103,7 @@ interaction en `I2C <https://fr.wikipedia.org/wiki/I2C>`_ avec
 un Arduino. Ou encore la puce *RHT03* qui fournit une interface
 digitale basique.
 
-Ces puces ne sont pas chers mais nécessitent pas mal de travail
+Ces puces ne sont pas chères mais nécessitent pas mal de travail
 d'intégration pour construire sa station météo.
 
 
