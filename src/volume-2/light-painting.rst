@@ -38,7 +38,7 @@ par couches successives, des traces lumineuses observées.
 
 .. figure:: light/example.jpg
 
-   Exemple de light painting en étant face à l'objectif (source : wikipedia)
+   Exemple de light painting en étant face à l'objectif (`source : wikipedia <http://commons.wikimedia.org/wiki/File:Light_painting_example.jpeg>`_ licence Free Art)
 
 
 Il existe deux techniques de light painting, celles-ci pouvant être utilisées
@@ -62,9 +62,8 @@ naturel » à l'image.
 
 .. figure:: light/caverne.jpg
 
-   Exemple de light painting utilisant des jeux d'ombre et de lumière (source :
-   wikipedia)
-
+   Exemple de light painting utilisant des jeux d'ombre et de lumière 
+   (`source : wikipedia <http://commons.wikimedia.org/wiki/File:Fort_de_Roppe_-_abri-caverne.jpg>`_ licence CC BY)
 
 
 Seulement comme vous pouvez le remarquer il n'est pas possible de dessiner
