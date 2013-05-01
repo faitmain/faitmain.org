@@ -214,4 +214,4 @@ pour maîtriser parfaitement la profondeur de champ sur
 des sujets où l'on souhaite flouter l'arrière plan.
 
 Mais mis à part ce détail, j'ai trouvé l'ouvrage très bien,
-même pour les photographe avertis: il donne de bonne idées.
+même pour les photographe avertis: il donne de bonnes idées.
