@@ -8,7 +8,10 @@ dans le projet depuis.
 Comme vous pouvez le constater, le look a changé, grâce au travail de
 `Raphaël Bastide <http://raphaelbastide.com/>`_, qui a rejoint l'équipe des
 contributeurs pour retravailler l'identité visuelle. Un style épuré,
-conçu pour faciliter la lecture au maximum.
+conçu pour faciliter la lecture au maximum. Ce volume 2 est l'occasion
+de commencer une transition graphique qui s'afinera à travers les
+numéros et les supports. Vous pourrez en savoir plus sur le travail graphique
+autour de Fait Main dans le numéro 3, ne le manquez pas !
 
 Au niveau PDF, rien n'a changé par manque de temps. C'est toujours un
 PDF spartiate qui est obtenu avec une moulinette. Les images sont
@@ -104,8 +107,8 @@ Ont participé à ce numéro :
 
 - Relecteurs: Cédric Bonhomme, husano, Duvelleking, merlin8282,
   Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David "Animateur",
-  Ysabeau, François Roels, Lantin Henriette, Patrice Godard et tous ceux
-  que nous avons oublié!
+  Ysabeau, François Roels, Lantin Henriette, Patrice Godard, Jean-Philippe
+  Camguilhem, et tous ceux que nous avons oublié!
 
 - Code & design: Raphael Bastide, Tarek Ziadé.
 

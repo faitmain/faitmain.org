@@ -74,7 +74,7 @@ Une solution à base de `RFID <https://fr.wikipedia.org/wiki/Rfid>`_ ou
 un digicode à mot de passe unique auraient été plus réalistes.
 
 Le prix prohibitif du projet est aussi rédhibitoire: pourquoi ne pas avoir opté
-pour une simple web cam voir une board de type Raspberry-PI (ou une
+pour une simple web cam voir une board de type Raspberry-PI (ou
 une autre board vu que le livre est sorti la même année que le Raspberry).
 
 A vouloir montrer un maximum de techniques et périphériques différents,
@@ -89,7 +89,7 @@ automatique.
 
 **Programming Your Home** reste une lecture intéressante pour découvrir
 des techniques d'interaction avec l'environnement, mais vous ne ne construirez
-pas la maison du future avec ce livre là.
+pas la maison du futur avec ce livre là.
 
 Cooking For Geeks
 :::::::::::::::::
@@ -174,7 +174,7 @@ belle aux clichés.
 
 Au niveau du contenu, on retrouve les principes de base de la
 photographie et un passage en revue du matériel nécessaire, que ce
-le matériel d'éclairage aux décors et accessoires.
+soit le matériel d'éclairage ou les décors et accessoires.
 
 Rassurez vous, il n'y a pas besoin d'un studio onéreux pour
 faire des photos culinaires - mais pour une bonne maîtrise de la
@@ -185,7 +185,7 @@ Le chapitre 2 sur les rappels techniques est très bien fait et
 détaille les paramètres à prendre en compte lorsque l'on prend
 des photos culinaire. Une dizaine de pages bien utiles.
 
-Le reste du livre détail les techniques propres à chaque
+Le reste du livre détaille les techniques propres à chaque
 domaine de la photographie numérique - de la méthode employée
 pour prendre les photos à la post-production: les photos
 d'emballage & de catalogue, les photos pour les livres et
@@ -211,7 +211,7 @@ du sujet lui même et j'ai trouvé ca génant.
 Il existe une technique appelée le
 `Focus Stacking <https://fr.wikipedia.org/wiki/Focus_stacking>`_
 pour maîtriser parfaitement la profondeur de champ sur
-des sujets ou l'on souhaite flouter l'arrière plan.
+des sujets où l'on souhaite flouter l'arrière plan.
 
 Mais mis à part ce détail, j'ai trouvé l'ouvrage très bien,
-même pour les photographe avertis: il donne de bonne idées.
+même pour les photographe avertis: il donne de bonnes idées.
