@@ -254,18 +254,18 @@ L'interface homme / machine elle se résume à de simples messages textuels :
    Un fichier bitmap a été détecté, les informations de taille s'affichent
 
 
-.. figure:: light/LCD-4.JPG
+.. figure:: light/LCD-6.JPG
 
    Plus de fichier dans le dossier courant, retour au début de la liste des
    fichiers
 
 
-.. figure:: light/LCD-5.JPG
+.. figure:: light/LCD-4.JPG
 
    Le choix du délai s'effectue au moyen des touches haut, bas et sélection
 
 
-.. figure:: light/LCD-6.JPG
+.. figure:: light/LCD-5.JPG
 
    Le nom du fichier, le pourcentage de progression et une barre de progression
    permettent de savoir instantanément où en est le dessin de l'image et ainsi
