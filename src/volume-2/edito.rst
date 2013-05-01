@@ -105,7 +105,10 @@ Ont participé à ce numéro :
   Fabien Batteix, Fritz van Deventer, Jérôme Abel, Jonathan Schemoul,
   Tarek Ziadé, Zeptobars
 
-- Relecteurs: XXX COMPLETER
+- Relecteurs: Cédric Bonhomme, husano, Duvelleking, merlin8282,
+  Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David "Animateur",
+  Ysabeau, François Roels, Lantin Henriette, Patrice Godard et tous ceux
+  que nous avons oublié!
 
-- Code & design: Raphael Bastide, Tarek Ziadé, XXX COMPLETER
+- Code & design: Raphael Bastide, Tarek Ziadé.
 

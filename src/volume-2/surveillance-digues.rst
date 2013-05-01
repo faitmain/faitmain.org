@@ -77,7 +77,7 @@ Nos serveurs de traitement peuvent réceptionner les données par plusieurs
 moyens: un classique serveur FTP, un serveur TCP avec des connections
 persistentes, ou encore via des importations de
 fichiers XML. Pour résumer, nous acceptons toutes formes de transport en
-fonction des contraintes, du moment que nous recevons des valeures avec des
+fonction des contraintes, du moment que nous recevons des valeurs avec des
 *timestamps*.
 
 .. figure:: digues/sensors.png

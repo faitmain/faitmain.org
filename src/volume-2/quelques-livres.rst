@@ -166,6 +166,7 @@ et photographe amateure. Elle tient le blog
 
 Les Éditions Eyrolles m'ont gentiment envoyé les deux livres
 pour que je puisse les étudier et les présenter ici.
+(je présenterais le livre de Mouni Addelli dans le prochain numéro).
 
 Le livre *Photo Culinaire* est une belle édition au format
 22x24 - un A4 un peu écrasé en quelque sorte, ce qui laisse la part
@@ -214,14 +215,3 @@ des sujets ou l'on souhaite flouter l'arrière plan.
 
 Mais mis à part ce détail, j'ai trouvé l'ouvrage très bien,
 même pour les photographe avertis: il donne de bonne idées.
-
-
-.. figure:: livres/photo_gourmande.gif
-   :figclass: pull-right margin-left
-   :target: http://www.editions-eyrolles.com/Livre/9782212134315/photo-gourmande
-   :align: right
-
-   Mouni Abdelli / Eyrolles
-
-XXX
-
