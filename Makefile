@@ -1,7 +1,7 @@
-.PHONY: build generate
+.PHONY: build generate dev
 
 config = kompost.ini
-
+CURDIR := $(shell pwd)
 
 ifndef VTENV_OPTS
 VTENV_OPTS = "--no-site-packages"
@@ -14,3 +14,5 @@ build:
 generate:
 	bin/kompost $(config)
 
+dev:
+	bin/kompost kompost-dev.ini
