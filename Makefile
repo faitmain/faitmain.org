@@ -1,4 +1,7 @@
-.PHONY: build generate
+.PHONY: build generate dev
+
+config = kompost.ini
+CURDIR := $(shell pwd)
 
 ifndef VTENV_OPTS
 VTENV_OPTS = "--no-site-packages"
@@ -9,5 +12,7 @@ build:
 	bin/pip install https://github.com/faitmain/kompost/archive/master.zip
 
 generate:
-	bin/kompost
+	bin/kompost $(config)
 
+dev:
+	bin/kompost kompost-dev.ini

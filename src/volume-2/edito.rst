@@ -105,10 +105,10 @@ Ont participé à ce numéro :
   Fabien Batteix, Fritz van Deventer, Jérôme Abel, Jonathan Schemoul,
   Tarek Ziadé, Zeptobars
 
-- Relecteurs: Cédric Bonhomme, husano, Duvelleking, merlin8282,
-  Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David "Animateur",
+- Relecteurs: Cédric Bonhomme, Duvelleking, merlin8282,
+  Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David Moyemont,
   Ysabeau, François Roels, Lantin Henriette, Patrice Godard, Jean-Philippe
-  Camguilhem, et tous ceux que nous avons oublié!
+  Camguilhem, Jean, et tous ceux que nous avons oublié!
 
 - Code & design: Raphael Bastide, Tarek Ziadé.
 
