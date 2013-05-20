@@ -17,6 +17,7 @@
     <link href="${config['cnd']}/media/bootstrap-responsive.css" rel="stylesheet">
     <link href="${config['cnd']}/media/bootswatch.css" rel="stylesheet">
     <link href="${config['cnd']}/media/pygments_style.css" rel="stylesheet">
+    <link href="${config['cnd']}/media/faitmain.css" rel="stylesheet">
     <link rel="shortcut icon" href="${config['cnd']}/favicon.ico" />
 </head>
 
@@ -144,25 +145,25 @@
 
 <br/><br/>
 
-  <footer id="footer" class="span12">
-   <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
-
-    <%block name="footer">
-    <div class="links">
-      <ul>
-        <li>© 2013 FaitMain</li>
-        <li>ISSN 2261-8376</li>
-        <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
-        <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
-      </ul>
-
-     </div>
-
-      <div style="clear:both"/>
-    </%block>
-  </footer>
-
 </div> <!-- end container -->
+
+<footer id="footer">
+ <p class="pull-right"><a href="#"><img src="${config['cnd']}/media/up.png"></a></p>
+
+  <%block name="footer">
+  <div class="links">
+    <ul>
+      <li>© 2013 FaitMain</li>
+      <li>ISSN 2261-8376</li>
+      <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
+      <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
+    </ul>
+
+   </div>
+
+    <div style="clear:both"/>
+  </%block>
+</footer>
 
     <script src="${config['cnd']}/media/jquery.js"></script>
     <script async src="${config['cnd']}/media/bootstrap.js"></script>

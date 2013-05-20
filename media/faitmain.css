@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Cousine Regular Latin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cousine Regular Latin'),
+       local('Cousine-Regular-Latin'),
+       url('fonts/Cousine-Regular-Latin.ttf');
+}
+
+@font-face {
+  font-family: 'LinLibertine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('LinLibertine'),
+       url('fonts/LinLibertine_Re-4.7.5.ttf');
+}
+@font-face {
+  font-family: 'LinLibertine';
+  font-style: normal;
+  font-weight: bold;
+  src: local('LinLibertine'),
+       url('fonts/LinLibertine_Bd-4.1.5.ttf');
+}
+@font-face {
+  font-family: 'LinLibertine';
+  font-style: italic;
+  font-weight: normal;
+  src: local('LinLibertine'),
+       url('fonts/LinLibertine_It-4.2.6.ttf');
+}
+@font-face {
+  font-family: 'LinLibertine';
+  font-style: italic;
+  font-weight: bold;
+  src: local('LinLibertine'),
+       url('fonts/LinLibertine_BI-4.1.0.ttf');
+}
+
+@font-face {
+  font-family: 'LinBiolinum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('LinBiolinum'),
+       url('fonts/LinBiolinum_Re-0.6.4.ttf');
+}
+
+body {font-family:'LinLibertine',Times,serif;}
+.nav-list, #footer {font-family: 'Cousine Regular Latin',Menlo,Monaco,Consolas,"Courier New",monospace;}
+
+
+/* custom styles */
+body {
+	background: url('background.png');
+}
+
+.well {
+	background: white;
+	border-radius: 0;
+	border: 2px solid #f2f2f2;
+	border-bottom: 2px solid #008066;
+}
+
+.navbar {
+	background: white;
+	border-bottom:2px solid #008066;
+}
+.big-logo img {
+	height: 38px;
+}
+
+.sidebar-nav {
+	margin-top: 100px;
+}
+
+ul.nav-menu {
+  list-style: none;
+  font-size: 0.8em;
+}
+
+ul.nav-menu a{
+  color: black;
+}
+
+ul.nav-menu li:not(.nav-header):before {
+  content:"";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-color: #008066;
+}
+
+.btn {
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+#footer {
+	font-size: 0.7em;
+}
