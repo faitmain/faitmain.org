@@ -2,7 +2,7 @@ Cable d'interface pour Raspberry Pi
 ===================================
 
 :date: 2013-02-01
-:category: informatique,electronique
+:category: informatique,électronique
 :level: vulgarisation
 :author: François Dion
 

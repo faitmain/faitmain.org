@@ -1,0 +1,45 @@
+
+Sources des images de l'article XBee & arduino pour le magazine faitmain.org
+============================================================================
+
+Illustrations personnelles dans le dossier http://jeromeabel.net/files/ressources/xbee-arduino/illustrations
+
+- abeille.jpg : http://www.lozere-tourisme.com/images/entites/DEG/l-abeille-du-mont-loze-re.jpg
+- api-mode-arduino.png : http://www.faludi.com/classes/sociableobjects/code/XBee_Analog_Duplex_Sender.pde
+- benjamin-gaulon.jpg : http://www.recyclism.com/twopointfour.php
+- bluetooth-bee.jpg : http://robosavvy.com/store/images/DFRobot_tel0023_BluetoothBee.jpg
+- code-emetteur.png : mes codes de cas pratiques dans le dossier http://jeromeabel.net/files/ressources/xbee-arduino/code
+- code-recepteur-1.png : "
+- code-recepteur-2.png : " 
+- domotique.jpg : ?
+- LM317.gif : illustration personnelle
+- LM7833.png : datasheet
+- programming-arduino.jpg : http://john.crouchley.com/blog/archives/750
+- robotic-drums.jpg : http://www.sweet-tech-studio.com/2010/09/robotic-drums.html
+- terminal-hardware.png : copie d'écran
+- terminal-tom-igoe.png : copie d'écran
+- type-arduino-arduino.png : illustration personnelle
+- type-arduino-computer.png : "
+- type-xbee-xbee-computer.png : "
+- type-xbee-xbee.png : "
+- wireless-comparison.png : http://fr.wikipedia.org/wiki/ZigBee
+- wireless-techniques.png : illustration personnelle à partir de cette image http://roysoala.files.wordpress.com/2011/09/zigbeevswifi.jpg
+- xbee-adressing.png : livre Building Wireless Sensor Networks de Robert Faludi
+- xbee-antennas.png : livre Building Wireless Sensor Networks de Robert Faludi
+- xbee-arduino-receive-bb.png : illustration personnelle
+- xbee-arduino-send-bb.png : "
+- xbee-direct-receive.jpg : " 
+- xbee-direct-send.jpg : "
+- xbee-explorer.png : "
+- xbee-ftdi.jpg : "
+- xbee-IO-configurations.jpg : datasheet
+- xbee-IO-pins.jpg : datasheet
+- xbee.jpg : http://www.matlog.com/58-816-thickbox/modules-xbee-zb-serie-2.jpg
+- xbee-linepassing.jpg : datasheet
+- xbee-power.jpg : illustration personnelle
+- xbee-series.jpg : livre Building Wireless Sensor Networks de Robert Faludi
+- xbee-supply-voltage.png : datasheet
+- zibee-architecture.png : http://moodle.utc.fr/file.php/498/SupportWeb/res/zigbee-architecture.png
+- zigbee-topologies.png : livre Building Wireless Sensor Networks de Robert Faludi
+- zigbee-trame.png : ?
+

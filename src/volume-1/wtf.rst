@@ -2,7 +2,7 @@ What The Feuille ?
 ==================
 
 :date: 2013-02-01
-:category: ecologie,informatique
+:category: écologie,informatique
 :level: vulgarisation
 :author: Tarek Ziadé
 

@@ -2,7 +2,7 @@ Rencontre au LabFab de Rennes
 =============================
 
 :date: 2013-02-01
-:category: electronique,informatique,art
+:category: électronique,informatique,art
 :level: vulgarisation
 :author: Florian Strzelecki
 
