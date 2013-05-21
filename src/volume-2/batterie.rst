@@ -5,6 +5,8 @@ Passer un projet sur batterie
 :category: électronique
 :level: debutant
 :author: Jonathan Schemoul
+:licence: By-NC-SA 3.0
+
 
 .. note::
 
