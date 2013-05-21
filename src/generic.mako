@@ -101,6 +101,12 @@
            Volume 1
          </a>
         </li>
+        <li>
+          <a href="${config['siteurl']}/volume-2/index.html">
+           Volume 2
+         </a>
+        </li>
+
 
         <li class="nav-header" style="color:black">Social</li>
         <li>
