@@ -22,6 +22,7 @@ L'article commence par une série de méta-données:
 - **author** — l'auteur de l'article au format **Prénom Nom** — Kompost va faire
   un lien entre l'article et la page */auteurs/prenom_nom.html* donc respectez bien
   le format.
+- **licence** - la licence de l'article
 
 
 Exemple::
@@ -33,6 +34,8 @@ Exemple::
     :category: ecologie,informatique
     :level: vulgarisation
     :author: Tarek Ziadé
+    :licence: By-NC-SA 3.0
+
 
     Du texte...
 
@@ -53,6 +56,26 @@ Exemple::
 
 Notez que les saut de section (*----*) sont remplacés par des balises **HR**
 qui apparaissent comme des petites scies dans la CSS faitmain.
+
+Choix d'une licence
+:::::::::::::::::::
+
+Il est important de bien choisir sa licence pour son article. Le plus simple
+est de suivre le guide à cet adresse: https://creativecommons.org/choose/?lang=fr
+
+Le choix le plus important est de savoir si vous voulez autoriser ou non l'utilisation
+commerciale. Si vous autorisez l'utilisation commerciale, vous permettez à votre
+article une diffusion sans limites, sans forcément être rénuméré. C'est un bon
+choix si vous souhaitez diffuser au maximum votre article mais un mauvais
+choix si vous souhaitez négocier une rémunération si l'article paraît
+dans une revue commerciale.
+
+Le choix d'une licence dans Fait Main n'est bien sûr pas gravée dans le
+marbre - l'article vous appartient et vous pouvez le re-licencier pour
+d'autre publications.
+
+A partir du numéro 3, Fait Main ne choisit plus de licence par défaut
+et demande à chaque auteur d'en choisir une en toute connaissance de cause.
 
 
 Images
