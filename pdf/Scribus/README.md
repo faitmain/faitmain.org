@@ -1,7 +1,7 @@
 Information Template Scibus
 ===========================
 
-Quelques explications concernant le template réalisé sous Scribus
+Quelques explications concernant le template réalisé sous Scribus.
 
 ## Dimensions 
 
@@ -25,3 +25,8 @@ La charte graphique du site faitmain.org a été reprise dans Scribus (menu Édi
 - FaitMain - Moutarde --> #D4AA00
 - FaitMain - Rose foncé --> #A02C5A
 - FaitMain - Vert --> #008066
+
+## Propositions
+
+- Tous les auteurs/contributeurs avec photo en mode dessin (cf. Tarek au niveau de l'Édito")
+- Une mise en page différente pour la première partie du magazine (comme Quelques livres, Interview, etc.)
