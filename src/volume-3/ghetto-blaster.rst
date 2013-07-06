@@ -22,7 +22,7 @@ Enceintes & ampli
 
 
 En fouillant dans ma cave, j'ai trouvé deux enceintes trois voies Panasonic
-de 100 Watts (en vrai 25W) qui étaient dans mon ancienne voiture, et
+de 100 Watts (en vrai 25W RMS) qui étaient dans mon ancienne voiture, et
 une valise en aluminium qui contenait des outils. C'est la valise
 générique qui est souvent vendu avec une perceuse ou des outils.
 Elle en jette mais elle est en carton et a juste une mince couche
@@ -30,13 +30,19 @@ d'aluminium par dessus. La caisse de résonnance parfaite pour
 un prix avoisinant les 10 euros...
 
 Ni une, ni deux, j'ai vidé la valise et retiré sa doublure
-plastique et percé deux trous pour les enceintes à l'aide
+plastique, puis percé deux trous pour les enceintes à l'aide
 d'un gros cutter.
 
 Pour l'amplification j'ai opté pour un petit amplificateur
-25 Watts 2 voies qui permet quelques réglages basses/medium/aigues,
-et dont le panneau frontal se dévisse - Payé 27 euros
-sur Amazon. XXX
+`Lepai 20 Watts 2 voies <http://www.amazon.fr/Lepai-Tripath-class-T-Amplificateur-acoustique/dp/B009US84UQ/>`_
+qui permet quelques réglages basses/medium/aigues,
+et dont le panneau frontal se dévisse - Payé 25 euros
+sur Amazon.
+
+.. figure:: ghetto/ampli.jpg
+   :scale: 50
+
+   Ampli Lepai 20w.
 
 Ca m'a permis de remettre ce panneau sur la valise et de revisser
 le corps de l'ampli à l'intérieur. Bien sûr, le top du top
@@ -50,13 +56,75 @@ de loin la qualité de mes enceintes de salon**.
 Alimentation
 ------------
 
+Avoir une alimentation stable & portative était le gros challenge
+de ce projet: comment faire pour fournir les 12v que
+l'amplificateur requiert, ainsi que les 5v pour le Raspberry ?
 
-XXX regul etc
+Au début j'ai pensé à équiper la valise d'une `batterie au plomb
+<https://fr.wikipedia.org/wiki/Batterie_au_plomb>`_
+qui est similaire à celles qui équipent les voitures, mais
+j'ai très vite déchanté sur le prix et le poids - et aussi
+le coté pas très écologique.
 
+J'ai ensuite pensé à monter moi-même un train de 4 batteries
+Li-Po 3.6v, mais ce genre de montage est assez technique car
+il faut s'assurer que toutes les batteries sont toujours
+chargées au même niveau et aussi ne jamais descendre en
+dessous d'une certaine charge. Et puis bon, c'est
+`dangeureux tout ça... <https://www.youtube.com/watch?v=ixIOEPnsgbI>`_
+
+Grâce à Jonathan j'ai finalement trouvé une Li-Po de 12v et
+6.8A sur AliBaba très compacte et légère. Guère plus grosse que
+celle que l'on trouve dans les avions ou voitures radio-commandé,
+avec toutes les protections nécessaires.
+
+.. figure:: ghetto/batterie.jpg
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
+
+   Li-Po 12v 6800mA
+
+Reste à fabriquer un petit régulateur pour ajouter une deuxième
+sortie de 5v à la batterie.
+
+Pour transformer une tension de 12v
+en 5v il y a deux méthodes: utiliser une séries de résistances
+pour simplement diviser le voltage, ou utiliser un semi-conducteur
+spécialisé comme le `LM1117 <http://hackspark.fr/fr/ld1117-lm1117-5v-ldo-voltage-regulator-1-3a-to220.html>`_
+qui, accompagné de quelques condensateurs, va faire tout
+le boulot proprement. La deuxième méthode est beaucoup
+plus fiable et évite les variations de tension, qui
+peuvent être problématiques lorsqu'on alimente un Raspberry.
+
+Le montage, expliqué ci-dessous, est très simple: le régulateur
+reçoit les 12 volts sur une patte et renvoie 5v sur l'autre.
+La troisième patte est la masse. Attention, bien
+lire le `datasheet <http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf>`_
+pour ne pas se tromper de pattes - elles sont différentes
+en fonction des modèles.
 
 .. figure:: ghetto/Voltage-Regulator.png
+   :scale: 75
 
    Schéma du circuit de régulation de tension.
+
+De chaque côté du montage il y a deux condensateurs,
+qui stabilisent le circuit. Si vous montez des condensateurs
+céramiques, attention au sens: ils sont polarisés.
+
+Enfin, une LED est placé sur la partie 5v, avec une petite
+résistance, histoire de montrer que le circuit tourne.
+
+En utilisation, le régulateur chauffe beaucoup puisqu'il dissipe
+l'excès de tension, et il peut être équipé d'un petit radiateur
+à visser - j'en ai récupéré un sur une vieille plaque électronique
+pour ce montage.
+
+Après quelques soudures, un magnifique régulateur de tension!
+
+XXX photo régul.
+
 
 
 
