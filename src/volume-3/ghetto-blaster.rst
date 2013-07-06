@@ -6,7 +6,7 @@ Valise Ghetto Blaster
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
 
-Après le `Juke Box du premier numéro <http://faitmain.org/volume-1/raspberry-jukebox.html>`,
+Après le `Juke Box du premier numéro <http://faitmain.org/volume-1/raspberry-jukebox.html>`_,
 j'avais envie de pousser un peu plus le projet pour faire un `Ghetto Blaster
 <https://fr.wikipedia.org/wiki/Radiocassette>`_ qui puisse streamer de la musique
 via le wifi de la maison, avec un son digne de ce nom.
@@ -52,6 +52,14 @@ Alimentation
 
 
 XXX regul etc
+
+
+.. figure:: ghetto/Voltage-Regulator.png
+
+   Schéma du circuit de régulation de tension.
+
+
+
 
 Logiciels
 ---------
