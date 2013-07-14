@@ -24,14 +24,15 @@ Enceintes & ampli
 En fouillant dans ma cave, j'ai trouvé deux enceintes trois voies Panasonic
 de 100 Watts (en vrai 25W RMS) qui étaient dans mon ancienne voiture, et
 une valise en aluminium qui contenait des outils. C'est la valise
-générique qui est souvent vendu avec une perceuse ou des outils.
-Elle en jette mais elle est en carton et a juste une mince couche
-d'aluminium par dessus. La caisse de résonnance parfaite pour
-un prix avoisinant les 10 euros...
+générique qui est souvent vendue avec une perceuse ou d'autres
+outils. Elle en jette mais elle est en carton et a juste une
+mince couche d'aluminium par dessus. La caisse de résonnance parfaite
+pour un prix avoisinant les 10 euros...
 
 Ni une, ni deux, j'ai vidé la valise et retiré sa doublure
-plastique, puis percé deux trous pour les enceintes à l'aide
-d'un gros cutter.
+caoutchouteuse, puis percé deux trous pour les enceintes à l'aide
+d'un gros cutter. La couche d'aluminium est juste comme
+il faut pour tenir les enceintes avec des petites vis.
 
 Pour l'amplification j'ai opté pour un petit amplificateur
 `Lepai 20 Watts 2 voies <http://www.amazon.fr/Lepai-Tripath-class-T-Amplificateur-acoustique/dp/B009US84UQ/>`_
@@ -49,9 +50,18 @@ le corps de l'ampli à l'intérieur. Bien sûr, le top du top
 aurait été de fabriquer mon propre ampli, mais je n'en suis
 pas encore à ce niveau là.
 
-Après deux points de soudures, les enceintes et l'amplificateur
-étaient fonctionels et là, le choc: **un son excellent, dépassant
-de loin la qualité de mes enceintes de salon**.
+Après deux points de soudures pour relier du fil éléctrique
+entre les enceintes et l'ampli, j'ai pu essayer le son avec
+un lecteur mp3.
+
+Le choc. *un son excellent, dépassant de loin la qualité
+de mes enceintes de salon*. La valise vombrie avec les
+basses et les rend bien, sans aucune vibration parasite.
+
+J'ai fais des essais en rembourrant la valise avec de
+l'isolant, mais c'est moins bien - ca étouffe le son et
+tue les basses.
+
 
 Alimentation
 ------------
