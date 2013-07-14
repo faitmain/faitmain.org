@@ -6,6 +6,10 @@ Horloge Arducomtoise
 :level: vulgarisation, moyen
 :author: Vincent Becker
 
+.. figure:: arducomtoise2.jpg
+
+  ArduComtoise, l'horloge comtoise la plus précise du monde
+
 Je possède dans ma cuisine une très belle horloge comtoise héritée de mes
 grands-parents. Si la précision de la mécanique est déjà assez épatante au
 départ, j'ai chargé une Arduino de l'améliorer encore. Au vu de ses
@@ -32,6 +36,9 @@ Mais on peut faire mieux ! C'est une Arduino qui va s'en charger.
 
 ArduComtoise
 ------------
+
+Vidéo : <iframe width="800" height="450" src="//www.youtube.com/embed/96fAYLu30QA" frameborder="0" allowfullscreen></iframe>
+
 
 Pas question, dans ce projet, de toucher à la mécanique très sensible de
 l'horloge elle-même. Tout se passe sans contact ou presque.
@@ -69,22 +76,6 @@ balancier vient d'être relâché, sa course est trop courte pour qu'il revienne
 jusqu'à ce capteur ; on raterait donc des passages et toute la précision du
 montage repose sur un comptage précis.
 
-La séquence logicielle
-::::::::::::::::::::::
-
-Le logiciel est conçu comme suit:
-
-- à l’initialisation, l'heure courante est notée.
-- le comptage des passages de balancier démarre ensuite, avec une interruption
-  sur le capteur central.
-- au bout de 80 350 passages, soit 24h sur l'horloge (donc un peu moins de 24h
-  sur le Chronodot)  le montage passe en mode "réglage".
-- dès que le balancier passe devant le capteur de fin de course, le servo est
-  mis en position fermée et retient le balancier jusqu'à ce que 24h se soient
-  réellement écoulées.
-- le compteur est remis à zéro, l'heure de référence est  réinitialisée et le
-  balancier est relâché, le cycle peut recommencer.
-
 Il arrive, sans que j'arrive à savoir pourquoi, que le détecteur rate un
 passage. C'est rare, mais le bon comptage est vraiment critique pour le
 fonctionnement du système. Le temps écoulé entre deux passages est donc calculé
@@ -99,11 +90,15 @@ problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 �
 15 secondes du fait des divers jeux internes de la mécanique.
 
 On pourrait
-intégrer un temps moyen dans la calibration du montage pour compenser, mais
+intégrer un temps moyen dans la calibration pour compenser, mais
 c'est loin d'être idéal. J'ai donc changé d'approche.
 
 Deuxième approche: feedback
 ---------------------------
+
+.. figure:: feedback.jpg
+
+  Le capteur de feedback
 
 J'ai dû me résoudre à employer la solution rejetée en première instance mais
 qui semble la seule parfaitement fiable, à savoir un feedback sur les
@@ -131,6 +126,10 @@ indéfiniment décalée au maximum de 20s par rapport à l'heure du Chronodot.
 Indicateurs et accessoires
 --------------------------
 
+.. figure:: montage.jpg
+
+  Le montage
+  
 Histoire de ne pas tout faire à l'aveugle, des indicateurs permettent de
 monitorer le bon fonctionnement du système.
 
@@ -204,7 +203,7 @@ Evolution
 ---------
 
 Parmi les évolutions possibles, j'envisage l'ajout d'une connexion à un serveur
-NTP via un shield Ethernet pour recaler le Chronodot périodiquement. On aura
+NTP via un shield Ethernet pour recaler le Chronodot périodiquement sur une horloge atomique. On aura
 ainsi l'horloge comtoise la plus précise de l'Univers.
 
 Le code
