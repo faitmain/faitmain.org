@@ -5,6 +5,7 @@ Du savon fait maison
 :category: ecologie
 :level: facile
 :author: Nerick
+:licence: By-Sa-3.0
 
 Le savon de marseille... Je suis sûr que vous connaissez tous, mais que
 personne ne l'utilise. C'est vrai, souvent on en reste aux blocs infames
@@ -52,12 +53,21 @@ par la soude, donc utilisez de préférence un récipient ne verre, ça évitera
 mauvaises surprises. Pour les ustensiles, évitez l'aluminium, il réagit assez
 violemment avec la soude.
 
-Maintenant que ce petit rappel est fait, passons aux travaux pratiques. ---- La
-précision requise pour les dosage va fortement dépendre de la quantité de savon
+Maintenant que ce petit rappel est fait, passons aux travaux pratiques. 
+
+---- 
+
+La précision requise pour les dosage va fortement dépendre de la quantité de savon
 réalisée. La recette suivante vous permettra de réaliser l'équivalent d'une
-grosse dizaine de savons, de taille à peu près standard. Liste des ingrédients
-: - 200g d'huile de coco - 400g d'huile d'olive - 200ml d'eau - 85g de soude
-caustique - huile essentielle de lavande
+grosse dizaine de savons, de taille à peu près standard. 
+
+Liste des ingrédients: 
+
+- 200g d'huile de coco 
+- 400g d'huile d'olive 
+- 200ml d'eau 
+- 85g de soude caustique 
+- huile essentielle de lavande
 
 .. figure:: savon/1.JPG
 
