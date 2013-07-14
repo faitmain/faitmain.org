@@ -69,7 +69,7 @@ jusqu'à ce capteur; on raterait donc des passages et toute la précision du
 montage repose sur un comptage précis.
 
 La séquence logicielle
-----------------------
+::::::::::::::::::::::
 
 Le logiciel est conçu comme suit:
 
@@ -91,7 +91,7 @@ et, s'il est supérieur à 2 secondes, c'est qu'on en a raté un et un passage e
 rajouté "artificiellement".
 
 Limites du système
-------------------
+::::::::::::::::::
 
 Ce système marche parfaitement entre deux remontages. Mais il se heurte à un
 problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 à
