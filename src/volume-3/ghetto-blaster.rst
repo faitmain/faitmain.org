@@ -6,6 +6,12 @@ Valise Ghetto Blaster
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
 
+
+.. figure:: ghetto/ghetto1.jpg
+
+   Valise Ghetto Blaster
+
+
 Après le `Juke Box du premier numéro <http://faitmain.org/volume-1/raspberry-jukebox.html>`_,
 j'avais envie de pousser un peu plus le projet pour faire un `Ghetto Blaster
 <https://fr.wikipedia.org/wiki/Radiocassette>`_ qui puisse streamer de la musique
@@ -34,6 +40,11 @@ caoutchouteuse, puis percé deux trous pour les enceintes à l'aide
 d'un gros cutter. La couche d'aluminium est juste comme
 il faut pour tenir les enceintes avec des petites vis.
 
+.. figure:: ghetto/ghetto4.jpg
+
+   Enceinte vissée dans la valise
+
+
 Pour l'amplification j'ai opté pour un petit amplificateur
 `Lepai 20 Watts 2 voies <http://www.amazon.fr/Lepai-Tripath-class-T-Amplificateur-acoustique/dp/B009US84UQ/>`_
 qui permet quelques réglages basses/medium/aigues,
@@ -41,7 +52,9 @@ et dont le panneau frontal se dévisse - Payé 25 euros
 sur Amazon.
 
 .. figure:: ghetto/ampli.jpg
-   :scale: 50
+   :scale: 25
+   :figclass: pull-right margin-left
+   :align: right
 
    Ampli Lepai 20w.
 
@@ -49,6 +62,11 @@ Ca m'a permis de remettre ce panneau sur la valise et de revisser
 le corps de l'ampli à l'intérieur. Bien sûr, le top du top
 aurait été de fabriquer mon propre ampli, mais je n'en suis
 pas encore à ce niveau là.
+
+.. figure:: ghetto/ghetto3.jpg
+
+   Panneau de l'ampli repassé à l'extérieur.
+
 
 Après deux points de soudures pour relier du fil éléctrique
 entre les enceintes et l'ampli, j'ai pu essayer le son avec
@@ -95,6 +113,16 @@ avec toutes les protections nécessaires.
 
    Li-Po 12v 6800mA
 
+
+La batterie se cale parfaitement au dessus de l'ampli,
+avec un peu de carton entre les deux pour éviter
+une surchauffe.
+
+.. figure:: ghetto/ghetto5.jpg
+
+   L'ampli et la batterie calés dans la valise.
+
+
 Reste à fabriquer un petit régulateur pour ajouter une deuxième
 sortie de 5v à la batterie.
 
@@ -133,9 +161,9 @@ pour ce montage.
 
 Après quelques soudures, un magnifique régulateur de tension!
 
-XXX photo régul.
+.. figure:: ghetto/ghetto8.jpg
 
-
+   Régulateur 12v -> 5v. Le LM1117 est masqué par le radiateur.
 
 
 
@@ -148,6 +176,11 @@ Wifi
 ----
 
 XXX
+
+.. figure:: ghetto/ghetto6.jpg
+
+   Le dongle Wifi avec antenne extérieure.
+
 
 Conclusion
 ----------
