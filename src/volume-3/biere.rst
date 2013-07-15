@@ -3,7 +3,7 @@ Faire de la bière maison (ou comment transformer l'eau en bière)
 
 :date: 2013-08-01
 :category: cuisine
-:authors: Frédéric Sureau, Alexis Métaireau
+:author: Frédéric Sureau, Alexis Métaireau
 :level: moyen
 
 On en boit tout le temps, mais on ne prend pas souvent le temps de comprendre
@@ -51,10 +51,12 @@ L'essentiel :
 -------------
 
 Une source de chaleur réglable
+
     Un trépied à gaz pour les paëlla est parfait, sinon une plaque de cuisson
     quelconque.
 
 Une cuve de brassage
+
     Une grande casserole/marmite de minimum 30L. 50L c'est plus confort.
     En inox ou émaillée, mais surtout pas d'aluminium car il ne réagit pas très
     bien avec la bière paraît il...
@@ -62,6 +64,7 @@ Une cuve de brassage
     partir de 50€ et 150€ facilement selon la qualité)
     
 Une cuve de fermentation
+
     Un seau en plastique avec couvercle hermétique de minimum 30L.
     Utiliser de préférence du plastique alimentaire, sinon la bière développe un
     goût de pétrole très caractéristique (on a testé pour vous)
@@ -69,18 +72,22 @@ Une cuve de fermentation
     30L avec barboteur et robinet pour une dizaine d'euros.
 
 Une touillette
+
     Une grande cuillère quoi...
 
 Un thermomètre
+
     De cuisine, gradué entre 50°C et 100°C.
 
 Une passoire
+
     Très grande si possible
 
 Recommandé fortement :
 ----------------------
 
 Un moulin à malt
+
     Du genre de ce qu'il y a dans les fermes pour concasser les céréales qu'on
     donne aux bêtes, ou un moulin à malt spécial (environ 50€ les premiers prix)
     Si vous n'en avez pas sous la main, il y a les techniques torchon/marteau
@@ -88,6 +95,7 @@ Un moulin à malt
     radié à vie de l'ordre des brasseurs)
 
 Refroidisseur
+
     On peut s'en bricoler un pour pas cher avec des tuyaux de cuivres pour
     canalisation. Il suffit de le tordre en forme de serpentin et de faire des
     jolis raccords. Sans cet ustensile, l'étape de refroidissement est longue et
@@ -98,11 +106,13 @@ Facultatif (mais quand même sympa) :
 ------------------------------------
 
 Un densimètre
+
     Pour faire des mesures et savoir au bout de combien de pintes on ne peut
     plus conduire. Accessoirement c'est pratique pour connaître le moment idéal
     pour la mise en bouteille.
 
 Un tuyau pour siphonner
+
     Lors de la mise en bouteille. Prévoir un bon diamètre (environ 1cm) pour ne
     pas y passer des plombes.
 
