@@ -19,6 +19,8 @@ caractéristiques techniques (balancier sur l'avant typique de la deuxième
 moitié du XIXe siècle mais échappement à couronne et non à ancre typique de la
 première moitié), cette horloge doit dater du milieu du XIXe siècle.
 
+Le cadran mentionnne Munster, en Alsace, comme ville d'origine, mais il s'agit bien d'une comtoise. Les mouvements étaient fabriqués à Morez près de Pontarlier dans le Haut Doubs puis expédiés nus dans toute l'Europe. Les facades, caisses et poids étaient ensuite produits sur le lieu de destination, portant mention de l'horloger local.
+
 Elle possède un mouvement situé assez haut (environ 2m10) avec comme
 garde-temps un balancier d'environ 1m20. Deux poids assurent la réserve
 d'énergie, l'un pour le mouvement, l'autre pour la sonnerie. Elle sonne les
@@ -406,6 +408,8 @@ sol et que l'horloge s'arrête.
 Sitôt le poids détecté, des Leds rouges s'allument sur l'indicateur lumineux.
 Enfin, un buzzer piézo-électrique émet des bips pendant 2 minutes avant le
 blocage du balancier.
+
+Chose curieuse, la fonte noire dont est fait le poids était totalement invisible pour le capteur infrarouge. J'ai donc dû l'emballer dans une feuille de papier noir pour le rendre détectable (mais pas trop laid quand même).
 
 L'alimentation
 --------------
