@@ -37,7 +37,7 @@ Mais on peut faire mieux ! C'est une Arduino qui va s'en charger.
 
 
 ArduComtoise
-------------
+::::::::::::
 
 Vidéo : <iframe width="800" height="450" src="//www.youtube.com/embed/96fAYLu30QA" frameborder="0" allowfullscreen></iframe>
 
@@ -53,7 +53,7 @@ indéfiniment. Cela implique de déterminer précisément quand l'horloge a fait
 deux tours complets (soit 24h).
 
 Première approche : et Arduino comptait, comptait...
-----------------------------------------------------
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Dans un premier temps, j'ai voulu faire en sorte que le système soit totalement
 invisible de l'extérieur : pas question donc de mettre un feedback sur les
@@ -85,7 +85,7 @@ et, s'il est supérieur à 2 secondes, c'est qu'on en a raté un et un passage e
 rajouté "artificiellement".
 
 Limites du système
-::::::::::::::::::
+------------------
 
 Ce système marche parfaitement entre deux remontages. Mais il se heurte à un
 problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 à
@@ -96,7 +96,7 @@ intégrer un temps moyen dans la calibration pour compenser, mais
 c'est loin d'être idéal. J'ai donc changé d'approche.
 
 Deuxième approche: feedback
----------------------------
+:::::::::::::::::::::::::::
 
 .. figure:: comtoise/feedback.jpg
 
@@ -126,7 +126,7 @@ indéfiniment décalée au maximum de 20s par rapport à l'heure du Chronodot.
 
 
 Indicateurs et accessoires
---------------------------
+::::::::::::::::::::::::::
 
 .. figure:: comtoise/montage.jpg
 
@@ -136,7 +136,7 @@ Histoire de ne pas tout faire à l'aveugle, des indicateurs permettent de
 monitorer le bon fonctionnement du système.
 
 L'écran LCD
-:::::::::::
+-----------
 
 Pour suivre un peu ce qui se passe, un écran LCD est connecté à l'Arduino. Il
 s'agit d'un écran rétro-éclairé de 128x64 pixels acheté moins de 15 euros sur
@@ -159,7 +159,7 @@ Le premier jour de fonctionnement est ignoré dans les statistiques puisqu'il
 est forcément partiel.
 
 L'indicateur lumineux
-:::::::::::::::::::::
+---------------------
 
 Un indicateur lumineux constitué de LEDs permet en outre de surveiller la
 dérive de l'horloge. Lorsque celle-ci est dans la "zone acceptable" (de 20 à 40
@@ -172,7 +172,7 @@ est visible en permanence par la vitre de la caisse, il n'est donc pas
 nécessaire d'ouvrir l'horloge pour le consulter.
 
 Le remontage
-::::::::::::
+------------
 
 Le remontage des poids doit s'effectuer chaque semaine (enfin plutôt tous les 6
 jours et demi, je pense que la caisse de l'horloge a été raccourcie au cours de
@@ -189,7 +189,7 @@ Enfin, un buzzer piézo-électrique émet des bips pendant 2 minutes avant le
 blocage du balancier.
 
 L'alimentation
-::::::::::::::
+--------------
 
 Lors de ma première approche qui impliquait le comptage des passages de
 balancier, il était très important que l'Arduino ne se remette pas à zéro en
@@ -202,7 +202,7 @@ principale. Avec le capteur sur aiguille de la deuxième aproche cette
 précaution se justifie moins, mais je l'ai tout de même laissée.
 
 Evolution
----------
+:::::::::
 
 Parmi les évolutions possibles, j'envisage l'ajout d'une connexion à un serveur
 NTP via un shield Ethernet pour recaler le Chronodot périodiquement sur une horloge atomique. On aura
