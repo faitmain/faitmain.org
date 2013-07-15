@@ -37,12 +37,12 @@ plus intéressantes...
 .. image:: bleuette/plexi_0.jpg
    :width: 300px
    :alt: Vue globale de Bleuette en plexiglas
-   :target: plexi_0.jpg
+   :target: bleuette/plexi_0.jpg
 
 .. image:: bleuette/plexi_1.jpg
    :width: 300px
    :alt: Vue d'une patte de Bleuette
-   :target: plexi_1.jpg
+   :target: bleuette/plexi_1.jpg
 
 Quelques années se sont écoulées et, depuis, l'impression 3D s'est
 considérablement développée, au point d'être devenue attractive pour
@@ -79,17 +79,17 @@ une librairie OpenSCAD à été créée pour l'occasion (http://github.com/hugok
 .. image:: bleuette/openscad_2.png
    :width: 300px
    :alt: Vue du corps de Bleuette dans OpenScad
-   :target: openscad_2.png
+   :target: bleuette/openscad_2.png
 
 .. image:: bleuette/impression.jpeg
    :width: 300px
    :alt: Le corps de Bleuette en cours d'impression
-   :target: impression.jpeg
+   :target: bleuette/impression.jpeg
 
 .. image:: bleuette/openscad_1.png
    :width: 300px
    :alt: Vue du corps de Bleuette dans OpenScad
-   :target: openscad_1.png
+   :target: bleuette/openscad_1.png
 
 Une fois les différentes parties imprimées, il suffit des les emboiter en force, les jeux étant très
 faibles, c'est très rigide.
@@ -105,7 +105,7 @@ Voici une patte montée sur une structure de test pendant la conception :
 .. image:: bleuette/patte_1.jpg
    :width: 300px
    :alt: Une patte montée pour test
-   :target: patte_1.jpg
+   :target: bleuette/patte_1.jpg
 
 Détail d'une laison de patte et vue de l'assemblage : on emboite l'entretoise, on la
 pivote de 90 degré et ça ne bouge plus, aussi simple que des Lego !
@@ -113,7 +113,7 @@ pivote de 90 degré et ça ne bouge plus, aussi simple que des Lego !
 .. image:: bleuette/patte_0.jpg
    :height: 254px
    :alt: Entretoise d'une patte
-   :target: patte_0.jpg
+   :target: bleuette/patte_0.jpg
 
 .. image:: bleuette/spacer_anim.gif
    :alt: Entretoise d'une patte
@@ -123,7 +123,7 @@ Une patte entière :
 .. image:: bleuette/patte.png
    :width: 300px
    :alt: Vue d'une patte complète
-   :target: patte.png
+   :target: bleuette/patte.png
 
 Les palonniers
 --------------
@@ -137,7 +137,7 @@ tailles diverses.
 .. image:: bleuette/palonnier.jpg
    :width: 300px
    :alt: Un palonnier imprimé
-   :target: palonnier.jpg
+   :target: bleuette/palonnier.jpg
 
 Les capteurs de sol
 -------------------
@@ -153,7 +153,7 @@ son nom l'indique très bien est en PLA mais avec la particularité d'être flex
 .. image:: bleuette/capteur_sol.png
    :width: 300px
    :alt: Un capteur de sol
-   :target: capteur_sol.png
+   :target: bleuette/capteur_sol.png
 
 Sur la première photo ci-dessous, nous voyons la différence entre la pièce brut
 et la pièce trempée dans du PlastiDip pour obtenir plus de grip et meilleure finition.
@@ -163,26 +163,26 @@ Sur la seconde photo de droite, on peut voir tous les éléments d'un capteur de
 .. image:: bleuette/capteur_sol_plastidip.jpg
    :width: 300px
    :alt: Un capteur de sol après impression
-   :target: capteur_sol_plastidip.jpg
+   :target: bleuette/capteur_sol_plastidip.jpg
 
 .. image:: bleuette/capteur_sol_contenu.jpg
    :width: 300px
    :alt: Le contenu d'un bout de patte
-   :target: capteur_sol_contenu.jpg
+   :target: bleuette/capteur_sol_contenu.jpg
 
 Tous les éléments du capteur sont assemblés :
 
 .. image:: bleuette/capteur_sol_assemble.jpg
    :width: 300px
    :alt: Un des 6 capteurs de sol assemblé
-   :target: capteur_sol_assemble.jpg
+   :target: bleuette/capteur_sol_assemble.jpg
 
 Bleuette et ses capteurs :
 
 .. image:: bleuette/bleuette.jpeg
    :width: 300px
    :alt: Les capteurs de Bleuette sont montés !
-   :target: bleuette.jpeg
+   :target: bleuette/bleuette.jpeg
 
 Le cerveau
 ::::::::::
@@ -197,7 +197,7 @@ qui sert, entre autre à piloter les 12 servos des pattes.
 .. image:: bleuette/bleuette_shield.png
    :width: 300px
    :alt: La Bleuette Shield pour Arduino
-   :target: bleuette_shield.png
+   :target: bleuette/bleuette_shield.png
 
 Cette carte possède les caractéristiques suivantes :
 
@@ -212,7 +212,7 @@ Voici son schéma de principe :
 .. image:: bleuette/elec_schema.png
    :width: 300px
    :alt: Schéma de principe de la carte
-   :target: elec_schema.png
+   :target: bleuette/elec_schema.png
 
 Plus d'informations sur la Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield
 
@@ -238,7 +238,7 @@ BleuettePi propose tout ce que fait la shield Arduino avec plein de chose en plu
 .. image:: bleuette/bleuettepi.jpeg
    :width: 300px
    :alt: BleuettePi en cours de montage
-   :target: bleuettepi.jpeg
+   :target: bleuette/bleuettepi.jpeg
 
 Voici ses caractéristiques :
 
@@ -261,7 +261,7 @@ Son schéma de principe :
 .. image:: bleuette/elec_schema_bleuettepi.png
    :width: 300px
    :alt: Schéma de principe de la carte
-   :target: elec_schema_bleuettepi.png
+   :target: bleuette/elec_schema_bleuettepi.png
 
 Toutes les informations sur cette carte sont disponibles sur le wiki : http://github.com/hugokernel/Bleuette/wiki/BleuettePi
 
@@ -271,7 +271,7 @@ c'est une combinaison d'un accéléromètre et d'un compas) :
 .. image:: bleuette/bleuettepi2.jpeg
    :width: 300px
    :alt: BleuettePi montée
-   :target: bleuettepi2.jpeg
+   :target: bleuette/bleuettepi2.jpeg
 
 Exemple de code en Python
 -------------------------
