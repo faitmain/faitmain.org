@@ -184,7 +184,7 @@ Programme de démonstration
 
 **Programme n°1 : les bases**
 
-.. figure:: ledmatrix/prog_basic.png
+.. figure:: ledmatrix/prog_basic.JPG
 
    Programme de base, rempli l'écran pixel par pixel
 
@@ -259,7 +259,7 @@ La fonction main() dans ce programme de base est réduite au strict minimum :
 
 **Programme n°2 : Game of life**
 
-.. figure:: ledmatrix/prog_gof.png
+.. figure:: ledmatrix/prog_gof.JPG
 
    Programme "Game of life"
 
@@ -284,11 +284,11 @@ Le résultat est cependant extraordinairement complexe.
 
 **Programme n°3 : Transformée rapide de Fourrier (FFT) **
 
-.. figure:: ledmatrix/prog_fft_lin.png
+.. figure:: ledmatrix/prog_fft_lin.JPG
 
    Programme "FFT", mode linéaire
 
-.. figure:: ledmatrix/prog_fft_log.png
+.. figure:: ledmatrix/prog_fft_log.JPG
 
    Programme "FFT", mode logarithmique (ps : oui il y a bien un pixel mort)
 
