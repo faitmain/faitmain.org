@@ -39,7 +39,7 @@ Mais on peut faire mieux ! C'est une Arduino qui va s'en charger.
 ArduComtoise
 ::::::::::::
 
-Vidéo : <iframe width="800" height="450" src="//www.youtube.com/embed/96fAYLu30QA" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="//www.youtube.com/embed/96fAYLu30QA" frameborder="0" allowfullscreen></iframe>
 
 
 Pas question, dans ce projet, de toucher à la mécanique très sensible de
