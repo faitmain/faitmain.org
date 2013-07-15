@@ -5,6 +5,7 @@ Un cadre numérique pas comme les autres
 :category: électronique,informatique
 :level: moyen
 :author: Fabien Batteix
+:licence: CC-BY-NC-SA-3.0
 
 
 Pour ce 3ème numéro de Fait Main j'avais le choix entre plusieurs projets tous plus fous les uns que les autres.
