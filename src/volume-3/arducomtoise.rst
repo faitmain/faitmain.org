@@ -5,8 +5,10 @@ Horloge Arducomtoise
 :category: électronique,informatique
 :level: vulgarisation, moyen
 :author: Vincent Becker
+:licence: By-Sa-3.0
 
-.. figure:: arducomtoise2.jpg
+
+.. figure:: comtoise/arducomtoise2.jpg
 
   ArduComtoise, l'horloge comtoise la plus précise du monde
 
@@ -96,9 +98,9 @@ c'est loin d'être idéal. J'ai donc changé d'approche.
 Deuxième approche: feedback
 ---------------------------
 
-.. figure:: feedback.jpg
+.. figure:: comtoise/feedback.jpg
 
-  Le capteur de feedback
+   Le capteur de feedback
 
 J'ai dû me résoudre à employer la solution rejetée en première instance mais
 qui semble la seule parfaitement fiable, à savoir un feedback sur les
@@ -126,10 +128,10 @@ indéfiniment décalée au maximum de 20s par rapport à l'heure du Chronodot.
 Indicateurs et accessoires
 --------------------------
 
-.. figure:: montage.jpg
+.. figure:: comtoise/montage.jpg
 
-  Le montage
-  
+   Le montage
+
 Histoire de ne pas tout faire à l'aveugle, des indicateurs permettent de
 monitorer le bon fonctionnement du système.
 
@@ -212,4 +214,5 @@ Le code
 Je vous livre enfin le code du système. Ma formation universitaire étant
 l'Histoire, je compte sur l'indulgence des développeurs professionnels!
 
-Télécharger le code de l'ArduComtoise
+`Télécharger le code de l'ArduComtoise <comtoise/arduComtoiseFinal.ino>`_
+
