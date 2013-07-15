@@ -152,16 +152,10 @@ void setup(){
 void loop(){
   updateHeure(); // on lit l'heure
 
-    if (digitalRead(contactPin) == LOW){
-    digitalWrite(led2, HIGH);
-    digitalWrite(led4, HIGH);
-  }
-
-
   if ( heures == heuresRef && minutes == (minutesRef-2)){ // quand on entre dans la dernière minute, on passe en mode réglage
     reglage=1; // on passe en mode réglage
-
   } 
+  
   if (reglage == 1 && digitalRead(contactPin) == LOW && bitTerminal == 1){ // quand l'aiguille atteint le contacteur et que le balancier arrive en bout de course
     delta=((minutesRef*60)+secondesRef)-((minutes*60)+secondes); // on calcule l'avance pour affichage sur LCD et diodes
     if (delta > 0) { // si l'horloge avance 
@@ -169,7 +163,6 @@ void loop(){
         myservo.write(ferme); // blocage balancier
         updateHeure(); 
       }
-
       reglage=0;
       uptime++; // on incrémente le compteur de jours
       if (uptime > 1) { // on ne prend pas en compte le 1er jour car les comptages sont partiels
@@ -213,7 +206,6 @@ void loop(){
       longToChar(deltaMoyenne,5,deltaMoyenneChar);
       heureToChar(heures,minutes,secondes,tempsChar);
       heureToChar(heuresRef,minutesRef,secondesRef,tempsReferenceChar);
-
       u8g.firstPage(); // Sélectionne la 1er page mémoire de l'écran
       do {
         draw(); // Redessine tout l'écran
@@ -223,6 +215,10 @@ void loop(){
 
     if (reglage == 1 && digitalRead(CapteurPoids)==LOW){ // on bipe à chaque passage pendant les 120 dernières secondes s'il faut remonter les poids
       bip();
+    }
+    if (digitalRead(contactPin) == LOW){
+      digitalWrite(led2, HIGH);
+      digitalWrite(led4, HIGH);
     }
 
     // affichage de l'avance/retard sur les leds
