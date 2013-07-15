@@ -1,5 +1,5 @@
 Un cadre numérique pas comme les autres
-===================================
+=======================================
 
 :date: 2013-07-15
 :category: électronique,informatique
@@ -77,20 +77,20 @@ Le tout a ensuite était fixé ensemble avec de la colle blanche, des serres joi
 .. figure:: ledmatrix/cadre_base_plexi.JPG
 
    La base du cadre avec la plaque de plexiglas.
-   
+
 Par dessus la base du cadre vient se poser une plaque de verre synthétique ayant pour but de plaquer les matrices de leds.
 Les vis sur les quatre coins du cadre ont elles pour but de fixer par l'arrière deux baguettes de bois servant de pressoir pour maintenir les matrices en place.
 Ces vis ont bien évidement été incrustés dans le bois pour éviter rien ne dépasse avant la pose définitive du plexiglas.
-   
+
 .. figure:: ledmatrix/cadre_topcase.JPG
 
    Face avant du cadre en medium
 
 La face avant du cadre a été réalisé en medium (une espèce de bois aggloméré au grain très fin).
-Cette face avant comporte des chanfreins sur les bords intérieurs et extérieurs pour un meilleur fini. 
+Cette face avant comporte des chanfreins sur les bords intérieurs et extérieurs pour un meilleur fini.
 De même qu'une rainure cachée sur le dessous pour maintenir la plaque de plexiglas.
 (La plaque de plexiglas est maintenu en place par la seul pression de la face avant sur le cadre de base et un peu de joint à baignoire)
-   
+
 .. figure:: ledmatrix/cadre_finish.JPG
 
    Un petit peu de penture et hop !
@@ -112,8 +112,8 @@ Sur ce connecteur on retrouve les lignes suivantes :
 =====  =====
 GND    A
 GND    B
-GND    C 
-OE     D 
+GND    C
+OE     D
 R      G
 nc     nc
 GND    STR
@@ -137,13 +137,13 @@ Détails :
 	Par chance j'ai pu mettre la main sur un pdf expliquant le fonctionnement de ces "vieilles" matrices de leds, nommé "LCD matrix display driver – DE-DP029~033_Ver1.0_EN".
 
 	Une copie du pdf est disponible `sur ma dropbox <https://dl.dropboxusercontent.com/u/53604363/divers/LCD%20matrix%20display%20driver%20-%20DE-DP029%7E033_Ver1.0_EN.pdf>`_, au cas où la version d’origine disparaitrait.
-	
+
 	.. figure:: ledmatrix/schematic.JPG
 
 		Schéma d'origine tiré du pdf de « SureElectronics »
-	
+
 	Le principe de fonctionnement est relativement simple :
-	
+
 	+ Un décodeur binaire -> décimal (74HC138) permet de sélectionner la ligne (entre 0 ~ 15) à afficher.
 	+ Deux séries de 4 registres à décalage (74HC595) permettent d'allumer/éteindre les pixels voulus de la ligne sélectionnée (« 0 » = allumé, « 1 » = éteint).
 	+ L'affichage est multiplexé (affichage ligne par ligne) et doit être rafraichi à 960Hz (soit 60 images par secondes) pour un bon rapport scintillement / luminosité / consommation.
@@ -154,19 +154,19 @@ Détails :
 .. note::
 
 	Concrètement comment je fait pour allumer mes pixels ?
-	
+
 	Prenons une seule matrice de 16x32 pixels.
 	Cette matrice est constitués de 16 lignes de 32 pixels horizontal, organisés en 4 bloc de 8 pixels.
 	Chaque pixel horizontal est un bit que l'on envoie en SPI (communication série avec horloge synchrone).
 	Ici pour afficher une ligne il faut donc envoyer 4 octets, que ce soit sur le signal de données R (rouge) et G (vert).
-	
+
 	Pour que l'affichage soit correct il faut envoyer les données de chaque ligne tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tout les 1/960ème de seconde (= 16 lignes x 60Hz).
-	
+
 	Il faut cependant envoyer les données à l'envers.
 	Les matrices en question utilisent des registres à décalage montés ... vers la gauche. Le premier octet envoyé se retrouve donc à droite de la matrice puis est décalé vers la gauche.
 	La seule explication logique à cela serait que le concepteur de la carte ait pris un repère (X = 0, Y = 0) en bas à droite, contrairement au reste des développeurs qui utilisent un repère (0, 0) en haut à gauche.
 	Ainsi pour envoyer les octets 1, 2, 3, 4 il faut en réalité envoyer 4, 3, 2, 1. Mais ce n'est pas le pire.
-	
+
 	Dans le cas où l'on souhaite câbler plusieurs matrices en chaine il faut faire un peu de gymnastique pour envoyer les données dans le bonne ordre tout en conservant un repère (0, 0) classique.
 	Tout en envoyant les blocs de 4 octets de chaque matrice à l'envers, il faut aussi commencer par la dernière matrice de la ligne.
 	Ainsi pour envoyer les données d'une ligne de 64 pixels (soit 2 matrices chainées) il faut envoyer les octets dans l'ordre 5, 6, 7, 8, 4, 3, 2, 1.
@@ -234,11 +234,11 @@ Cette fonction d'interruption fonctionne suivant le principe ci dessous :
 
 Vous remarquerez qu'en plus de faire l'affichage des lignes à intervalle régulier je gère aussi la rotation de deux buffer : un d'affichage et un de dessin.
 Cette méthode d'affichage s'appelle le « double buffering ».
-   
+
 .. note::
 
 	Pourquoi faire du « double buffering » ?
-	
+
 	Dessiner et afficher sont deux actions différentes, qui se font à deux vitesses différentes.
 	L'affichage se fait à intervalle régulier fixe, le dessin lui se fait à la vitesse du programme de dessin.
 	Afficher et dessiner avec le même buffer créerait obligatoirement des artéfacts peu esthétiques, c'est pourquoi le double buffering existe.
@@ -265,7 +265,7 @@ La fonction main() dans ce programme de base est réduite au strict minimum :
    Programme "Game of life"
 
 `Vidéo de démonstration n°1 <http://www.youtube.com/watch?v=GJld3vLDpsY>`_
-   
+
 Ce programme est mon préféré, il est très simple et se rapproche énormément du programme de base.
 Seule une fonction "getAliveNeighbourCount" (compte le nombre de cellule vivante autour d'une cellule donnée) et une boucle de traitement ont été rajoutées.
 Le résultat est cependant extraordinairement complexe.
@@ -276,14 +276,14 @@ Le résultat est cependant extraordinairement complexe.
 
 	Le jeu de la vie est un automate cellulaire imaginé par John Horton Conway en 1970, qui est à l'heure actuelle le plus connu de tous les automates cellulaires.
 	Malgré des règles très simples, le jeu de la vie permet le développement de motifs extrêmement complexes.
-	
+
 	Le jeu de la vie n'est pas vraiment un jeu au sens ludique, puisqu'il ne nécessite aucun joueur ; il s'agit d'un automate cellulaire, un modèle où chaque état conduit mécaniquement à l'état suivant à partir de règles pré-établies.
 
 	Le jeu se déroule sur une grille à deux dimensions, théoriquement infinie (mais de longueur et de largeur finies et plus ou moins grandes dans la pratique), dont les cases — qu'on appelle des « cellules », par analogie avec les cellules vivantes — peuvent prendre deux états distincts : « vivantes » ou « mortes ».
-	
+
 	Source : `wikipedia <http://fr.wikipedia.org/wiki/Jeu_de_la_vie>`_
 
-**Programme n°3 : Transformée rapide de Fourrier (FFT) **
+** Programme n°3 : Transformée rapide de Fourrier (FFT) **
 
 .. figure:: ledmatrix/prog_fft_lin.JPG
 
@@ -294,7 +294,7 @@ Le résultat est cependant extraordinairement complexe.
    Programme "FFT", mode logarithmique (ps : oui il y a bien un pixel mort)
 
 `Vidéo de démonstration n°2 <http://www.youtube.com/watch?v=qfxvMXDwa5I>`_
-   
+
 Ce programme est le plus compliqué des trois.
 Il réalise en temps réel une transformée rapide de fourrier sur un signal audio et affiche les 96 premières bandes de fréquence résultant du calcul (sur un total de 128 bandes).
 
@@ -306,10 +306,10 @@ Le code reprend celui de base en ajoutant simplement une boucle de traitement / 
 .. note::
 
 	Si vous êtes intéressés par le principe de fonctionnement de la transformée de Fourrier ces deux liens vous intéresseront :
-	
+
 	+ `Fast Fourier transform — FFT <http://www.librow.com/articles/article-10>`_ (détails sur l'algorithme lui même)
 	+ `Fast Hartley Transformation Library for AVR microcontrollers <http://www.waitingforfriday.com/index.php/Fast_Hartley_Transformation_Library_for_AVR_microcontrollers>`_ (implémentation en C de l'algorithme)
-	
+
 .. figure:: ledmatrix/audio_in_schematic.png
 
 	Schéma du montage de conversion audio (+/- 1v) vers ADC (0~5v)
@@ -317,7 +317,7 @@ Le code reprend celui de base en ajoutant simplement une boucle de traitement / 
 .. figure:: ledmatrix/audio_in_breadboard.JPG
 
 	Montage de conversion audio vers ADC sur breadboard
-	
+
 Pour fonctionner ce programme à besoin de capturer à intervalle régulier un échantillon audio.
 Les sorties de cartes son travaillant sur une plage de tension entre -1v et +1v il est nécessaire d'adapter ce signal avant de l'envoyer sur l'entrée analogique du microcontrôleur.
 Pour ce faire j'utilise un classique montage amplificateur non inverse à ampli-op. Ce montage amplifie le signal de 2.5 fois avant d'être recentré sur 2.5v au moyen d'un « bias ».
