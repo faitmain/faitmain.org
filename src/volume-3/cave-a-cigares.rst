@@ -5,6 +5,7 @@ Cave à cigares
 :category: bricolage
 :level: vulgarisation
 :author: Sébastien Riguet
+:licence: By-Sa-3.0
 
 Introduction : une cave à cigares DIY
 :::::::::::::::::::::::::::::::::::::
