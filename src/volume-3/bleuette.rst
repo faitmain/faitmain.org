@@ -2,9 +2,10 @@ L'hexapode Bleuette
 ===================
 
 :date: 2013-06-03
-:category: robot,arduino,raspberry
+:category: informatique, électronique
 :level: vulgarisation
-:author: Charles Rincheval, @hugokernel
+:author: Charles Rincheval
+
 
 Introduction
 ::::::::::::
