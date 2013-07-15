@@ -324,7 +324,10 @@ les ordres aux servos, ainsi, il est possible de faire d'autres tâches pendant 
 
 Tout le code pour jouer avec Bleuette se trouve par ici : http://github.com/hugokernel/Bleuette/tree/master/src/BleuettePi/Python
 
-Une vidéo des premiers mouvements de pattes de Bleuette piloté par une RaspberryPi : http://www.youtube.com/watch?v=_7C_EJtj_3M
+Une vidéo des premiers mouvements de pattes de Bleuette piloté par une RaspberryPi.
+
+<iframe width="800" height="450" src="//www.youtube.com/embed/_7C_EJtj_3M" frameborder="0" allowfullscreen></iframe>
+
 
 Fabriquer
 :::::::::
