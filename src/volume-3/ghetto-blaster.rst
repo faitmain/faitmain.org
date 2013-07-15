@@ -5,6 +5,7 @@ Valise Ghetto Blaster
 :category: électronique,informatique
 :level: vulgarisation, moyen
 :author: Tarek Ziadé
+:licence: By-Sa-3.0
 
 
 .. figure:: ghetto/ghetto1.jpg
