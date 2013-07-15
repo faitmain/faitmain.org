@@ -31,7 +31,7 @@ Dans ses premières versions, Bleuette était réalisé en Plexiglas,
 découpé à la scie sauteuse, un vrai boulot, long et pénible avant de nous
 rendre compte des limites de cette matière : elle est cassante et se raye
 trop facilement.
-Une seconde version à été faite en Lexan, une manière avec des propriétés déjà
+Une seconde version à été faite en Lexan, une matière avec des propriétés déjà
 plus intéressantes...
 
 .. image:: bleuette/plexi_0.jpg
@@ -98,7 +98,8 @@ Les pattes
 ----------
 
 Bleuette possède 6 pattes animées chacune par 2 servos standard (Futaba S3003),
-un qui permet de lever la patte et un autre qui permet de faire pivoter la patte.
+un qui permet de lever la patte et un autre qui permet de faire pivoter horizontalement
+la patte.
 
 Voici une patte montée sur une structure de test pendant la conception :
 
@@ -107,8 +108,8 @@ Voici une patte montée sur une structure de test pendant la conception :
    :alt: Une patte montée pour test
    :target: bleuette/patte_1.jpg
 
-Détail d'une laison de patte et vue de l'assemblage : on emboite l'entretoise, on la
-pivote de 90 degré et ça ne bouge plus, aussi simple que des Lego !
+Détail d'une liaison de patte et vue de l'assemblage : on emboite l'entretoise, on la
+pivote de 90 degrés et ça ne bouge plus, aussi simple que des Lego !
 
 .. image:: bleuette/patte_0.jpg
    :height: 254px
@@ -129,7 +130,7 @@ Les palonniers
 --------------
 
 Les palonniers de servos, une pièce relativement complexe à imprimer car
-nécessitant une grande précision est aussi réalisées grâce à l'Ultimaker et
+nécessitant une grande précision est aussi réalisée grâce à l'Ultimaker et
 une librairie OpenSCAD à été créée à l'occasion http://www.thingiverse.com/thing:28566,
 grâce à elle, on peut créer des palonniers à 1, 2, 4 bras, voir plus et de
 tailles diverses.
@@ -145,7 +146,7 @@ Les capteurs de sol
 Le bout de chaque patte de Bleuette est équipé d'un capteur capable de détecter
 via un interrupteur une pression verticale correspondant au contact de la patte
 avec le sol, ainsi, notre hexapode est capable de détecter une absence de sol
-et donc d'éviter de tomber dans un escalier...
+et donc, par exemple, d'éviter de tomber dans un escalier...
 
 La surface du capteur en contact avec le sol est imprimé en PLA Flex, qui comme
 son nom l'indique très bien est en PLA mais avec la particularité d'être flexible.
@@ -216,7 +217,7 @@ Voici son schéma de principe :
 
 Plus d'informations sur la Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield
 
-Une autre carte fille (shield) pour Arduino à été créée à l'occasion, il s'agit
+Une autre carte fille (shield) pour Arduino à été créée, il s'agit
 de Bleuette Sensor Shield qui dispose des caractéristiques suivantes :
 
 - 8 entrées supplémentaires multiplexées utilisant que 4 entrées / sorties (3 d'adressage et une sortie)
@@ -265,7 +266,7 @@ Son schéma de principe :
 
 Toutes les informations sur cette carte sont disponibles sur le wiki : http://github.com/hugokernel/Bleuette/wiki/BleuettePi
 
-BleuettePi montée sur un RaspberryPi (on aperçoit une petite carte bleue,
+BleuettePi montée sur un RaspberryPi (on aperçoit une petite carte bleue, c'est le GY-27
 c'est une combinaison d'un accéléromètre et d'un compas) :
 
 .. image:: bleuette/bleuettepi2.jpeg
@@ -317,8 +318,8 @@ Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code sui
 
 Voilà, c'est aussi simple que ça !
 
-Sur les nouvelles versions du code, j'ai ajouté un thread qui s'occupe uniquement d'envoyer les ordres aux servos,
-ainsi, il est possible de faire d'autres tâches pendant ce temps.
+Sur les nouvelles versions du code, j'ai ajouté un thread qui s'occupe uniquement d'envoyer
+les ordres aux servos, ainsi, il est possible de faire d'autres tâches pendant ce temps.
 
 Tout le code pour jouer avec Bleuette se trouve par ici : http://github.com/hugokernel/Bleuette/tree/master/src/BleuettePi/Python
 
