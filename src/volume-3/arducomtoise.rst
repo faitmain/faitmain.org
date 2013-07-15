@@ -128,58 +128,79 @@ Mais revoyons la scène au ralenti.
 
 En début de script, l'heure de référence (qui sert au recalage) est définie:
 
-::
+.. code-block:: c++
 
-// temps de référence pour période de 24h
-int heuresRef = 19; 
-int minutesRef = 45;
-int secondesRef = 30;
+    // temps de référence pour période de 24h
+    int heuresRef = 19; 
+    int minutesRef = 45;
+    int secondesRef = 30;
 
-Dans la boucle loop() l'action se décompose alors comme suit.
+Dans la boucle *loop()* l'action se décompose alors comme suit.
+
+Au début de la séquence, on lit l'heure sur le Chronodot grâce à la fonction
+*updateHeure()* qui renseigne les variables heures, minutes et secondes (en les
+convertissant en décimal au passage):
+
+.. code-block:: c++
+
+    void updateHeure(){
+    DateTime now = RTC.now();    // on lit l'heure en cours 
+    heures = now.hour(), DEC;
+    minutes = now.minute(), DEC;
+    secondes = now.second(), DEC;
+    }
+
+Puis lorsqu'on atteint les deux dernières minutes avant l'heure de référence,
+l'horloge passe en mode "réglage" :
+
+.. code-block:: c++
 
 
-Au début de la séquence, on lit l'heure sur le Chronodot grâce à la fonction updateHeure() qui renseigne les variables heures, minutes et secondes (en les convertissant en décimal au passage):
-
-::
-
-void updateHeure(){
-  DateTime now = RTC.now();    // on lit l'heure en cours 
-  heures = now.hour(), DEC;
-  minutes = now.minute(), DEC;
-  secondes = now.second(), DEC;
-}
-
-Puis lorsqu'on atteint les deux dernières minutes avant l'heure de référence, l'horloge passe en mode "réglage" :
-
-::
-
-if ( heures == heuresRef && minutes == (minutesRef-2)){ // quand on entre dans les deux dernières minutes, on passe en mode réglage
-    reglage=1; 
-  } 
-
-Deux événements sont alors surveillés : l'activation du microswitch par la grande aiguille (passage à LOW de contactPin) et l'arrivée en bout de course du balancier, détectée grâce à une interruption mise sur le capteur infrarouge correspondant et qui fait passer la variable bitTerminal à 1. Quand ces deux conditions sont remplies, le balancier est bloqué par rotation du servo jusqu'à ce que l'heure de référence soit atteinte, puis le balancier est relâché. On sort alors du mode réglage et on calcule différentes statistiques pour affichage sur les outils de monitoring (écran LCD et indicateur à LEDs, voir plus bas).
-
-:: 
-
-if (reglage == 1 && digitalRead(contactPin) == LOW && bitTerminal == 1){ // quand l'aiguille atteint le contacteur et que le balancier arrive en bout de course
-    delta=((minutesRef*60)+secondesRef)-((minutes*60)+secondes); // on calcule l'avance (delta) pour affichage sur LCD et diodes
-    if (delta > 0) { // si l'horloge avance 
-      while (heures != heuresRef || minutes != minutesRef || secondes != secondesRef) { // on bloque le balancier jusqu'à ce que l'heure de référence soit atteinte
-        myservo.write(ferme); // blocage balancier
-        updateHeure(); // lecture de l'heure sur le Chronodot
-      }
-      reglage=0; // on sort du mode réglage
-      uptime++; // on incrémente le compteur de jours d'uptime
-      if (uptime > 1) { // on calcule les stats pour affichage sur le LCD. On ne prend pas en compte le 1er jour car les comptages sont partiels
-        compteurTotal = compteurTotal + compteur;
-        compteurMoyenne = compteurTotal/(uptime-1); // moyenne des comptages de balancier
-        totalDelta = totalDelta+delta; 
-        deltaMoyenne = totalDelta/(uptime-1); // calcul moyenne du décalage quotidien
-      }
-      compteur = 0; // le compteur de passages est remis à 0
-      myservo.write(ouvert); // on relache le balancier
+    if ( heures == heuresRef && minutes == (minutesRef-2)) { 
+        // quand on entre dans les deux dernières minutes, on passe en mode réglage
+        reglage = 1; 
     } 
-  }
+
+Deux événements sont alors surveillés : l'activation du microswitch par la
+grande aiguille (passage à LOW de contactPin) et l'arrivée en bout de course du
+balancier, détectée grâce à une interruption mise sur le capteur infrarouge
+correspondant et qui fait passer la variable bitTerminal à 1. Quand ces deux
+conditions sont remplies, le balancier est bloqué par rotation du servo jusqu'à
+ce que l'heure de référence soit atteinte, puis le balancier est relâché. On
+sort alors du mode réglage et on calcule différentes statistiques pour
+affichage sur les outils de monitoring (écran LCD et indicateur à LEDs, voir
+plus bas).
+
+.. code-block:: c++
+
+    if (reglage == 1 && digitalRead(contactPin) == LOW && bitTerminal == 1) {
+        // quand l'aiguille atteint le contacteur et que le balancier arrive en bout de course
+        // on calcule l'avance (delta) pour affichage sur LCD et diodes
+        delta=((minutesRef*60)+secondesRef)-((minutes*60)+secondes); 
+        
+        if (delta > 0) { // si l'horloge avance 
+          while (heures != heuresRef || minutes != minutesRef || secondes != secondesRef) { 
+            // on bloque le balancier jusqu'à ce que l'heure de référence soit atteinte
+            myservo.write(ferme); // blocage balancier
+            updateHeure(); // lecture de l'heure sur le Chronodot
+        }
+
+        reglage=0; // on sort du mode réglage
+        uptime++; // on incrémente le compteur de jours d'uptime
+        
+        if (uptime > 1) { 
+            // on calcule les stats pour affichage sur le LCD. 
+            // On ne prend pas en compte le 1er jour car les comptages sont partiels
+            compteurTotal = compteurTotal + compteur;
+            compteurMoyenne = compteurTotal/(uptime-1); // moyenne des comptages de balancier
+            totalDelta = totalDelta+delta; 
+            deltaMoyenne = totalDelta/(uptime-1); // calcul moyenne du décalage quotidien
+        }
+
+        compteur = 0; // le compteur de passages est remis à 0
+        myservo.write(ouvert); // on relache le balancier
+        } 
+    }
 
 Indicateurs et accessoires
 ::::::::::::::::::::::::::
@@ -214,71 +235,89 @@ référence.
 Le premier jour de fonctionnement est ignoré dans les statistiques puisqu'il
 est forcément partiel.
 
-Pour l'affichage sur l'écran, il est nécessaire de formater les données au préalable. L'écran LCD ne comprend que les chaînes caractères en tableau et les données à afficher sont des chiffres. Une fonction longToChar transforme donc le chiffre "valeur" en chaîne de caractère "cible[]" de longueur "taille".
+Pour l'affichage sur l'écran, il est nécessaire de formater les données au
+préalable. L'écran LCD ne comprend que les chaînes caractères en tableau et les
+données à afficher sont des chiffres. Une fonction *longToChar()* transforme donc
+le chiffre *valeur* en chaîne de caractère *cible[]* de longueur *taille*.
 
-::
+.. code-block:: c++
 
-char longToChar(long valeur, int taille, char cible[]){ // convertit les long en char affichables par l'écran
-  String string = String(valeur);
-  string.toCharArray(cible,taille);
-}
+    char longToChar(long valeur, int taille, char cible[]) { 
+      // convertit les long en char affichables par l'écran
+      String string = String(valeur);
+      string.toCharArray(cible,taille);
+    }
 
-Pour convertir l'heure, c'est le même principe via la fonction heureToChar() avec en plus une fonction subzero() qui ajoute un zéro aux valeurs inféreieurs à 10:
+Pour convertir l'heure, c'est le même principe via la fonction *heureToChar()*
+avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieures
+à 10:
 
-::
+.. code-block:: c++
 
-char heureToChar(int h, int m, int s,  char cible[10]){ // convertit l'heure en char affichables par l'écran
-  String heureString = String(subzero(h));
-  String minuteString = String(subzero(m));
-  String secondeString = String(subzero(s));
-  String temps = heureString + ":" + minuteString + ":" + secondeString;
-  temps.toCharArray(cible,10);
-}
-String subzero(int valeur){ // ajoute une zero aux chiffres horaires < 10
-  String resultat = String(valeur);
-  if (valeur < 10){
-    resultat = '0'+ resultat;
-  }
-  return(resultat);
-}
+    char heureToChar(int h, int m, int s, char cible[10]) { 
+      // convertit l'heure en char affichables par l'écran
+      String heureString = String(subzero(h));
+      String minuteString = String(subzero(m));
+      String secondeString = String(subzero(s));
+      String temps = heureString + ":" + minuteString + ":" + secondeString;
+      temps.toCharArray(cible, 10);
+    }
 
-Enfin la fonction draw() s'occupe de formatter toutes les données pour les placer sur l'écran (voir le tuto de Skywodd pour les détails) :
+    String subzero(int valeur){ 
+      // ajoute une zero aux chiffres horaires < 10
+      String resultat = String(valeur);
+      if (valeur < 10) {
+          resultat = '0'+ resultat;
+      }
+      return(resultat);
+    }
 
-void draw() { // affichange écran
-  u8g.setFont(u8g_font_6x12); // Utilise la police de caractère standard
-  u8g.drawStr( 22, 8, "Val");
-  u8g.drawStr( 80,8, "Ref");
-  u8g.drawStr( 0, 20, "Ct");
-  u8g.drawStr( 22,20, compteurChar);
-  u8g.drawStr( 80,20, compteurMoyenneChar);
-  u8g.drawStr( 0, 32, "Hr");
-  u8g.drawStr( 22,32, tempsChar);
-  u8g.drawStr( 80,32, tempsReferenceChar);
-  u8g.drawStr( 0, 44, "Dt");
-  u8g.drawStr( 22,44, deltaChar);
-  u8g.drawStr( 80, 44, deltaMoyenneChar);
-  u8g.drawStr( 0,56, "Ut");
-  u8g.drawStr( 22, 56, uptimeChar);
-}
+Enfin la fonction *draw()* s'occupe de formatter toutes les données pour les
+placer sur l'écran (voir le tuto de Skywodd pour les détails) :
 
-Pour générer l'affichage, toutes les conversions sont faites et les caractères sont envoyés à l'écran par appel de la fonction draw(). A noter que l'écran ne s'allume que si le bouton-boussoir correspondant a été pressé, faisant passer la variable ecranAllume à 1. Si on le presse à nouveau la variable repasse à 0 et l'écran s'éteint.
+.. code-block:: c++
 
-::
+    void draw() { 
+      // affichage écran
+      u8g.setFont(u8g_font_6x12); // Utilise la police de caractère standard
+      u8g.drawStr(22, 8, "Val");
+      u8g.drawStr(80,8, "Ref");
+      u8g.drawStr(0, 20, "Ct");
+      u8g.drawStr(22,20, compteurChar);
+      u8g.drawStr(80,20, compteurMoyenneChar);
+      u8g.drawStr(0, 32, "Hr");
+      u8g.drawStr(22,32, tempsChar);
+      u8g.drawStr(80,32, tempsReferenceChar);
+      u8g.drawStr(0, 44, "Dt");
+      u8g.drawStr(22,44, deltaChar);
+      u8g.drawStr(80, 44, deltaMoyenneChar);
+      u8g.drawStr(0,56, "Ut");
+      u8g.drawStr(22, 56, uptimeChar);
+    }
 
- if(ecranAllume == HIGH){ // si l'écran est allumé
-      // conversions pour l'ecran
-      longToChar(compteur,7,compteurChar);
-      longToChar(compteurMoyenne,7,compteurMoyenneChar);
-      longToChar(delta,5,deltaChar);
-      longToChar(uptime,5,uptimeChar);
-      longToChar(deltaMoyenne,5,deltaMoyenneChar);
-      heureToChar(heures,minutes,secondes,tempsChar);
-      heureToChar(heuresRef,minutesRef,secondesRef,tempsReferenceChar);
-      u8g.firstPage(); // Sélectionne la 1er page mémoire de l'écran
-      do {
-        draw(); // Redessine tout l'écran
-      } 
-      while(u8g.nextPage()); // Sélectionne la page mémoire suivante
+Pour générer l'affichage, toutes les conversions sont faites et les caractères
+sont envoyés à l'écran par appel de la fonction *draw()*. A noter que l'écran ne
+s'allume que si le bouton-boussoir correspondant a été pressé, faisant passer
+la variable *ecranAllume* à 1. Si on le presse à nouveau la variable repasse à 0
+et l'écran s'éteint.
+
+.. code-block:: c++
+
+    if (ecranAllume == HIGH) {
+        // si l'ecran est allume
+        // conversions pour l'ecran
+        longToChar(compteur,7,compteurChar);
+        longToChar(compteurMoyenne,7,compteurMoyenneChar);
+        longToChar(delta,5,deltaChar);
+        longToChar(uptime,5,uptimeChar);
+        longToChar(deltaMoyenne,5,deltaMoyenneChar);
+        heureToChar(heures,minutes,secondes,tempsChar);
+        heureToChar(heuresRef,minutesRef,secondesRef,tempsReferenceChar);
+        u8g.firstPage(); // Sélectionne la 1er page mémoire de l'écran
+        do {
+            draw(); // Redessine tout l'écran
+        }
+        while(u8g.nextPage()); // Sélectionne la page mémoire suivante
     }
 
 
@@ -295,51 +334,58 @@ L'avantage de l'indicateur lumineux est que, contrairement à l'écran LCD, il
 est visible en permanence par la vitre de la caisse, il n'est donc pas
 nécessaire d'ouvrir l'horloge pour le consulter.
 
-Pour l'affichage, rien de bien compliqué. les seuils d'activation sont définis en début de script :
+Pour l'affichage, rien de bien compliqué. les seuils d'activation sont définis
+en début de script :
 
-:: 
+.. code-block:: c++
 
-// Echelle des temps d'avance pour afficheur led
-int borneMin = 0;
-int borneInf = 20;
-int borneSup = 40;
-int borneMax = 60;
+    // Echelle des temps d'avance pour afficheur led
+    int borneMin = 0;
+    int borneInf = 20;
+    int borneSup = 40;
+    int borneMax = 60;
 
-La fonction indicateur() se charge d'éteindre toutes les LEDs puis d'allumer la bonne. Celles-ci sont placées sur des pins consécutifs ce qui simplifie un peu le code. Les cas particuliers de l'activation du microswitch par la grande aiguille (allumage des deux LEDs orange) et de la détection des poids de l'horloge (allumage des deux LEDs rouges) sont pris en compte en début de fonction (voir paragraphe suivant).
+La fonction *indicateur()* se charge d'éteindre toutes les LEDs puis d'allumer la
+bonne. Celles-ci sont placées sur des pins consécutifs ce qui simplifie un peu
+le code. Les cas particuliers de l'activation du microswitch par la grande
+aiguille (allumage des deux LEDs orange) et de la détection des poids de
+l'horloge (allumage des deux LEDs rouges) sont pris en compte en début de
+fonction (voir paragraphe suivant).
 
-::
+.. code-block:: c++
 
-void indicateur(int led){ // eteint toutes les leds 
-  for (int i=4; i <=8; i++){ 
-    digitalWrite(i, LOW);
-  }
-  if (digitalRead(CapteurPoids)==LOW) { // si on voit le poids on allume les 2 leds rouges
-    digitalWrite(led1,HIGH);
-    digitalWrite(led5,HIGH);
-  }
-  else {
-    digitalWrite(led, HIGH); // sinon on allume la LED d'indication du delta
-  }
-}
+    void indicateur(int led) { // eteint toutes les leds 
+      for (int i=4; i <=8; i++) { 
+          digitalWrite(i, LOW);
+      }
+      if (digitalRead(CapteurPoids)==LOW) { // si on voit le poids on allume les 2 leds rouges
+          digitalWrite(led1,HIGH);
+          digitalWrite(led5,HIGH);
+      }
+      else {
+          digitalWrite(led, HIGH); // sinon on allume la LED d'indication du delta
+      }
+    }
 
-On appelle ensuite la fonction à chaque passage du balancier devant le catpeur central, l'afficheur est donc mis à jour toutes les 1.07 secondes:
+On appelle ensuite la fonction à chaque passage du balancier devant le catpeur
+central, l'afficheur est donc mis à jour toutes les 1.07 secondes:
 
-::
+.. code-block:: c++
 
- // affichage de l'avance/retard sur les leds
-    if (delta <= borneMin){
+    // affichage de l'avance/retard sur les leds
+    if (delta <= borneMin) {
       indicateur(led5); // rouge 1
     }
-    if (delta > borneMin && delta <= borneInf){ 
+    if (delta > borneMin && delta <= borneInf) {
       indicateur(led4); // orange 1
     }
-    if (delta > borneInf && delta <= borneSup){ 
+    if (delta > borneInf && delta <= borneSup) { 
       indicateur(led3); // vert
     }
-    if (delta > borneSup && delta <= borneMax){ 
+    if (delta > borneSup && delta <= borneMax) { 
       indicateur(led2); // orange 2
     }
-    if (delta > borneMax){ 
+    if (delta > borneMax) {  
       indicateur(led1); // rouge 2
     }
 
@@ -378,8 +424,9 @@ Evolution
 :::::::::
 
 Parmi les évolutions possibles, j'envisage l'ajout d'une connexion à un serveur
-NTP via un shield Ethernet pour recaler le Chronodot périodiquement sur une horloge atomique. On aura
-ainsi l'horloge comtoise la plus précise de l'Univers.
+NTP via un shield Ethernet pour recaler le Chronodot périodiquement sur une
+horloge atomique. On aura ainsi l'horloge comtoise la plus précise de
+l'Univers.
 
 Le code
 :::::::
