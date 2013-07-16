@@ -196,7 +196,7 @@ Une fois les différents temps de séchage terminés (ne pas hésiter à laisser
 on réalise l'assemblage de la base et du couvercle en vissant les charnières sur l'arrière 
 de la cave.
 
-.. figure:: cave_cigares/assemblage-charnieres.jpg
+.. figure:: cave_cigares/charnieres-autobloquantes.jpg
 
    Mise en place des charnières
 
