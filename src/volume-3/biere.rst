@@ -5,6 +5,7 @@ Faire de la bière maison (ou comment transformer l'eau en bière)
 :category: cuisine
 :author: Frédéric Sureau, Alexis Métaireau
 :level: moyen
+:licence: BY-NC-SA-3.0
 
 On en boit tout le temps, mais on ne prend pas souvent le temps de comprendre
 comment elle est fabriquée, et encore moins de la fabriquer soi même. Et c'est
