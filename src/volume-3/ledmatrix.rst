@@ -283,7 +283,7 @@ Le résultat est cependant extraordinairement complexe.
 	
 	Source : `wikipedia <http://fr.wikipedia.org/wiki/Jeu_de_la_vie>`_
 
-**Programme n°3 : Transformée rapide de Fourrier (FFT) **
+**Programme n°3 : Transformée rapide de Fourrier (FFT)**
 
 .. figure:: ledmatrix/prog_fft_lin.JPG
 
