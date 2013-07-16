@@ -190,7 +190,7 @@ savons utilisables.
 Laissez les donc reposer à température ambiante, en les
 entourants éventuellement d'un film alimentaire pour qu'ils ne blanchissent
 pas, mais dans ce cas, il seront plus mou et s'useront plus rapidement car ils
-serotn moins secs au final.
+seront moins secs au final.
 
 Pour conclure
 -------------
