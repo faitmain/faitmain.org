@@ -162,14 +162,12 @@ Détails :
 	
 	Pour que l'affichage soit correct il faut envoyer les données de chaque ligne tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tout les 1/960ème de seconde (= 16 lignes x 60Hz).
 	
-	Il faut cependant envoyer les données à l'envers.
-	Les matrices en question utilisent des registres à décalage montés ... vers la gauche. Le premier octet envoyé se retrouve donc à droite de la matrice puis est décalé vers la gauche.
+	Les matrices en question utilisent des registres à décalage montés vers la gauche. Le premier octet envoyé se retrouve donc à droite de la matrice puis est décalé vers la gauche.
 	La seule explication logique à cela serait que le concepteur de la carte ait pris un repère (X = 0, Y = 0) en bas à droite, contrairement au reste des développeurs qui utilisent un repère (0, 0) en haut à gauche.
-	Ainsi pour envoyer les octets 1, 2, 3, 4 il faut en réalité envoyer 4, 3, 2, 1. Mais ce n'est pas le pire.
 	
 	Dans le cas où l'on souhaite câbler plusieurs matrices en chaine il faut faire un peu de gymnastique pour envoyer les données dans le bonne ordre tout en conservant un repère (0, 0) classique.
-	Tout en envoyant les blocs de 4 octets de chaque matrice à l'envers, il faut aussi commencer par la dernière matrice de la ligne.
-	Ainsi pour envoyer les données d'une ligne de 64 pixels (soit 2 matrices chainées) il faut envoyer les octets dans l'ordre 5, 6, 7, 8, 4, 3, 2, 1.
+	Il faut donc envoyer les blocs de 4 octets de chaque matrice, en commençant par la dernière matrice de la ligne.
+	Ainsi pour envoyer les données d'une ligne de 64 pixels (soit 2 matrices chainées) il faut envoyer les octets dans l'ordre 5, 6, 7, 8, 1, 2, 3, 4.
 	Quand je vous disais qu'il fallait aimer les casses tête je ne vous avait pas menti ;)
 
 Programme de démonstration
