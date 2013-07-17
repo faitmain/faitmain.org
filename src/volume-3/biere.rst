@@ -23,16 +23,16 @@ Ingrédients
 
 Pour cette recette, il vous faudra :
 
-*De l'eau*
+De l'eau
   Vous savez, ce truc liquide et transparent.
 
-*Du malt*
+Du malt
   Des grains d'orge  germés puis séchés voire grillés. Il est responsable de la couleur et du gout de la bière.
 
-*Du houblon*
+Du houblon
   Des fleurs pour aromatiser et donner de l'amertume.
 
-*Des levures*
+Des levures
   Pour transformer le sucre en alcool et faire des bulles.
 
 Tous les ingrédients y compris l'eau ont leur influence sur le goût final de la
@@ -150,14 +150,15 @@ Empâtage et brassage
 La seconde étape est **l'empâtage**. Il s'agit de faire chauffer notre moût à
 différents paliers de température.
 
-.. figure:: biere/empatage.jpg
-
 * ~50°C : Transformation des protéines de l'orge malté pour que la bière ne soit pas trouble (protéinase)
 * ~60-65°C : Création des sucres fermentescibles (dextrose et maltose)
 * ~68-75°C : Création de sucres non-fermentescibles (Dextrine)
 * ~78°C : Destruction des enzymes et arrêt des transformations (parce que c'est bon hein)
 
-Les paliers indiqués pour la création des sucres sont les températures idéales, mais ils se créent également à d'autres températures. Il est donc envisageable de n'avoir qu'un palier pour la création des sucres.
+.. figure:: biere/empatage.jpg
+
+Les paliers indiqués pour la création des sucres sont les températures idéales, mais ils se créent également à d'autres températures.
+Il est donc envisageable de n'avoir qu'un palier pour la création des sucres.
 
 Rinçage
 -------
