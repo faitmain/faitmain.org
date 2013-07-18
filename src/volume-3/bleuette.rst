@@ -5,7 +5,7 @@ L'hexapode Bleuette
 :category: informatique, électronique
 :level: vulgarisation
 :author: Charles Rincheval
-
+:licence: By-Sa-3.0
 
 Introduction
 ::::::::::::
@@ -371,8 +371,13 @@ Participez !
 ::::::::::::
 
 Bleuette est en perpétuel développement, vous pouvez suivre le dépôt GitHub pour
-vous en rendre compte, le développement se poursuit sur différents axes : logiciel, mécanique ou électronique,
-chacun peut apporter ses propres compétences dans un domaine particulier.
+vous en rendre compte, le développement se poursuit sur différents axes :
+
+- Logiciel : Poursuite du développement en Python sur Raspberry, gestion de la webcam du RaspberryPi avec OpenCV
+- Mécanique : développemement d'une tourelle 2 axes pour la webcam
+- Électronique : ajout d'un watchdog sur la carte BleuettePi et développement de la carte de puissance
+
+Chacun peut apporter ses propres compétences dans un domaine particulier !
 
  - Le blog de développement : http://www.digitalspirit.org/
  - Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
