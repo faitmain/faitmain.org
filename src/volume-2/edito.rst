@@ -9,7 +9,7 @@ Comme vous pouvez le constater, le look a changé, grâce au travail de
 `Raphaël Bastide <http://raphaelbastide.com/>`_, qui a rejoint l'équipe des
 contributeurs pour retravailler l'identité visuelle. Un style épuré,
 conçu pour faciliter la lecture au maximum. Ce volume 2 est l'occasion
-de commencer une transition graphique qui s'afinera à travers les 
+de commencer une transition graphique qui s'afinera à travers les
 numéros et les supports. Vous pourrez en savoir plus sur le travail graphique
 autour de Fait Main dans le numéro 3, ne le manquez pas !
 
@@ -105,10 +105,10 @@ Ont participé à ce numéro :
   Fabien Batteix, Fritz van Deventer, Jérôme Abel, Jonathan Schemoul,
   Tarek Ziadé, Zeptobars
 
-- Relecteurs: Cédric Bonhomme, husano, Duvelleking, merlin8282,
-  Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David "Animateur",
-  Ysabeau, François Roels, Lantin Henriette, Patrice Godard, Jean-Philippe 
-  Camguilhem, et tous ceux que nous avons oublié!
+- Relecteurs: Cédric Bonhomme, Duvelleking, merlin8282,
+  Laurent Fiori, Camille Duvelleroy, Amirouche Boubekki, David Moyemont,
+  Ysabeau, François Roels, Lantin Henriette, Patrice Godard, Jean-Philippe
+  Camguilhem, Jean, et tous ceux que nous avons oublié!
 
 - Code & design: Raphael Bastide, Tarek Ziadé.
 

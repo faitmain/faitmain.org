@@ -91,7 +91,7 @@ Regardons de plus prêt
    :target: http://s.zeptobars.ru/PL2303HX-HD.jpg
 
    PL2303HX - convertisseur USB <> RS232 converter.
-   Cette puce est présente dans les Arduino.
+   Cette puce est un clone des chips FTDI, présents dans les anciens modèles d'Arduino.
 
 .. figure:: puce/LM1117.jpg
    :target: http://s.zeptobars.ru/LM1117-HD.jpg

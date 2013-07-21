@@ -13,7 +13,7 @@ monochrome sur un T-shirt.
 
 En France le matériel reste difficile à trouver et cher. Je m'équipe
 chez `a.buisine <http://www.abuisine.fr/>`_, et pour ceux qui ne veulent
-pas de grosse quantité, `whe <http://www.whe.fr/store/fr/>`_ vend des
+pas de grosse quantité, `whe <http://www.whe.fr>`_ vend des
 packs pour débutant.
 
 La sérigraphie se passe en trois temps:

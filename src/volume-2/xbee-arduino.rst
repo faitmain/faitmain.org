@@ -187,9 +187,9 @@ professionnels *ZigBee Alliance*. Le **XBee** est une marque, un produit qui
 utilise le protocole ZigBee. Do you bien compris ?
 
 .. figure:: xbee/bluetooth-bee.jpg
-   :scale: 25
-   :figclass: pull-right margin-left
-   :align: right
+  :scale: 25
+  :figclass: pull-right margin-left
+  :align: right
 
   Exemple d'un module Bluetooth utilisant la même forme que les modules XBee
 
