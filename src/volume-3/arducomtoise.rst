@@ -373,7 +373,7 @@ fonction (voir paragraphe suivant).
       }
     }
 
-On appelle ensuite la fonction à chaque passage du balancier devant le catpeur
+On appelle ensuite la fonction à chaque passage du balancier devant le capteur
 central, l'afficheur est donc mis à jour toutes les 1.07 secondes:
 
 .. code-block:: c++

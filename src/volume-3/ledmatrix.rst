@@ -53,7 +53,7 @@ m'a permis d'en acheter une douzaine et ainsi de former une matrice "géante" de
 
 .. note::
 
-   Ces matrices de leds, comme beaucoup de clone chinois, sont fournies sans
+   Ces matrices de leds, comme beaucoup de clones chinois, sont fournies sans
    documentation, schéma ou autre. Tout le code réalisé pour ce projet est donc
    le résultat d'un gros travail de rétro-ingénierie et de recherche. Avec ce
    genre de produits il faut aimer les casses têtes pour arriver à ses fins ;)
@@ -88,7 +88,7 @@ sans cadre :)
 
 Le fond du cadre est réalisé en bois de pin tout ce qui a de plus classique.
 Deux épaisseurs de planches sont collées en chevauchement pour maximiser la
-résistance du cadre. Le tout a ensuite était fixé ensemble avec de la colle
+résistance du cadre. Le tout a ensuite été fixé ensemble avec de la colle
 blanche, des serres joints et un serre-cadre pour l'équerrage.
 
 .. figure:: ledmatrix/cadre_base_plexi.JPG
@@ -99,18 +99,18 @@ Par dessus la base du cadre vient se poser une plaque de verre synthétique
 ayant pour but de plaquer les matrices de leds. Les vis sur les quatre coins du
 cadre ont elles pour but de fixer par l'arrière deux baguettes de bois servant
 de pressoir pour maintenir les matrices en place. Ces vis ont bien évidement
-été incrustés dans le bois pour éviter rien ne dépasse avant la pose définitive
+été incrustés dans le bois pour éviter que rien ne dépasse avant la pose définitive
 du plexiglas.
 
 .. figure:: ledmatrix/cadre_topcase.JPG
 
    Face avant du cadre en medium
 
-La face avant du cadre a été réalisé en medium (une espèce de bois aggloméré au
+La face avant du cadre a été réalisée en medium (une espèce de bois aggloméré au
 grain très fin). Cette face avant comporte des chanfreins sur les bords
 intérieurs et extérieurs pour un meilleur fini. De même qu'une rainure cachée
 sur le dessous pour maintenir la plaque de plexiglas. (La plaque de plexiglas
-est maintenu en place par la seul pression de la face avant sur le cadre de
+est maintenu en place par la seule pression de la face avant sur le cadre de
 base et un peu de joint à baignoire)
 
 .. figure:: ledmatrix/cadre_finish.JPG
@@ -124,7 +124,7 @@ Principe de fonctionnement des matrices et câblage
 
 .. figure:: ledmatrix/matrix_wiring.JPG
 
-   Le rangement est mon maitre mot, ou pas.
+   Le rangement est mon maître mot, ou pas.
 
 Ces matrices de leds sont contrôlées au moyen d'un port SPI un peu spécial. Le
 connecteur utilisé par ces matrices est un classique connecteur 2x16 broches au
@@ -153,7 +153,7 @@ Détails :
 + SCK : Signal d'horloge commun pour les lignes R et G
 
 
-**Comment marche ces matrices ?**
+**Comment marchent ces matrices ?**
 
 En réalité ces matrices de leds sont des clones très légèrement modifiés
 des matrices de leds d'ancienne génération du (très connu) fabricant «
@@ -187,10 +187,10 @@ d'utiliser du SPI software, beaucoup plus lent et couteux en ressource CPU …
 **Concrètement comment je fait pour allumer mes pixels ?**
 
 Prenons une seule matrice de 16x32 pixels. Cette matrice est constitués de 16
-lignes de 32 pixels horizontal, organisés en 4 bloc de 8 pixels. Chaque pixel
+lignes de 32 pixels horizontaux, organisés en 4 bloc de 8 pixels. Chaque pixel
 horizontal est un bit que l'on envoie en SPI (communication série avec horloge
 synchrone). Ici pour afficher une ligne il faut donc envoyer 4 octets, que ce
-soit sur le signal de données R (rouge) et G (vert).
+soit sur le signal de données R (rouge) ou G (vert).
 
 Pour que l'affichage soit correct il faut envoyer les données de chaque ligne
 tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tout les
@@ -204,7 +204,7 @@ contrairement au reste des développeurs qui utilisent un repère (0, 0) en haut
 à gauche.
 
 Dans le cas où l'on souhaite câbler plusieurs matrices en chaine il faut faire
-un peu de gymnastique pour envoyer les données dans le bonne ordre tout en
+un peu de gymnastique pour envoyer les données dans le bon ordre tout en
 conservant un repère (0, 0) classique. Il faut donc envoyer les blocs de 4
 octets de chaque matrice, en commençant par la dernière matrice de la ligne.
 Ainsi pour envoyer les données d'une ligne de 64 pixels (soit 2 matrices
@@ -237,8 +237,8 @@ Avant de courir il faut savoir marcher, ici c'est pareil, avant de vouloir
 faire des trucs compliqué il faut savoir afficher au moins un pixel.
 
 La première étape pour cela est d'avoir un microcontrôleur pour contrôler la
-matrice. Lors de mes premiers essais j'utilisai une carte Arduino UNO mais
-celle-ci n'étant pas adaptée pour la suite (pas assez de RAM) j'ai du changer
+matrice. Lors de mes premiers essais j'utilisais une carte Arduino UNO mais
+celle-ci n'étant pas adaptée pour la suite (pas assez de RAM) j'ai dû changer
 mon fusil d'épaule.
 
 .. figure:: ledmatrix/mcu_wiring.JPG
@@ -247,17 +247,17 @@ mon fusil d'épaule.
 
 Bien qu'ayant laissé tomber l'idée d'utiliser une carte Arduino je ne suis pas
 allé chercher loin. Pour contrôler ma matrice de led j'ai utilisé un
-ATmega1284p (tournant à 16MHz), le même microcontrôleur que dans les cadres
+ATmega1284p (tournant à 16MHz), le même microcontrôleur que dans les cartes
 Sanguino.
 
-Le montage est relativement trivial, celui ci se compose :
+Le montage est relativement trivial, celui ci se compose de :
 
 + un ATmega1284p,
 + un quartz à 16MHz + deux condensateurs de 22pF,
 + une résistance de 10K sur la broche RESET
 + un condensateur de découplage (100nF) sur le +5v.
 
-Pour me faciliter la vie j'ai aussi câblé un connecteur ISCP pour breadboard
+Pour me faciliter la vie j'ai aussi câblé un connecteur ICSP pour breadboard
 (fabriqué par Sparkfun) et un connecteur 2x16 broches pour la nappe reliant le
 montage à la matrice.
 
@@ -269,8 +269,8 @@ montage à la matrice.
 Le code de base est composé de seulement 6 fonctions et de quelques "define",
 rien de bien extraordinaire.
 
-Le câblage des différentes lignes de contrôlés est défini dés les premières
-lignes du code. Deux ports sont utilisés : le port C et le port B, c'est deux
+Le câblage des différentes lignes de contrôle est défini dés les premières
+lignes du code. Deux ports sont utilisés : le port C et le port B, ces deux
 ports sont disponibles sur l'ATMega1284p, mais aussi sur l'ATmega328p que l'on
 retrouve dans les cartes Arduino UNO. Et oui j'ai aussi pensé aux Arduinistes
 ;)
@@ -281,7 +281,7 @@ Au niveaux des fonctions bas niveau on trouve :
   suivant le même principe que la fonction Arduino "shiftOut" mais sur deux
   sorties (R et G) simultané.
 + **void lineShiftOut(line_red_buffer, line_green_buffer)** : cette fonction envoie
-  une ligne compléte en utilisant la fonction ci dessus, elle est aussi
+  une ligne complète en utilisant la fonction ci dessus, elle est aussi
   responsable de l'ordre d'envoi des blocs de 4 octets.
 + **ISR(TIMER2_COMPA_vect)** : cette fonction d'interruption est appelée tous
   les 1/960ème de seconde pour rafraichir l'affichage.
@@ -417,14 +417,14 @@ par timer pour l'échantillonnage audio.
 
     Montage de conversion audio vers ADC sur breadboard
 
-Pour fonctionner ce programme à besoin de capturer à intervalle régulier un
+Pour fonctionner ce programme a besoin de capturer à intervalle régulier un
 échantillon audio. Les sorties de cartes son travaillant sur une plage de
 tension entre -1v et +1v il est nécessaire d'adapter ce signal avant de
 l'envoyer sur l'entrée analogique du microcontrôleur.
 
 Pour ce faire j'utilise
 un classique montage amplificateur non inverse à ampli-op. Ce montage amplifie
-le signal de 2.5 fois avant d'être recentré sur 2.5v au moyen d'un « bias ».
+le signal 2.5 fois avant de le recentrer sur 2.5v au moyen d'un « bias ».
 
 .. note::
 
