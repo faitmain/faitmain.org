@@ -1,5 +1,5 @@
 Cave à cigares
-===================
+==============
 
 :date: 2013-07-07
 :category: bricolage
@@ -10,13 +10,13 @@ Cave à cigares
 Introduction : une cave à cigares DIY
 :::::::::::::::::::::::::::::::::::::
 
-Devenu amateur de cigares après un cadeau insolite pour un Noël, j'ai voulu, comme pour le bon vin, 
+Devenu amateur de cigares après un cadeau insolite pour un Noël, j'ai voulu, comme pour le bon vin,
 conserver mes acquisitions (de plus en plus nombreuses), dans les meilleures
-conditions possibles. Je me suis donc affairé à trouver une solution de 
+conditions possibles. Je me suis donc affairé à trouver une solution de
 conservation optimale.
 
 Après quelques recherches sur Internet, j'ai trouvé plusieurs types de cave
-à cigares, une large fourchette budgétaire (de 20 à plus de 1 000 euros...) et 
+à cigares, une large fourchette budgétaire (de 20 à plus de 1 000 euros...) et
 différents design.
 
 Ne voulant pas y mettre un montant pharamineux, mais voulant toutefois que mes
@@ -29,7 +29,7 @@ Les pré-requis d'une bonne cave à cigares
 
 Commençons par les fondamentaux pour sa conception.
 
-La priorité pour une cave à cigares est l'humidité constante 
+La priorité pour une cave à cigares est l'humidité constante
 qui doit être maintenue à 70%. Pour arriver à un tel résultat, 3 choses essentielles :
 
 * du cèdre d'Espagne pour le doublage intérieur de la cave,
@@ -46,16 +46,16 @@ Nous aurons donc besoin de bois de cèdre d'Espagne, qui sera sans doute la plus
 difficulté de cette réalisation. En effet malgré son nom, ce bois ne vient pas d'Espagne,
 mais d'Amérique latine, d'où il tire ses propriétés de régulateur d'humidité. Ce bois,
 très caractéristique et reconnaissable pas sa forte odeur poivrée, est notamment utilisé
-pour la fabrication des manches de guitare. Pour une cave à cigares de faible contenance, 
+pour la fabrication des manches de guitare. Pour une cave à cigares de faible contenance,
 il est possible d'utiliser uniquement du placage en cèdre d'Espagne, plus facilement achetable en France.
 
 Bien que le cèdre d'Espagne soit conseillé pour la doublure interne, il est préférable
-de ne pas l'utiliser pour la structure externe. Sa tendance à "gonfler" (un peu) 
+de ne pas l'utiliser pour la structure externe. Sa tendance à "gonfler" (un peu)
 à force de réguler l'humidité entrainerait une déformation disgracieuse.
 
 Plusieurs solutions esthétiques sont possibles pour le rendu extérieur, notamment
-le rendu en bois massif ou le rendu en MDF plaqué. Personnellement, et n'étant 
-pas un pro du plaquage, je me suis tourné vers une structure en hêtre massif abouté, tout 
+le rendu en bois massif ou le rendu en MDF plaqué. Personnellement, et n'étant
+pas un pro du plaquage, je me suis tourné vers une structure en hêtre massif abouté, tout
 simplement pour son rendu que j'apprécie.
 
 
@@ -79,7 +79,7 @@ d'environ 40 cigares, cela donnera :
     Résultat final
 
 Le petit plus qui peut être bien pratique : des charnières qui se bloquent à 95°
-environ pour maintenir le couvercle ouvert sans risquer de faire basculer la cave 
+environ pour maintenir le couvercle ouvert sans risquer de faire basculer la cave
 à cigares en arrière.
 
 .. figure:: cave_cigares/charnieres-autobloquantes.jpg
@@ -123,11 +123,11 @@ Les découpes
 Pour la réalisation des coffrets en bois, plusieurs concepts sont possibles,
 avec plus ou moins de facilité et avec différents design :
 
-* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et relativement simple à réaliser, 
+* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et relativement simple à réaliser,
 il faut néanmoins couper avec une grande précision à 45° pour avoir de jolies jointures,
 * l'assemblage queue droite (ou d'aronde) : style particulier et très fini, mais très long à préparer,
 * l'assemblage à plat joint : le moins esthétique mais également le plus simple, on colle les planches champ contre plat,
-* l'assemblage à feuillure : assez esthétique, mais nécessite un travail de rabotage assez minutieux. 
+* l'assemblage à feuillure : assez esthétique, mais nécessite un travail de rabotage assez minutieux.
 
 J'ai choisi un assemblage en onglet pour ma cave à cigares.
 
@@ -170,7 +170,7 @@ Il faut bien laisser sécher cette structure, celle-ci étant la base qui tiendr
 
 De la même manière, j'assemble le couvercle avec la colle. Je renforce la partie
 qui supportera les charnières avec quelques vis afin de ne pas avoir de surprise, particulièrement
-avec les charnières auto-bloquantes qui infligeront un choc à chaque ouverture. Pour la 'final touch' 
+avec les charnières auto-bloquantes qui infligeront un choc à chaque ouverture. Pour la 'final touch'
 esthétique, j'ai directement intégré le plaquage en cèdre d'Espagne au niveau du couvercle.
 
 .. figure:: cave_cigares/assemblage-couvercle.jpg
@@ -193,7 +193,7 @@ sur le socle, puis on intégre la doublure intérieure.
 *Assemblage de la cave*
 
 Une fois les différents temps de séchage terminés (ne pas hésiter à laisser plus de temps qu'indiqué),
-on réalise l'assemblage de la base et du couvercle en vissant les charnières sur l'arrière 
+on réalise l'assemblage de la base et du couvercle en vissant les charnières sur l'arrière
 de la cave.
 
 .. figure:: cave_cigares/charnieres-autobloquantes.jpg
@@ -225,8 +225,8 @@ de surveillance du taux d'humidité créé avec Arduino, voire d'un humidificate
 par Arduino ou système similaire.
 
 *Astuce :* étalonner son hygromètre.
-Il est nécessaire, au moins une fois par an de ré-étalonner son hygromètre afin de s'assurer que celui-ci 
-ne s'est pas déréglé. Pour cela, il suffit de l'enfermer dans un sac hermétique avec un bouchon (type bouteille d'eau) 
+Il est nécessaire, au moins une fois par an de ré-étalonner son hygromètre afin de s'assurer que celui-ci
+ne s'est pas déréglé. Pour cela, il suffit de l'enfermer dans un sac hermétique avec un bouchon (type bouteille d'eau)
 de sel humecté (attention, le sel doit faire une pâte et non se liquéfier). Au bout de 8 heures environ, l'hygrométre doit
 afficher 75% d'humidité relative.
 
