@@ -97,7 +97,7 @@ Matériel et matériaux
 Pour réaliser notre cave à cigares, nous aurons besoin de :
 
 * planches en cèdre d'Espagne (95mm de haut, 9mm de large et 900mm de long environ)
-* placage en cèdre d'Espagne (2 morceaux de 290x250mm)
+* plaquage en cèdre d'Espagne (2 morceaux de 290x250mm)
 * un humidificateur
 * un hygromètre
 * du bois (massif ou MDF) pour la structure de la cave
@@ -123,8 +123,7 @@ Les découpes
 Pour la réalisation des coffrets en bois, plusieurs concepts sont possibles,
 avec plus ou moins de facilité et avec différents design :
 
-* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et relativement simple à réaliser,
-il faut néanmoins couper avec une grande précision à 45° pour avoir de jolies jointures,
+* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et relativement simple à réaliser, il faut néanmoins couper avec une grande précision à 45° pour avoir de jolies jointures,
 * l'assemblage queue droite (ou d'aronde) : style particulier et très fini, mais très long à préparer,
 * l'assemblage à plat joint : le moins esthétique mais également le plus simple, on colle les planches champ contre plat,
 * l'assemblage à feuillure : assez esthétique, mais nécessite un travail de rabotage assez minutieux.
@@ -163,7 +162,7 @@ de la cave à cigares avec de la colle à bois.
 
    Assemblage de la structure de base avec le socle
 
-Il faut bien laisser sécher cette structure, celle-ci étant la base qui tiendra l'ensemble consoldidé.
+Il faut bien laisser sécher cette structure, celle-ci étant la base qui tiendra l'ensemble consolidé.
 
 
 *Assemblage du couvercle*
