@@ -19,7 +19,11 @@ caractéristiques techniques (balancier sur l'avant typique de la deuxième
 moitié du XIXe siècle mais échappement à couronne et non à ancre typique de la
 première moitié), cette horloge doit dater du milieu du XIXe siècle.
 
-Le cadran mentionnne Munster, en Alsace, comme ville d'origine, mais il s'agit bien d'une comtoise. Les mouvements étaient fabriqués à Morez près de Pontarlier dans le Haut Doubs puis expédiés nus dans toute l'Europe. Les facades, caisses et poids étaient ensuite produits sur le lieu de destination, portant mention de l'horloger local.
+Le cadran mentionne Munster, en Alsace, comme ville d'origine, mais il s'agit
+bien d'une comtoise. Les mouvements étaient fabriqués à Morez près de
+Pontarlier dans le Haut Doubs puis expédiés nus dans toute l'Europe. Les
+facades, caisses et poids étaient ensuite produits sur le lieu de destination,
+portant mention de l'horloger local.
 
 Elle possède un mouvement situé assez haut (environ 2m10) avec comme
 garde-temps un balancier d'environ 1m20. Deux poids assurent la réserve
@@ -133,7 +137,7 @@ En début de script, l'heure de référence (qui sert au recalage) est définie:
 .. code-block:: c++
 
     // temps de référence pour période de 24h
-    int heuresRef = 19; 
+    int heuresRef = 19;
     int minutesRef = 45;
     int secondesRef = 30;
 
@@ -146,7 +150,7 @@ convertissant en décimal au passage):
 .. code-block:: c++
 
     void updateHeure(){
-    DateTime now = RTC.now();    // on lit l'heure en cours 
+    DateTime now = RTC.now();    // on lit l'heure en cours
     heures = now.hour(), DEC;
     minutes = now.minute(), DEC;
     secondes = now.second(), DEC;
@@ -158,10 +162,10 @@ l'horloge passe en mode "réglage" :
 .. code-block:: c++
 
 
-    if ( heures == heuresRef && minutes == (minutesRef-2)) { 
+    if ( heures == heuresRef && minutes == (minutesRef-2)) {
         // quand on entre dans les deux dernières minutes, on passe en mode réglage
-        reglage = 1; 
-    } 
+        reglage = 1;
+    }
 
 Deux événements sont alors surveillés : l'activation du microswitch par la
 grande aiguille (passage à LOW de contactPin) et l'arrivée en bout de course du
@@ -178,10 +182,10 @@ plus bas).
     if (reglage == 1 && digitalRead(contactPin) == LOW && bitTerminal == 1) {
         // quand l'aiguille atteint le contacteur et que le balancier arrive en bout de course
         // on calcule l'avance (delta) pour affichage sur LCD et diodes
-        delta=((minutesRef*60)+secondesRef)-((minutes*60)+secondes); 
-        
-        if (delta > 0) { // si l'horloge avance 
-          while (heures != heuresRef || minutes != minutesRef || secondes != secondesRef) { 
+        delta=((minutesRef*60)+secondesRef)-((minutes*60)+secondes);
+
+        if (delta > 0) { // si l'horloge avance
+          while (heures != heuresRef || minutes != minutesRef || secondes != secondesRef) {
             // on bloque le balancier jusqu'à ce que l'heure de référence soit atteinte
             myservo.write(ferme); // blocage balancier
             updateHeure(); // lecture de l'heure sur le Chronodot
@@ -189,19 +193,19 @@ plus bas).
 
         reglage=0; // on sort du mode réglage
         uptime++; // on incrémente le compteur de jours d'uptime
-        
-        if (uptime > 1) { 
-            // on calcule les stats pour affichage sur le LCD. 
+
+        if (uptime > 1) {
+            // on calcule les stats pour affichage sur le LCD.
             // On ne prend pas en compte le 1er jour car les comptages sont partiels
             compteurTotal = compteurTotal + compteur;
             compteurMoyenne = compteurTotal/(uptime-1); // moyenne des comptages de balancier
-            totalDelta = totalDelta+delta; 
+            totalDelta = totalDelta+delta;
             deltaMoyenne = totalDelta/(uptime-1); // calcul moyenne du décalage quotidien
         }
 
         compteur = 0; // le compteur de passages est remis à 0
         myservo.write(ouvert); // on relache le balancier
-        } 
+        }
     }
 
 Indicateurs et accessoires
@@ -244,7 +248,7 @@ le chiffre *valeur* en chaîne de caractère *cible[]* de longueur *taille*.
 
 .. code-block:: c++
 
-    char longToChar(long valeur, int taille, char cible[]) { 
+    char longToChar(long valeur, int taille, char cible[]) {
       // convertit les long en char affichables par l'écran
       String string = String(valeur);
       string.toCharArray(cible,taille);
@@ -256,7 +260,7 @@ avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieur
 
 .. code-block:: c++
 
-    char heureToChar(int h, int m, int s, char cible[10]) { 
+    char heureToChar(int h, int m, int s, char cible[10]) {
       // convertit l'heure en char affichables par l'écran
       String heureString = String(subzero(h));
       String minuteString = String(subzero(m));
@@ -265,7 +269,7 @@ avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieur
       temps.toCharArray(cible, 10);
     }
 
-    String subzero(int valeur){ 
+    String subzero(int valeur){
       // ajoute une zero aux chiffres horaires < 10
       String resultat = String(valeur);
       if (valeur < 10) {
@@ -279,7 +283,7 @@ placer sur l'écran (voir le tuto de Skywodd pour les détails) :
 
 .. code-block:: c++
 
-    void draw() { 
+    void draw() {
       // affichage écran
       u8g.setFont(u8g_font_6x12); // Utilise la police de caractère standard
       u8g.drawStr(22, 8, "Val");
@@ -356,8 +360,8 @@ fonction (voir paragraphe suivant).
 
 .. code-block:: c++
 
-    void indicateur(int led) { // eteint toutes les leds 
-      for (int i=4; i <=8; i++) { 
+    void indicateur(int led) { // eteint toutes les leds
+      for (int i=4; i <=8; i++) {
           digitalWrite(i, LOW);
       }
       if (digitalRead(CapteurPoids)==LOW) { // si on voit le poids on allume les 2 leds rouges
@@ -381,13 +385,13 @@ central, l'afficheur est donc mis à jour toutes les 1.07 secondes:
     if (delta > borneMin && delta <= borneInf) {
       indicateur(led4); // orange 1
     }
-    if (delta > borneInf && delta <= borneSup) { 
+    if (delta > borneInf && delta <= borneSup) {
       indicateur(led3); // vert
     }
-    if (delta > borneSup && delta <= borneMax) { 
+    if (delta > borneSup && delta <= borneMax) {
       indicateur(led2); // orange 2
     }
-    if (delta > borneMax) {  
+    if (delta > borneMax) {
       indicateur(led1); // rouge 2
     }
 
@@ -409,7 +413,9 @@ Sitôt le poids détecté, des Leds rouges s'allument sur l'indicateur lumineux.
 Enfin, un buzzer piézo-électrique émet des bips pendant 2 minutes avant le
 blocage du balancier.
 
-Chose curieuse, la fonte noire dont est fait le poids était totalement invisible pour le capteur infrarouge. J'ai donc dû l'emballer dans une feuille de papier noir pour le rendre détectable (mais pas trop laid quand même).
+Chose curieuse, la fonte noire dont est fait le poids était totalement
+invisible pour le capteur infrarouge. J'ai donc dû l'emballer dans une feuille
+de papier noir pour le rendre détectable (mais pas trop laid quand même).
 
 L'alimentation
 --------------
