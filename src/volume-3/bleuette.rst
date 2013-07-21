@@ -233,7 +233,7 @@ Version RaspberryPi
 -------------------
 
 Piloter Bleuette via un Arduino est plutôt aisé mais on se retrouve assez vite limité
-en place, en puissance est en facilité pour développer.
+en place, en puissance et en facilité pour développer.
 J'ai donc décidé de faire une carte fille pour RaspberryPi, cette carte fille nommée simplement
 BleuettePi propose tout ce que fait la shield Arduino avec plein de chose en plus !
 
