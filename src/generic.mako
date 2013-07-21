@@ -80,6 +80,12 @@
    <div class="span2">
      <div class="sidebar-nav">
       <ul class="nav-list nav-menu">
+        %if 'github' in config:
+        <li class="nav-header" style="color:black">
+           <a href="${config['github']}">Modifier</a>
+        </li>
+        %endif
+
         <%block name="sections">
           %if doc_sections:
            <li class="nav-header" style="color:black">Contenu</li>
