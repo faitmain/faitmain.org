@@ -21,18 +21,18 @@ rendre plus autonome grâce à des capteurs divers.
 Histoire
 ::::::::
 
-Pour certain d'entres vous, le nom “Bleuette” vous est peut être familier,
+Pour certain d'entre vous, le nom “Bleuette” vous est peut-être familier,
 en fait, c'est une féminisation de Bleuet, le robot de la série
-FX, Effet spéciaux, nous nous sommes dit que le pauvre Bleuet devait se sentir seul
+FX, Effets spéciaux, nous nous sommes dit que le pauvre Bleuet devait se sentir seul
 et qu'il faudrait lui fabriquer un congénère et puis tant qu'à faire femelle… :)
 
 
 
-Dans ses premières versions, Bleuette était réalisé en Plexiglas,
+Dans ses premières versions, Bleuette était réalisée en Plexiglas,
 découpé à la scie sauteuse, un vrai boulot, long et pénible avant de nous
 rendre compte des limites de cette matière : elle est cassante et se raye
 trop facilement.
-Une seconde version à été faite en Lexan, une matière avec des propriétés déjà
+Une seconde version a été faite en Lexan, une matière avec des propriétés déjà
 plus intéressantes...
 
 .. image:: bleuette/plexi_0.jpg
@@ -48,16 +48,16 @@ plus intéressantes...
 Quelques années se sont écoulées et, depuis, l'impression 3D s'est
 considérablement développée, au point d'être devenue attractive pour
 les particuliers et intéressante pour un projet comme Bleuette, l'achat
-d'une l'Ultimaker à été guidé par l'arrière pensée de faire Bleuette
+d'une l'Ultimaker a été guidé par l'arrière-pensée de faire Bleuette
 entièrement en plastique.
 
  - Les tout premiers pas de Bleuette en Plexiglas : http://vimeo.com/1912189
- - Quelques années plus tard, Bleuette imprimé en 3D : http://vimeo.com/58307246
+ - Quelques années plus tard, Bleuette imprimée en 3D : http://vimeo.com/58307246
 
-Tous les plans de Bleuette ont été refait à l'aide de OpenSCAD
+Tous les plans de Bleuette ont été refaits à l'aide de OpenSCAD
 (http://openscad.org/), un logiciel permettant de modéliser des pièces de
-manière paramétrique, un dépôt GitHub à été créé à l'occasion pour partager
-tous les documents inérant à la fabrication du robot :
+manière paramétrique, un dépôt GitHub a été créé à l'occasion pour partager
+tous les documents inérants à la fabrication du robot :
 http://github.com/hugokernel/Bleuette/
 
 Construction
@@ -75,7 +75,7 @@ Le corps
 
 Le corps de Bleuette étant trop grand pour être imprimé en une seule fois, il
 est fait en plusieurs parties assemblées par des queues d'arondes,
-une librairie OpenSCAD à été créée pour l'occasion (http://github.com/hugokernel/OpenSCAD_Dovetail)
+une librairie OpenSCAD a été créée pour l'occasion (http://github.com/hugokernel/OpenSCAD_Dovetail)
 
 .. image:: bleuette/openscad_2.png
    :width: 300px
@@ -98,7 +98,7 @@ faibles, c'est très rigide.
 Les pattes
 ----------
 
-Bleuette possède 6 pattes animées chacune par 2 servos standard (Futaba S3003),
+Bleuette possède 6 pattes animées chacune par 2 servos standards (Futaba S3003),
 un qui permet de lever la patte et un autre qui permet de faire pivoter horizontalement
 la patte.
 
@@ -149,7 +149,7 @@ via un interrupteur une pression verticale correspondant au contact de la patte
 avec le sol, ainsi, notre hexapode est capable de détecter une absence de sol
 et donc, par exemple, d'éviter de tomber dans un escalier...
 
-La surface du capteur en contact avec le sol est imprimé en PLA Flex, qui comme
+La surface du capteur en contact avec le sol est imprimée en PLA Flex, qui comme
 son nom l'indique très bien est en PLA mais avec la particularité d'être flexible.
 
 .. image:: bleuette/capteur_sol.png
@@ -157,7 +157,7 @@ son nom l'indique très bien est en PLA mais avec la particularité d'être flex
    :alt: Un capteur de sol
    :target: bleuette/capteur_sol.png
 
-Sur la première photo ci-dessous, nous voyons la différence entre la pièce brut
+Sur la première photo ci-dessous, nous voyons la différence entre la pièce brute
 et la pièce trempée dans du PlastiDip pour obtenir plus de grip et meilleure finition.
 
 Sur la seconde photo de droite, on peut voir tous les éléments d'un capteur de sol :
@@ -194,7 +194,7 @@ Version Arduino
 
 Le cerveau de Bleuette est une carte Arduino avec une shield spécialement
 conçue pour Bleuette (Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield)
-qui sert, entre autre à piloter les 12 servos des pattes.
+qui sert, entre autres à piloter les 12 servos des pattes.
 
 .. image:: bleuette/bleuette_shield.png
    :width: 300px
@@ -218,13 +218,13 @@ Voici son schéma de principe :
 
 Plus d'informations sur la Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield
 
-Une autre carte fille (shield) pour Arduino à été créée, il s'agit
+Une autre carte fille (shield) pour Arduino a été créée, il s'agit
 de Bleuette Sensor Shield qui dispose des caractéristiques suivantes :
 
 - 8 entrées supplémentaires multiplexées utilisant que 4 entrées / sorties (3 d'adressage et une sortie)
-- Connection pour une carte GY-27 contenant un accéléromètre et un compas
+- Connexion pour une carte GY-27 contenant un accéléromètre et un compas
 - Un module Bluetooth JY-MCU
-- Une connection pour une guirlande de led RGB à base de LPD8806
+- Une connexion pour une guirlande de led RGB à base de LPD8806
 - Un mosfet pour pouvoir piloter un élément de puissance (je ne sais pas vraiment quoi pour le moment...)
 
 Plus d'informations sur cette carte par ici : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Sensor-Shield
@@ -235,7 +235,7 @@ Version RaspberryPi
 Piloter Bleuette via un Arduino est plutôt aisé mais on se retrouve assez vite limité
 en place, en puissance et en facilité pour développer.
 J'ai donc décidé de faire une carte fille pour RaspberryPi, cette carte fille nommée simplement
-BleuettePi propose tout ce que fait la shield Arduino avec plein de chose en plus !
+BleuettePi propose tout ce que fait la shield Arduino avec plein de choses en plus !
 
 .. image:: bleuette/bleuettepi.jpeg
    :width: 300px
@@ -324,7 +324,7 @@ les ordres aux servos, ainsi, il est possible de faire d'autres tâches pendant 
 
 Tout le code pour jouer avec Bleuette se trouve par ici : http://github.com/hugokernel/Bleuette/tree/master/src/BleuettePi/Python
 
-Une vidéo des premiers mouvements de pattes de Bleuette piloté par une RaspberryPi.
+Une vidéo des premiers mouvements de pattes de Bleuette pilotée par une RaspberryPi.
 
 <iframe width="800" height="450" src="//www.youtube.com/embed/_7C_EJtj_3M" frameborder="0" allowfullscreen></iframe>
 
@@ -341,7 +341,7 @@ Pour les pièces du corps de Bleuette, il vous faudra avoir accès à une imprim
 ou une découpe CNC, inutile d'en posséder une, il vous suffira de trouver le fablab
 le plus proche de chez vous qui pourra vous orienter et vous aider dans leur réalisation.
 
-Fabriquer les pièces en platique : http://github.com/hugokernel/Bleuette/wiki/Fabriquer
+Fabriquer les pièces en plastique : http://github.com/hugokernel/Bleuette/wiki/Fabriquer
 
 L'électronique
 --------------
@@ -364,7 +364,7 @@ Pièces diverses
 - Visserie, tiges, clips, pièces mécaniques diverses
 - Batterie, divers...
 
-Tout se matériel doit couter au maximum 250€, ce qui fait de Bleuette un robot hexapode très abordable,
+Tout ce matériel doit couter au maximum 250€, ce qui fait de Bleuette un robot hexapode très abordable,
 notez que l'on trouve dans le commerce des équivalents à plus de 900€...
 
 Participez !
