@@ -80,6 +80,12 @@
    <div class="span2">
      <div class="sidebar-nav">
       <ul class="nav-list nav-menu">
+        %if 'github' in config:
+        <li class="nav-header" style="color:black">
+           <a href="${config['github']}">Modifier</a>
+        </li>
+        %endif
+
         <%block name="sections">
           %if doc_sections:
            <li class="nav-header" style="color:black">Contenu</li>
@@ -162,7 +168,6 @@
       <li>© 2013 FaitMain</li>
       <li>ISSN 2261-8376</li>
       <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
-      <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
     </ul>
 
    </div>
