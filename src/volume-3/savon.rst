@@ -26,8 +26,8 @@ TP de chimie me rappellaient qu'il s'agissait d'une opération très simple.
 ----
 
 Concrètement, pour obtenir du savon, il faut faire agir une base forte sur une
-matière grasse, ce qui produit du savon et de la glycérine. En jouant sur la
-ration corps gras/base forte, on obtient un savon plus où moins "sec", que vous
+matière grasse, ce qui produit du savon et de la glycérine. En jouant sur le
+ratio corps gras/base forte, on obtient un savon plus où moins "sec", que vous
 pourrez adapter à votre type de peau. Il est tout à fait possible, voir même
 recommandé, d'utiliser différentes huiles, les savons obtenus auront des
 propriétés très différentes. Pour se les procurer, sachez déjà que l'on trouve
