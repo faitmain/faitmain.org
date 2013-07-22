@@ -49,7 +49,7 @@ bien, mais il faut penser à un autre point important : les récipients et
 ustensiles.
 
 En effet, il est possible que certains plastiques soient attaqués
-par la soude, donc utilisez de préférence un récipient ne verre, ça évitera les
+par la soude, donc utilisez de préférence un récipient en verre, ça évitera les
 mauvaises surprises. Pour les ustensiles, évitez l'aluminium, il réagit assez
 violemment avec la soude.
 
@@ -57,7 +57,7 @@ Maintenant que ce petit rappel est fait, passons aux travaux pratiques.
 
 ---- 
 
-La précision requise pour les dosage va fortement dépendre de la quantité de savon
+La précision requise pour les dosages va fortement dépendre de la quantité de savon
 réalisée. La recette suivante vous permettra de réaliser l'équivalent d'une
 grosse dizaine de savons, de taille à peu près standard. 
 
@@ -82,7 +82,7 @@ Première étape
 --------------
 
 Peser les différents ingrédients. Avec un peu de pratique, on se rend compte
-que c'est beaucoups plus facile d'avoir tous les ingrédients déjà pesés, prêts
+que c'est beaucoup plus facile d'avoir tous les ingrédients déjà pesés, prêts
 à être utilisés. N'oubliez pas de tarer vos récipents avant de peser !
 
 
@@ -150,7 +150,7 @@ Quatrième étape
 
 Ca y est, vous avez enfin la trace. Vous allez pouvoir ajouter maintenant les
 huiles essentielles. Comptez une bonne trentaine de gouttes pour bien parfumer
-(l'odeur aura tendance à diminuer avec le séchage)
+(l'odeur aura tendance à diminuer avec le séchage).
 
 .. figure:: savon/5.JPG
 
