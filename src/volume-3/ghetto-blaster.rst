@@ -218,6 +218,7 @@ une carte son `Dacomex USB <http://www.amazon.fr/gp/product/B002CIDHYE>`_
 avec une entrée.
 
 .. figure:: ghetto/son.jpg
+   :scale: 25
 
    Carte son Dacomex
 
