@@ -281,6 +281,8 @@ Exemple de code en Python
 Pour animer les pattes de Bleuette, il faut créer une séquence qui n'est rien
 d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : ::
 
+.. code-block:: python
+
     class Seq_PushUp:
         # On donne un nom à notre séquence
         name = "Push Up"
@@ -291,8 +293,8 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : :
                 # Délai de 0.5 seconde
                 0.5,
                 [
-                    FRONT, FRONT, MID, MID, BACK, BACK,     # Positions des servos de pattes horizontales
-                    UP, UP, UP, UP, UP, UP                  # On place les pattes en haut
+                    FRONT, FRONT, MID, MID, BACK, BACK,     # Positions des servos de pattes (servos d'axe horizontal)
+                    UP, UP, UP, UP, UP, UP                  # On place les pattes en haut (servos d'axe vertical)
                 ],
                 # Ici, on peut définir une callback qui sera appelée à chaque fois que les pattes
                 # seront placées dans leur position voulue
@@ -301,7 +303,7 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : :
             [
                 0.5,
                 [
-                    __, __, __, __, __, __,                 # On ne touche pas à la position des pattes
+                    __, __, __, __, __, __,                 # On ne touche pas à la position horizontale des pattes
                     DOWN, DOWN, DOWN, DOWN, DOWN, DOWN      # On place les pattes en bas
                 ],
                 None
@@ -310,12 +312,14 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : :
 
 Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : ::
 
+.. code-block:: python
+
     from Bleuette import Bleuette
 
     B = Bleuette()
 
     # Fait faire 4 pompes à Bleuette
-    B.Sequencer.forward(Sequences['pushup'], 4)
+    B.Sequencer.forward(Seq_PushUp, 4)
 
 Voilà, c'est aussi simple que ça !
 
