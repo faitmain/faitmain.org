@@ -13,15 +13,15 @@ plus fous les uns que les autres. Finalement celui qui a été retenu est un
 projet de cadre numérique, mais pas n'importe quel cadre.
 
 Pour ce projet j'ai décidé d'innover en réalisant mon propre cadre numérique
-« Do It Yourself ». Bien sûr celui ci ne sera pas aussi conventionnel qu'un
+« Do It Yourself ». Bien sûr celui-ci ne sera pas aussi conventionnel qu'un
 cadre du commerce. Le mien sera réalisé avec des matrices leds bicolores et du
-bois. Celui ci aura pour but de servir de base pour des applications temps réel
+bois. Celui-ci aura pour but de servir de base pour des applications temps réel
 diverses et variées que je vous présenterai par la suite.
 
 Des matrices de leds ? Oui, mais lesquels ?
 :::::::::::::::::::::::::::::::::::::::::::
 
-Le choix des matrices de led était bien évidement un point clé pour ce projet.
+Le choix des matrices de led était bien évidemment un point clé pour ce projet.
 Mon choix s'est arrêté sur des matrices de leds bicolores (pixels rouge et
 vert) de 8 x 8 pixels.
 
@@ -42,11 +42,11 @@ Pourquoi ce choix ?
 
    Arrière d'une matrice de leds une fois montée.
 
-Après quelques heures de recherche je suis tombé sur des kit à monter soi même
+Après quelques heures de recherche je suis tombé sur des kits à monter soi-même
 de 32x16 pixels (8 matrices par kit) du fabricant "DIYTJ" sur DealExtreme
 (`sku.202393
 <http://dx.com/p/diytj-16-x-32-dual-color-dot-matrix-module-kit-green-white-202393>`_).
-Ces kit, bien que comportant des composants CMS, sont relativement simple à
+Ces kits, bien que comportant des composants CMS, sont relativement simples à
 monter, même sans connaissances poussées en soudure. De plus leur prix unitaire
 m'a permis d'en acheter une douzaine et ainsi de former une matrice "géante" de
 96x64 pixels au total.
@@ -89,17 +89,17 @@ sans cadre :)
 Le fond du cadre est réalisé en bois de pin tout ce qui a de plus classique.
 Deux épaisseurs de planches sont collées en chevauchement pour maximiser la
 résistance du cadre. Le tout a ensuite été fixé ensemble avec de la colle
-blanche, des serres joints et un serre-cadre pour l'équerrage.
+blanche, des serre-joints et un serre-cadre pour l'équerrage.
 
 .. figure:: ledmatrix/cadre_base_plexi.JPG
 
    La base du cadre avec la plaque de plexiglas.
 
-Par dessus la base du cadre vient se poser une plaque de verre synthétique
+Par-dessus la base du cadre vient se poser une plaque de verre synthétique
 ayant pour but de plaquer les matrices de leds. Les vis sur les quatre coins du
 cadre ont elles pour but de fixer par l'arrière deux baguettes de bois servant
 de pressoir pour maintenir les matrices en place. Ces vis ont bien évidement
-été incrustés dans le bois pour éviter que rien ne dépasse avant la pose définitive
+été incrustées dans le bois pour éviter que rien ne dépasse avant la pose définitive
 du plexiglas.
 
 .. figure:: ledmatrix/cadre_topcase.JPG
@@ -110,12 +110,12 @@ La face avant du cadre a été réalisée en medium (une espèce de bois agglom�
 grain très fin). Cette face avant comporte des chanfreins sur les bords
 intérieurs et extérieurs pour un meilleur fini. De même qu'une rainure cachée
 sur le dessous pour maintenir la plaque de plexiglas. (La plaque de plexiglas
-est maintenu en place par la seule pression de la face avant sur le cadre de
+est maintenue en place par la seule pression de la face avant sur le cadre de
 base et un peu de joint à baignoire)
 
 .. figure:: ledmatrix/cadre_finish.JPG
 
-   Un petit peu de penture et hop !
+   Un petit peu de peinture et hop !
 
 Après un dernier petit coup de peinture noir satiné le cadre est fini !
 
@@ -124,7 +124,7 @@ Principe de fonctionnement des matrices et câblage
 
 .. figure:: ledmatrix/matrix_wiring.JPG
 
-   Le rangement est mon maître mot, ou pas.
+   Le rangement est mon maitre mot, ou pas.
 
 Ces matrices de leds sont contrôlées au moyen d'un port SPI un peu spécial. Le
 connecteur utilisé par ces matrices est un classique connecteur 2x16 broches au
@@ -184,16 +184,16 @@ un seul même signal d'horloge (CK sur le schéma, SCK sur la carte). Il est don
 impossible d'utiliser un port SPI matériel, la seule solution possible est donc
 d'utiliser du SPI software, beaucoup plus lent et couteux en ressource CPU …
 
-**Concrètement comment je fait pour allumer mes pixels ?**
+**Concrètement comment je fais pour allumer mes pixels ?**
 
-Prenons une seule matrice de 16x32 pixels. Cette matrice est constitués de 16
-lignes de 32 pixels horizontaux, organisés en 4 bloc de 8 pixels. Chaque pixel
+Prenons une seule matrice de 16x32 pixels. Cette matrice est constituée de 16
+lignes de 32 pixels horizontaux, organisés en 4 blocs de 8 pixels. Chaque pixel
 horizontal est un bit que l'on envoie en SPI (communication série avec horloge
 synchrone). Ici pour afficher une ligne il faut donc envoyer 4 octets, que ce
 soit sur le signal de données R (rouge) ou G (vert).
 
 Pour que l'affichage soit correct il faut envoyer les données de chaque ligne
-tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tout les
+tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tous les
 1/960ème de seconde (= 16 lignes x 60Hz).
 
 Les matrices en question utilisent des registres à décalage montés vers la
@@ -210,7 +210,7 @@ octets de chaque matrice, en commençant par la dernière matrice de la ligne.
 Ainsi pour envoyer les données d'une ligne de 64 pixels (soit 2 matrices
 chainées) il faut envoyer les octets dans l'ordre 5, 6, 7, 8, 1, 2, 3, 4.
 
-Quand je vous disais qu'il fallait aimer les casses tête je ne vous avait
+Quand je vous disais qu'il fallait aimer les casses tête je ne vous avais
 pas menti ;)
 
 
@@ -219,7 +219,7 @@ Programme de démonstration
 
 .. figure:: ledmatrix/project_finish.JPG
 
-   Après tant de réflexion il est grand temps de voir ce que ça donne vous ne trouvez pas ?
+   Après tant de réflexions il est grand temps de voir ce que ça donne vous ne trouvez pas ?
 
 .. note::
 
@@ -234,7 +234,7 @@ Programme de démonstration
    Programme de base, rempli l'écran pixel par pixel
 
 Avant de courir il faut savoir marcher, ici c'est pareil, avant de vouloir
-faire des trucs compliqué il faut savoir afficher au moins un pixel.
+faire des trucs compliqués il faut savoir afficher au moins un pixel.
 
 La première étape pour cela est d'avoir un microcontrôleur pour contrôler la
 matrice. Lors de mes premiers essais j'utilisais une carte Arduino UNO mais
@@ -269,31 +269,31 @@ montage à la matrice.
 Le code de base est composé de seulement 6 fonctions et de quelques "define",
 rien de bien extraordinaire.
 
-Le câblage des différentes lignes de contrôle est défini dés les premières
+Le câblage des différentes lignes de contrôle est défini dès les premières
 lignes du code. Deux ports sont utilisés : le port C et le port B, ces deux
 ports sont disponibles sur l'ATMega1284p, mais aussi sur l'ATmega328p que l'on
 retrouve dans les cartes Arduino UNO. Et oui j'ai aussi pensé aux Arduinistes
 ;)
 
-Au niveaux des fonctions bas niveau on trouve :
+Au niveau des fonctions bas niveau on trouve :
 
 + **void dualShiftOut(red, green)** : cette fonction permet d'envoyer deux octets
   suivant le même principe que la fonction Arduino "shiftOut" mais sur deux
-  sorties (R et G) simultané.
+  sorties (R et G) en simultané.
 + **void lineShiftOut(line_red_buffer, line_green_buffer)** : cette fonction envoie
-  une ligne complète en utilisant la fonction ci dessus, elle est aussi
+  une ligne complète en utilisant la fonction ci-dessus, elle est aussi
   responsable de l'ordre d'envoi des blocs de 4 octets.
 + **ISR(TIMER2_COMPA_vect)** : cette fonction d'interruption est appelée tous
   les 1/960ème de seconde pour rafraichir l'affichage.
 
-Cette fonction d'interruption fonctionne suivant le principe ci dessous :
+Cette fonction d'interruption fonctionne suivant le principe ci-dessous :
 
 .. figure:: ledmatrix/refreshisr_flow.png
 
    Flowchart réalisé au moyen du logiciel yEd
 
 Vous remarquerez qu'en plus de faire l'affichage des lignes à intervalle
-régulier je gère aussi la rotation de deux buffer : un d'affichage et un de
+régulier je gère aussi la rotation de deux buffers : un d'affichage et un de
 dessin. Cette méthode d'affichage s'appelle le « double buffering ».
 
 .. note::
@@ -308,7 +308,7 @@ dessin. Cette méthode d'affichage s'appelle le « double buffering ».
     dessiner avec le même buffer créerait obligatoirement des artéfacts peu
     esthétiques, c'est pourquoi le double buffering existe. Le dessin se fait
     dans un buffer dédié et l'affichage depuis un autre, quand le dessin est
-    fini de même que l'affichage du second buffer les deux buffer sont
+    fini de même que l'affichage du second buffer les deux buffers sont
     échangés.
 
     L'affichage du buffer de dessin se fait donc en une seule fois,
@@ -341,13 +341,13 @@ La fonction main() dans ce programme de base est réduite au strict minimum :
 
 Ce programme est mon préféré, il est très simple et se rapproche énormément du
 programme de base. Seule une fonction "getAliveNeighbourCount" (compte le
-nombre de cellule vivante autour d'une cellule donnée) et une boucle de
+nombre de cellules vivantes autour d'une cellule donnée) et une boucle de
 traitement ont été rajoutées. Le résultat est cependant extraordinairement
 complexe.
 
 .. note::
 
-    **Qu'est ce que le « jeu de la vie » ?**
+    **Qu'est-ce que le « jeu de la vie » ?**
 
     Le jeu de la vie est un automate cellulaire imaginé par John Horton Conway
     en 1970, qui est à l'heure actuelle le plus connu de tous les automates
@@ -357,10 +357,10 @@ complexe.
     Le jeu de la vie n'est pas vraiment un jeu au sens ludique, puisqu'il ne
     nécessite aucun joueur ; il s'agit d'un automate cellulaire, un modèle où
     chaque état conduit mécaniquement à l'état suivant à partir de règles
-    pré-établies.
+    préétablies.
 
     Le jeu se déroule sur une grille à deux dimensions, théoriquement infinie
-    (mais de longueur et de largeur finies et plus ou moins grandes dans la
+    (mais de longueur et de largeur finie et plus ou moins grande dans la
     pratique), dont les cases — qu'on appelle des « cellules », par analogie
     avec les cellules vivantes — peuvent prendre deux états distincts : «
     vivantes » ou « mortes ».
@@ -391,7 +391,7 @@ AVR et optimisé pour travailler sur des nombres réels (transformée connu sous
 le nom de FHT)) n'est pas de moi mais de `OpenMusicLabs
 <http://wiki.openmusiclabs.com/wiki/ArduinoFHT>`_. Ecrire un tel algorithme
 n'est pas du tout de mon niveau mathématique. Je me suis juste contenté d'y
-apporter des modifications mineures pour que celle ci compile avec ma version
+apporter des modifications mineures pour que celle-ci compile avec ma version
 d'AVRGCC bien plus récente que celle fournie avec l'ide Arduino.
 
 Le code reprend celui de base en ajoutant simplement une boucle de traitement /
