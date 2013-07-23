@@ -108,7 +108,7 @@ celle que l'on trouve dans les avions ou voitures radio-commandé,
 avec toutes les protections nécessaires.
 
 .. figure:: ghetto/batterie.jpg
-   :scale: 25
+   :scale: 33
    :figclass: pull-right margin-left
    :align: right
 
@@ -126,6 +126,9 @@ une surchauffe.
 
 Reste à fabriquer un petit régulateur pour ajouter une deuxième
 sortie de 5v à la batterie.
+
+Régulation de tension
+---------------------
 
 Pour transformer une tension de 12v
 en 5v il y a deux méthodes: utiliser une séries de résistances
@@ -167,75 +170,154 @@ Après quelques soudures, un magnifique régulateur de tension!
    Régulateur 12v -> 5v. Le LM1117 est masqué par le radiateur.
 
 
+Avec un son assez fort, l'ensemble tient 3 à 4 heures, ce qui
+n'est pas mal du tout.
 
-Logiciels
----------
+Les deux évolutions possibles pour la partie alimentation sont:
 
-XXX
+- un afficheur de charge restante, qui peut être réalisé avec
+  un chip `LM3914 <http://www.ti.com/lit/ds/symlink/lm3914.pdf>`_
+  qui est capable de gérer jusqu'à 10 LEDs, et ce
+  `joli afficheur 10 leds <http://uk.rs-online.com/web/p/led-displays/2465689/>`_.
+
+- Un bouton pour éteindre le système sans arrêter brutalement
+  le Rapsberry-Pi. Ce petit circuit peut être réalisé en
+  pilotant l'extinction du Raspberry via son port GPIO comme
+  comme expliqué `ici <http://www.raspberrypi.org/phpBB3/viewtopic.php?f=37&t=42449>`_,
+  et un `timer 555 <http://555-timer-circuits.com>`_ pour l'extinction
+  finale de la batterie.
+
 
 Wifi
 ----
 
-XXX
+Le but de la valise étant de se connecter au réseau de la maison pour
+servir d'enceinte sans fil, il fallait une puce wifi. La puce AirLink
+que j'avais utilisé lors du jukebox précedent marchait mal car
+il s'agit d'un simple dongle USB. En effet, lorsque je fermais la
+valise, le signal se coupait assez vite puisque l'aluminium de la valise
+fait office de cage de farraday.
+
+J'ai donc opté pour un dongle `Logilink WL0151 <http://www.amazon.fr/gp/product/B00C1MD0YI>`_
+avec une antenne wifi integrée qui dépasse à l'extérieur de la valise.
 
 .. figure:: ghetto/ghetto6.jpg
 
    Le dongle Wifi avec antenne extérieure.
 
 
+Vu que c'est du Ralink, cette puce est plug-n-play sur Raspbian.
+
+
+Carte son
+---------
+
+Une autre fonctionnalité de la valise est de pouvoir jouer de la musique
+provenant d'une source extérieure comme un lecteur MP3. J'ai donc acheté
+une carte son `Dacomex USB <http://www.amazon.fr/gp/product/B002CIDHYE>`_
+avec une entrée.
+
+.. figure:: ghetto/son.jpg
+
+   Carte son Dacomex
+
+
+Cette carte est reconnue tout de suite sur la Raspbian comme périphérique
+audio USB, et en modifiant le fichier **/etc/asound.conf** comme suis:
+
+.. code-block:: bash
+
+    pcm.!default {
+        type hw
+        card 1
+        device 0
+    }
+
+
+Elle sera utilisé comme carte son par défaut.
+
+
+Logiciels
+---------
+
+Coté logiciel, après avoir déployé une Raspbian de base, j'ai suivi la même
+installation que pour le précédent Jukebox, `expliquée ici <http://faitmain.org/volume-1/raspberry-jukebox.html#configuration-de-base-et-wifi>`_ puis en lieu et place de l'application JukeBox,
+j'ai déployé le logiciel `Mopidy <https://docs.mopidy.com>`_ comme suis:
+
+.. code-block:: bash
+
+    wget -q -O - http://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+    sudo wget -q -O /etc/apt/sources.list.d/mopidy.list http://apt.mopidy.com/mopidy.list
+    sudo apt-get update
+    sudo apt-get install mopidy
+
+Mopidy est un serveur de musique qui permet de jouer de la musique de
+plusieurs sources différentes: fichiers sur le disque, radios internet,
+tout type de stream compatible.
+
+Mopidy se base sur un `serveur MPD <http://doc.ubuntu-fr.org/mpd>`_
+(Music Player Daemon) et est compatible avec tous les clients MPD du
+marché - Il y en a pour Android, Linux, Mac OS X, Windows.
+
+En d'autre termes, la valise pourra être pilotée via un téléphone
+une tablette ou un laptop !
+
+J'ai installé l'extension `Mopidy-Spotify <https://mopidy.readthedocs.org/en/latest/ext/spotify.html>`_
+qui permet à Mopidy de se connecter à un compte Spotify pour streamer de la musique.
+
+.. code-block:: bash
+
+    sudo apt-get install libspotify12 python-spotify
+
+
+Il suffit ensuite de configurer Mopidy en ajoutant une section **spotify** dans le
+fichier **~/.config/mopidy/mopidy.conf**:
+
+.. code-block:: ini
+
+    [spotify]
+    username = myusername
+    password = mysecret
+
+Le user et mot de passe s'obtiennent dans l'interface du site de Spotify, en y
+ajoutant un nouveau device.
+
+Plug-and-play
+-------------
+
+Le seul petit problème du système est qu'il faut connaître l'addresse IP de
+la valise sur le réseau de la maison pour pouvoir la piloter.
+
+Le plus simple est de lui attribuer une addresse fixe mais le plus sexy
+serait d'avoir en plus un accès hot spot sur la valise, pour que
+chacun puisse s'y connecter pour jouer de la musique.
+
+Il paraît qu'il est possible de configurer certaines puces WIFI pour
+qu'elles fonctionnent en point d'accès **et** qu'elles se connectent
+à une borne wifi aussi. Je n'y suis pas arrivé.
+
+En attendant, j'ai opté pour une solution plus geek: j'ai modifié
+le script de démarrage de Mopidy pour que la valise dicte à haute
+voix son addresse IP en utilisant `eSpeak <https://fr.wikipedia.org/wiki/ESpeak>`_,
+installable avec le nom de paquet éponyme.
+
+Quand j'allume ma valise, elle me dit:
+
+    I am ready to play music, my ip address is 192.168.0.20
+
+
+
 Conclusion
 ----------
 
-XXX
+La valise fonctionne plutôt bien, mais il manque les petits
+détails pour en faire un produit fini, comme l'affichage de la batterie
+restante ou le bouton ON/OFF qui respecte la séquence de halt du
+Raspberry. Le problème de l'IP est aussi un peu pénible.
 
+Mais tout ces problèmes peuvent être résolus, donc je suis
+assez content du résultat.
 
-
-
-
-he next steps were to plug a Raspberry-Pi with an USB sound card and a wifi
-dongle and run Mopidy on it. That allowed me to stream music from my Spotify
-account.
-
-When the Raspberry starts, it starts Mopidy, connects to the home Wifi and
-speaks out using espeak:
-
-    "I am ready to play music, my IP address is 192.168.0.16"
-
-From there I can start a MPD client like MPDroid and connect to that IP and
-queue some music. Powering
-
-Of course the big challenge was to power up the amplifier & the Raspberry so I
-could actually walk around freely. I did not want to use lead acid, so I bought
-this 12v lipo battery for $20. It comes pre-charged and has a small on/off
-button.
-
-Now this battery delivers 12v but I still need 5v for my Raspberry. You can use
-a voltage regulator for this, like the LM1117.
-
-I built a small board you can see in the video. It takes the 12v from the
-battery and outputs 5v for the Raspberry. It has the LM1117 with a sink, and a
-few capacitors for stability.
-
-It's exactly the same design as this one
-https://www.youtube.com/watch?v=CKS6zHo5T9k except they use a L7805 in there -
-which has a different wiring.
-
-That's it - my 12v LiPO powers up the amplifier & the Raspberry. It's been
-playing for hours and the battery still has some juice. Issues & next steps
-
-The wifi dongle loses the signal if I close the suitcase and I am too far from
-the wifi router. I need to set up an external antenna.
-
-I am also going to add a battery level indicator, using this schematic
-
-One issue I have yet to solve is the ability to reconfigure the network setup
-in case I use the Ghetto blaster in someone else's house. Right now I have to
-plug a screen and a keyboard or to plug a network cable and ssh on the
-Raspberry to change the network config.
-
-Maybe one way to solve this would be to have a second wifi dongle set as an
-access point, and a small web interface to configure the network.
-
-Raspberry-Pis are so fun.
+Peut-être que j'écrirais un prochaine article sur ces upgrades.
 
 
