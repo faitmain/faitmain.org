@@ -33,7 +33,7 @@ de 100 Watts (en vrai 25W RMS) qui étaient dans mon ancienne voiture, et
 une valise en aluminium qui contenait des outils. C'est la valise
 générique qui est souvent vendue avec une perceuse ou d'autres
 outils. Elle en jette mais elle est en carton et a juste une
-mince couche d'aluminium par dessus. La caisse de résonnance parfaite
+mince couche d'aluminium par dessus. La caisse de résonance parfaite
 pour un prix avoisinant les 10 euros...
 
 Ni une, ni deux, j'ai vidé la valise et retiré sa doublure
@@ -59,7 +59,7 @@ sur Amazon.
 
    Ampli Lepai 20w.
 
-Ca m'a permis de remettre ce panneau sur la valise et de revisser
+Ça m'a permis de remettre ce panneau sur la valise et de revisser
 le corps de l'ampli à l'intérieur. Bien sûr, le top du top
 aurait été de fabriquer mon propre ampli, mais je n'en suis
 pas encore à ce niveau là.
@@ -286,10 +286,10 @@ ajoutant un nouveau device.
 Plug-and-play
 -------------
 
-Le seul petit problème du système est qu'il faut connaître l'addresse IP de
+Le seul petit problème du système est qu'il faut connaître l'adresse IP de
 la valise sur le réseau de la maison pour pouvoir la piloter.
 
-Le plus simple est de lui attribuer une addresse fixe mais le plus sexy
+Le plus simple est de lui attribuer une adresse fixe mais le plus sexy
 serait d'avoir en plus un accès hot spot sur la valise, pour que
 chacun puisse s'y connecter pour jouer de la musique.
 
@@ -299,7 +299,7 @@ qu'elles fonctionnent en point d'accès **et** qu'elles se connectent
 
 En attendant, j'ai opté pour une solution plus geek: j'ai modifié
 le script de démarrage de Mopidy pour que la valise dicte à haute
-voix son addresse IP en utilisant `eSpeak <https://fr.wikipedia.org/wiki/ESpeak>`_,
+voix son adresse IP en utilisant `eSpeak <https://fr.wikipedia.org/wiki/ESpeak>`_,
 installable avec le nom de paquet éponyme.
 
 Quand j'allume ma valise, elle me dit:
@@ -319,6 +319,6 @@ Raspberry. Le problème de l'IP est aussi un peu pénible.
 Mais tout ces problèmes peuvent être résolus, donc je suis
 assez content du résultat.
 
-Peut-être que j'écrirais un prochaine article sur ces upgrades.
+Peut-être que j'écrirais un prochain article sur ces upgrades.
 
 
