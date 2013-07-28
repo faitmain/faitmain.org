@@ -53,20 +53,20 @@ par la soude, donc utilisez de préférence un récipient en verre, ça évitera
 mauvaises surprises. Pour les ustensiles, évitez l'aluminium, il réagit assez
 violemment avec la soude.
 
-Maintenant que ce petit rappel est fait, passons aux travaux pratiques. 
+Maintenant que ce petit rappel est fait, passons aux travaux pratiques.
 
----- 
+----
 
 La précision requise pour les dosages va fortement dépendre de la quantité de savon
 réalisée. La recette suivante vous permettra de réaliser l'équivalent d'une
-grosse dizaine de savons, de taille à peu près standard. 
+grosse dizaine de savons, de taille à peu près standard.
 
-Liste des ingrédients: 
+Liste des ingrédients:
 
-- 200g d'huile de coco 
-- 400g d'huile d'olive 
-- 200ml d'eau 
-- 85g de soude caustique 
+- 200g d'huile de coco
+- 400g d'huile d'olive
+- 200ml d'eau
+- 85g de soude caustique
 - huile essentielle de lavande
 
 .. figure:: savon/1.JPG
@@ -79,7 +79,7 @@ assez marquée, l'odeur de la vanille s'en trouvait masquée. Je recommande donc
 l'utilisation d'huile essentielle de lavande à la place.
 
 Première étape
---------------
+::::::::::::::
 
 Peser les différents ingrédients. Avec un peu de pratique, on se rend compte
 que c'est beaucoup plus facile d'avoir tous les ingrédients déjà pesés, prêts
@@ -94,7 +94,7 @@ que c'est beaucoup plus facile d'avoir tous les ingrédients déjà pesés, prê
 
 
 Seconde étape
--------------
+:::::::::::::
 
 Il s'agit maintenant de diluer la soude.
 
@@ -117,7 +117,7 @@ manipulation. Si vous y êtes allé trop vite, laissez refroidir un peu (environ
 
 
 Troisième étape
----------------
+:::::::::::::::
 
 On va maintenant mélanger les différentes huiles à la soude. Commencez par
 mélanger progressivement l'huile d'olive, en mélangeant bien, puis incorporez
@@ -146,7 +146,7 @@ reposer 5 minutes, remélangez pendant 5 minutes, etc... Jusqu'à la trace.
 
 
 Quatrième étape
----------------
+:::::::::::::::
 
 Ca y est, vous avez enfin la trace. Vous allez pouvoir ajouter maintenant les
 huiles essentielles. Comptez une bonne trentaine de gouttes pour bien parfumer
@@ -173,7 +173,7 @@ facilité.
 
 
 Dernière étape
---------------
+::::::::::::::
 
 Et oui, il y a encore une étape, et c'est la plus
 importante. Il s'agit de laisser reposer et sécher nos savons. Au bout de
@@ -193,7 +193,7 @@ pas, mais dans ce cas, il seront plus mou et s'useront plus rapidement car ils
 seront moins secs au final.
 
 Pour conclure
--------------
+:::::::::::::
 
 Voilà, j'espère que cette petite introduction à la savonnerie
 vous aura plu, n'hésitez pas à expérimenter vos propres mélanges. Vous

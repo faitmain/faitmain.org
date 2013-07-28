@@ -1,5 +1,5 @@
 Faire de la bière maison (ou comment transformer l'eau en bière)
-################################################################
+================================================================
 
 :date: 2013-08-01
 :category: cuisine
@@ -19,7 +19,7 @@ principalement qu'on aime bien fabriquer les produits qu'on consomme  (et, ça
 serait mentir que de dire qu'on ne consomme pas de bière !)
 
 Ingrédients
-===========
+:::::::::::
 
 Pour cette recette, il vous faudra :
 
@@ -39,7 +39,8 @@ Tous les ingrédients y compris l'eau ont leur influence sur le goût final de l
 bière par leur qualité et leur caractéristique, région d'origine, etc.
 
 Matériel
-========
+::::::::
+
 Les grandes brasseries utilisent une cuve spéciale pour chaque étape, mais quand
 on est pauvres/débutants et que l'on fait des petites quantités, on peut très
 bien s'en sortir avec très peu de matériel.
@@ -92,7 +93,7 @@ Refroidisseur
   canalisation. Il suffit de le tordre en forme de serpentin et de faire des
   jolis raccords. Sans cet ustensile, l'étape de refroidissement est longue et
   risquée pour la qualité de la bière.
-    
+
 
 Facultatif (mais quand même sympa) :
 ------------------------------------
@@ -110,7 +111,7 @@ Un tuyau pour siphonner
 
 
 Processus de fabrication
-========================
+::::::::::::::::::::::::
 
 Cet article explique comment fabriquer une IPA (Indian Pale Ale, une bière un
 peu plus amère que celle qu'on à l'habitude de trouver en France), mais le
@@ -131,6 +132,7 @@ XXX Alexis fait un petit dessin
 
 Concassage
 ----------
+
 La première étape est **le concassage**. On avait 6kg d'orge maltée à concasser (plus
 exactement 6kg de malt pâle *7EDC* et 500g de malt cara *50EDC*).
 
@@ -241,7 +243,7 @@ compliqués.
 ----
 
 Mise en bouteille
-=================
+:::::::::::::::::
 
 Une fois ces deux semaines passées, il faut mettre en bouteille. Dans notre cas
 nous avons récupéré des bouteilles à bouchon mécanique (vous savez, les
@@ -256,7 +258,7 @@ reste plus qu'à mettre les bouteilles de coté durant deux semaines de plus
 (oui, c'est long) et… à déguster le moment venu.
 
 Dégustation !
-=============
+:::::::::::::
 
 La bière en question ne moussait pas trop et avait un goût un peu amer. Pas
 assez à notre goût, cependant.
@@ -269,8 +271,8 @@ goût de lavande amère, pour ne pas dire de savon.
 Celle-ci a un goût de… de bière ! Il nous reste encore à comprendre comment
 faire pour lui donner la saveur que l'on souhaite.
 
-Conseils / Annecdotes
-=====================
+Conseils / Anecdotes
+::::::::::::::::::::
 
 On a fait quelques petites erreurs en cours de route, voilà rien que pour vous
 une petite compilation:
@@ -284,8 +286,8 @@ une petite compilation:
 * Lors de l'ébullition, vous allez surement perdre un peu d'eau, pensez à en
   mettre un peu plus (même si vous couvrez).
 
-Mais alors, c'est quoi les bières brunes , blondes, les stout, etc?
-===================================================================
+Mais alors, c'est quoi les bières brunes, blondes, les stout, etc?
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 La couleur de la bière est déterminée par le mélange de malts choisis. Il
 existe ainsi des malts bruns, chocolat, noirs, caramel, pâles, etc.
