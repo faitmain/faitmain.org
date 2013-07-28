@@ -77,7 +77,7 @@ ul.nav-menu {
   font-size: 0.8em;
 }
 
-ul.nav-menu a{
+ul.nav-menu a {
   color: black;
 }
 
@@ -90,10 +90,42 @@ ul.nav-menu li:not(.nav-header):before {
 }
 
 .btn {
-	font-style: italic;
-	font-size: 1.1em;
+  font-style: italic;
+  font-size: 1.1em;
 }
 
 #footer {
-	font-size: 0.7em;
+  font-size: 0.7em;
+}
+
+.form-search input {
+  border: 2px solid rgb(226, 226, 226);
+}
+
+ul:not(.footer):not(.nav):not(.nav-menu) {
+  color: black;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+ul:not(.footer):not(.nav):not(.nav-menu) li:not(.nav-header) { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+ul:not(.footer):not(.nav):not(.nav-menu) li:not(.nav-header):before {
+  content: "◼ ";
+  color: #008066; /* or whatever color you prefer */
+}
+
+
+.page-header {
+  margin-left: -15px;
+}
+
+
+ul.nav-menu a {
+  padding-left: 20px;
+  color: rgb(0, 128, 102);
 }
