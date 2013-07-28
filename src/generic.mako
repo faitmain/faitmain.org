@@ -51,7 +51,7 @@
    %for category in config['categories']:
    <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
    %endfor
-   <li><a href="${config['siteurl']}/calendrier.html" title="Agenda"><strong>Agenda</strong></a></li>
+   <li><a href="http://fablab.faitmain.org/" title="Agenda"><strong>Agenda</strong></a></li>
   </ul>
   </div><!--/.nav-collapse -->
 
@@ -80,17 +80,17 @@
    <div class="span2">
      <div class="sidebar-nav">
       <ul class="nav-list nav-menu">
-        %if 'github' in config:
-        <li class="nav-header" style="color:black">
-           <a href="${config['github']}">Modifier</a>
-        </li>
-        %endif
         <li class="nav-header" style="color:black">Recherche</li>
         <li class="nav-header">
           <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
            <input type="text" class="input-small search-query" name="query"/>
          </form>
         </li>
+        %if 'github' in config:
+        <li class="nav-header" style="color:black">
+           <a href="${config['github']}" style="color:black; padding-left:15px">Modifier</a>
+        </li>
+        %endif
 
         <%block name="sections">
           %if doc_sections:
@@ -114,7 +114,7 @@
         <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">Flux Atom</a></li>
         <li class="nav-header" style="color:black">Faites un don!</li>
         <li class="nav-header"><a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank"><img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></li>       
-        <li class="nav-header" style="color:black"><a style="padding-left:15px" href="${config['siteurl']}/partenariat.html">Devenez partenaire</a></li>
+        <li class="nav-header" style="color:black"><a style="color:black;padding-left:15px" href="${config['siteurl']}/partenariat.html">Devenez partenaire</a></li>
 </ul>
 
      </div>
