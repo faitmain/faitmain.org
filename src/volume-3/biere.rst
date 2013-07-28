@@ -2,7 +2,7 @@ Faire de la bière maison (ou comment transformer l'eau en bière)
 ================================================================
 
 :date: 2013-08-01
-:category: cuisine
+:category: cuisine,écologie
 :author: Frédéric Sureau, Alexis Métaireau
 :level: moyen
 :licence: BY-NC-SA-3.0

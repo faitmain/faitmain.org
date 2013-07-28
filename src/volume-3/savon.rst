@@ -2,7 +2,7 @@ Du savon fait maison
 ====================
 
 :date: 2013-08-01
-:category: ecologie
+:category: cuisine,écologie
 :level: facile
 :author: Nerick
 :licence: By-Sa-3.0
