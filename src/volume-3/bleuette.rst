@@ -383,7 +383,6 @@ vous en rendre compte, le développement se poursuit sur différents axes :
 
 Chacun peut apporter ses propres compétences dans un domaine particulier !
 
- - Le blog de développement : http://www.digitalspirit.org/
- - Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
- - Le wiki en français : http://github.com/hugokernel/Bleuette/wiki/Accueil
-
+- Le blog de développement : http://www.digitalspirit.org/
+- Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
+- Le wiki en français : http://github.com/hugokernel/Bleuette/wiki/Accueil
