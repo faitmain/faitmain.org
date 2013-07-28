@@ -279,7 +279,7 @@ Exemple de code en Python
 -------------------------
 
 Pour animer les pattes de Bleuette, il faut créer une séquence qui n'est rien
-d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : ::
+d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : 
 
 .. code-block:: python
 
@@ -310,7 +310,7 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : :
             ]
         ]
 
-Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : ::
+Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : 
 
 .. code-block:: python
 
