@@ -6,7 +6,7 @@
 <p>Voici la liste complète des auteurs de FaitMain, ainsi que les
 articles qu'ils ont écrit.</p>
 
-<ul>
+<ul class="authors">
 %for author_id, info in authors:
  <li><a href="${info['link']}"><strong>${info['name']}</strong></a>
   <ul>
@@ -18,6 +18,7 @@ articles qu'ils ont écrit.</p>
 %endfor
 </ul>
 
+<br/>
 <p>
-  <a href="/apropos.html"><strong>Devenez auteur!</strong></a>
+  <a href="/apropos.html"><strong>☛ Devenez auteur!</strong></a>
 </p>

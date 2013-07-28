@@ -25,7 +25,7 @@ la marque. De plus, une enceinte amplifiée à base de Raspberry-PI offre
 beaucoup plus de possibilitées vu que c'est programmable.
 
 Enceintes & ampli
------------------
+:::::::::::::::::
 
 
 En fouillant dans ma cave, j'ai trouvé deux enceintes trois voies Panasonic
@@ -83,7 +83,7 @@ tue les basses.
 
 
 Alimentation
-------------
+::::::::::::
 
 Avoir une alimentation stable & portative était le gros challenge
 de ce projet: comment faire pour fournir les 12v que
@@ -128,7 +128,7 @@ Reste à fabriquer un petit régulateur pour ajouter une deuxième
 sortie de 5v à la batterie.
 
 Régulation de tension
----------------------
+:::::::::::::::::::::
 
 Pour transformer une tension de 12v
 en 5v il y a deux méthodes: utiliser une séries de résistances
@@ -189,7 +189,7 @@ Les deux évolutions possibles pour la partie alimentation sont:
 
 
 Wifi
-----
+::::
 
 Le but de la valise étant de se connecter au réseau de la maison pour
 servir d'enceinte sans fil, il fallait une puce wifi. La puce AirLink
@@ -210,7 +210,7 @@ Vu que c'est du Ralink, cette puce est plug-n-play sur Raspbian.
 
 
 Carte son
----------
+:::::::::
 
 Une autre fonctionnalité de la valise est de pouvoir jouer de la musique
 provenant d'une source extérieure comme un lecteur MP3. J'ai donc acheté
@@ -239,10 +239,12 @@ Elle sera utilisé comme carte son par défaut.
 
 
 Logiciels
----------
+:::::::::
 
 Coté logiciel, après avoir déployé une Raspbian de base, j'ai suivi la même
-installation que pour le précédent Jukebox, `expliquée ici <http://faitmain.org/volume-1/raspberry-jukebox.html#configuration-de-base-et-wifi>`_ puis en lieu et place de l'application JukeBox,
+installation que pour le précédent Jukebox, `expliquée ici
+<http://faitmain.org/volume-1/raspberry-jukebox.html#configuration-de-base-et-wifi>`_
+puis en lieu et place de l'application JukeBox,
 j'ai déployé le logiciel `Mopidy <https://docs.mopidy.com>`_ comme suis:
 
 .. code-block:: bash
@@ -284,7 +286,7 @@ Le user et mot de passe s'obtiennent dans l'interface du site de Spotify, en y
 ajoutant un nouveau device.
 
 Plug-and-play
--------------
+:::::::::::::
 
 Le seul petit problème du système est qu'il faut connaître l'adresse IP de
 la valise sur le réseau de la maison pour pouvoir la piloter.
@@ -309,7 +311,7 @@ Quand j'allume ma valise, elle me dit:
 
 
 Conclusion
-----------
+::::::::::
 
 La valise fonctionne plutôt bien, mais il manque les petits
 détails pour en faire un produit fini, comme l'affichage de la batterie

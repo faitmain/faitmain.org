@@ -2,7 +2,7 @@ Cave à cigares
 ==============
 
 :date: 2013-07-07
-:category: bricolage
+:category: autre
 :level: vulgarisation
 :author: Sébastien Riguet
 :licence: By-Sa-3.0

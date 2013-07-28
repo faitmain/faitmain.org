@@ -16,9 +16,9 @@ Plus d'infos dans `l'édito du premier numéro </volume-1/edito.html>`_.
 question de monter une association à but non lucratif.
 
 Les articles sont protégés par la licence choisie par l'auteur, si aucune
-mention n'est apportée, la licence par défaut de tout contenu texte est 
-`CC-By-NC-SA 3.0 <https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr>`_.
-Le site web est en licence `Apache v2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>`_
+mention n'est apportée, la licence par défaut de tout contenu texte ou
+photo est `CC-By-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
+Le code du site web est en licence `Apache v2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>`_
 
 Le projet est fondé et maintenu par `Tarek Ziadé <http://ziade.org>`_ mais
 **Fait Main** est un projet open-source et a pour vocation de construire

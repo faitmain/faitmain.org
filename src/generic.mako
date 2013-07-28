@@ -51,7 +51,7 @@
    %for category in config['categories']:
    <li><a href="${config['siteurl']}/${category}.html" title="${category}">${category.capitalize()}</a></li>
    %endfor
-   <li><a href="${config['siteurl']}/calendrier.html" title="Agenda"><strong>Agenda</strong></a></li>
+   <li><a href="http://fablab.faitmain.org/" title="Agenda"><strong>Agenda</strong></a></li>
   </ul>
   </div><!--/.nav-collapse -->
 
@@ -80,9 +80,15 @@
    <div class="span2">
      <div class="sidebar-nav">
       <ul class="nav-list nav-menu">
+        <li class="nav-header" style="color:black">Recherche</li>
+        <li class="nav-header">
+          <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
+           <input type="text" class="input-small search-query" name="query"/>
+         </form>
+        </li>
         %if 'github' in config:
         <li class="nav-header" style="color:black">
-           <a href="${config['github']}">Modifier</a>
+           <a href="${config['github']}" style="color:black; padding-left:15px">Modifier</a>
         </li>
         %endif
 
@@ -90,64 +96,24 @@
           %if doc_sections:
            <li class="nav-header" style="color:black">Contenu</li>
             %for name, id_ in doc_sections:
-             <li><a title="Mailing List" href="#${id_}">${name}</a></li>
+           <li><a title="${name}" href="#${id_}">${name}</a></li>
             %endfor
           %endif
         </%block>
 
-        <li class="nav-header" style="color:black">Recherche</li>
-        <li class="nav-header">
-          <form class="form-search" action="${config['siteurl']}/recherche.html" method="get">
-           <input type="text" class="input-small search-query" name="query"/>
-         </form>
-        </li>
         <li class="nav-header" style="color:black">Archives</li>
-        <li>
-          <a href="${config['siteurl']}/volume-1/index.html">
-           Volume 1
-         </a>
-        </li>
-        <li>
-          <a href="${config['siteurl']}/volume-2/index.html">
-           Volume 2
-         </a>
-        </li>
-
-
+        <li><a title="Volume 1" href="${config['siteurl']}/volume-1/index.html">Volume 1</a></li>
+        <li><a title="Volume 2" href="${config['siteurl']}/volume-2/index.html">Volume 2</a></li>
+        
         <li class="nav-header" style="color:black">Social</li>
-        <li>
-          <a target="_blank" title="Forums" href="http://forums.faitmain.org">Les Forums</a>
-        </li>
-        <li>
-          <a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a>
-        </li>
-
-        <li>
-          <a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a>
-        </li>
-        <li>
-          <a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">Twitter</a>
-        </li>
-        <li>
-           <a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">Google+</a> </li>
-        <li>
-           <a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">Github</a>
-        </li>
-        <li>
-          <a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">Flux Atom
-          </a>
-        </li>
+        <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a></li>
+        <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a></li>
+        <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">Twitter</a></li>
+        <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">Github</a></li>
+        <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">Flux Atom</a></li>
         <li class="nav-header" style="color:black">Faites un don!</li>
-
-        <li class="nav-header">
-           <a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank">
-             <img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
-           </a>
-        </li>
-        <li class="nav-header" style="color:black">
-           <a href="${config['siteurl']}/partenariat.html">Devenez partenaire</a>
-        </li>
-
+        <li class="nav-header"><a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank"><img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></li>       
+        <li class="nav-header" style="color:black"><a style="color:black;padding-left:15px" href="${config['siteurl']}/partenariat.html">Devenez partenaire</a></li>
 </ul>
 
      </div>
@@ -164,7 +130,7 @@
 
   <%block name="footer">
   <div class="links">
-    <ul>
+    <ul class="footer">
       <li>© 2013 FaitMain</li>
       <li>ISSN 2261-8376</li>
       <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>

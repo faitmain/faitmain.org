@@ -2,7 +2,7 @@ L'hexapode Bleuette
 ===================
 
 :date: 2013-06-03
-:category: informatique, électronique
+:category: informatique,électronique
 :level: vulgarisation
 :author: Charles Rincheval
 :licence: By-Sa-3.0
@@ -279,7 +279,7 @@ Exemple de code en Python
 -------------------------
 
 Pour animer les pattes de Bleuette, il faut créer une séquence qui n'est rien
-d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : ::
+d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : 
 
 .. code-block:: python
 
@@ -310,7 +310,7 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : :
             ]
         ]
 
-Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : ::
+Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : 
 
 .. code-block:: python
 
@@ -383,7 +383,6 @@ vous en rendre compte, le développement se poursuit sur différents axes :
 
 Chacun peut apporter ses propres compétences dans un domaine particulier !
 
- - Le blog de développement : http://www.digitalspirit.org/
- - Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
- - Le wiki en français : http://github.com/hugokernel/Bleuette/wiki/Accueil
-
+- Le blog de développement : http://www.digitalspirit.org/
+- Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
+- Le wiki en français : http://github.com/hugokernel/Bleuette/wiki/Accueil
