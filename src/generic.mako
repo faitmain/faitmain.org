@@ -106,7 +106,6 @@
         <li><a title="Volume 2" href="${config['siteurl']}/volume-2/index.html">Volume 2</a></li>
         
         <li class="nav-header" style="color:black">Social</li>
-        <li><a target="_blank" title="Forums" href="http://forums.faitmain.org">Les Forums</a></li>
         <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a></li>
         <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a></li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">Twitter</a></li>
