@@ -279,7 +279,7 @@ avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieur
     }
 
 Enfin la fonction *draw()* s'occupe de formatter toutes les données pour les
-placer sur l'écran (voir le tuto de Skywodd pour les détails) :
+placer sur l'écran (voir `le tuto de Skywodd <un tuto complet sur son utilisation>`_ pour les détails) :
 
 .. code-block:: c++
 
