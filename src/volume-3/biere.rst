@@ -121,7 +121,7 @@ obtient ainsi un mélange appelé *la maische*. Ce mélange est porté à plusie
 paliers de température.
 
 Ensuite on filtre les grains utilisés (les drèches) et on ne garde que le jus,
-appelé le mout. Le moût est porté à ébullition en compagnie de houblon dont on
+appelé le moût. Le moût est porté à ébullition en compagnie de houblon dont on
 extrait l'amertume et les arômes. Le houblon est ensuite retiré du moût.
 Celui-ci est refroidit à 25°C, la température de prédilection pour les levures
 qui se font un plaisir de le fermenter pendant 2 à 3 semaines. En fût d'abord,
@@ -130,6 +130,9 @@ dans la bière pour lui donner ses propriétés bulleuses.
 
 .. figure:: biere/schema.jpg
 
+   Les étapes de fabrication
+
+
 Concassage
 ----------
 
@@ -137,6 +140,9 @@ La première étape est **le concassage**. On avait 6kg d'orge maltée à concas
 exactement 6kg de malt pâle *7EDC* et 500g de malt cara *50EDC*).
 
 .. figure:: biere/concassage.jpg
+
+   Concassage de l'orge
+
 
 Attention, pas trop fin dis donc !
 
@@ -238,8 +244,9 @@ La première fermentation durera approximativement 15 jours, jusqu'à atteindre
 une densité finale stable (fin de la fermentation).
 
 Notre bière avait une densité initiale de 1046, et une densité finale de 1008
-ce qui veut dire environ 5° d'alcool grâce à des calculs scientifiques super
-compliqués.
+ce qui veut dire environ 5° d'alcool grâce à des 
+`calculs scientifiques super compliqués <http://univers-biere.net/mesur_dens.php>`_
+.
 
 ----
 
