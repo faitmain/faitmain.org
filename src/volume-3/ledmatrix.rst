@@ -153,7 +153,7 @@ Détails :
 
 
 Comment marchent ces matrices ?
-*******************************
+-------------------------------
 
 En réalité ces matrices de leds sont des clones très légèrement modifiés
 des matrices de leds d'ancienne génération du (très connu) fabricant
@@ -185,7 +185,7 @@ impossible d'utiliser un port SPI matériel, la seule solution possible est donc
 d'utiliser du SPI software, beaucoup plus lent et couteux en ressource CPU…
 
 Concrètement comment je fais pour allumer mes pixels ?
-******************************************************
+------------------------------------------------------
 
 Prenons une seule matrice de 16×32 pixels. Cette matrice est constituée de 16
 lignes de 32 pixels horizontaux, organisés en 4 blocs de 8 pixels. Chaque pixel
@@ -229,7 +229,8 @@ Programme de démonstration
 
 
 Programme n°1 : les bases
-*************************
+-------------------------
+
 
 .. figure:: ledmatrix/prog_basic.JPG
 
@@ -332,7 +333,7 @@ La fonction main() dans ce programme de base est réduite au strict minimum :
 + boucle infinie remplissant pixel par pixel l'écran.
 
 Programme n°2 : Game of life
-****************************
+----------------------------
 
 .. figure:: ledmatrix/prog_gof.JPG
 
@@ -372,7 +373,7 @@ complexe.
 
 
 Programme n°3 : Transformée rapide de Fourrier (FFT)
-****************************************************
+----------------------------------------------------
 
 .. figure:: ledmatrix/prog_fft_lin.JPG
 

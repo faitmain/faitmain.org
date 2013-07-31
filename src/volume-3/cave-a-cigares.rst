@@ -140,9 +140,9 @@ Voici les découpes pour l'assemblage en onglet :
 Pour les mesures, je me suis basé sur les dimensions de la doublure intérieure puis j'ai tout simplement
 rajouté l'épaisseur du bois extérieur (dans mon cas, 18mm) pour obtenir les mesures des découpes.
 
----------------------
 Assemblage
----------------------
+----------
+
 
 Assemblage de la structure de base
 **********************************

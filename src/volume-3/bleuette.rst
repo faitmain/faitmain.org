@@ -226,7 +226,7 @@ de Bleuette Sensor Shield qui dispose des caractéristiques suivantes :
 `Plus d'informations sur cette carte <//github.com/hugokernel/Bleuette/wiki/Bleuette-Sensor-Shield>`_.
 
 Version Raspberry-Pi
--------------------
+--------------------
 
 Piloter Bleuette via un Arduino est plutôt aisé mais on se retrouve assez vite limité
 en place, en puissance et en facilité pour développer.
@@ -275,7 +275,7 @@ Exemple de code en Python
 -------------------------
 
 Pour animer les pattes de Bleuette, il faut créer une séquence qui n'est rien
-d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette : 
+d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette :
 
 .. code-block:: python
 
@@ -306,7 +306,7 @@ d'autre qu'une classe, voici un exemple qui fait faire une pompe à Bleuette :
             ]
         ]
 
-Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant : 
+Maintenant, pour exécuter la séquence ci-dessus, il suffit du bout de code suivant :
 
 .. code-block:: python
 
@@ -354,7 +354,7 @@ Selon la version choisie, vous devrez vous procurer :
 Pour la Shield Bleuette ou la carte fille Bleuette-Pi, 2 solutions :
 
 - `fabriquer l'électronique <//github.com/hugokernel/Bleuette/wiki/%C3%89lectronique>`_ ;
-- `ou vous les procurer sur cette page <//github.com/hugokernel/Bleuette/wiki/Commander`_.
+- `ou vous les procurer sur cette page <//github.com/hugokernel/Bleuette/wiki/Commander>`_.
 
 
 Pièces diverses
@@ -380,5 +380,5 @@ vous en rendre compte, le développement se poursuit sur différents axes :
 Chacun peut apporter ses propres compétences dans un domaine particulier !
 
 - `Le blog de développement : <http://www.digitalspirit.org/>`_ ;
-- `toutes les sources de Bleuette <//github.com/hugokernel/Bleuette/`_ ;
+- `toutes les sources de Bleuette <//github.com/hugokernel/Bleuette/>`_ ;
 - `le wiki en français <//github.com/hugokernel/Bleuette/wiki/Accueil>`_.
