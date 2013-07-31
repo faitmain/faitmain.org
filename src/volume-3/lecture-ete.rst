@@ -1,4 +1,4 @@
-Lectures de l'Été
+Lectures de l'été
 =================
 
 :date: 2013-08-01
@@ -9,7 +9,7 @@ Lectures de l'Été
 Voici une petite sélection de livres pour l'été. Dans ce numéro,
 beaucoup d'éléctronique !
 
-L'Électronique en Pratique
+L'électronique en pratique
 ::::::::::::::::::::::::::
 
 .. figure:: livres/pratique.jpg
@@ -26,7 +26,7 @@ dédiée « à l’univers des Fab Labs, de l’électronique, du DIY et de l�
 Un des premiers livres dans cette collection est la traduction du livre
 de Charles Platt, intitulé « Make: Electronics (Learning by Discovery) » en anglais.
 
-La version en français est `« L'Électronique en Pratique » <http://serialmakers.com/livres/decouvrez-lelectronique>`_
+La version en français est `« L'électronique en pratique » <http://serialmakers.com/livres/decouvrez-lelectronique>`_
 et la traduction est de bonne facture et agréable à lire.
 
 Quand au contenu du livre, je pense que c'est l'un des meilleurs livres
@@ -47,7 +47,7 @@ timers. La section sur les timers 555 est à ce titre extraordinaire.
 Elle m'a donné envie de refaire quelques-un des mes montages Arduino en
 remplaçant le micro-controlleur par des timers 555 et des transistors.
 
-**L'Électronique en Pratique** est à acheter les yeux fermés.
+**L'électronique en pratique** est à acheter les yeux fermés.
 
 Encyclopedia of Electronic Components Vol. 1
 ::::::::::::::::::::::::::::::::::::::::::::
@@ -60,8 +60,8 @@ Encyclopedia of Electronic Components Vol. 1
 
    Charles Platt / O'Reilly Media
 
-J'ai tellement aimé l'Électronique Pratique que lorsque j'ai vu
-l'`Encyclopedia of Electronic Components Vol. 1 <http://www.amazon.fr/dp/B00DJG6JJ8/>`_
+J'ai tellement aimé L'électronique en pratique que lorsque j'ai vu
+l'`Encyclopedia of Electronic Components Vol. 1 <//www.amazon.fr/dp/B00DJG6JJ8/>`_
 au stand O'Reilly d'Europython en Italie, je me suis jeté dessus.
 
 Ce livre est un recueil de composant eléctroniques regroupés par thèmes :
