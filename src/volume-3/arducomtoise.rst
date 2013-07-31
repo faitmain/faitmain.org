@@ -22,7 +22,7 @@ première moitié), cette horloge doit dater du milieu du XIXe siècle.
 Le cadran mentionne Munster, en Alsace, comme ville d'origine, mais il s'agit
 bien d'une comtoise. Les mouvements étaient fabriqués à Morez près de
 Pontarlier dans le Haut Doubs puis expédiés nus dans toute l'Europe. Les
-facades, caisses et poids étaient ensuite produits sur le lieu de destination,
+façades, caisses et poids étaient ensuite produits sur le lieu de destination,
 portant mention de l'horloger local.
 
 Elle possède un mouvement situé assez haut (environ 2m10) avec comme
@@ -58,11 +58,11 @@ par jour). Il suffit dès lors de retenir le balancier le temps nécessaire grâ
 indéfiniment. Cela implique de déterminer précisément quand l'horloge a fait
 deux tours complets (soit 24h).
 
-Première approche : et Arduino comptait, comptait...
-::::::::::::::::::::::::::::::::::::::::::::::::::::
+Première approche : et Arduino comptait, comptait…
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Dans un premier temps, j'ai voulu faire en sorte que le système soit totalement
-invisible de l'extérieur : pas question donc de mettre un feedback sur les
+invisible de l'extérieur : pas question donc de mettre un feedback sur les
 aiguilles. Je suis parti sur une première solution consistant à compter le
 nombre de passages de balancier effectués par l'horloge en 24h, le tout sans
 contact.
@@ -88,7 +88,7 @@ Il arrive, sans que j'arrive à savoir pourquoi, que le détecteur rate un
 passage. C'est rare, mais le bon comptage est vraiment critique pour le
 fonctionnement du système. Le temps écoulé entre deux passages est donc calculé
 et, s'il est supérieur à 2 secondes, c'est qu'on en a raté un et un passage est
-rajouté "artificiellement".
+rajouté « artificiellement ».
 
 Limites du système
 ------------------
@@ -97,8 +97,7 @@ Ce système marche parfaitement entre deux remontages. Mais il se heurte à un
 problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 à
 15 secondes du fait des divers jeux internes de la mécanique.
 
-On pourrait
-intégrer un temps moyen dans la calibration pour compenser, mais
+On pourrait intégrer un temps moyen dans la calibration pour compenser, mais
 c'est loin d'être idéal. J'ai donc changé d'approche.
 
 Deuxième approche: feedback
@@ -222,7 +221,7 @@ L'écran LCD
 -----------
 
 Pour suivre un peu ce qui se passe, un écran LCD est connecté à l'Arduino. Il
-s'agit d'un écran rétro-éclairé de 128x64 pixels acheté moins de 15 euros sur
+s'agit d'un écran rétro-éclairé de 128×64 pixels acheté moins de 15 euros sur
 Dealextreme, sur les bons conseils de Skywodd qui nous fait en plus la grâce
 d'`un tuto complet sur son utilisation
 <http://skyduino.wordpress.com/2012/05/25/arduino-ecran-lcd12864-dealextreme-pas-chere-et-puissant/>`_.
@@ -374,7 +373,7 @@ fonction (voir paragraphe suivant).
     }
 
 On appelle ensuite la fonction à chaque passage du balancier devant le capteur
-central, l'afficheur est donc mis à jour toutes les 1.07 secondes:
+central, l'afficheur est donc mis à jour toutes les 1.07 secondes :
 
 .. code-block:: c++
 
