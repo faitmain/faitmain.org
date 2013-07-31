@@ -49,14 +49,12 @@ les particuliers et intéressante pour un projet comme Bleuette, l'achat
 d'une l'Ultimaker a été guidé par l'arrière-pensée de faire Bleuette
 entièrement en plastique.
 
- - Les tout premiers pas de Bleuette en Plexiglas : http://vimeo.com/1912189
- - Quelques années plus tard, Bleuette imprimée en 3D : http://vimeo.com/58307246
+- les `tout premiers pas de Bleuette en Plexiglas <http://vimeo.com/1912189>`_ ;
+- quelques années plus tard, `Bleuette imprimée en 3D <http://vimeo.com/58307246>`_.
 
-Tous les plans de Bleuette ont été refaits à l'aide de OpenSCAD
-(http://openscad.org/), un logiciel permettant de modéliser des pièces de
+Tous les plans de Bleuette ont été refaits à l'aide de `OpenSCAD <http://openscad.org/>`_, un logiciel permettant de modéliser des pièces de
 manière paramétrique, un dépôt GitHub a été créé à l'occasion pour partager
-tous les documents inérants à la fabrication du robot :
-http://github.com/hugokernel/Bleuette/
+`tous les documents inérants à la fabrication du robot <//github.com/hugokernel/Bleuette/>`_.
 
 Construction
 ::::::::::::
@@ -73,7 +71,7 @@ Le corps
 
 Le corps de Bleuette étant trop grand pour être imprimé en une seule fois, il
 est fait en plusieurs parties assemblées par des queues d'arondes,
-une librairie OpenSCAD a été créée pour l'occasion (http://github.com/hugokernel/OpenSCAD_Dovetail)
+`une librairie OpenSCAD a été créée pour l'occasion <//github.com/hugokernel/OpenSCAD_Dovetail>`_
 
 .. image:: bleuette/openscad_2.png
    :width: 300px
@@ -130,7 +128,7 @@ Les palonniers
 
 Les palonniers de servos, une pièce relativement complexe à imprimer car
 nécessitant une grande précision est aussi réalisée grâce à l'Ultimaker et
-une librairie OpenSCAD à été créée à l'occasion http://www.thingiverse.com/thing:28566,
+`une librairie OpenSCAD à été créée à l'occasion <//www.thingiverse.com/thing:28566>`_,
 grâce à elle, on peut créer des palonniers à 1, 2, 4 bras, voir plus et de
 tailles diverses.
 
@@ -190,9 +188,9 @@ Le cerveau
 Version Arduino
 ---------------
 
-Le cerveau de Bleuette est une carte Arduino avec une shield spécialement
-conçue pour Bleuette (Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield)
-qui sert, entre autres à piloter les 12 servos des pattes.
+Le cerveau de Bleuette est une carte Arduino avec `une shield spécialement
+conçue pour Bleuette <//github.com/hugokernel/Bleuette/wiki/Bleuette-Shield>`_
+qui sert, entre autres, à piloter les 12 servos des pattes.
 
 .. image:: bleuette/bleuette_shield.png
    :width: 300px
@@ -205,7 +203,7 @@ Cette carte possède les caractéristiques suivantes :
 - mesure du courant consommé par les servos ;
 - surveillance de la tension de la batterie ;
 - gestion synchrone de la commande des 12 servos des pattes
-  + 2 servos optionnels (basé sur un PIC18F452 et http://github.com/hugokernel/Pic24Servos).
+  + 2 servos optionnels (basé sur un PIC18F452 et `Pic24Servos <//github.com/hugokernel/Pic24Servos>`_).
 
 Voici son schéma de principe :
 
@@ -214,7 +212,7 @@ Voici son schéma de principe :
    :alt: Schéma de principe de la carte
    :target: bleuette/elec_schema.png
 
-Plus d'informations sur la Bleuette Shield : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Shield
+`Plus d'informations sur la Bleuette Shield <//github.com/hugokernel/Bleuette/wiki/Bleuette-Shield>`_.
 
 Une autre carte fille (shield) pour Arduino a été créée, il s'agit
 de Bleuette Sensor Shield qui dispose des caractéristiques suivantes :
@@ -225,7 +223,7 @@ de Bleuette Sensor Shield qui dispose des caractéristiques suivantes :
 - une connexion pour une guirlande de led RGB à base de LPD8806 ;
 - un mosfet pour pouvoir piloter un élément de puissance (je ne sais pas vraiment quoi pour le moment…).
 
-Plus d'informations sur cette carte par ici : http://github.com/hugokernel/Bleuette/wiki/Bleuette-Sensor-Shield
+`Plus d'informations sur cette carte <//github.com/hugokernel/Bleuette/wiki/Bleuette-Sensor-Shield>`_.
 
 Version Raspberry-Pi
 -------------------
@@ -263,7 +261,7 @@ Son schéma de principe :
    :alt: Schéma de principe de la carte
    :target: bleuette/elec_schema_bleuettepi.png
 
-Toutes les informations sur cette carte sont disponibles sur le wiki : http://github.com/hugokernel/Bleuette/wiki/BleuettePi
+`Toutes les informations sur cette carte sont disponibles sur le wiki <//github.com/hugokernel/Bleuette/wiki/BleuettePi>`_
 
 BleuettePi montée sur un Raspberry-Pi (on aperçoit une petite carte bleue, c'est le GY-27
 c'est une combinaison d'un accéléromètre et d'un compas) :
@@ -324,7 +322,7 @@ Voilà, c'est aussi simple que ça !
 Sur les nouvelles versions du code, j'ai ajouté un thread qui s'occupe uniquement d'envoyer
 les ordres aux servos, ainsi, il est possible de faire d'autres tâches pendant ce temps.
 
-Tout le code pour jouer avec Bleuette se trouve par ici : http://github.com/hugokernel/Bleuette/tree/master/src/BleuettePi/Python
+`Tout le code pour jouer avec Bleuette <//github.com/hugokernel/Bleuette/tree/master/src/BleuettePi/Python>`_
 
 Une vidéo des premiers mouvements de pattes de Bleuette pilotée par une Raspberry-Pi.
 
@@ -343,7 +341,7 @@ Pour les pièces du corps de Bleuette, il vous faudra avoir accès à une imprim
 ou une découpe CNC, inutile d'en posséder une, il vous suffira de trouver le fablab
 le plus proche de chez vous qui pourra vous orienter et vous aider dans leur réalisation.
 
-Fabriquer les pièces en plastique : http://github.com/hugokernel/Bleuette/wiki/Fabriquer
+`Fabriquer les pièces en plastique <//github.com/hugokernel/Bleuette/wiki/Fabriquer>`_.
 
 L'électronique
 --------------
@@ -355,8 +353,8 @@ Selon la version choisie, vous devrez vous procurer :
 
 Pour la Shield Bleuette ou la carte fille Bleuette-Pi, 2 solutions :
 
-- Fabriquer l'électronique : http://github.com/hugokernel/Bleuette/wiki/%C3%89lectronique
-- Ou vous les procurer sur cette page : http://github.com/hugokernel/Bleuette/wiki/Commander
+- `fabriquer l'électronique <//github.com/hugokernel/Bleuette/wiki/%C3%89lectronique>`_ ;
+- `ou vous les procurer sur cette page <//github.com/hugokernel/Bleuette/wiki/Commander`_.
 
 
 Pièces diverses
@@ -381,6 +379,6 @@ vous en rendre compte, le développement se poursuit sur différents axes :
 
 Chacun peut apporter ses propres compétences dans un domaine particulier !
 
-- Le blog de développement : http://www.digitalspirit.org/
-- Toutes les sources de Bleuette : http://github.com/hugokernel/Bleuette/
-- Le wiki en français : http://github.com/hugokernel/Bleuette/wiki/Accueil
+- `Le blog de développement : <http://www.digitalspirit.org/>`_ ;
+- `toutes les sources de Bleuette <//github.com/hugokernel/Bleuette/`_ ;
+- `le wiki en français <//github.com/hugokernel/Bleuette/wiki/Accueil>`_.
