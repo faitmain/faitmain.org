@@ -35,12 +35,12 @@ plus intéressantes…
 
 .. image:: bleuette/plexi_0.jpg
    :width: 300px
-   :alt: Vue globale de Bleuette en plexiglas
+   :alt: Vue globale de Bleuette en Plexiglass (les 6 pattes en plexiglass montées sur une plaque en plexiglass, reliées à des servo-moteurs avec pleins de fils).
    :target: bleuette/plexi_0.jpg
 
 .. image:: bleuette/plexi_1.jpg
    :width: 300px
-   :alt: Vue d'une patte de Bleuette
+   :alt: Vue de près d'une patte de Bleuette en Plexiglass avec ses visses et son servo-moteur.
    :target: bleuette/plexi_1.jpg
 
 Quelques années se sont écoulées et, depuis, l'impression 3D s'est
@@ -75,17 +75,17 @@ est fait en plusieurs parties assemblées par des queues d'arondes,
 
 .. image:: bleuette/openscad_2.png
    :width: 300px
-   :alt: Vue du corps de Bleuette dans OpenScad
+   :alt: Figure de pièces du corps de Bleuette à emcastrer (comme un puzzle) via OpenSCAD.
    :target: bleuette/openscad_2.png
 
 .. image:: bleuette/impression.jpeg
    :width: 300px
-   :alt: Le corps de Bleuette en cours d'impression
+   :alt: Pièce du corps de Bleuette en cours d’impression avec une imprimante 3D à extrusion de thermofilament avec axe mobile sur les axes X et Y et plateau mobile sur l’axe Z.
    :target: bleuette/impression.jpeg
 
 .. image:: bleuette/openscad_1.png
    :width: 300px
-   :alt: Vue du corps de Bleuette dans OpenScad
+   :alt: Vue d’autres pièces du corps de Bleuette via OpenSCAD.
    :target: bleuette/openscad_1.png
 
 Une fois les différentes parties imprimées, il suffit des les emboiter en force, les jeux étant très
@@ -102,7 +102,7 @@ Voici une patte montée sur une structure de test pendant la conception :
 
 .. image:: bleuette/patte_1.jpg
    :width: 300px
-   :alt: Une patte montée pour test
+   :alt: Une patte montée pour test faite de pièces en plastique imprimées en 3D avec leur servo-moteur.
    :target: bleuette/patte_1.jpg
 
 Détail d'une liaison de patte et vue de l'assemblage : on emboite l'entretoise, on la
@@ -114,13 +114,14 @@ pivote de 90 degrés et ça ne bouge plus, aussi simple que des Lego !
    :target: bleuette/patte_0.jpg
 
 .. image:: bleuette/spacer_anim.gif
-   :alt: Entretoise d'une patte
+   :alt: Animation de l'encastrage de l'entretoise d'une patte (on la glisse dans le trou, l’abaisse et la tourne).
+   :target: bleuette/spaces_anim.gif
 
 Une patte entière :
 
 .. image:: bleuette/patte.png
    :width: 300px
-   :alt: Vue d'une patte complète
+   :alt: Vue d'une patte complètement assemblée via OpenSCAD.
    :target: bleuette/patte.png
 
 Les palonniers
@@ -150,7 +151,7 @@ son nom l'indique très bien est en PLA mais avec la particularité d'être flex
 
 .. image:: bleuette/capteur_sol.png
    :width: 300px
-   :alt: Un capteur de sol
+   :alt: Un capteur de sol : une sorte de piston avec un bas de sphère tronqué en bas.
    :target: bleuette/capteur_sol.png
 
 Sur la première photo ci-dessous, nous voyons la différence entre la pièce brute
@@ -160,26 +161,26 @@ Sur la seconde photo de droite, on peut voir tous les éléments d'un capteur de
 
 .. image:: bleuette/capteur_sol_plastidip.jpg
    :width: 300px
-   :alt: Un capteur de sol après impression
+   :alt: Un capteur de sol après impression avec le bas de la sorte de piston et le bas de sphère tronqué posés à plat.
    :target: bleuette/capteur_sol_plastidip.jpg
 
 .. image:: bleuette/capteur_sol_contenu.jpg
    :width: 300px
-   :alt: Le contenu d'un bout de patte
+   :alt: Le contenu d'un bout de patte : autres cylindres composant la sorte de piston + un détecteur de poussée relié à un fil.
    :target: bleuette/capteur_sol_contenu.jpg
 
 Tous les éléments du capteur sont assemblés :
 
 .. image:: bleuette/capteur_sol_assemble.jpg
    :width: 300px
-   :alt: Un des 6 capteurs de sol assemblé
+   :alt: Un des 6 capteurs de sol assemblé avec le fil sortant par le trou des cylindres creux.
    :target: bleuette/capteur_sol_assemble.jpg
 
 Bleuette et ses capteurs :
 
 .. image:: bleuette/bleuette.jpeg
    :width: 300px
-   :alt: Les capteurs de Bleuette sont montés !
+   :alt: Bleuette l’hexapode complètement monté.
    :target: bleuette/bleuette.jpeg
 
 Le cerveau
@@ -194,7 +195,7 @@ qui sert, entre autres, à piloter les 12 servos des pattes.
 
 .. image:: bleuette/bleuette_shield.png
    :width: 300px
-   :alt: La Bleuette Shield pour Arduino
+   :alt: Circuit imprimé de la Bleuette Shield pour Arduino avec ses composants.
    :target: bleuette/bleuette_shield.png
 
 Cette carte possède les caractéristiques suivantes :
@@ -209,7 +210,7 @@ Voici son schéma de principe :
 
 .. image:: bleuette/elec_schema.png
    :width: 300px
-   :alt: Schéma de principe de la carte
+   :alt: Schéma de principe de la carte Bleuette Shield
    :target: bleuette/elec_schema.png
 
 `Plus d'informations sur la Bleuette Shield <//github.com/hugokernel/Bleuette/wiki/Bleuette-Shield>`_.
@@ -235,7 +236,7 @@ Bleuette-Pi propose tout ce que fait la shield Arduino avec plein de choses en p
 
 .. image:: bleuette/bleuettepi.jpeg
    :width: 300px
-   :alt: Bleuette-Pi en cours de montage
+   :alt: Bleuette-Pi en cours de montage : le circuit imprimé dédié à la Raspberry-Pi et ses composants.
    :target: bleuette/bleuettepi.jpeg
 
 Voici ses caractéristiques :
@@ -258,7 +259,7 @@ Son schéma de principe :
 
 .. image:: bleuette/elec_schema_bleuettepi.png
    :width: 300px
-   :alt: Schéma de principe de la carte
+   :alt: Schéma de principe de la carte Bleuette-Pi
    :target: bleuette/elec_schema_bleuettepi.png
 
 `Toutes les informations sur cette carte sont disponibles sur le wiki <//github.com/hugokernel/Bleuette/wiki/BleuettePi>`_
@@ -268,7 +269,7 @@ c'est une combinaison d'un accéléromètre et d'un compas) :
 
 .. image:: bleuette/bleuettepi2.jpeg
    :width: 300px
-   :alt: Bleuette-Pi montée
+   :alt: Bleuette-Pi montée et enfilées sur la Raspberry-Pi
    :target: bleuette/bleuettepi2.jpeg
 
 Exemple de code en Python
