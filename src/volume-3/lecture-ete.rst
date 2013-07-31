@@ -7,7 +7,7 @@ Lectures de l'été
 :author: Tarek Ziadé
 
 Voici une petite sélection de livres pour l'été. Dans ce numéro,
-beaucoup d'éléctronique !
+beaucoup d'électronique !
 
 L'électronique en pratique
 ::::::::::::::::::::::::::
