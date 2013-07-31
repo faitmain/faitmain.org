@@ -10,24 +10,24 @@ Faire de la bière maison (ou comment transformer l'eau en bière)
 On en boit tout le temps, mais on ne prend pas souvent le temps de comprendre
 comment elle est fabriquée, et encore moins de la fabriquer soi même. Et c'est
 bien dommage, parce que fabriquer de la bière soi-même est à la portée de
-n'importe quel assoiffé ! (s'il est un peu patient)
+n'importe quel assoiffé (s'il est un peu patient) !
 
-Mais d'abord, pourquoi faire de la bière soi-même ?
+Mais d'abord, pourquoi faire de la bière soi-même ?
 
 Il y a plein de bonnes raisons en fait, mais en ce qui nous concerne, c'est
-principalement qu'on aime bien fabriquer les produits qu'on consomme  (et, ça
-serait mentir que de dire qu'on ne consomme pas de bière !)
+principalement qu'on aime bien fabriquer les produits qu'on consomme (et, ça
+serait mentir que de dire qu'on ne consomme pas de bière !).
 
 Ingrédients
 :::::::::::
 
-Pour cette recette, il vous faudra :
+Pour cette recette, il vous faudra :
 
 De l'eau
   Vous savez, ce truc liquide et transparent.
 
 Du malt
-  Des grains d'orge  germés puis séchés voire grillés. Il est responsable de la couleur et du gout de la bière.
+  Des grains d'orge germés puis séchés voire grillés. Il est responsable de la couleur et du gout de la bière.
 
 Du houblon
   Des fleurs pour aromatiser et donner de l'amertume.
@@ -45,10 +45,10 @@ Les grandes brasseries utilisent une cuve spéciale pour chaque étape, mais qua
 on est pauvres/débutants et que l'on fait des petites quantités, on peut très
 bien s'en sortir avec très peu de matériel.
 Dans notre cas, nous faisons des brassins de 20L ce qui est un bon rapport
-risque/plaisir : si on rate, ce n'est pas si grave, et si elle est bonne il y a
+risque/plaisir : si on rate, ce n'est pas si grave, et si elle est bonne il y a
 quand même de quoi déguster ;)
 
-L'essentiel :
+L'essentiel :
 -------------
 
 Une source de chaleur réglable
@@ -58,7 +58,7 @@ Une source de chaleur réglable
 Une cuve de brassage
   Une grande casserole/marmite de minimum 30L. 50L c'est plus confort.
   En inox ou émaillée, mais surtout pas d'aluminium car il ne réagit pas très
-  bien avec la bière paraît il...
+  bien avec la bière paraît-il…
   Le mieux est de la récupérer chez Tatie Jacqueline car ça coûte très cher (à
   partir de 50€ et 150€ facilement selon la qualité)
 
@@ -70,15 +70,15 @@ Une cuve de fermentation
   30L avec barboteur et robinet pour une dizaine d'euros.
 
 Une touillette
-  Une grande cuillère quoi...
+  Une grande cuillère quoi…
 
 Un thermomètre
   De cuisine, gradué entre 50°C et 100°C.
 
 Une passoire
-  Très grande si possible
+  Très grande si possible.
 
-Recommandé fortement :
+Recommandé fortement :
 ----------------------
 
 Un moulin à malt
@@ -95,7 +95,7 @@ Refroidisseur
   risquée pour la qualité de la bière.
 
 
-Facultatif (mais quand même sympa) :
+Facultatif (mais quand même sympa) :
 ------------------------------------
 
 Un densimètre
@@ -121,8 +121,8 @@ obtient ainsi un mélange appelé *la maische*. Ce mélange est porté à plusie
 paliers de température.
 
 Ensuite on filtre les grains utilisés (les drèches) et on ne garde que le jus,
-appelé le mout.  Le moût est porté à ébullition en compagnie de houblon dont on
-extrait l'amertume et les arômes.  Le houblon est ensuite retiré du moût.
+appelé le mout. Le moût est porté à ébullition en compagnie de houblon dont on
+extrait l'amertume et les arômes. Le houblon est ensuite retiré du moût.
 Celui-ci est refroidit à 25°C, la température de prédilection pour les levures
 qui se font un plaisir de le fermenter pendant 2 à 3 semaines. En fût d'abord,
 puis en bouteilles où le gaz généré n'aura d'autre solution que de se dissoudre
@@ -138,7 +138,7 @@ exactement 6kg de malt pâle *7EDC* et 500g de malt cara *50EDC*).
 
 .. figure:: biere/concassage.jpg
 
-Attention, pas trop fin dis donc !
+Attention, pas trop fin dis donc !
 
 On ne veut pas de la poudre, on veut
 simplement permettre à l'amidon de se dissoudre dans l'eau.
@@ -159,7 +159,8 @@ différents paliers de température.
 
 .. figure:: biere/empatage.jpg
 
-Les paliers indiqués pour la création des sucres sont les températures idéales, mais ils se créent également à d'autres températures.
+Les paliers indiqués pour la création des sucres sont les températures idéales,
+mais ils se créent également à d'autres températures.
 Il est donc envisageable de n'avoir qu'un palier pour la création des sucres.
 
 Rinçage
@@ -199,7 +200,7 @@ Refroidissement
 
 Étape suivante: **le refroidissement**.
 
-On dirait que c'est facile comme ça, mais en fait ça ne l'est pas tant que ça:
+On dirait que c'est facile comme ça, mais en fait ça ne l'est pas tant que ça :
 il faut réussir à faire tomber la température de notre liquide en ébullition
 jusqu'à 25°C en un temps acceptable.
 
@@ -207,7 +208,7 @@ Pour ça, on a utilisé un serpentin confectionné par nos petites mains.
 
 .. figure:: biere/refroidisseur.jpg
 
-Ce refroidisseur nous a permis d'atteindre la température souhaitée en 35 minutes !
+Ce refroidisseur nous a permis d'atteindre la température souhaitée en 35 minutes !
 
 Sans le refroidisseur, il faut compter au moins le double et on s'expose à des
 risques de contamination par les méchantes bactéries qui peuplent nos garages,
@@ -217,7 +218,7 @@ squats, cuisines ou autres lieux de brassage.
 Fermentation
 ------------
 
-Dernière étape, haha !
+Dernière étape, haha !
 
 Il faut rajouter les levures qui vont faire tout le travail et transformer le
 moût en bière, pendant que nous nous reposons, une bonne bouteille de Chimay à
@@ -231,7 +232,7 @@ représente la quantité de sucre extraite du malt, et donc la quantité d'alcoo
 potentielle dans la bière.
 
 On ferme la cuve de fermentation avec un barboteur pour laisser le gaz
-s'echapper de son "bloup bloup" caractéristique.
+s'echapper de son « bloup bloup » caractéristique.
 
 La première fermentation durera approximativement 15 jours, jusqu'à atteindre
 une densité finale stable (fin de la fermentation).
@@ -253,41 +254,41 @@ On s'équipe de notre siphon et après avoir ajouté du sucre dans le mélange
 (pour réactiver les levures), on remplit les bouteilles.
 
 Cette seconde fermentation en bouteille donnera son effervescence à la bière
-grâce à la dissolution du gaz carbonique dans le liquide.  Et voilà ! Il ne
+grâce à la dissolution du gaz carbonique dans le liquide. Et voilà ! Il ne
 reste plus qu'à mettre les bouteilles de coté durant deux semaines de plus
 (oui, c'est long) et… à déguster le moment venu.
 
-Dégustation !
+Dégustation !
 :::::::::::::
 
 La bière en question ne moussait pas trop et avait un goût un peu amer. Pas
 assez à notre goût, cependant.
 
-En comparaison à nos précédents essais, c'est plutôt positif: la première était
+En comparaison à nos précédents essais, c'est plutôt positif : la première était
 ratée puisque trop de pression et trop de dépôt (et donc un fort goût de
 levures) alors que la seconde (on avait tenté d'ajouter de la lavande) avait un
 goût de lavande amère, pour ne pas dire de savon.
 
-Celle-ci a un goût de… de bière ! Il nous reste encore à comprendre comment
+Celle-ci a un goût de… de bière ! Il nous reste encore à comprendre comment
 faire pour lui donner la saveur que l'on souhaite.
 
-Conseils / Anecdotes
-::::::::::::::::::::
+Conseils/Anecdotes
+::::::::::::::::::
 
 On a fait quelques petites erreurs en cours de route, voilà rien que pour vous
-une petite compilation:
+une petite compilation :
 
 * Par peur de la contamination bactérienne, on a décidé de faire bouillir
   nos 26L d'eau pour être sur que les bactéries s'enfuient en courant. Je dis
-  erreur parce que ça nous a pris pas loin de 3h30 pour réussir à chauffer et refroidir ce
-  volume d'eau. Inertie quand tu nous tiens !
+  erreur parce que ça nous a pris pas loin de 3h30 pour réussir à chauffer et
+  refroidir ce volume d'eau. Inertie quand tu nous tiens !
 * Lorsque vous ajoutez le malt dans l'eau, pensez bien qu'il va refroidir la
   température de l'eau. Comptez perdre approximativement 4°C.
 * Lors de l'ébullition, vous allez surement perdre un peu d'eau, pensez à en
   mettre un peu plus (même si vous couvrez).
 
-Mais alors, c'est quoi les bières brunes, blondes, les stout, etc?
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Mais alors, c'est quoi les bières brunes, blondes, les stout, etc. ?
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 La couleur de la bière est déterminée par le mélange de malts choisis. Il
 existe ainsi des malts bruns, chocolat, noirs, caramel, pâles, etc.
@@ -295,7 +296,7 @@ existe ainsi des malts bruns, chocolat, noirs, caramel, pâles, etc.
 Pour une bière blonde, on utilisera quasiment uniquement du malt pâle. Une
 bière ambrée sera composé de malts plus foncés, une bière brune sera composée
 de malts bruns etc. Cependant, quelle que soit la recette, le mélange sera
-composé d'au moins 80% de malt pâle, même pour une bière stout !
+composé d'au moins 80% de malt pâle, même pour une bière stout !
 
 Les bières blanches sont un cas particulier, elles ne sont pas composées
 uniquement de malt d'orge, mais on leur ajoute également du blé en petite
@@ -304,4 +305,4 @@ quantité, des épices, et autres secrets bien gardés.
 .. figure:: biere/ohyeah.jpg
 
     Nous deux après notre premier brassin.
-    (admirez la superbe cuve "princesse")
+    (admirez la superbe cuve « princesse »)
