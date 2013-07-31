@@ -39,7 +39,7 @@ problème qui sera corrigé sur les modèles plus tardifs avec des montures plus
 complexes auto-compensées. Dans des conditions de température bien stables, la
 tenue de l'heure est très bonne, avec une dérive de quelques secondes par jour.
 
-Mais on peut faire mieux ! C'est une Arduino qui va s'en charger.
+Mais on peut faire mieux ! C'est une Arduino qui va s'en charger.
 
 
 ArduComtoise
@@ -81,7 +81,7 @@ Il est important de bloquer le balancier en bout de course afin qu'il reprenne
 suffisamment d'élan pour repartir. Un deuxième capteur se charge de détecter ce
 moment. On ne peut pas utiliser ce même capteur pour compter car lorsque le
 balancier vient d'être relâché, sa course est trop courte pour qu'il revienne
-jusqu'à ce capteur ; on raterait donc des passages et toute la précision du
+jusqu'à ce capteur ; on raterait donc des passages et toute la précision du
 montage repose sur un comptage précis.
 
 Il arrive, sans que j'arrive à savoir pourquoi, que le détecteur rate un
@@ -94,7 +94,7 @@ Limites du système
 ------------------
 
 Ce système marche parfaitement entre deux remontages. Mais il se heurte à un
-problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 à
+problème insoluble : lors du remontage, l'horloge recule aléatoirement de 10 à
 15 secondes du fait des divers jeux internes de la mécanique.
 
 On pourrait
@@ -145,7 +145,7 @@ Dans la boucle *loop()* l'action se décompose alors comme suit.
 
 Au début de la séquence, on lit l'heure sur le Chronodot grâce à la fonction
 *updateHeure()* qui renseigne les variables heures, minutes et secondes (en les
-convertissant en décimal au passage):
+convertissant en décimal au passage) :
 
 .. code-block:: c++
 
@@ -157,7 +157,7 @@ convertissant en décimal au passage):
     }
 
 Puis lorsqu'on atteint les deux dernières minutes avant l'heure de référence,
-l'horloge passe en mode "réglage" :
+l'horloge passe en mode « réglage » :
 
 .. code-block:: c++
 
@@ -167,7 +167,7 @@ l'horloge passe en mode "réglage" :
         reglage = 1;
     }
 
-Deux événements sont alors surveillés : l'activation du microswitch par la
+Deux événements sont alors surveillés : l'activation du microswitch par la
 grande aiguille (passage à LOW de contactPin) et l'arrivée en bout de course du
 balancier, détectée grâce à une interruption mise sur le capteur infrarouge
 correspondant et qui fait passer la variable bitTerminal à 1. Quand ces deux
@@ -227,15 +227,15 @@ Dealextreme, sur les bons conseils de Skywodd qui nous fait en plus la grâce
 d'`un tuto complet sur son utilisation
 <http://skyduino.wordpress.com/2012/05/25/arduino-ecran-lcd12864-dealextreme-pas-chere-et-puissant/>`_.
 
-L'affichage se divise en 2 colonnes : les valeurs courantes et les valeurs de
+L'affichage se divise en 2 colonnes : les valeurs courantes et les valeurs de
 référence.
 
-- La première ligne indique le nombre de passages de balanciers comptés depuis
-  le dernier réglage et le nombre moyen par 24h depuis le lancement du système.
-- La deuxième ligne indique l'heure courante et l'heure de  référence.
-- La troisième ligne indique l'avance de l'horloge en secondes et la moyenne
-  depuis la mise en route du système.
-- La dernière ligne indique le nombre de jours écoulés depuis la mise  en route
+- la première ligne indique le nombre de passages de balanciers comptés depuis
+  le dernier réglage et le nombre moyen par 24h depuis le lancement du système ;
+- la deuxième ligne indique l'heure courante et l'heure de référence ;
+- la troisième ligne indique l'avance de l'horloge en secondes et la moyenne
+  depuis la mise en route du système ;
+- la dernière ligne indique le nombre de jours écoulés depuis la mise en route
   (uptime).
 
 Le premier jour de fonctionnement est ignoré dans les statistiques puisqu'il
@@ -256,7 +256,7 @@ le chiffre *valeur* en chaîne de caractère *cible[]* de longueur *taille*.
 
 Pour convertir l'heure, c'est le même principe via la fonction *heureToChar()*
 avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieures
-à 10:
+à 10 :
 
 .. code-block:: c++
 
@@ -279,7 +279,7 @@ avec en plus une fonction *subzero()* qui ajoute un zéro aux valeurs inférieur
     }
 
 Enfin la fonction *draw()* s'occupe de formatter toutes les données pour les
-placer sur l'écran (voir le tuto de Skywodd pour les détails) :
+placer sur l'écran (voir le tuto de Skywodd pour les détails) :
 
 .. code-block:: c++
 
@@ -331,7 +331,7 @@ L'indicateur lumineux
 ---------------------
 
 Un indicateur lumineux constitué de LEDs permet en outre de surveiller la
-dérive de l'horloge. Lorsque celle-ci est dans la "zone acceptable" (de 20 à 40
+dérive de l'horloge. Lorsque celle-ci est dans la « zone acceptable » (de 20 à 40
 secondes) une diode verte s'allume. De 0 à 20 secondes ou de 40 à 60 secondes,
 une diode orange signale la dérive. En cas de retard, ou d'avance supérieure à
 60 secondes, une diode rouge signale le problème.
@@ -430,7 +430,7 @@ de prendre momentanément le relais en cas de défaillance de l'alimentation
 principale. Avec le capteur sur aiguille de la deuxième approche cette
 précaution se justifie moins, mais je l'ai tout de même laissée.
 
-Evolution
+Évolution
 :::::::::
 
 Parmi les évolutions possibles, j'envisage l'ajout d'une connexion à un serveur
@@ -442,7 +442,7 @@ Le code
 :::::::
 
 Je vous livre enfin le code complet du système. Ma formation universitaire étant
-l'Histoire, je compte sur l'indulgence des développeurs professionnels!
+l'Histoire, je compte sur l'indulgence des développeurs professionnels !
 
 `Télécharger le code de l'ArduComtoise <comtoise/arduComtoiseFinal.ino>`_
 
