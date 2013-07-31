@@ -129,6 +129,8 @@ puis en bouteilles où le gaz généré n'aura d'autre solution que de se dissou
 dans la bière pour lui donner ses propriétés bulleuses.
 
 .. figure:: biere/schema.jpg
+   :alt: 1. Concassage : tourner le moulinet du moulin à malt pour concasser l’orge maltée pendant environ 40 minutes ; 2. Empâtage : chauffer la cuve de brassage avec de l’eau et de l’orge maltée pendant environ 75 minutes ; 3. Filtrage : filtrer les drèches avec la passoire au dessus de la cuve de fermentation avec le moût pendant environ 30 minutes ; 4. Houblonnage : Chauffer la cuve avec le moût et du houblon pendans environ 60 minutes. 
+   :target: biere/schema.jpg
 
    Les étapes de fabrication
 
@@ -140,9 +142,10 @@ La première étape est **le concassage**. On avait 6kg d'orge maltée à concas
 exactement 6kg de malt pâle *7EDC* et 500g de malt cara *50EDC*).
 
 .. figure:: biere/concassage.jpg
+   :alt:    Le concassage de grins d’orge maltée dans le moulin à malt.
+   :target: biere/concassage.jpg
 
    Concassage de l'orge
-
 
 Attention, pas trop fin dis donc !
 
@@ -158,12 +161,14 @@ Empâtage et brassage
 La seconde étape est **l'empâtage**. Il s'agit de faire chauffer notre moût à
 différents paliers de température.
 
-* ~50°C : Transformation des protéines de l'orge malté pour que la bière ne soit pas trouble (protéinase)
-* ~60-65°C : Création des sucres fermentescibles (dextrose et maltose)
-* ~68-75°C : Création de sucres non-fermentescibles (Dextrine)
-* ~78°C : Destruction des enzymes et arrêt des transformations (parce que c'est bon hein)
+* ~50°C : Transformation des protéines de l'orge malté pour que la bière ne soit pas trouble (protéinase) ;
+* ~60-65°C : Création des sucres fermentescibles (dextrose et maltose) ;
+* ~68-75°C : Création de sucres non-fermentescibles (Dextrine) ;
+* ~78°C : Destruction des enzymes et arrêt des transformations (parce que c'est bon hein).
 
 .. figure:: biere/empatage.jpg
+   :alt:    Thermomètre indiquant 71°C plongé dans la mousse du moût dans la cuve de brassage.
+   :target: biere/empatage.jpg
 
 Les paliers indiqués pour la création des sucres sont les températures idéales,
 mais ils se créent également à d'autres températures.
@@ -173,6 +178,8 @@ Rinçage
 -------
 
 .. figure:: biere/rincage.jpg
+   :alt:    Récupération du moût dans la cuve à brassage pour le filtrer dans la cuve à fermentation afin de séparer la partie liquide de la partie solide (l’orge maltée, dont les restes se nomment drèches).
+   :target: biere/rincage.jpg
 
 La troisième étape, c'est **le rinçage**, l'idée est de récupérer l'amidon qui
 s'est dissout dans l'eau et de mettre de côté l'orge maltée (la partie solide).
@@ -213,6 +220,8 @@ jusqu'à 25°C en un temps acceptable.
 Pour ça, on a utilisé un serpentin confectionné par nos petites mains.
 
 .. figure:: biere/refroidisseur.jpg
+   :alt:    Une très jolie paille rouge légèrement transparente très longue qui monte et descend en spirale plus large que haute.
+   :target: biere/refroidisseur.jpg
 
 Ce refroidisseur nous a permis d'atteindre la température souhaitée en 35 minutes !
 
@@ -285,13 +294,13 @@ Conseils/Anecdotes
 On a fait quelques petites erreurs en cours de route, voilà rien que pour vous
 une petite compilation :
 
-* Par peur de la contamination bactérienne, on a décidé de faire bouillir
+* par peur de la contamination bactérienne, on a décidé de faire bouillir
   nos 26L d'eau pour être sur que les bactéries s'enfuient en courant. Je dis
   erreur parce que ça nous a pris pas loin de 3h30 pour réussir à chauffer et
   refroidir ce volume d'eau. Inertie quand tu nous tiens !
-* Lorsque vous ajoutez le malt dans l'eau, pensez bien qu'il va refroidir la
-  température de l'eau. Comptez perdre approximativement 4°C.
-* Lors de l'ébullition, vous allez surement perdre un peu d'eau, pensez à en
+* lorsque vous ajoutez le malt dans l'eau, pensez bien qu'il va refroidir la
+  température de l'eau. Comptez perdre approximativement 4°C ;
+* lors de l'ébullition, vous allez surement perdre un peu d'eau, pensez à en
   mettre un peu plus (même si vous couvrez).
 
 Mais alors, c'est quoi les bières brunes, blondes, les stout, etc. ?
@@ -310,6 +319,8 @@ uniquement de malt d'orge, mais on leur ajoute également du blé en petite
 quantité, des épices, et autres secrets bien gardés.
 
 .. figure:: biere/ohyeah.jpg
+   :alt:    Nous deux après notre premier brassin, souriants les pouces en l’air sur des chaises de jardin dans le garage autour d’une cuve de bière rose avec une cendrillon Disney dessus.
+   :target: biere/ohyeah.jpg
 
     Nous deux après notre premier brassin.
     (admirez la superbe cuve « princesse »)
