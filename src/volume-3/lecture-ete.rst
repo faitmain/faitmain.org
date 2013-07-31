@@ -65,7 +65,8 @@ l'`Encyclopedia of Electronic Components Vol. 1 <//www.amazon.fr/dp/B00DJG6JJ8/>
 au stand O'Reilly d'Europython en Italie, je me suis jeté dessus.
 
 Ce livre est un recueil de composant eléctroniques regroupés par thèmes :
-alimentation, …
+résistances, condensateurs, inducteurs, interrupteurs, encodeurs, relais
+et enfin transistors.
 
 Dans chacun de ces thèmes, une série de composants est présentée.
 Platt explique pour chacun comment ils fonctionnent, quelle sont leur
@@ -80,6 +81,10 @@ de différent types.
 **Encyclopedia of Electronic Components Vol. 1** est un excellent
 complément des datasheets que l'on trouve sur le
 net, et aussi un bon compagnon du livre précédent.
+
+Je ne crois pas qu'il existe en français par contre, mais j'achèterais
+le volume 2, c'est sûr.
+
 
 Raspberry-Pi — Prise en main et premières réalisations
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -96,6 +101,26 @@ Tout comme Eyrolles, Dunod commence à s'intéresser de prêt au mouvement
 DIY et sort un ouvrage original sur le Raspberry-Pi intitulé :
 **Raspberry-Pi — Prise en main et premières réalisations**, écrit
 par Christian Tavernier, auteur prolifique de livres sur les micro-controlleurs
-PIC chez le même éditeur.
+PIC et l'Arduino chez le même éditeur.
 
-…
+Si vous êtes un novice complet, ce livre est parfait pour vous, car
+l'auteur va vous guider à travers toutes les étapes de découverte et 
+d'installation du Raspberry, et aussi vous donner des notions de 
+programmation en Python.
+
+Si vous êtes déjà familier avec Python et le monde de l'Arduino, cet ouvrage
+ne vous apportera pas grand chose, si ce n'est la dernière section sur des
+idées de montages à brancher sur le GPIO.  
+
+Ceci étant dit, le niveau du livre
+est très bon et tout le monde y apprendra quelque chose: 
+l'auteur ajoute une bonne valeur ajouté grâce à ces connaissances en 
+électronique. J'y ai découvert par exemple que le régulateur de tension
+pour mon `ghetto blaster </volume-3/ghetto-blaster.html>`_ pouvait être
+remplacé par un régulateur avec un bien meilleur rendement (et qui chauffe moins).
+
+Ca m'a donné envie d'acheter d'autres livres de cet auteur.
+
+Pour débuter avec le Raspberry, je recommande 
+**Raspberry-Pi — Prise en main et premières réalisations**
+
