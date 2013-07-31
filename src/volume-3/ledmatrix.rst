@@ -18,21 +18,20 @@ cadre du commerce. Le mien sera réalisé avec des matrices leds bicolores et du
 bois. Celui-ci aura pour but de servir de base pour des applications temps réel
 diverses et variées que je vous présenterai par la suite.
 
-Des matrices de leds ? Oui, mais lesquels ?
+Des matrices de leds ? Oui, mais lesquels ?
 :::::::::::::::::::::::::::::::::::::::::::
 
 Le choix des matrices de led était bien évidemment un point clé pour ce projet.
 Mon choix s'est arrêté sur des matrices de leds bicolores (pixels rouge et
-vert) de 8 x 8 pixels.
+vert) de 8×8 pixels.
 
-Pourquoi ce choix ?
+Pourquoi ce choix ?
 
-- Tout simplement parce que de telles matrices ne coutent quasiment rien sur
-  ebay, dealextreme, ... contrairement à des matrices de leds RGB.
-- Il est très simple de trouver des circuits imprimés pour en connecter et
-  contrôler un grand nombre à la fois.
-- Cela donne un côté très DIY au résultat final, ce qui n'est pas négligeable
-  ;)
+- tout simplement parce que de telles matrices ne coutent quasiment rien sur
+  ebay, dealextreme… contrairement à des matrices de leds RGB ;
+- il est très simple de trouver des circuits imprimés pour en connecter et
+  contrôler un grand nombre à la fois ;
+- cela donne un côté très DIY au résultat final, ce qui n'est pas négligeable.
 
 .. figure:: ledmatrix/matrix_front.JPG
 
@@ -43,25 +42,25 @@ Pourquoi ce choix ?
    Arrière d'une matrice de leds une fois montée.
 
 Après quelques heures de recherche je suis tombé sur des kits à monter soi-même
-de 32x16 pixels (8 matrices par kit) du fabricant "DIYTJ" sur DealExtreme
+de 32×16 pixels (8 matrices par kit) du fabricant « DIYTJ » sur DealExtreme
 (`sku.202393
 <http://dx.com/p/diytj-16-x-32-dual-color-dot-matrix-module-kit-green-white-202393>`_).
 Ces kits, bien que comportant des composants CMS, sont relativement simples à
 monter, même sans connaissances poussées en soudure. De plus leur prix unitaire
-m'a permis d'en acheter une douzaine et ainsi de former une matrice "géante" de
-96x64 pixels au total.
+m'a permis d'en acheter une douzaine et ainsi de former une matrice « géante » de
+96×64 pixels au total.
 
 .. note::
 
    Ces matrices de leds, comme beaucoup de clones chinois, sont fournies sans
    documentation, schéma ou autre. Tout le code réalisé pour ce projet est donc
    le résultat d'un gros travail de rétro-ingénierie et de recherche. Avec ce
-   genre de produits il faut aimer les casses têtes pour arriver à ses fins ;)
+   genre de produits il faut aimer les casses têtes pour arriver à ses fins.
 
 .. note::
 
     Pour ceux qui seraient intéressés, les instructions de montage étape par
-    étape des matrices sont disponibles sur mon blog : `ici
+    étape des matrices sont disponibles sur mon blog : `ici
     <http://skyduino.wordpress.com/2013/07/12/montage-info-matrices-de-leds-diytj/>`_
 
 Le cadre
@@ -75,7 +74,7 @@ Comme précisé plus haut le cadre entourant les matrices de leds est réalisé 
 
 Ce cadre a pour but de maintenir les matrices de leds en place et de donner un
 aspect visuel plus propre au montage. Un cadre numérique n'en serait pas un
-sans cadre :)
+sans cadre :)
 
 .. figure:: ledmatrix/cadre_build.JPG
 
@@ -115,9 +114,9 @@ base et un peu de joint à baignoire)
 
 .. figure:: ledmatrix/cadre_finish.JPG
 
-   Un petit peu de peinture et hop !
+   Un petit peu de peinture et hop !
 
-Après un dernier petit coup de peinture noir satiné le cadre est fini !
+Après un dernier petit coup de peinture noir satiné le cadre est fini !
 
 Principe de fonctionnement des matrices et câblage
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -130,7 +129,7 @@ Ces matrices de leds sont contrôlées au moyen d'un port SPI un peu spécial. L
 connecteur utilisé par ces matrices est un classique connecteur 2x16 broches au
 pas 2.54mm.
 
-Sur ce connecteur on retrouve les lignes suivantes :
+Sur ce connecteur on retrouve les lignes suivantes :
 
 =====  =====
 GND    A
@@ -143,23 +142,24 @@ GND    STR
 GND    SCK
 =====  =====
 
-Détails :
+Détails :
 
-+ GND : masse (0v)
-+ nc : Non connecté
-+ A, B, C, D : choix de la ligne à afficher (voir plus bas pour plus de détails)
-+ R, G : entrée de données pour le rouge et le vert (équivalent MOSI en SPI)
-+ STR : Latch (permet de mettre en mémoire les données transmises)
-+ SCK : Signal d'horloge commun pour les lignes R et G
++ GND : masse (0v) ;
++ nc : non connecté ;
++ A, B, C, D : choix de la ligne à afficher (voir plus bas pour plus de détails) ;
++ R, G : entrée de données pour le rouge et le vert (équivalent MOSI en SPI) ;
++ STR : latch (permet de mettre en mémoire les données transmises) ;
++ SCK : signal d'horloge commun pour les lignes R et G.
 
 
-**Comment marchent ces matrices ?**
+Comment marchent ces matrices ?
+*******************************
 
 En réalité ces matrices de leds sont des clones très légèrement modifiés
-des matrices de leds d'ancienne génération du (très connu) fabricant «
-SureElectronics ». Par chance j'ai pu mettre la main sur un pdf expliquant
-le fonctionnement de ces "vieilles" matrices de leds, nommé "LCD matrix
-display driver – DE-DP029~033_Ver1.0_EN".
+des matrices de leds d'ancienne génération du (très connu) fabricant
+« SureElectronics ». Par chance j'ai pu mettre la main sur un pdf expliquant
+le fonctionnement de ces "vieilles" matrices de leds, nommé « LCD matrix
+display driver – DE-DP029~033_Ver1.0_EN ».
 
 Une copie du pdf est disponible `sur ma dropbox
 <https://dl.dropboxusercontent.com/u/53604363/divers/LCD%20matrix%20display%20driver%20-%20DE-DP029%7E033_Ver1.0_EN.pdf>`_,
@@ -167,26 +167,27 @@ au cas où la version d’origine disparaitrait.
 
 .. figure:: ledmatrix/schematic.JPG
 
-    Schéma d'origine tiré du pdf de « SureElectronics »
+    Schéma d'origine tiré du pdf de « SureElectronics »
 
-Le principe de fonctionnement est relativement simple :
+Le principe de fonctionnement est relativement simple :
 
 + Un décodeur binaire -> décimal (74HC138) permet de sélectionner la ligne
-  (entre 0 ~ 15) à afficher.
+  (entre 0 ~ 15) à afficher ;
 + Deux séries de 4 registres à décalage (74HC595) permettent d'allumer/éteindre
-  les pixels voulus de la ligne sélectionnée (« 0 » = allumé, « 1 » = éteint).
+  les pixels voulus de la ligne sélectionnée (« 0 » = allumé, « 1 » = éteint) ;
 + L'affichage est multiplexé (affichage ligne par ligne) et doit être rafraichi
-  à 960Hz (soit 60 images par secondes) pour un bon rapport scintillement /
-  luminosité / consommation.
+  à 960Hz (soit 60 images par secondes) pour un bon rapport
+  scintillement/luminosité/consommation.
 
 Le problème avec ces matrices c'est qu'il y a deux entrées séries (R et G) pour
 un seul même signal d'horloge (CK sur le schéma, SCK sur la carte). Il est donc
 impossible d'utiliser un port SPI matériel, la seule solution possible est donc
-d'utiliser du SPI software, beaucoup plus lent et couteux en ressource CPU …
+d'utiliser du SPI software, beaucoup plus lent et couteux en ressource CPU…
 
-**Concrètement comment je fais pour allumer mes pixels ?**
+Concrètement comment je fais pour allumer mes pixels ?
+******************************************************
 
-Prenons une seule matrice de 16x32 pixels. Cette matrice est constituée de 16
+Prenons une seule matrice de 16×32 pixels. Cette matrice est constituée de 16
 lignes de 32 pixels horizontaux, organisés en 4 blocs de 8 pixels. Chaque pixel
 horizontal est un bit que l'on envoie en SPI (communication série avec horloge
 synchrone). Ici pour afficher une ligne il faut donc envoyer 4 octets, que ce
@@ -194,7 +195,7 @@ soit sur le signal de données R (rouge) ou G (vert).
 
 Pour que l'affichage soit correct il faut envoyer les données de chaque ligne
 tout les 1/60ème de secondes (persistance rétinienne), soit une ligne tous les
-1/960ème de seconde (= 16 lignes x 60Hz).
+1/960ème de seconde (= 16 lignes×60Hz).
 
 Les matrices en question utilisent des registres à décalage montés vers la
 gauche. Le premier octet envoyé se retrouve donc à droite de la matrice puis
@@ -219,7 +220,7 @@ Programme de démonstration
 
 .. figure:: ledmatrix/project_finish.JPG
 
-   Après tant de réflexions il est grand temps de voir ce que ça donne vous ne trouvez pas ?
+   Après tant de réflexions il est grand temps de voir ce que ça donne vous ne trouvez pas ?
 
 .. note::
 
@@ -227,7 +228,8 @@ Programme de démonstration
    `sur mon github <https://github.com/skywodd/DIYTJ_led_matrix/>`_
 
 
-**Programme n°1 : les bases**
+Programme n°1 : les bases
+*************************
 
 .. figure:: ledmatrix/prog_basic.JPG
 
@@ -250,15 +252,15 @@ allé chercher loin. Pour contrôler ma matrice de led j'ai utilisé un
 ATmega1284p (tournant à 16MHz), le même microcontrôleur que dans les cartes
 Sanguino.
 
-Le montage est relativement trivial, celui ci se compose de :
+Le montage est relativement trivial, celui ci se compose de :
 
 + un ATmega1284p,
 + un quartz à 16MHz + deux condensateurs de 22pF,
-+ une résistance de 10K sur la broche RESET
++ une résistance de 10K sur la broche RESET,
 + un condensateur de découplage (100nF) sur le +5v.
 
 Pour me faciliter la vie j'ai aussi câblé un connecteur ICSP pour breadboard
-(fabriqué par Sparkfun) et un connecteur 2x16 broches pour la nappe reliant le
+(fabriqué par Sparkfun) et un connecteur 2×16 broches pour la nappe reliant le
 montage à la matrice.
 
 .. note::
@@ -266,39 +268,39 @@ montage à la matrice.
    La diode zener, la résistance et l'interrupteur sur la droite ne sont utile
    que pour le programme de FFT décrit plus bas.
 
-Le code de base est composé de seulement 6 fonctions et de quelques "define",
+Le code de base est composé de seulement 6 fonctions et de quelques « define »,
 rien de bien extraordinaire.
 
 Le câblage des différentes lignes de contrôle est défini dès les premières
-lignes du code. Deux ports sont utilisés : le port C et le port B, ces deux
+lignes du code. Deux ports sont utilisés : le port C et le port B, ces deux
 ports sont disponibles sur l'ATMega1284p, mais aussi sur l'ATmega328p que l'on
 retrouve dans les cartes Arduino UNO. Et oui j'ai aussi pensé aux Arduinistes
 ;)
 
-Au niveau des fonctions bas niveau on trouve :
+Au niveau des fonctions bas niveau on trouve :
 
-+ **void dualShiftOut(red, green)** : cette fonction permet d'envoyer deux octets
-  suivant le même principe que la fonction Arduino "shiftOut" mais sur deux
++ **void dualShiftOut(red, green)** : cette fonction permet d'envoyer deux octets
+  suivant le même principe que la fonction Arduino « shiftOut » mais sur deux
   sorties (R et G) en simultané.
-+ **void lineShiftOut(line_red_buffer, line_green_buffer)** : cette fonction envoie
++ **void lineShiftOut(line_red_buffer, line_green_buffer)** : cette fonction envoie
   une ligne complète en utilisant la fonction ci-dessus, elle est aussi
   responsable de l'ordre d'envoi des blocs de 4 octets.
-+ **ISR(TIMER2_COMPA_vect)** : cette fonction d'interruption est appelée tous
++ **ISR(TIMER2_COMPA_vect)** : cette fonction d'interruption est appelée tous
   les 1/960ème de seconde pour rafraichir l'affichage.
 
-Cette fonction d'interruption fonctionne suivant le principe ci-dessous :
+Cette fonction d'interruption fonctionne suivant le principe ci-dessous :
 
 .. figure:: ledmatrix/refreshisr_flow.png
 
    Flowchart réalisé au moyen du logiciel yEd
 
 Vous remarquerez qu'en plus de faire l'affichage des lignes à intervalle
-régulier je gère aussi la rotation de deux buffers : un d'affichage et un de
-dessin. Cette méthode d'affichage s'appelle le « double buffering ».
+régulier je gère aussi la rotation de deux buffers : un d'affichage et un de
+dessin. Cette méthode d'affichage s'appelle le « double buffering ».
 
 .. note::
 
-    **Pourquoi faire du « double buffering » ?**
+    **Pourquoi faire du « double buffering » ?**
 
     Dessiner et afficher sont deux actions différentes, qui se font à deux
     vitesses différentes. L'affichage se fait à intervalle régulier fixe, le
@@ -314,40 +316,41 @@ dessin. Cette méthode d'affichage s'appelle le « double buffering ».
     L'affichage du buffer de dessin se fait donc en une seule fois,
     ce qui est beaucoup plus propre.
 
-Pour les fonctions haut niveau, elles sont au nombre de deux :
+Pour les fonctions haut niveau, elles sont au nombre de deux :
 
-+ **void setPixelAt(color, x, y, state)** : permet de manipuler l'état d'un
-  pixel dans le buffer de dessin.
-+ **getPixelAt(color, x, y)** : permet de lire l'état d'un pixel du buffer
++ **void setPixelAt(color, x, y, state)** : permet de manipuler l'état d'un
+  pixel dans le buffer de dessin ;
++ **getPixelAt(color, x, y)** : permet de lire l'état d'un pixel du buffer
   d'affichage.
 
-(on écrit dans le buffer de dessin, mais on lit dans le buffer d'affichage)
+(on écrit dans le buffer de dessin, mais on lit dans le buffer d'affichage.)
 
-La fonction main() dans ce programme de base est réduite au strict minimum :
+La fonction main() dans ce programme de base est réduite au strict minimum :
 
-+ Initialisation des entrées / sorties.
-+ Initialisation du timer permettant le rafraichissement à 960Hz.
-+ Boucle infinie remplissant pixel par pixel l'écran.
++ initialisation des entrées / sorties,
++ initialisation du timer permettant le rafraichissement à 960Hz,
++ boucle infinie remplissant pixel par pixel l'écran.
 
-**Programme n°2 : Game of life**
+Programme n°2 : Game of life
+****************************
 
 .. figure:: ledmatrix/prog_gof.JPG
 
-   Programme "Game of life"
+   Programme « Game of life »
 
 
 <iframe width="800" height="450" src="//www.youtube.com/embed/GJld3vLDpsY" frameborder="0" allowfullscreen></iframe>
 
 
 Ce programme est mon préféré, il est très simple et se rapproche énormément du
-programme de base. Seule une fonction "getAliveNeighbourCount" (compte le
+programme de base. Seule une fonction « getAliveNeighbourCount » (compte le
 nombre de cellules vivantes autour d'une cellule donnée) et une boucle de
 traitement ont été rajoutées. Le résultat est cependant extraordinairement
 complexe.
 
 .. note::
 
-    **Qu'est-ce que le « jeu de la vie » ?**
+    **Qu'est-ce que le « jeu de la vie » ?**
 
     Le jeu de la vie est un automate cellulaire imaginé par John Horton Conway
     en 1970, qui est à l'heure actuelle le plus connu de tous les automates
@@ -355,28 +358,29 @@ complexe.
     développement de motifs extrêmement complexes.
 
     Le jeu de la vie n'est pas vraiment un jeu au sens ludique, puisqu'il ne
-    nécessite aucun joueur ; il s'agit d'un automate cellulaire, un modèle où
+    nécessite aucun joueur ; il s'agit d'un automate cellulaire, un modèle où
     chaque état conduit mécaniquement à l'état suivant à partir de règles
     préétablies.
 
     Le jeu se déroule sur une grille à deux dimensions, théoriquement infinie
     (mais de longueur et de largeur finie et plus ou moins grande dans la
-    pratique), dont les cases — qu'on appelle des « cellules », par analogie
-    avec les cellules vivantes — peuvent prendre deux états distincts : «
-    vivantes » ou « mortes ».
+    pratique), dont les cases — qu'on appelle des « cellules », par analogie
+    avec les cellules vivantes — peuvent prendre deux états distincts :
+    « vivantes » ou « mortes ».
 
     Source : `wikipedia <http://fr.wikipedia.org/wiki/Jeu_de_la_vie>`_
 
 
-**Programme n°3 : Transformée rapide de Fourrier (FFT)**
+Programme n°3 : Transformée rapide de Fourrier (FFT)
+****************************************************
 
 .. figure:: ledmatrix/prog_fft_lin.JPG
 
-   Programme "FFT", mode linéaire
+   Programme « FFT », mode linéaire
 
 .. figure:: ledmatrix/prog_fft_log.JPG
 
-   Programme "FFT", mode logarithmique (ps : oui il y a bien un pixel mort)
+   Programme « FFT », mode logarithmique (PS : oui il y a bien un pixel mort)
 
 
 <iframe width="800" height="450" src="//www.youtube.com/embed/qfxvMXDwa5I" frameborder="0" allowfullscreen></iframe>
@@ -389,18 +393,18 @@ bandes de fréquence résultant du calcul (sur un total de 128 bandes).
 À noter que le code associé au calcul de la transformée (écrit en assembleur
 AVR et optimisé pour travailler sur des nombres réels (transformée connu sous
 le nom de FHT)) n'est pas de moi mais de `OpenMusicLabs
-<http://wiki.openmusiclabs.com/wiki/ArduinoFHT>`_. Ecrire un tel algorithme
+<http://wiki.openmusiclabs.com/wiki/ArduinoFHT>`_. Écrire un tel algorithme
 n'est pas du tout de mon niveau mathématique. Je me suis juste contenté d'y
 apporter des modifications mineures pour que celle-ci compile avec ma version
 d'AVRGCC bien plus récente que celle fournie avec l'ide Arduino.
 
-Le code reprend celui de base en ajoutant simplement une boucle de traitement /
-dessin par barre dans la fonction main() et une seconde fonction d'interruption
+Le code reprend celui de base en ajoutant simplement une boucle de traitement/dessin
+par barre dans la fonction main() et une seconde fonction d'interruption
 par timer pour l'échantillonnage audio.
 
 .. note::
 
-    Si vous êtes intéressés par le principe de fonctionnement de la transformée de Fourrier ces deux liens vous intéresseront :
+    Si vous êtes intéressés par le principe de fonctionnement de la transformée de Fourrier ces deux liens vous intéresseront :
 
     + `Fast Fourier transform — FFT
       <http://www.librow.com/articles/article-10>`_ (détails sur l'algorithme
@@ -411,7 +415,7 @@ par timer pour l'échantillonnage audio.
 
 .. figure:: ledmatrix/audio_in_schematic.png
 
-    Schéma du montage de conversion audio (+/- 1v) vers ADC (0~5v)
+    Schéma du montage de conversion audio (±1v) vers ADC (0~5v)
 
 .. figure:: ledmatrix/audio_in_breadboard.JPG
 
@@ -422,16 +426,14 @@ Pour fonctionner ce programme a besoin de capturer à intervalle régulier un
 tension entre -1v et +1v il est nécessaire d'adapter ce signal avant de
 l'envoyer sur l'entrée analogique du microcontrôleur.
 
-Pour ce faire j'utilise
-un classique montage amplificateur non inverse à ampli-op. Ce montage amplifie
-le signal 2.5 fois avant de le recentrer sur 2.5v au moyen d'un « bias ».
+Pour ce faire j'utilise un classique montage amplificateur non inverse
+à ampli-op. Ce montage amplifie le signal 2.5 fois avant de le recentrer
+sur 2.5v au moyen d'un « bias ».
 
 .. note::
 
     + La résistance de 33 ohms sert de charge pour la sortie audio, sans charge
-      la plupart des cartes son ne sortent pas de signal.
-
-    + La diode zener
-      permet de limiter la tension au niveau de l'entrée analogique du
-      microcontrôleur à 5v par mesure de sécurité.
+      la plupart des cartes son ne sortent pas de signal ;
+    + La diode zener permet de limiter la tension au niveau de l'entrée
+      analogique du microcontrôleur à 5v par mesure de sécurité.
 
