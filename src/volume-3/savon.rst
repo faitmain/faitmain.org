@@ -187,10 +187,9 @@ Pour conclure
 :::::::::::::
 
 Voilà, j'espère que cette petite introduction à la savonnerie
-vous aura plu, n'hésitez pas à expérimenter vos propres mélanges. Vous
-trouverez ici un calculateur pour avoir les bons dosages :
-http://www.thesage.com/calcs/lyecalc2.php Et pour finir, mon article original :
-http://www.rhaaa.fr/diy-du-savon-fait-maison
+vous aura plu, n'hésitez pas à expérimenter vos propres mélanges.
+`Un calculateur pour avoir les bons dosages <//www.thesage.com/calcs/lyecalc2.php>`_
+et pour finir, `mon article original <//www.rhaaa.fr/diy-du-savon-fait-maison>`_.
 
 
 
