@@ -35,7 +35,9 @@ plus intéressantes…
 
 .. image:: bleuette/plexi_0.jpg
    :width: 300px
-   :alt: Vue globale de Bleuette en Plexiglass (les 6 pattes en plexiglass montées sur une plaque en plexiglass, reliées à des servo-moteurs avec pleins de fils).
+   :alt: Vue globale de Bleuette en Plexiglass (les 6 pattes en plexiglass
+         montées sur une plaque en plexiglass, reliées à des servo-moteurs avec
+         pleins de fils).
    :target: bleuette/plexi_0.jpg
 
 .. image:: bleuette/plexi_1.jpg
@@ -75,12 +77,14 @@ est fait en plusieurs parties assemblées par des queues d'arondes,
 
 .. image:: bleuette/openscad_2.png
    :width: 300px
-   :alt: Figure de pièces du corps de Bleuette à emcastrer (comme un puzzle) via OpenSCAD.
+   :alt: Figure de pièces du corps de Bleuette à encastrer (comme un puzzle) via OpenSCAD.
    :target: bleuette/openscad_2.png
 
 .. image:: bleuette/impression.jpeg
    :width: 300px
-   :alt: Pièce du corps de Bleuette en cours d’impression avec une imprimante 3D à extrusion de thermofilament avec axe mobile sur les axes X et Y et plateau mobile sur l’axe Z.
+   :alt: Pièce du corps de Bleuette en cours d’impression avec une imprimante
+         3D à extrusion de thermofilament avec axe mobile sur les axes X et Y et
+         plateau mobile sur l’axe Z.
    :target: bleuette/impression.jpeg
 
 .. image:: bleuette/openscad_1.png
