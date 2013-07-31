@@ -9,6 +9,8 @@ Horloge Arducomtoise
 
 
 .. figure:: comtoise/arducomtoise2.jpg
+   :alt:    Arducomtoise et son vieux cadre rond à chiffres romains
+   :target: comtoise/arducomtoise2.jpg 
 
   ArduComtoise, l'horloge comtoise la plus précise du monde
 
@@ -104,6 +106,8 @@ Deuxième approche: feedback
 :::::::::::::::::::::::::::
 
 .. figure:: comtoise/feedback.jpg
+   :alt:    Dispositif métallique relié à un fil rouge et à une palette en plastique transparent un peu pliée par l’aiguille qu’elle bloque
+   :target: comtoise/feedback.jpg 
 
    Le capteur de feedback
 
@@ -211,6 +215,8 @@ Indicateurs et accessoires
 ::::::::::::::::::::::::::
 
 .. figure:: comtoise/montage.jpg
+   :alt:    Montage d’une Arduino reliée via pleins de câbles de couleurs différentes à la batterie, au dispositif précédemment décrit (hors-champ) et à un petit écran LCD (décrivant diverses données comme l’heure précise, le compte, leurs références, etc.) collé sur un circuit imprimé, le tout tenu collé sur un montage en bois.
+   :target: comtoise/montage.jpg 
 
    Le montage
 
@@ -443,5 +449,5 @@ Le code
 Je vous livre enfin le code complet du système. Ma formation universitaire étant
 l'Histoire, je compte sur l'indulgence des développeurs professionnels !
 
-`Télécharger le code de l'ArduComtoise <comtoise/arduComtoiseFinal.ino>`_
+`Le code de l'ArduComtoise. <comtoise/arduComtoiseFinal.ino>`_
 
