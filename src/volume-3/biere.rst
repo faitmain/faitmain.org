@@ -128,7 +128,7 @@ qui se font un plaisir de le fermenter pendant 2 à 3 semaines. En fût d'abord,
 puis en bouteilles où le gaz généré n'aura d'autre solution que de se dissoudre
 dans la bière pour lui donner ses propriétés bulleuses.
 
-XXX Alexis fait un petit dessin
+.. figure:: biere/schema.jpg
 
 Concassage
 ----------
