@@ -18,8 +18,8 @@ j'avais envie de pousser un peu plus le projet pour faire un `Ghetto Blaster
 <https://fr.wikipedia.org/wiki/Radiocassette>`_ qui puisse streamer de la musique
 via le wifi de la maison, avec un son digne de ce nom.
 
-Il existe des solutions commerciales comme le Bose Soundlink ou le Jawbone JAMBOX -
-mais il faut compter un budget de 400 euros - et franchement, quand on sait
+Il existe des solutions commerciales comme le Bose Soundlink ou le Jawbone JAMBOX
+— mais il faut compter un budget de 400 euros — et franchement, quand on sait
 ce qu'il y a à l'intérieur de ces enceintes, on paye surtout le design et
 la marque. De plus, une enceinte amplifiée à base de Raspberry-PI offre
 beaucoup plus de possibilitées vu que c'est programmable.
@@ -49,7 +49,7 @@ il faut pour tenir les enceintes avec des petites vis.
 Pour l'amplification j'ai opté pour un petit amplificateur
 `Lepai 20 Watts 2 voies <http://www.amazon.fr/Lepai-Tripath-class-T-Amplificateur-acoustique/dp/B009US84UQ/>`_
 qui permet quelques réglages basses/medium/aigues,
-et dont le panneau frontal se dévisse - Payé 25 euros
+et dont le panneau frontal se dévisse — payé 25 euros
 sur Amazon.
 
 .. figure:: ghetto/ampli.jpg
@@ -78,7 +78,7 @@ de mes enceintes de salon*. La valise vombrie avec les
 basses et les rend bien, sans aucune vibration parasite.
 
 J'ai fais des essais en rembourrant la valise avec de
-l'isolant, mais c'est moins bien - ca étouffe le son et
+l'isolant, mais c'est moins bien — ça étouffe le son et
 tue les basses.
 
 
@@ -87,12 +87,12 @@ Alimentation
 
 Avoir une alimentation stable & portative était le gros challenge
 de ce projet: comment faire pour fournir les 12v que
-l'amplificateur requiert, ainsi que les 5v pour le Raspberry ?
+l'amplificateur requiert, ainsi que les 5v pour le Raspberry ?
 
 Au début j'ai pensé à équiper la valise d'une `batterie au plomb
 <https://fr.wikipedia.org/wiki/Batterie_au_plomb>`_
 qui est similaire à celles qui équipent les voitures, mais
-j'ai très vite déchanté sur le prix et le poids - et aussi
+j'ai très vite déchanté sur le prix et le poids — et aussi
 le coté pas très écologique.
 
 J'ai ensuite pensé à monter moi-même un train de 4 batteries
@@ -100,7 +100,7 @@ Li-Po 3.6v, mais ce genre de montage est assez technique car
 il faut s'assurer que toutes les batteries sont toujours
 chargées au même niveau et aussi ne jamais descendre en
 dessous d'une certaine charge. Et puis bon, c'est
-`dangeureux tout ça... <https://www.youtube.com/watch?v=ixIOEPnsgbI>`_
+`dangeureux tout ça… <https://www.youtube.com/watch?v=ixIOEPnsgbI>`_
 
 Grâce à Jonathan j'ai finalement trouvé une Li-Po de 12v et
 6.8A sur AliBaba très compacte et légère. Guère plus grosse que
@@ -131,7 +131,7 @@ Régulation de tension
 :::::::::::::::::::::
 
 Pour transformer une tension de 12v
-en 5v il y a deux méthodes: utiliser une séries de résistances
+en 5v il y a deux méthodes : utiliser une séries de résistances
 pour simplement diviser le voltage, ou utiliser un semi-conducteur
 spécialisé comme le `LM1117 <http://hackspark.fr/fr/ld1117-lm1117-5v-ldo-voltage-regulator-1-3a-to220.html>`_
 qui, accompagné de quelques condensateurs, va faire tout
@@ -160,10 +160,10 @@ résistance, histoire de montrer que le circuit tourne.
 
 En utilisation, le régulateur chauffe beaucoup puisqu'il dissipe
 l'excès de tension, et il peut être équipé d'un petit radiateur
-à visser - j'en ai récupéré un sur une vieille plaque électronique
+à visser — j'en ai récupéré un sur une vieille plaque électronique
 pour ce montage.
 
-Après quelques soudures, un magnifique régulateur de tension!
+Après quelques soudures, un magnifique régulateur de tension !
 
 .. figure:: ghetto/ghetto8.jpg
 
@@ -173,14 +173,14 @@ Après quelques soudures, un magnifique régulateur de tension!
 Avec un son assez fort, l'ensemble tient 3 à 4 heures, ce qui
 n'est pas mal du tout.
 
-Les deux évolutions possibles pour la partie alimentation sont:
+Les deux évolutions possibles pour la partie alimentation sont :
 
 - un afficheur de charge restante, qui peut être réalisé avec
   un chip `LM3914 <http://www.ti.com/lit/ds/symlink/lm3914.pdf>`_
   qui est capable de gérer jusqu'à 10 LEDs, et ce
-  `joli afficheur 10 leds <http://uk.rs-online.com/web/p/led-displays/2465689/>`_.
+  `joli afficheur 10 leds <http://uk.rs-online.com/web/p/led-displays/2465689/>`_ ;
 
-- Un bouton pour éteindre le système sans arrêter brutalement
+- un bouton pour éteindre le système sans arrêter brutalement
   le Rapsberry-Pi. Ce petit circuit peut être réalisé en
   pilotant l'extinction du Raspberry via son port GPIO comme
   comme expliqué `ici <http://www.raspberrypi.org/phpBB3/viewtopic.php?f=37&t=42449>`_,
@@ -224,7 +224,7 @@ avec une entrée.
 
 
 Cette carte est reconnue tout de suite sur la Raspbian comme périphérique
-audio USB, et en modifiant le fichier **/etc/asound.conf** comme suis:
+audio USB, et en modifiant le fichier **/etc/asound.conf** comme suit :
 
 .. code-block:: bash
 
@@ -245,7 +245,7 @@ Coté logiciel, après avoir déployé une Raspbian de base, j'ai suivi la même
 installation que pour le précédent Jukebox, `expliquée ici
 <http://faitmain.org/volume-1/raspberry-jukebox.html#configuration-de-base-et-wifi>`_
 puis en lieu et place de l'application JukeBox,
-j'ai déployé le logiciel `Mopidy <https://docs.mopidy.com>`_ comme suis:
+j'ai déployé le logiciel `Mopidy <https://docs.mopidy.com>`_ comme suit :
 
 .. code-block:: bash
 
@@ -255,15 +255,15 @@ j'ai déployé le logiciel `Mopidy <https://docs.mopidy.com>`_ comme suis:
     sudo apt-get install mopidy
 
 Mopidy est un serveur de musique qui permet de jouer de la musique de
-plusieurs sources différentes: fichiers sur le disque, radios internet,
+plusieurs sources différentes : fichiers sur le disque, radios internet,
 tout type de stream compatible.
 
 Mopidy se base sur un `serveur MPD <http://doc.ubuntu-fr.org/mpd>`_
 (Music Player Daemon) et est compatible avec tous les clients MPD du
-marché - Il y en a pour Android, Linux, Mac OS X, Windows.
+marché — il y en a pour Android, GNU/Linux, Mac OS X, Windows.
 
 En d'autre termes, la valise pourra être pilotée via un téléphone
-une tablette ou un laptop !
+une tablette ou un laptop !
 
 J'ai installé l'extension `Mopidy-Spotify <https://mopidy.readthedocs.org/en/latest/ext/spotify.html>`_
 qui permet à Mopidy de se connecter à un compte Spotify pour streamer de la musique.
@@ -274,7 +274,7 @@ qui permet à Mopidy de se connecter à un compte Spotify pour streamer de la mu
 
 
 Il suffit ensuite de configurer Mopidy en ajoutant une section **spotify** dans le
-fichier **~/.config/mopidy/mopidy.conf**:
+fichier **~/.config/mopidy/mopidy.conf** :
 
 .. code-block:: ini
 
