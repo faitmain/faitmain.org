@@ -1,7 +1,7 @@
 Cave à cigares
 ==============
 
-:date: 2013-08-01
+:date: 2013-07-07
 :category: autre
 :level: vulgarisation
 :author: Sébastien Riguet
@@ -64,6 +64,8 @@ j'ai pu réaliser assez rapidement et facilement des plans de base. Le principe
 est relativement simple, il s'agit d'un coffret en bois avec un intérieur doublé.
 
 .. figure:: cave_cigares/plan-concept.jpg
+   :alt:    Dessin de coffre en bois rectangulaire, aussi haut que large, avec exterieur marron clair et doublure intérieur marron plus foncé + un hygromètre sur le coté intérieur du couvercle avec un humidificateur gris rectangulaire dessous.
+   :target: cave_cigares/plan-concept.jpg
 
     Les plans de base
 
@@ -71,6 +73,8 @@ En optant pour un style simple et naturel, et pour une capacité
 d'environ 40 cigares, cela donnera :
 
 .. figure:: cave_cigares/cave-cigares-terminee.jpg
+   :alt:    Coffre cubique en bois marron clair avec doublure en bois (de même couleur) avec l’humidificateur noir rectangulaire sur le coté intérieur du couvercle et un hygromètre placé dans le coffre.
+   :target: cave_cigares/cave-cigares-terminee.jpg
 
     Résultat final
 
@@ -79,6 +83,8 @@ environ pour maintenir le couvercle ouvert sans risquer de faire basculer la cav
 à cigares en arrière.
 
 .. figure:: cave_cigares/charnieres-autobloquantes.jpg
+   :alt:    Charnières autobloquantes placés derrière le coffre afin de le soutenir pour empêcher celui-ci de trop s’ouvrir et de basculer en arrière.
+   :target: cave_cigares/charnieres-autobloquantes.jpg
 
     Les charnières auto-bloquantes à 95° environ
 
@@ -107,6 +113,8 @@ Au niveau matériel, il nous faudra, électroportatif ou non :
 
 
 .. figure:: cave_cigares/le-materiel.jpg
+   :alt:    Planches, humidificateur, hygromètre, sciè, équerre, colle, etc.
+   :target: cave_cigares/le-materiel.jpg
 
     Le matériel nécessaire
 
@@ -126,14 +134,20 @@ J'ai choisi un assemblage en onglet pour ma cave à cigares.
 Voici les découpes pour l'assemblage en onglet :
 
 .. figure:: cave_cigares/decoupes-doublure.jpg
+   :alt:    Deux planches de 240mm×95mm et deux planches de 280mm×95mm, avec les bords coupés à 45° pour les permettre de s’assembler.
+   :target: cave_cigares/decoupes-doublure.jpg
 
    Découpe de la doublure intérieure en cèdre d'Espagne
 
 .. figure:: cave_cigares/decoupes-structure.jpg
+   :alt:    Deux planches 276mm×108mm, deux planches de 316mm×108mm avec les bords coupés à 45° pour les permettre de s’assembler et une planche de 280mm×240mm, le tout avec une épaisseur de bois de 18mm.
+   :target: cave_cigares/decoupes-structure.jpg
 
    Découpe de la structure extérieure et du socle
 
 .. figure:: cave_cigares/decoupes-couvercle.jpg
+   :alt:    Deux planches de 276mm×18mm et deux planches de 316mm×18mm avec les bords coupés à 45° pour les permettre de s’assembler, et une planche de 316mm×276mm, le tout avec une épaisseur de bois de 18mm.
+   :target: cave_cigares/decoupe-couvercle.jpg
 
    Découpe du couvercle
 
@@ -153,6 +167,8 @@ structure de base. Pour cela, il faut coller les bords extérieurs (sur les cham
 de la cave à cigares avec de la colle à bois.
 
 .. figure:: cave_cigares/assemblage-base.jpg
+   :alt:    Assemblage final de la base du coffre, sans doublure ni couvercle, le tout collé avec de la colle à bois et soutenu par une armature en métal en croix avec vis le temps qu’elle sèche.
+   :target: cave_cigares/assemblage-base.jpg
 
    Assemblage de la structure de base avec le socle
 
@@ -167,6 +183,8 @@ avec les charnières auto-bloquantes qui infligeront un choc à chaque ouverture
 esthétique, j'ai directement intégré le plaquage en cèdre d'Espagne au niveau du couvercle.
 
 .. figure:: cave_cigares/assemblage-couvercle.jpg
+   :alt:    Les quatres planches longues collés sur la planche en bois du couvercle.
+   :target: cave_cigares/assemblage-couvercle.jpg
 
    Assemblage du couvercle
 
@@ -180,6 +198,8 @@ Une fois toutes les retouches éventuelles effectuées, on colle le plaquage en 
 sur le socle, puis on intégre la doublure intérieure.
 
 .. figure:: cave_cigares/assemblage-doublure.jpg
+   :alt:    Assemblage de la doublure dans la base du coffre, toujours soutenu par l’armature en métal qui se visse.
+   :target: cave_cigares/assemblage-doublure.jpg
 
    Intégration de la doublure intérieure
 
@@ -191,6 +211,8 @@ on réalise l'assemblage de la base et du couvercle en vissant les charnières s
 de la cave.
 
 .. figure:: cave_cigares/charnieres-autobloquantes.jpg
+   :alt:    Charnières auto-bloquantes vissées à l’arrière du coffre pour soutenir le couvercle soulevé.
+   :target: cave_cigares/charnieres-autobloquantes.jpg
 
    Mise en place des charnières
 
@@ -208,6 +230,8 @@ l'humidificateur et l'hygromètre. Pour cela, on fixe, selon les modèles, avec�
 Et voilà le résultat final :
 
 .. figure:: cave_cigares/cave-cigares-terminee.jpg
+   :alt:    Cave à cigares terminée, avec l’hygromètre placé à l’intérieur, l’humidificateur sur l’intérieur du couvercle et le tout correctement assemblé, avec le couvercle soutenu par les charnières auto-bloquantes.
+   :target: cave_cigares/cave-cigares-terminee.jpg
 
    La cave à cigares terminée et fonctionnelle
 
