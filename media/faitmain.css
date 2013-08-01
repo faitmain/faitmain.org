@@ -19,21 +19,21 @@
   font-style: normal;
   font-weight: bold;
   src: local('LinLibertine'),
-       url('fonts/LinLibertine_Bd-4.1.5.ttf');
+       url('fonts/LinLibertine_Bd-4.1.5.woff');
 }
 @font-face {
   font-family: 'LinLibertine';
   font-style: italic;
   font-weight: normal;
   src: local('LinLibertine'),
-       url('fonts/LinLibertine_It-4.2.6.ttf');
+       url('fonts/LinLibertine_It-4.2.6.woff');
 }
 @font-face {
   font-family: 'LinLibertine';
   font-style: italic;
   font-weight: bold;
   src: local('LinLibertine'),
-       url('fonts/LinLibertine_BI-4.1.0.ttf');
+       url('fonts/LinLibertine_BI-4.1.0.woff');
 }
 
 @font-face {
@@ -41,7 +41,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('LinBiolinum'),
-       url('fonts/LinBiolinum_Re-0.6.4.ttf');
+       url('fonts/LinBiolinum_Re-0.6.4.woff');
 }
 
 body {font-family:'LinLibertine',Times,serif;}

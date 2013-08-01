@@ -1,7 +1,7 @@
 L'hexapode Bleuette
 ===================
 
-:date: 2013-06-03
+:date: 2013-08-01
 :category: informatique,électronique
 :level: vulgarisation
 :author: Charles Rincheval

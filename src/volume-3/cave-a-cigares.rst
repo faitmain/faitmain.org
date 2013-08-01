@@ -1,7 +1,7 @@
 Cave à cigares
 ==============
 
-:date: 2013-07-07
+:date: 2013-08-01
 :category: autre
 :level: vulgarisation
 :author: Sébastien Riguet

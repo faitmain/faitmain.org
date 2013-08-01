@@ -1,7 +1,7 @@
 Un cadre numérique pas comme les autres
 =======================================
 
-:date: 2013-07-15
+:date: 2013-08-01
 :category: électronique,informatique
 :level: moyen
 :author: Fabien Batteix
