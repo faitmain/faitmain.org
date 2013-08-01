@@ -70,9 +70,10 @@ Liste des ingrédients :
 - huile essentielle de lavande.
 
 .. figure:: savon/1.JPG
-
+   :alt:    Pot d’huile de coco ouvert avec le couvercle plus loin, à coté d’une bouteille d’huile d’olive, à coté d’un bot de soude caustique sur lequel est posé une petite bouteillette d’huile essentielle de lavande, le tout posé sur une table.
+   :target: savon/1.JPG
+   
   Les ingrédients nécessaires
-
 
 Cette recette vous donnera un savon assez gras, très doux. À l'origine, j'avais
 mis de l'huile essentielle de vanille, mais l'huile d'olive ayant une odeur
@@ -86,11 +87,13 @@ Peser les différents ingrédients. Avec un peu de pratique, on se rend compte
 que c'est beaucoup plus facile d'avoir tous les ingrédients déjà pesés, prêts
 à être utilisés. N'oubliez pas de tarer vos récipents avant de peser !
 
-+-------------------------------------+----------------------------------------+
-| .. figure:: savon/2.JPG             | .. figure:: savon/3.JPG                |
-+-------------------------------------+----------------------------------------+
-|   Le pesage de la soude             |     …et de l'huile de coco             |
-+-------------------------------------+----------------------------------------+
++---------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+| .. figure:: savon/2.JPG                                             | .. figure:: savon/3.JPG                                                                |
+|    :alt:    Paquet de soude posé sur le papier posé sur une balance |    :alt:    Huile de coco mis à l’aide d’une cuillière dans un bol posé sur la balance | 
+|    :target: savon/2.JPG                                             |    :target: savon/3.JPG                                                                |
++---------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|                     Le pesage de la soude                           |                                  …et de l'huile de coco                                |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Seconde étape
 :::::::::::::
@@ -119,6 +122,8 @@ mélanger progressivement l'huile d'olive, en mélangeant bien, puis incorporez
 l'huile de coco.
 
 .. figure:: savon/4.JPG
+   :alt:    Mélange d’huile d’olive, d’huile de coco, d’eau et de soude dans un saladier.
+   :target: savon/4.JPG
 
   Le mélange des huiles. La saponification va commencer, tout doucement.
 
@@ -146,6 +151,8 @@ huiles essentielles. Comptez une bonne trentaine de gouttes pour bien parfumer
 (l'odeur aura tendance à diminuer avec le séchage).
 
 .. figure:: savon/5.JPG
+   :alt:    Mélange devenu visqueux à en laisser une trace (la cuillère supendue au dessus fait tomber des goutes qui laissent une trace dans le liquide visqueux dont la surface n’est plus plate).
+   :target: savon/5.JPG
 
   La trace
 
@@ -160,9 +167,10 @@ utilisez des moules fait en une autre matière, graissez les un peu avant de
 couler le savon, le démoulage en sera facilité.
 
 .. figure:: savon/6.JPG
+   :alt:    Savon coulé dans des moules et recouvert d’un film plastique.
+   :target: savon/6.JPG
 
   Le moulage
-
 
 Dernière étape
 ::::::::::::::
