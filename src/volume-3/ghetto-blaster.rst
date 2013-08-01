@@ -9,9 +9,10 @@ Valise Ghetto Blaster
 
 
 .. figure:: ghetto/ghetto1.jpg
+   :alt:    Valise Ghetto Blaster avec ses réglages sur le dessus.
+   :target: ghetto/ghetto1.jpg
 
    Valise Ghetto Blaster
-
 
 Après le `Juke Box du premier numéro <http://faitmain.org/volume-1/raspberry-jukebox.html>`_,
 j'avais envie de pousser un peu plus le projet pour faire un `Ghetto Blaster
@@ -27,7 +28,6 @@ beaucoup plus de possibilitées vu que c'est programmable.
 Enceintes & ampli
 :::::::::::::::::
 
-
 En fouillant dans ma cave, j'ai trouvé deux enceintes trois voies Panasonic
 de 100 Watts (en vrai 25W RMS) qui étaient dans mon ancienne voiture, et
 une valise en aluminium qui contenait des outils. C'est la valise
@@ -42,9 +42,10 @@ d'un gros cutter. La couche d'aluminium est juste comme
 il faut pour tenir les enceintes avec des petites vis.
 
 .. figure:: ghetto/ghetto4.jpg
+   :alt:    Enceinte Pioneer poussièreuse vissée dans la valise.
+   :target: ghetto/ghetto4.jpg
 
    Enceinte vissée dans la valise
-
 
 Pour l'amplification j'ai opté pour un petit amplificateur
 `Lepai 20 Watts 2 voies <http://www.amazon.fr/Lepai-Tripath-class-T-Amplificateur-acoustique/dp/B009US84UQ/>`_
@@ -53,6 +54,8 @@ et dont le panneau frontal se dévisse — payé 25 euros
 sur Amazon.
 
 .. figure:: ghetto/ampli.jpg
+   :alt:    Ampli Lepai 20W avec un bouton On/Off, un bouton tone/direct, un réglage Treble, un réglage Bass et un réglage Volume.
+   :target: ghetto/ampli.jpg
    :scale: 25
    :figclass: pull-right margin-left
    :align: right
@@ -65,9 +68,10 @@ aurait été de fabriquer mon propre ampli, mais je n'en suis
 pas encore à ce niveau là.
 
 .. figure:: ghetto/ghetto3.jpg
+   :alt:    Réglages de l’ampli inséré dans la valise et vu depuis l’extérieur de celle-ci.
+   :target: ghetto/ghetto3.jpg
 
    Panneau de l'ampli repassé à l'extérieur.
-
 
 Après deux points de soudures pour relier du fil éléctrique
 entre les enceintes et l'ampli, j'ai pu essayer le son avec
@@ -108,6 +112,8 @@ celle que l'on trouve dans les avions ou voitures radio-commandé,
 avec toutes les protections nécessaires.
 
 .. figure:: ghetto/batterie.jpg
+   :alt:    Batterie Li-Po 12v 6800mA avec les câbles qui vont avec.
+   :target: ghetto/batterie.jpg
    :scale: 33
    :figclass: pull-right margin-left
    :align: right
@@ -120,9 +126,10 @@ avec un peu de carton entre les deux pour éviter
 une surchauffe.
 
 .. figure:: ghetto/ghetto5.jpg
+   :alt:    Batterie calée sous l’ampli.
+   :target: ghetto/ghetto5.jpg
 
    L'ampli et la batterie calés dans la valise.
-
 
 Reste à fabriquer un petit régulateur pour ajouter une deuxième
 sortie de 5v à la batterie.
@@ -147,6 +154,8 @@ pour ne pas se tromper de pattes - elles sont différentes
 en fonction des modèles.
 
 .. figure:: ghetto/Voltage-Regulator.png
+   :alt:    Schéma du circuit de régulation de tension.
+   :target: ghetto/Voltage-Regulator.jpg
    :scale: 75
 
    Schéma du circuit de régulation de tension.
@@ -166,9 +175,10 @@ pour ce montage.
 Après quelques soudures, un magnifique régulateur de tension !
 
 .. figure:: ghetto/ghetto8.jpg
+   :alt:    Plaque électronique de montage en matrice où sont placés et sodués divers composants constituant le régulateur de tension.
+   :target: ghetto/ghetto8.jpg
 
    Régulateur 12v -> 5v. Le LM1117 est masqué par le radiateur.
-
 
 Avec un son assez fort, l'ensemble tient 3 à 4 heures, ce qui
 n'est pas mal du tout.
@@ -187,7 +197,6 @@ Les deux évolutions possibles pour la partie alimentation sont :
   et un `timer 555 <http://555-timer-circuits.com>`_ pour l'extinction
   finale de la batterie.
 
-
 Wifi
 ::::
 
@@ -202,12 +211,12 @@ J'ai donc opté pour un dongle `Logilink WL0151 <http://www.amazon.fr/gp/product
 avec une antenne wifi integrée qui dépasse à l'extérieur de la valise.
 
 .. figure:: ghetto/ghetto6.jpg
+   :alt:    Câble USB branché à la dongle WiFi LogiLink avec son antenne sortant de la valise.
+   :target: ghetto/ghetto6.jpg
 
    Le dongle Wifi avec antenne extérieure.
 
-
 Vu que c'est du Ralink, cette puce est plug-n-play sur Raspbian.
-
 
 Carte son
 :::::::::
@@ -218,10 +227,11 @@ une carte son `Dacomex USB <http://www.amazon.fr/gp/product/B002CIDHYE>`_
 avec une entrée.
 
 .. figure:: ghetto/son.jpg
+   :alt:    Tout petit bloc noir avec d’un coté un port mâle USB, de l’autre deux ports femelle sortie audio jack et entrée micro jack.
+   :target: ghetto/son.jpg
    :scale: 25
 
    Carte son Dacomex
-
 
 Cette carte est reconnue tout de suite sur la Raspbian comme périphérique
 audio USB, et en modifiant le fichier **/etc/asound.conf** comme suit :
@@ -234,9 +244,7 @@ audio USB, et en modifiant le fichier **/etc/asound.conf** comme suit :
         device 0
     }
 
-
 Elle sera utilisé comme carte son par défaut.
-
 
 Logiciels
 :::::::::
@@ -271,7 +279,6 @@ qui permet à Mopidy de se connecter à un compte Spotify pour streamer de la mu
 .. code-block:: bash
 
     sudo apt-get install libspotify12 python-spotify
-
 
 Il suffit ensuite de configurer Mopidy en ajoutant une section **spotify** dans le
 fichier **~/.config/mopidy/mopidy.conf** :
