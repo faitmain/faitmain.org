@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('LinLibertine'),
-       url('fonts/LinLibertine_Re-4.7.5.ttf');
+       url('fonts/LinLibertine_Re-4.7.5.woff');
 }
 @font-face {
   font-family: 'LinLibertine';
