@@ -435,7 +435,7 @@ balancier, il était très important que l'Arduino ne se remette pas à zéro en
 cas de coupure de courant par exemple.
 
 J'ai donc intercalé un module `LipoRider
-<faitmain.org/volume-2/batterie.html>`_ qui permet à une batterie de 2000 mAh
+<http://faitmain.org/volume-2/batterie.html>`_ qui permet à une batterie de 2000 mAh
 de prendre momentanément le relais en cas de défaillance de l'alimentation
 principale. Avec le capteur sur aiguille de la deuxième approche cette
 précaution se justifie moins, mais je l'ai tout de même laissée.
