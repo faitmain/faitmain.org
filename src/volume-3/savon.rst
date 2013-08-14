@@ -44,7 +44,7 @@ problème votre peau, ou pire, vos yeux. Donc, gants et lunettes de protections
 obligatoires ! En cas de projection, rincer abondamment à l'eau (s'il s'agit
 d'une petite zone sur la main, ça devrait suffire, s'il s'agit du visage ou des
 yeux, faites appeller le centre anti-poison pour connaître la marche à suivre,
-pendant que vous rincez abondamment à l'eau. La protection du corps, c'est
+pendant que vous rincez abondamment à l'eau). La protection du corps, c'est
 bien, mais il faut penser à un autre point important : les récipients et
 ustensiles.
 
