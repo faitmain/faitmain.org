@@ -13,6 +13,8 @@ L'électronique en pratique
 ::::::::::::::::::::::::::
 
 .. figure:: livres/pratique.jpg
+   :alt:    Titre (tirets pour saut de ligne) « L’électronique — en pratique — 36 expériences ludiques » suivi d’une photo cadrillée d’un montage électronique sur une board de montage électronique en matrice.
+   :target: livres/pratique.jpg
    :figclass: pull-right margin-left
    :target: http://serialmakers.com/livres/decouvrez-lelectronique/
    :scale: 75
@@ -53,6 +55,8 @@ Encyclopedia of Electronic Components Vol. 1
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: livres/encyc.jpg
+   :alt:    Titre (sauts de lignes indiqués par des tirets) « Encyclopedia of — Electronic — Components » suvi d’une mosaïque de composants électroniques.
+   :target: livres/encyc.jpg
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/dp/B00DJG6JJ8
    :scale: 50
@@ -90,6 +94,8 @@ Raspberry-Pi — Prise en main et premières réalisations
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: livres/rpi.jpg
+   :alt:    Titre (sauts de lignes indiqués par des tirets) « Raspberry Pi — Prise en main — et premières réalisations » suivi d’une photo en gros plan du milieu de la Raspberry-Pi, avec son logo sur le circuit imprimé.
+   :target: livres/rpi.jpg
    :figclass: pull-right margin-left
    :target: http://www.dunod.com/loisirs-scientifiques-techniques/ouvrages-pour-amateurs/raspberry-pi
    :scale: 75
