@@ -104,7 +104,8 @@
         <li class="nav-header" style="color:black">Archives</li>
         <li><a title="Volume 1" href="${config['siteurl']}/volume-1/index.html">Volume 1</a></li>
         <li><a title="Volume 2" href="${config['siteurl']}/volume-2/index.html">Volume 2</a></li>
-        
+        <li><a title="Volume 3" href="${config['siteurl']}/volume-3/index.html">Volume 3</a></li>
+
         <li class="nav-header" style="color:black">Social</li>
         <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a></li>
         <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a></li>
