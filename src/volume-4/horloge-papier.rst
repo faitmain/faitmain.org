@@ -381,8 +381,8 @@ instructable, et que votre horloge marche bien. Je mettrai à jour cet
 instructable selon les ajustements que je prévois de faire pour mieux afficher
 les chiffres. La vidéo arrive bientot.
 
-.. figure:: horloge-papier/step11.jpg
-   :target: horloge-papier/step11.jpg
+.. figure:: horloge-papier/step-11.jpg
+   :target: horloge-papier/step-11.jpg
 
 Si vous aimez ce projet, merci de voter pour lui sur instructables:
 http://www.instructables.com/id/DigitalAnalog-Clock-Arduino-PaperCraft/step11/Finish/ 
