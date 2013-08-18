@@ -1,7 +1,7 @@
 Horloge analogique / digitale - Arduino + papier
 ################################################
 
-:author: alstroemeria
+:author: Jacky Mok
 :translator: Alexis Métaireau, f4grx
 :level: avancé
 :category: art,informatique
