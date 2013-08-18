@@ -48,9 +48,8 @@ un ePub, voir un magazine papier au format un peu plus léché.
 Le site utilise `Bootstrap <http://twitter.github.com/bootstrap/>`_ pour un rendu correct
 sur tous les périphériques. Les icônes sont de chez `Glyphicons <http://glyphicons.com>`_.
 
-Le design est un derivé du thème *Amelia* du projet Bootswatch de
-`Thomas Park <http://thomaspark.me>`_. Les polices de caractères viennent
-de `Google Fonts <http://www.google.com/webfonts>`_
+Le design à été réalisé par `Raphaël Bastide <http://raphaelbastide.com/>`_
+avec joie et amour.
 
 Chaque lien sortant est transformé en short link avec https://github.com/faitmain/short.faitmain.org.
 Cette redirection permet de corriger d'éventuels liens cassés de manière
