@@ -34,13 +34,13 @@ Pourquoi ce choix ?
 - cela donne un côté très DIY au résultat final, ce qui n'est pas négligeable.
 
 .. figure:: ledmatrix/matrix_front.JPG
-   :alt:    Plaquettes de matrices de led 8×8 mises ensembles en deux rangées de quatres plaquettes.
+   :alt: Plaquettes de matrices de led 8×8 mises ensembles en deux rangées de quatres plaquettes.
    :target: ledmatrix/matrix_front.JPG
 
    Avant d'une matrice de leds une fois montée.
 
 .. figure:: ledmatrix/matrix_back.JPG
-   :alt:    Circuits imprimés collés au dos des plaquettes de matrices de leds.
+   :alt: Circuits imprimés collés au dos des plaquettes de matrices de leds.
    :target: ledmatrix/matrix_back.JPG
 
    Arrière d'une matrice de leds une fois montée.
@@ -73,7 +73,7 @@ Le cadre
 Comme précisé plus haut le cadre entourant les matrices de leds est réalisé en bois.
 
 .. figure:: ledmatrix/matrix_melo.JPG
-   :alt:    Matrices de leds collées deux par deux éparpillées avec des bouts de bois sur un lit.
+   :alt: Matrices de leds collées deux par deux éparpillées avec des bouts de bois sur un lit.
    :target: ledmatrix/matrix_melo.JPG
 
    Sans cadre le résultat ne fait pas très professionnel.
@@ -83,14 +83,14 @@ aspect visuel plus propre au montage. Un cadre numérique n'en serait pas un
 sans cadre :)
 
 .. figure:: ledmatrix/cadre_build.JPG
-   :alt:    Attirail d’outils maintenant le cadre pendant le collage des pièces en bois.
+   :alt: Attirail d’outils maintenant le cadre pendant le collage des pièces en bois.
    :target: ledmatrix/cadre_build.JPG
 
    Collage de la base du cadre. Ne vous inquiétez pas mon parquet n'a reçu
    aucune coulure de colle, ou presque.
 
 .. figure:: ledmatrix/cadre_base.JPG
-   :alt:    Matrices de leds toutes mises ensemble et collées sur la base du cadre.
+   :alt: Matrices de leds toutes mises ensemble et collées sur la base du cadre.
    :target: ledmatrix/cadre_base.JPG
 
    La base du cadre une fois la colle sèche et les matrices en place.
@@ -101,7 +101,7 @@ résistance du cadre. Le tout a ensuite été fixé ensemble avec de la colle
 blanche, des serre-joints et un serre-cadre pour l'équerrage.
 
 .. figure:: ledmatrix/cadre_base_plexi.JPG
-   :alt:    Plaque de Plexiglass posée sur les matrices de LED posées sur le cadre en bois.
+   :alt: Plaque de Plexiglass posée sur les matrices de LED posées sur le cadre en bois.
    :target: ledmatrix/cadre_base_plexi.JPG
 
    La base du cadre avec la plaque de Plexiglass.
@@ -114,7 +114,7 @@ de pressoir pour maintenir les matrices en place. Ces vis ont bien évidement
 du plexiglas.
 
 .. figure:: ledmatrix/cadre_topcase.JPG
-   :alt:    Partie supérieure du cadre collée sur la plaque en Plexiglass sur la base du cadre avec les matrices de LED.
+   :alt: Partie supérieure du cadre collée sur la plaque en Plexiglass sur la base du cadre avec les matrices de LED.
    :target: ledmatrix/cadre_topcase.JPG
 
    Face avant du cadre en medium
@@ -127,7 +127,7 @@ est maintenue en place par la seule pression de la face avant sur le cadre de
 base et un peu de joint à baignoire)
 
 .. figure:: ledmatrix/cadre_finish.JPG
-   :alt:    Cadre à présent coloré en noir.
+   :alt: Cadre à présent coloré en noir.
    :target: ledmatrix/cadre_finish.JPG
 
    Un petit peu de peinture et hop !
@@ -138,7 +138,7 @@ Principe de fonctionnement des matrices et câblage
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: ledmatrix/matrix_wiring.JPG
-   :alt:    longues planches de bois derrière le cadre, arrangées et collées chaotiquement avec des fils et câbles un peu partout…
+   :alt: longues planches de bois derrière le cadre, arrangées et collées chaotiquement avec des fils et câbles un peu partout…
    :target: ledmatrix/matrix_wiring.JPG
 
    Le rangement est mon maitre mot, ou pas.
@@ -184,10 +184,10 @@ Une copie du pdf est disponible `sur ma dropbox
 au cas où la version d’origine disparaitrait.
 
 .. figure:: ledmatrix/schematic.JPG
-   :alt:    Schéma électronique des circuits controllant les matrices de leds.
+   :alt: Schéma électronique des circuits controllant les matrices de leds.
    :target: ledmatrix/schematic.JPG
 
-    Schéma d'origine tiré du pdf de « SureElectronics »
+   Schéma d'origine tiré du pdf de « SureElectronics »
 
 Le principe de fonctionnement est relativement simple :
 
@@ -239,7 +239,7 @@ Programme de démonstration
 ::::::::::::::::::::::::::
 
 .. figure:: ledmatrix/project_finish.JPG
-   :alt:    Cadre fini posé à codé d’une Arduino et d’un circuit monté sur une board de montage de circuit en matrice.
+   :alt: Cadre fini posé à codé d’une Arduino et d’un circuit monté sur une board de montage de circuit en matrice.
    :target: ledmatrix/project_finish.JPG
 
    Après tant de réflexions il est grand temps de voir ce que ça donne vous ne trouvez pas ?
@@ -255,7 +255,7 @@ Programme n°1 : les bases
 
 
 .. figure:: ledmatrix/prog_basic.JPG
-   :alt:    Pixels s’allumant un par un de haut en bas de gauche à droite.
+   :alt: Pixels s’allumant un par un de haut en bas de gauche à droite.
    :target: ledmatrix/prog_basic.JPG
 
    Programme de base, rempli l'écran pixel par pixel
@@ -269,7 +269,7 @@ celle-ci n'étant pas adaptée pour la suite (pas assez de RAM) j'ai dû changer
 mon fusil d'épaule.
 
 .. figure:: ledmatrix/mcu_wiring.JPG
-   :alt:    La breadboard de montage de circuits en matrice avec pleins de fils et un ATmega.
+   :alt: La breadboard de montage de circuits en matrice avec pleins de fils et un ATmega.
    :target: ledmatrix/mcu_wiring.JPG
 
    Rien ne vaut une breadboard, des fils et un ATmega !
@@ -318,7 +318,11 @@ Au niveau des fonctions bas niveau on trouve :
 Cette fonction d'interruption fonctionne suivant le principe ci-dessous :
 
 .. figure:: ledmatrix/refreshisr_flow.png
-   :alt:    960 Hz -> Latch armé -> pas d’affichage -> sélection de la ligne -> pour chaque ligne multiple de la ligne sélectionnée -> envoi des octet de la ligne -> fin de boucle -> latch -> affichage actif -> incrémentation du numéro de ligne -> si ligne=16 -> ligne=0 -> si flag "rotate"=1 -> rotation des buffers de dessin et d’affichage -> flag rotate=0 -> fin
+   :alt: 960 Hz -> Latch armé -> pas d’affichage -> sélection de la ligne ->
+         pour chaque ligne multiple de la ligne sélectionnée -> envoi des octet de la
+         ligne -> fin de boucle -> latch -> affichage actif -> incrémentation du
+         numéro de ligne -> si ligne=16 -> ligne=0 -> si flag "rotate"=1 -> rotation
+         des buffers de dessin et d’affichage -> flag rotate=0 -> fin
    :target: ledmatrix/refreshisr_flow.JPG
 
    Flowchart réalisé au moyen du logiciel yEd
@@ -364,7 +368,7 @@ Programme n°2 : Game of life
 ----------------------------
 
 .. figure:: ledmatrix/prog_gof.JPG
-   :alt:    Photo du jeu de la vie se déroulant sur la matrice de leds.
+   :alt: Photo du jeu de la vie se déroulant sur la matrice de leds.
    :target: ledmatrix/prog_gof.JPG
 
    Programme « Game of life »
@@ -406,13 +410,13 @@ Programme n°3 : Transformée rapide de Fourrier (FFT)
 ----------------------------------------------------
 
 .. figure:: ledmatrix/prog_fft_lin.JPG
-   :alt:    colones de hauteurs variées avec celles touchant le haut ayant leur partie haute orange puis rouge.
+   :alt: colones de hauteurs variées avec celles touchant le haut ayant leur partie haute orange puis rouge.
    :target: ledmatrix/prog_fft_lin.JPG
 
    Programme « FFT », mode linéaire
 
 .. figure:: ledmatrix/prog_fft_log.JPG
-   :alt:    Idem mais avec les colones de hauteurs moins disparates.
+   :alt: Idem mais avec les colones de hauteurs moins disparates.
    :target: ledmatrix/prog_fft_log.JPG
 
    Programme « FFT », mode logarithmique (PS : oui il y a bien un pixel mort)
@@ -449,16 +453,16 @@ par timer pour l'échantillonnage audio.
       (implémentation en C de l'algorithme)
 
 .. figure:: ledmatrix/audio_in_schematic.png
-   :alt:    Schéma électronique du montage de conversion audio (±1v) vers ADC (0~5v).
+   :alt: Schéma électronique du montage de conversion audio (±1v) vers ADC (0~5v).
    :target: ledmatrix/audio_in_schematic.JPG
 
-    Schéma du montage de conversion audio (±1v) vers ADC (0~5v)
+   Schéma du montage de conversion audio (±1v) vers ADC (0~5v)
 
 .. figure:: ledmatrix/audio_in_breadboard.JPG
-   :alt:    Circuit sur la breadboard du montage de conversion audio vers ADC.
+   :alt: Circuit sur la breadboard du montage de conversion audio vers ADC.
    :target: ledmatrix/audio_in_breadbourd.JPG
 
-    Montage de conversion audio vers ADC sur breadboard
+   Montage de conversion audio vers ADC sur breadboard
 
 Pour fonctionner ce programme a besoin de capturer à intervalle régulier un
 échantillon audio. Les sorties de cartes son travaillant sur une plage de

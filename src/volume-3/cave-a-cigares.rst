@@ -64,29 +64,36 @@ j'ai pu réaliser assez rapidement et facilement des plans de base. Le principe
 est relativement simple, il s'agit d'un coffret en bois avec un intérieur doublé.
 
 .. figure:: cave_cigares/plan-concept.jpg
-   :alt:    Dessin de coffre en bois rectangulaire, aussi haut que large, avec exterieur marron clair et doublure intérieur marron plus foncé + un hygromètre sur le coté intérieur du couvercle avec un humidificateur gris rectangulaire dessous.
+   :alt: Dessin de coffre en bois rectangulaire, aussi haut que large, avec
+         exterieur marron clair et doublure intérieur marron plus foncé + un
+         hygromètre sur le coté intérieur du couvercle avec un humidificateur gris
+         rectangulaire dessous.
    :target: cave_cigares/plan-concept.jpg
 
-    Les plans de base
+   Les plans de base
 
 En optant pour un style simple et naturel, et pour une capacité
 d'environ 40 cigares, cela donnera :
 
 .. figure:: cave_cigares/cave-cigares-terminee.jpg
-   :alt:    Coffre cubique en bois marron clair avec doublure en bois (de même couleur) avec l’humidificateur noir rectangulaire sur le coté intérieur du couvercle et un hygromètre placé dans le coffre.
+   :alt: Coffre cubique en bois marron clair avec doublure en bois (de même
+         couleur) avec l’humidificateur noir rectangulaire sur le coté intérieur
+         du couvercle et un hygromètre placé dans le coffre.
    :target: cave_cigares/cave-cigares-terminee.jpg
 
-    Résultat final
+   Résultat final
 
 Le petit plus qui peut être bien pratique : des charnières qui se bloquent à 95°
 environ pour maintenir le couvercle ouvert sans risquer de faire basculer la cave
 à cigares en arrière.
 
 .. figure:: cave_cigares/charnieres-autobloquantes.jpg
-   :alt:    Charnières autobloquantes placés derrière le coffre afin de le soutenir pour empêcher celui-ci de trop s’ouvrir et de basculer en arrière.
+   :alt: Charnières autobloquantes placés derrière le coffre afin de le
+         soutenir pour empêcher celui-ci de trop s’ouvrir et de basculer
+         en arrière.
    :target: cave_cigares/charnieres-autobloquantes.jpg
 
-    Les charnières auto-bloquantes à 95° environ
+   Les charnières auto-bloquantes à 95° environ
 
 La réalisation
 ::::::::::::::
@@ -113,10 +120,10 @@ Au niveau matériel, il nous faudra, électroportatif ou non :
 
 
 .. figure:: cave_cigares/le-materiel.jpg
-   :alt:    Planches, humidificateur, hygromètre, sciè, équerre, colle, etc.
+   :alt: Planches, humidificateur, hygromètre, sciè, équerre, colle, etc.
    :target: cave_cigares/le-materiel.jpg
 
-    Le matériel nécessaire
+   Le matériel nécessaire
 
 Les découpes
 ------------
@@ -124,7 +131,9 @@ Les découpes
 Pour la réalisation des coffrets en bois, plusieurs concepts sont possibles,
 avec plus ou moins de facilité et avec différents design :
 
-* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et relativement simple à réaliser, il faut néanmoins couper avec une grande précision à 45° pour avoir de jolies jointures,
+* l'assemblage en onglet (angle à 45° au niveau des jointures) : esthétique et
+  relativement simple à réaliser, il faut néanmoins couper avec une grande
+  précision à 45° pour avoir de jolies jointures,
 * l'assemblage queue droite (ou d'aronde) : style particulier et très fini, mais très long à préparer,
 * l'assemblage à plat joint : le moins esthétique mais également le plus simple, on colle les planches champ contre plat,
 * l'assemblage à feuillure : assez esthétique, mais nécessite un travail de rabotage assez minutieux.
@@ -134,7 +143,7 @@ J'ai choisi un assemblage en onglet pour ma cave à cigares.
 Voici les découpes pour l'assemblage en onglet :
 
 .. figure:: cave_cigares/decoupes-doublure.jpg
-   :alt:    Deux planches de 240mm×95mm et deux planches de 280mm×95mm, avec les bords coupés à 45° pour les permettre de s’assembler.
+   :alt: Deux planches de 240mm×95mm et deux planches de 280mm×95mm, avec les bords coupés à 45° pour les permettre de s’assembler.
    :target: cave_cigares/decoupes-doublure.jpg
 
    Découpe de la doublure intérieure en cèdre d'Espagne

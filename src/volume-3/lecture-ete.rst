@@ -13,8 +13,9 @@ L'électronique en pratique
 ::::::::::::::::::::::::::
 
 .. figure:: livres/pratique.jpg
-   :alt:    Titre (tirets pour saut de ligne) « L’électronique — en pratique — 36 expériences ludiques » suivi d’une photo cadrillée d’un montage électronique sur une board de montage électronique en matrice.
-   :target: livres/pratique.jpg
+   :alt: Titre (tirets pour saut de ligne) « L’électronique — en pratique — 36
+         expériences ludiques » suivi d’une photo cadrillée d’un montage électronique
+         sur une board de montage électronique en matrice.
    :figclass: pull-right margin-left
    :target: http://serialmakers.com/livres/decouvrez-lelectronique/
    :scale: 75
@@ -55,8 +56,8 @@ Encyclopedia of Electronic Components Vol. 1
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: livres/encyc.jpg
-   :alt:    Titre (sauts de lignes indiqués par des tirets) « Encyclopedia of — Electronic — Components » suvi d’une mosaïque de composants électroniques.
-   :target: livres/encyc.jpg
+   :alt: Titre (sauts de lignes indiqués par des tirets) « Encyclopedia of —
+         Electronic — Components » suvi d’une mosaïque de composants électroniques.
    :figclass: pull-right margin-left
    :target: http://www.amazon.fr/dp/B00DJG6JJ8
    :scale: 50
@@ -94,8 +95,9 @@ Raspberry-Pi — Prise en main et premières réalisations
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: livres/rpi.jpg
-   :alt:    Titre (sauts de lignes indiqués par des tirets) « Raspberry Pi — Prise en main — et premières réalisations » suivi d’une photo en gros plan du milieu de la Raspberry-Pi, avec son logo sur le circuit imprimé.
-   :target: livres/rpi.jpg
+   :alt: Titre (sauts de lignes indiqués par des tirets) « Raspberry Pi — Prise
+         en main — et premières réalisations » suivi d’une photo en gros plan du
+         milieu de la Raspberry-Pi, avec son logo sur le circuit imprimé.
    :figclass: pull-right margin-left
    :target: http://www.dunod.com/loisirs-scientifiques-techniques/ouvrages-pour-amateurs/raspberry-pi
    :scale: 75
@@ -110,23 +112,23 @@ par Christian Tavernier, auteur prolifique de livres sur les micro-controlleurs
 PIC et l'Arduino chez le même éditeur.
 
 Si vous êtes un novice complet, ce livre est parfait pour vous, car
-l'auteur va vous guider à travers toutes les étapes de découverte et 
-d'installation du Raspberry, et aussi vous donner des notions de 
+l'auteur va vous guider à travers toutes les étapes de découverte et
+d'installation du Raspberry, et aussi vous donner des notions de
 programmation en Python.
 
 Si vous êtes déjà familier avec Python et le monde de l'Arduino, cet ouvrage
 ne vous apportera pas grand chose, si ce n'est la dernière section sur des
-idées de montages à brancher sur le GPIO.  
+idées de montages à brancher sur le GPIO.
 
 Ceci étant dit, le niveau du livre
-est très bon et tout le monde y apprendra quelque chose: 
-l'auteur ajoute une bonne valeur ajouté grâce à ces connaissances en 
+est très bon et tout le monde y apprendra quelque chose:
+l'auteur ajoute une bonne valeur ajouté grâce à ces connaissances en
 électronique. J'y ai découvert par exemple que le régulateur de tension
 pour mon `ghetto blaster </volume-3/ghetto-blaster.html>`_ pouvait être
 remplacé par un régulateur avec un bien meilleur rendement (et qui chauffe moins).
 
 Ca m'a donné envie d'acheter d'autres livres de cet auteur.
 
-Pour débuter avec le Raspberry, je recommande 
+Pour débuter avec le Raspberry, je recommande
 **Raspberry-Pi — Prise en main et premières réalisations**
 
