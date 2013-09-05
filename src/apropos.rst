@@ -1,6 +1,6 @@
 .. _apropos:
 
-A propos
+À propos
 ========
 
 
