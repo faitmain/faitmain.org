@@ -7,6 +7,12 @@ Un Theremin sous Arduino
 :author: Vincent Becker
 :licence: By-Sa-3.0
 
+.. figure:: comtoise/theremin.jpg
+   :alt: Rendu final du Theremin
+   :target: comtoise/theremin.jpg
+
+   Rendu final du Theremin
+
 
 Parmi les infinies possibilités de la plate-forme Arduino, la fabrication
 d'instruments de musique est une des plus intéressantes. En voici un très
@@ -19,7 +25,9 @@ Le Theremin est un instrument qui se joue sans contact: en approchant les mains
 de deux antennes, on fait varier la fréquence et le volume du son, en général
 un signal sinusoïde. L'instrument tire son nom de son inventeur, le Russe Lev
 Sergueïevitch Termen, qui le mit au point en 1919, créant ainsi le tout premier
-instrument de musique électronique. Il connut son heure de gloire avec les
+instrument de musique électronique.
+
+Il connut son heure de gloire avec les
 films de SF des années 50 puis les groupes psychédéliques des années 70. Avec
 Arduino, nous n'allons pas faire un vrai Theremin, qui est un petit chef
 d’œuvre d’électronique analogique, mais émuler son comportement avec certaines
@@ -31,7 +39,9 @@ Le concept
 Le concept général de l’instrument est très simple : deux télémètres, l’un pour
 le volume et l’autre pour la fréquence, détectent la position des mains de
 l’opérateur. L’Arduino génère alors le signal correspondant et l’envoie à un
-haut-parleur via un amplificateur. Le facteur principal pour le bon
+haut-parleur via un amplificateur.
+
+Le facteur principal pour le bon
 fonctionnement de l’instrument est la vitesse d’exécution de la boucle loop().
 En effet, volume et fréquence sont mis à jour une fois par exécution de la
 boucle. Si celle-ci prend trop de temps, il en résulte un effet d’ « escalier »
