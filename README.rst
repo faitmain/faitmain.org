@@ -1,7 +1,7 @@
 Magazine Fait Main
 ==================
 
-Pour builder le magazine en local::
+Pour construire le magazine en local::
 
     $ git clone https://github.com/faitmain/faitmain.org
     $ cd faitmain.org
