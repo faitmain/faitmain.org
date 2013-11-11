@@ -1,0 +1,21 @@
+VERSION=_VERSION_
+SRC=_FILE_NAME_.$(VERSION)
+EXT=rst
+
+all: texpdf
+
+texpdf: $(SRC).pdf
+	evince $(SRC).pdf
+
+$(SRC).pdf: $(SRC).tex
+	pdflatex $(SRC).tex
+	pdflatex $(SRC).tex
+
+$(SRC).tex: $(SRC).$(EXT) default.latex
+	pandoc -f rst+lhs --toc -s -t latex --template=default.latex --highlight-style pygments --variable cover=_COVER_FILE_NAME_ --variable documentclass=book --variable fontsize=8pt $(SRC).$(EXT) -o $(SRC).tex
+
+clean:
+	rm -f $(SRC).toc $(SRC).snm $(SRC).out $(SRC).nav $(SRC).log $(SRC).aux $(SRC).vrb
+
+distclean: clean
+	rm -f $(SRC).pdf $(SRC).tex $(SRC).rst Makefile
