@@ -15,6 +15,10 @@
 \ifnum 0\ifxetex 1\fi=0 % if pdftex
   \usepackage[utf8]{inputenc}
 
+% Pour régler la taille des marges de la feuille (ici 2 cm partout)
+\usepackage{geometry}
+\geometry{hmargin=2cm,vmargin=2cm}
+
 $if(graphics)$
 \usepackage{graphicx}
 $endif$

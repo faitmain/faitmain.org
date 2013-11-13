@@ -15,7 +15,7 @@
 # Le paramètre -5 indique un format 1 colonne en A5
 
 FILE_LIST="./volume-3.filelist"
-VERSION=3
+VERSION=4
 FILE_NAME="volume-3"
 COVER_FILE_NAME="..\/${FILE_NAME}\/cover.pdf"
 RST_EXT=rst
