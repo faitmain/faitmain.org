@@ -21,6 +21,7 @@ echo "Script generate.bash de génération du magazine faitmain.org"
 echo
 echo "Utilisation :"
 echo
+echo " -h affiche cette aide"
 echo " -4 génère un format A4 en double colonnes"
 echo " -5 génère un format A5 en simple colonne"
 echo " -n fichier génère le volume 'fichier'"
@@ -37,7 +38,7 @@ RST_DEST="${FILE_NAME}.${VERSION}.${RST_EXT}"
 TEX_DEST="${FILE_NAME}.${VERSION}.${TEX_EXT}"
 FORM="A4" # Par défaut on génère le A4
 
-while getopts "45n:" opt; do
+while getopts "45hn:" opt; do
     case $opt in
         4 )
             FORM="A4"
@@ -51,6 +52,10 @@ while getopts "45n:" opt; do
             COVER_FILE_NAME="..\/${FILE_NAME}\/cover.pdf"
             RST_DEST="${FILE_NAME}.${VERSION}.${RST_EXT}"
             TEX_DEST="${FILE_NAME}.${VERSION}.${TEX_EXT}"
+            ;;
+        h )
+            usage
+            exit
             ;;
     esac;
 done;
