@@ -13,10 +13,23 @@
 # par la suite :
 # Le paramètre -4 indique un format 2 colonne en A4
 # Le paramètre -5 indique un format 1 colonne en A5
+# Le paramètre -n file attends le nom du volume a générer
 
-FILE_LIST="./volume-3.filelist"
+function usage {
+
+echo "Script generate.bash de génération du magazine faitmain.org"
+echo
+echo "Utilisation :"
+echo
+echo " -4 génère un format A4 en double colonnes"
+echo " -5 génère un format A5 en simple colonne"
+echo " -n fichier génère le volume 'fichier'"
+echo
+}
+
 VERSION=4
 FILE_NAME="volume-3"
+FILE_LIST="./${FILE_NAME}.filelist"
 COVER_FILE_NAME="..\/${FILE_NAME}\/cover.pdf"
 RST_EXT=rst
 TEX_EXT=tex
@@ -24,10 +37,21 @@ RST_DEST="${FILE_NAME}.${VERSION}.${RST_EXT}"
 TEX_DEST="${FILE_NAME}.${VERSION}.${TEX_EXT}"
 FORM="A4" # Par défaut on génère le A4
 
-while getopts "45" opt; do
+while getopts "45n:" opt; do
     case $opt in
-        4 ) FORM="A4";;
-        5 ) FORM="A5";;
+        4 )
+            FORM="A4"
+            ;;
+        5 )
+            FORM="A5"
+            ;;
+        n )
+            FILE_NAME=${OPTARG}
+            FILE_LIST="./${FILE_NAME}.filelist"
+            COVER_FILE_NAME="..\/${FILE_NAME}\/cover.pdf"
+            RST_DEST="${FILE_NAME}.${VERSION}.${RST_EXT}"
+            TEX_DEST="${FILE_NAME}.${VERSION}.${TEX_EXT}"
+            ;;
     esac;
 done;
 
