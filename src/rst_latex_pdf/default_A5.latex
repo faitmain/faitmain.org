@@ -1,7 +1,6 @@
-\documentclass[a4paper,$if(fontsize)$$fontsize$,$endif$]{$documentclass$}
+\documentclass[a5paper,$if(fontsize)$$fontsize$,$endif$]{$documentclass$}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}  % le fichier doit être sauvegardé en utf8
-\usepackage{multicol}
 \usepackage{textcomp}
 \usepackage{titlesec}
 \usepackage[final]{pdfpages}
@@ -15,9 +14,9 @@
 \ifnum 0\ifxetex 1\fi=0 % if pdftex
   \usepackage[utf8]{inputenc}
 
-% Pour régler la taille des marges de la feuille (ici 2 cm partout)
+% Pour régler la taille des marges de la feuille (ici 1,5 cm partout)
 \usepackage{geometry}
-\geometry{hmargin=2cm,vmargin=2cm}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
 
 $if(graphics)$
 \usepackage{graphicx}
@@ -173,21 +172,6 @@ $endif$
 
 \titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
 
-
-\let\oldchapter\chapter
-\renewcommand{\chapter}[1]{\end{multicols}\oldchapter{#1}\begin{multicols}{2}}
-
-\let\oldsection\section
-\renewcommand{\section}[1]{\end{multicols}\oldsection{#1}\begin{multicols}{2}}
-
-\let\oldsubsection\subsection
-\renewcommand{\subsection}[1]{\end{multicols}\oldsubsection{#1}\begin{multicols}{2}}
-
-\newcommand{\debutcode}[0]{ \end{multicols} }
-\newcommand{\fincode}[0]{ \begin{multicols}{2} }
-
-\begin{multicols}{2}
-
 $body$
 
 $if(natbib)$
@@ -212,5 +196,4 @@ $include-after$
 
 $endfor$
 
-\end{multicols}
 \end{document}

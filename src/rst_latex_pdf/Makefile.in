@@ -2,20 +2,28 @@ VERSION=_VERSION_
 SRC=_FILE_NAME_.$(VERSION)
 EXT=rst
 
-all: texpdf
+all: texpdf a5texpdf
 
 texpdf: $(SRC).pdf
-	evince $(SRC).pdf
+	evince '$(SRC).pdf'
+
+a5texpdf: $(SRC)_A5.pdf
+	evince '$(SRC)_A5.pdf'
 
 $(SRC).pdf: $(SRC).tex
-	pdflatex $(SRC).tex
-	pdflatex $(SRC).tex
+	pdflatex '$(SRC).tex' && pdflatex '$(SRC).tex'
+
+$(SRC)_A5.pdf: $(SRC)_A5.tex
+	pdflatex '$(SRC)_A5.tex' && pdflatex '$(SRC)_A5.tex'
 
 $(SRC).tex: $(SRC).$(EXT) default.latex
-	pandoc -f rst+lhs --toc -s -t latex --template=default.latex --highlight-style pygments --variable cover=_COVER_FILE_NAME_ --variable documentclass=book --variable fontsize=8pt $(SRC).$(EXT) -o $(SRC).tex
+	pandoc -f rst+lhs --toc -s -t latex --template=default.latex --highlight-style pygments --variable cover=_COVER_FILE_NAME_ --variable documentclass=book --variable fontsize=8pt '$(SRC).$(EXT)' -o '$(SRC).tex'
+
+$(SRC)_A5.tex: $(SRC).$(EXT) default_A5.latex
+	pandoc -f rst+lhs --toc -s -t latex --template=default_A5.latex --highlight-style pygments --variable cover=_COVER_FILE_NAME_ --variable documentclass=book --variable fontsize=8pt '$(SRC).$(EXT)' -o '$(SRC)_A5.tex'
 
 clean:
-	rm -f $(SRC).toc $(SRC).snm $(SRC).out $(SRC).nav $(SRC).log $(SRC).aux $(SRC).vrb
+	rm -f '$(SRC)'.{toc,snm,out,nav,log,aux,vrb} '$(SRC)_A5'.{toc,snm,out,nav,log,aux,vrb}
 
 distclean: clean
-	rm -f $(SRC).pdf $(SRC).tex $(SRC).rst Makefile
+	rm -f '$(SRC)'.{pdf,tex,rst} '$(SRC)_A5'.{pdf,tex,rst} Makefile
