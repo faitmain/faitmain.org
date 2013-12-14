@@ -64,6 +64,11 @@ done;
 rm -f "${RST_DEST}"
 rm -f "${TEX_DEST}"
 
+if [ -f Makefile ]
+    then
+        make distclean;
+fi;
+
 ###
 # Génération du .rst :
 
