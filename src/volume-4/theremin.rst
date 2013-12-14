@@ -1,5 +1,5 @@
 Un Theremin sous Arduino
-########################
+========================
 
 :date: 2013-11-01
 :category: électronique,informatique
@@ -18,8 +18,9 @@ Parmi les infinies possibilités de la plate-forme Arduino, la fabrication
 d'instruments de musique est une des plus intéressantes. En voici un très
 simple à réaliser: un Theremin.
 
+
 Qu'est-ce qu'un Theremin?
-=========================
+:::::::::::::::::::::::::
 
 Le Theremin est un instrument qui se joue sans contact: en approchant les mains
 de deux antennes, on fait varier la fréquence et le volume du son, en général
@@ -33,8 +34,9 @@ Arduino, nous n'allons pas faire un vrai Theremin, qui est un petit chef
 d’œuvre d’électronique analogique, mais émuler son comportement avec certaines
 limites par rapport au modèle mais certains avantages également.
 
+
 Le concept
-==========
+::::::::::
 
 Le concept général de l’instrument est très simple : deux télémètres, l’un pour
 le volume et l’autre pour la fréquence, détectent la position des mains de
@@ -49,8 +51,9 @@ boucle. Si celle-ci prend trop de temps, il en résulte un effet d’ « escalie
 être entièrement éliminé mais doit être maintenu au plus faible niveau
 possible.
 
+
 Le code de base
-===============
+:::::::::::::::
 
 Le Theremin Arduino repose sur la génération d’un signal carré dont on fait
 varier la fréquence et la longueur des plateaux. J’ai déniché ce code qui
@@ -61,8 +64,9 @@ avec les interruptions de timer il me semble. Toujours est-il que ce code a
 deux variables : une pour la fréquence, une pour le volume. En résumé, il est
 parfaitement adapté au projet.
 
+
 Matériel
-========
+::::::::
 
 Les détecteurs
 --------------
@@ -123,8 +127,9 @@ Voici le schéma électronique d’ensemble réalisé avec Fritzing . On reconna
 les éléments mentionnés ci-dessus : la batterie et le module LiPo Rider,
 l’Arduino, les deux télémètres, l’amplificateur et le haut-parleur.
 
+
 Le boîtier
-==========
+::::::::::
 
 Un instrument de musique, c’est aussi un boîtier. Celui-ci remplit plusieurs
 rôles : il protège le matériel, il améliore le son et il fait joli. Après
@@ -148,8 +153,9 @@ simple trou permet de laisser passer le signal en émission, mais celui situé
 devant le capteur de réception a dû être biseauté pour tenir compte de la
 parallaxe.
 
+
 Logiciel
-========
+::::::::
 
 La fréquence
 ------------
@@ -301,8 +307,9 @@ l’exception d’une tendance à grésiller, notamment à haute fréquence.
 L’introduction d’un petit délai (10ms) dans la boucle a permis de réduire
 notablement, mais pas éliminer, le phénomène.
 
+
 Utilisation
-===========
+:::::::::::
 
 L’utilisation de l’instrument est on ne peut plus simple. Sur la face avant, un
 interrupteur permet de l’allumer. Aussitôt que la LED s’éclaire, l’engin est

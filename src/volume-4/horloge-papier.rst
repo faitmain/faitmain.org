@@ -1,5 +1,5 @@
 Horloge analogique / digitale - Arduino + papier
-################################################
+================================================
 
 :author: Jacky Mok
 :translator: Alexis Métaireau, f4grx
@@ -49,8 +49,10 @@ chacun puisse commencer à explorer la création de sa propre horloge, même san
 connaissances approfondies en électronique. Je n'ai pas d'imprimante 3D donc la
 structure est faite avec du papier.
   
+
 Étape 1: récupérez des matériaux
-================================
+::::::::::::::::::::::::::::::::
+
 Voilà les choses dont vous allez avoir besoin. Mon intention est de participer
 au concours de kits, donc je me suis contraint à utiliser des élements simples
 qui n'ont pas besoin d'être soudés.
@@ -106,8 +108,9 @@ Outils
 - Un dremel (perceuse) pour les tubes.
 - Un couteau (optionnel)
  
+
 Etape 2: Tester les composants électroniques
-============================================
+::::::::::::::::::::::::::::::::::::::::::::
 
 .. figure:: horloge-papier/step2-1.jpg
    :alt: Autre vue sur des servomoteurs.
@@ -139,8 +142,9 @@ une. C'est la méthode la plus standard pour conserver l'heure sur un appareil
 dont l'alimentation est constamment allumée et éteinte. Nous connecterons ce
 circuit plus tard dans le tutoriel.
 
+
 Etape 3: Concevoir l'horloge
-============================
+::::::::::::::::::::::::::::
 
 Les pièces suivantes ont été conçues dans Adobe Illustrator, avec pour
 objectif de les découper das du papier. Si vous utilisez une imprimante 3D, les
@@ -160,8 +164,9 @@ Il y a 6 couches:
 Note: quelques fichiers vont devoir être découpés deux fois. Voir au dessus
 pour les détails de commande.
 
+
 Etape 4: Couper les pièces
-==========================
+::::::::::::::::::::::::::
 
 .. figure:: horloge-papier/step4-1.jpg
    :target: horloge-papier/step4-1.jpg
@@ -183,8 +188,9 @@ en morceaux de 1cm et celui qui se déplace dedans a été coupé en morceaux de
 .. figure:: horloge-papier/step4-7.jpg
    :target: horloge-papier/step4-7.jpg
 
+
 Etape 5: Assemblage
-===================
+:::::::::::::::::::
  
 À cette étape vous allez assembler les couches en utilisant du scotch double
 face épais pour fabriquer le corps. Guidez vous sur les images.
@@ -221,8 +227,9 @@ Note: le tube métallique est inséré dans chaque segment.
 .. figure:: horloge-papier/step5-10.jpg
    :target: horloge-papier/step5-10.jpg
  
+
 Etape 6: ajouter les segments
-=============================
+:::::::::::::::::::::::::::::
  
 Etapes pour l'avant:
 
@@ -263,8 +270,9 @@ Etapes pour l'arrière:
 .. figure:: horloge-papier/step6-8.jpg
    :target: horloge-papier/step6-8.jpg
 
+
 Etape 7: Ajouter les servomoteurs
-=================================
+:::::::::::::::::::::::::::::::::
 
 Connecter les servomoteurs aux trombones de l'étape précédente. Le cadre
 permettra d'éviter le glissement des servos. Vous pouvez aussi les coller.
@@ -272,8 +280,9 @@ permettra d'éviter le glissement des servos. Vous pouvez aussi les coller.
 .. figure:: horloge-papier/step7-1.jpg
    :target: horloge-papier/step7-1.jpg
  
+
 Etape 8:  Finir la construction
-===============================
+:::::::::::::::::::::::::::::::
  
 Ajouter la dernière couche (la face arrière)
 
@@ -286,8 +295,9 @@ Ajouter la dernière couche (la face arrière)
 .. figure:: horloge-papier/step8-3.jpg
    :target: horloge-papier/step8-3.jpg
 
+
 Etape 9: Connecter l'électronique
-=================================
+:::::::::::::::::::::::::::::::::
 
 Contrôleur de servos:
 
@@ -313,8 +323,9 @@ Pour plus d'infos, consulter http://learn.adafruit.com/ds1307-real-time-clock-br
 .. figure:: horloge-papier/step9-3.jpg
    :target: horloge-papier/step9-3.jpg
 
+
 Etape 10: Programmation
-=======================
+:::::::::::::::::::::::
 
 Algorithme
   
@@ -374,7 +385,7 @@ d'exécuter le code suivant::
   
   
 Etape 11: Terminer
-==================
+::::::::::::::::::
 
 Donc voila.  J'espère que vous avez appris plein de choses dans cet
 instructable, et que votre horloge marche bien. Je mettrai à jour cet
