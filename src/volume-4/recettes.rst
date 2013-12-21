@@ -74,3 +74,5 @@ pains :
 - aux oignons et au fromage (oignons rouges ou doux et gruyère rapé),
 - aux lardons,
 - au cumin.
+
+Laissez votre imagination parler !
