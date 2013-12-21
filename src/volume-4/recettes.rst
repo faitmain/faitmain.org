@@ -17,10 +17,10 @@ La base
 
 Pour faire la base d'un pain il faut :
 
-- 500 grammes de farine (spéciale pour pain)
-- 1 grosse cuillère à café de sel
-- 2 sachets de levure de boulanger lyophilisés
-- 330 ml d'eau tiède environ
+- 500 grammes de farine (spéciale pour pain),
+- 1 grosse cuillère à café de sel,
+- 2 sachets de levure de boulanger lyophilisés,
+- 330 ml d'eau tiède environ.
 
 La farine spéciale pour pain se trouve dans les rayons "Farines" des grandes surfaces. En ce qui me concerne j'utilise 
 les farines Francine, notamment la "multi-céréales".
@@ -47,7 +47,7 @@ Sortez le pain du four et démoulez le. Pour le conserver plus longtemps emballe
 -------------------
 
 On peut remplacer la moitié (peut-être plus, je n'ai pas essayé) de la farine spéciale pour pain avec de la 
-farine blanche (qui est nettement moins chère).
+farine blanche (qui est nettement moins chère). Le pain est légèrement plus blanc et est toujours aussi bon.
 
 
 Au maïs
@@ -75,4 +75,4 @@ pains :
 - aux lardons,
 - au cumin.
 
-Laissez votre imagination parler !
+Laissez votre imagination parler et faites vos propres essais !
