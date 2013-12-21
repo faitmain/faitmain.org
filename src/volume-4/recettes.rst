@@ -22,7 +22,7 @@ Pour faire la base d'un pain il faut :
 - 2 sachets de levure de boulanger lyophilisés
 - 330 ml d'eau tiède environ
 
-La farine spéciale pour pain se trouve dans les rayons "Farines" des grandes surfaces. Pour ma part j'utilise 
+La farine spéciale pour pain se trouve dans les rayons "Farines" des grandes surfaces. En ce qui me concerne j'utilise 
 les farines Francine, notamment la "multi-céréales".
 
 Mettez tous les ingrédients (sauf l'eau) dans un robot (vous pouvez le faire à la main si vous n'avez pas de robot), 
@@ -64,5 +64,13 @@ Utilisez jusqu'à 200g de farine de chataigne pour faire ce pain. Un pain à la 
 beaucoup et est très dense. Pour l'agrémenter un peu vous pouvez ajouter des raisins secs.
 
 
+Agréments
+---------
 
+Il est possible d'ajouter des ingrédients en fonction du moment auquel vous destinez votre pain. J'ai fait des 
+pains :
 
+- aux abricots secs,
+- aux oignons et au fromage (oignons rouges ou doux et gruyère rapé),
+- aux lardons,
+- au cumin.
