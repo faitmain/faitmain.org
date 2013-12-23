@@ -993,7 +993,7 @@ input,textarea,.search-query,.uneditable-input,.input-append input,.input-append
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
-.wikipedia{background: url("http://cdn.faitmain.org/media/wikipedia.ico") top right no-repeat; padding-right: 3px;}
+.wikipedia{background: url("http://cnd.faitmain.org/media/wikipedia.ico") top right no-repeat; padding-right: 3px;}
 .subst {vertical-align: middle}
 
 .row-fluid .span9.offset1 {

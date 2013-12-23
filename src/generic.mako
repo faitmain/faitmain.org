@@ -13,20 +13,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-<<<<<<< HEAD
     <link href="${config['cnd']}/media/bootstrap.css" rel="stylesheet">
     <link href="${config['cnd']}/media/bootstrap-responsive.css" rel="stylesheet">
     <link href="${config['cnd']}/media/bootswatch.css" rel="stylesheet">
     <link href="${config['cnd']}/media/pygments_style.css" rel="stylesheet">
     <link href="${config['cnd']}/media/faitmain.css" rel="stylesheet">
     <link rel="shortcut icon" href="${config['cnd']}/favicon.ico" />
-=======
-    <link href="${config['cdn']}/media/bootstrap.css" rel="stylesheet">
-    <link href="${config['cdn']}/media/bootstrap-responsive.css" rel="stylesheet">
-    <link href="${config['cdn']}/media/bootswatch.css" rel="stylesheet">
-    <link href="${config['cdn']}/media/pygments_style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="${config['cdn']}/favicon.ico" />
->>>>>>> b4ae150bb234746e454050bc39452dfaee8221b3
 </head>
 
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
@@ -115,7 +107,6 @@
         <li><a title="Volume 3" href="${config['siteurl']}/volume-3/index.html">Volume 3</a></li>
 
         <li class="nav-header" style="color:black">Social</li>
-<<<<<<< HEAD
         <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html">Les Auteurs</a></li>
         <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">Mailing List</a></li>
         <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">Twitter</a></li>
@@ -124,32 +115,6 @@
         <li class="nav-header" style="color:black">Faites un don!</li>
         <li class="nav-header"><a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank"><img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></li>       
         <li class="nav-header" style="color:black"><a style="color:black;padding-left:15px" href="${config['siteurl']}/partenariat.html">Devenez partenaire</a></li>
-=======
-        <li><a target="_blank" title="Forums" href="http://forums.faitmain.org"">
-          <img src="${config['cdn']}/media/forum.png"/> Les Forums</a>
-        </li>
-
-
-        <li><a title="Auteurs" href="${config['siteurl']}/auteurs/index.html"">
-          <img src="${config['cdn']}/media/pen.png"/> Les Auteurs</a>
-        </li>
-
-        <li><a title="Mailing List" href="${config['siteurl']}/mailing.html">
-          <img src="${config['cdn']}/media/email.png"/> Mailing List</a>
-        </li>
-        <li><a target="_blank" title="Twitter" href="http://twitter.com/FaitMainMag" id="toptwitter" rel="nofollow">
-            <img src="${config['cdn']}/media/twitter.png"/> Twitter</a>
-        </li>
-        <li><a target="_blank" href="https://plus.google.com/u/0/communities/117661540788222488034" id="topgoogleplus" rel="nofollow">
-           <img src="${config['cdn']}/media/google_plus.png"/> Google+</a> </li>
-        <li><a target="_blank" title="GitHub" href="http://github.com/faitmain" id="topgithub">
-          <img src="${config['cdn']}/media/github.png"/> Github
-</a></li>
-        <li><a target="_blank" title="Atom Feed" href="${config['siteurl']}/feed.xml" id="atom">
-          <img src="${config['cdn']}/media/rss.png"/> Flux Atom
-</a></li>
-
->>>>>>> b4ae150bb234746e454050bc39452dfaee8221b3
 </ul>
 
      </div>
@@ -159,7 +124,6 @@
 
 <br/><br/>
 
-<<<<<<< HEAD
 </div> <!-- end container -->
 
 <footer id="footer">
@@ -182,31 +146,6 @@
     <script src="${config['cnd']}/media/jquery.js"></script>
     <script async src="${config['cnd']}/media/bootstrap.js"></script>
     <script src="${config['cnd']}/media/retina.js"></script>
-=======
-  <footer id="footer">
-   <p class="pull-right"><a href="#"><img src="${config['cdn']}/media/up.png"></a></p>
-
-  <div class="inner">
-    <%block name="footer">
-    <div class="links">
-      <ul>
-        <li>© 2013 FaitMain</li>
-        <li>ISSN 2261-8376</li>
-        <li><a href="${config['siteurl']}/apropos.html">A propos</a></li>
-        <li>Contenu <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr">CC-By-NC-SA 3.0</a></li>
-      </ul>
-      <div style="clear:both"/>
-     </div>
-    </%block>
-  </div>
-  </footer>
-
-</div> <!-- end container -->
-
-    <script src="${config['cdn']}/media/jquery.js"></script>
-    <script async src="${config['cdn']}/media/bootstrap.js"></script>
-    <script src="${config['cdn']}/media/retina.js"></script>
->>>>>>> b4ae150bb234746e454050bc39452dfaee8221b3
    <%block name="script"></%block>
 </body></html>
 
