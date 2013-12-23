@@ -76,3 +76,45 @@ pains :
 - au cumin.
 
 Laissez votre imagination parler et faites vos propres essais !
+
+
+La pâte à modeler
+:::::::::::::::::
+
+Ingrédients :
+
+- 2 verres de farine
+- 2 verres d'eau
+- 1/2 verre de maïzena
+- 1/2 verre de sel
+- 2 cuillères à soupe de poudre d'alun
+- 1 cuillère à soupe d'huile
+- Une goutte de colorant alimentaire
+
+La poudre d'alun se trouve en pharmarcie.
+
+Mélanger tous les ingrédients dans une casserole, les faire cuire en mélangeant tout le temps. C'est prêt quand le 
+mélange forme une pâte qui se décolle des parois de la casserole et se met en boule.
+Conservez cette pâte dans une boite en plastique hermétique au réfrigérateur. Elle se conserve sans problème pendant
+des mois. Attention, cette pâte n'est pas comestible et ne doit pas être ingérée.
+
+
+La pâte à sel
+:::::::::::::
+
+Ingrédients :
+
+- 2 verres de farine
+- 1 verre de sel
+- un peu d'eau
+
+Mélanger tous les ingrédients dans un récipient de manière à obtenir une pâte qui ne colle pas aux doigts.
+
+Pour colorer la pâte à sel vous pouvez ajouter un peu de colorant alimentaire (mettez moins d'eau dans ce cas).
+Vous pouvez aussi ajouter de l'huile essentielle pour donner un petit parfum à l'objet final (mettez encore
+moins d'eau !).
+
+Formez vos objets et faîtes les sécher.
+
+La pâte à sel peut soit se faire sécher à l'air plusieurs jours soit 2h à 150°C au four à chaleur tournante. 
+Le temps de séchage réel dépendra de la quantité d'eau utilisée.
