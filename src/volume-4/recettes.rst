@@ -1,5 +1,5 @@
-Recettes pour la cuisine
-========================
+Recettes pour manger et jouer avec les enfants
+==============================================
 
 :date: 2013-12-21
 :category: cuisine
