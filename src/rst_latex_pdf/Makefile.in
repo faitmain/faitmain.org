@@ -11,7 +11,7 @@ a5texpdf: $(SRC)_A5.pdf
 	evince '$(SRC)_A5.pdf'
 
 $(SRC).epub : $(SRC).$(EXT)
-	pandoc -f rst+lhs --toc -s -t epub --highlight-style pygments $(SRC).$(EXT) -o $(SRC).epub
+	pandoc -f rst+lhs --toc -s -t epub --highlight-style pygments --epub-stylesheet ../../main/media/faitmain.css $(SRC).$(EXT) -o $(SRC).epub
 
 $(SRC).pdf: $(SRC).tex
 	pdflatex '$(SRC).tex' && pdflatex '$(SRC).tex'
