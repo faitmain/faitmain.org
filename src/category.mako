@@ -5,7 +5,13 @@
 <%block name="first_h1"> 
 </%block>
 
+<<<<<<< HEAD
 <h1>${category.capitalize()}</h1>
+=======
+<img class="row-fluid centered" src="${config['cdn']}/media/${category}_banner.jpg"/>
+
+<br/><br/>
+>>>>>>> b4ae150bb234746e454050bc39452dfaee8221b3
 
 %if paths:
  <p>Tous les articles sur ce sujet:</p>
