@@ -1,5 +1,5 @@
 Fabrication artisanale de dentifrice
-####################################
+====================================
 
 :author: Alexis Métaireau, Balthazar Rouberol
 :level: débutant
@@ -18,7 +18,7 @@ Le fait main camp #1 provoque les rencontres ! On s'est rendu compte qu'on
 
 
 Première recette: dentifrice mentholé à l'argile blanche
-========================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 L'ingrédient principal de cette recette est l'argile en poudre. Qu'elle soit
 verte ou blanche, elle possède des vertus thérapeutiques, cicatrisantes et est
@@ -61,7 +61,7 @@ Vous obtiendrez ainsi une pâte blancheâtre:
 
 
 Seconde recette: dentifrice pâte sèche au savon de marseille
-============================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 La seconde recette est un peu plus surprenante puisqu'elle utilise… du savon de
 marseille ! Attention à ne pas trop doser parce que je vous assure que ça
@@ -82,7 +82,7 @@ Il suffit de tout mélanger, dans l'ordre, et de trouver une boite dans laquelle
 mettre tout ça.
 
 À propos de l'huile essentielle
-===============================
+:::::::::::::::::::::::::::::::
 
 Les deux recettes présentées ici utilisent de l'huile essentielle. 
 

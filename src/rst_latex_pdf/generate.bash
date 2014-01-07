@@ -21,6 +21,8 @@ echo "Script generate.bash de génération du magazine faitmain.org"
 echo
 echo "Utilisation :"
 echo
+echo "./generate.bash [OPTIONS]"
+echo
 echo " -h affiche cette aide"
 echo " -4 génère un format A4 en double colonnes"
 echo " -5 génère un format A5 en simple colonne"
@@ -28,6 +30,7 @@ echo " -n fichier génère le volume 'fichier'"
 echo
 }
 
+# Les valeurs par défaut.
 VERSION=4
 FILE_NAME="volume-3"
 FILE_LIST="./${FILE_NAME}.filelist"
@@ -37,6 +40,7 @@ TEX_EXT=tex
 RST_DEST="${FILE_NAME}.${VERSION}.${RST_EXT}"
 TEX_DEST="${FILE_NAME}.${VERSION}.${TEX_EXT}"
 FORM="A4" # Par défaut on génère le A4
+
 
 while getopts "45hn:" opt; do
     case $opt in
@@ -63,6 +67,11 @@ done;
 # Suppression des anciennes versions
 rm -f "${RST_DEST}"
 rm -f "${TEX_DEST}"
+
+if [ -f Makefile ]
+    then
+        make distclean;
+fi;
 
 ###
 # Génération du .rst :

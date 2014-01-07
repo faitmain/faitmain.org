@@ -39,19 +39,31 @@ Exemple::
 
     Du texte...
 
+    
     Section 1
     :::::::::
 
-    Du Texte...
+    Du texte...
+
+    Sous titre 1
+    ---------
+
+    Du texte...
+
+    Sous titre 2
+    ---------
+
+    Du texte...
 
     ----
 
-    Du texte
+    Du texte...
+
 
     Section 2
     :::::::::
 
-    Du Texte
+    Du texte...
 
 
 Notez que les saut de section (*----*) sont remplacés par des balises **HR**
