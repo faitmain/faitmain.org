@@ -114,6 +114,7 @@
         <li class="nav-header" style="color:black">Faites un don!</li>
         <li class="nav-header"><a href="https://flattr.com/thing/1146395/Fait-Main-Magazine" target="_blank"><img src="${config['cnd']}/media/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></li>       
         <li class="nav-header" style="color:black"><a style="color:black;padding-left:15px" href="${config['siteurl']}/partenariat.html">Devenez partenaire</a></li>
+        <li class="nav-header" style="color:red"><a style="color:red;padding-left:15px" href="${config['siteurl']}/burda.html">Lectrices Burda? Par ici!</a></li>
 </ul>
 
      </div>
