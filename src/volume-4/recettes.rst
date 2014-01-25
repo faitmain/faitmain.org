@@ -35,12 +35,19 @@ matin. Vous pouvez aussi faire de jolies boules (moins pratique pour obtenir de 
 Faire lever cette pâte pendant 1h30 à 2h en la couvrant avec un torchon soit sur un radiateur (comme c'est l'hiver) 
 ou à 40°C maximum dans un four (certains fours ont un programme spécifique pour faire lever les pâtes).
 
+.. figure:: pain_gonfle.jpg
+   Le pain a bien levé... vite au four !
+
 
 Mettez une lèche frite dans le four et une grille au dessus et faîtes préchauffer le four.
 Lorsque la pâte est bien levée (ne la laissez pas trop longtemps, ça fait de grosses bulles qui retombent à la 
 cuisson) enfournez à 220°C pendant 25 minutes : Au moment d'enfourner mettez un peu d'eau dans la lèche frite.
 
 Sortez le pain du four et démoulez le. Pour le conserver plus longtemps emballez le dans un torchon.
+
+.. figure:: pain_cuit.jpg
+   Le pain est cuit.
+
 
 
 À la farine blanche
